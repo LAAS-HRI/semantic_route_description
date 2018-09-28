@@ -155,9 +155,9 @@
 
 
 
-    <!-- ontologenius#ff_toilets_east -->
+    <!-- ontologenius#ff_toilet_east -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#ff_toilets_east">
+    <owl:NamedIndividual rdf:about="ontologenius#ff_toilet_east">
         <rdf:type rdf:resource="ontologenius#toilets"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1B"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
@@ -1058,7 +1058,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#empty_4">
         <rdf:type rdf:resource="ontologenius#empty_place"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#gf_toilets_telia"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#gf_toilet_telia"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_toilets_east"/>
     </owl:NamedIndividual>
 
@@ -1073,9 +1073,9 @@
 
 
 
-    <!-- ontologenius#gf_toilets_telia -->
+    <!-- ontologenius#gf_toilet_telia -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#gf_toilets_telia">
+    <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_telia">
         <rdf:type rdf:resource="ontologenius#toilets"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_toilets_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_5"/>
@@ -1229,9 +1229,9 @@
 
 
 
-    <!-- ontologenius#ff_toilets_west -->
+    <!-- ontologenius#ff_toilet_west -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#ff_toilets_west">
+    <owl:NamedIndividual rdf:about="ontologenius#ff_toilet_west">
         <rdf:type rdf:resource="ontologenius#toilets"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1C"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Zones_by_Sarkanniemi"/>
@@ -1352,15 +1352,15 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#empty_13">
         <rdf:type rdf:resource="ontologenius#empty_place"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#gf_toilets_east"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#gf_toilet_east"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_east"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- ontologenius#gf_toilets_east -->
+    <!-- ontologenius#gf_toilet_east -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#gf_toilets_east">
+    <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_east">
         <rdf:type rdf:resource="ontologenius#toilets"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridoreast_corridorelevatoreast"/>
@@ -1407,19 +1407,19 @@
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_17"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_elevator_west"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_west"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#gf_toilets_west"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#gf_toilet_west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
 
 
-    <!-- ontologenius#gf_toilets_west -->
+    <!-- ontologenius#gf_toilet_west -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#gf_toilets_west">
+    <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_west">
         <rdf:type rdf:resource="ontologenius#toilets"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_16"/>
-        <rdfs:label xml:lang="en">toilets</rdfs:label>
+        <rdfs:label xml:lang="en">toilet</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3527,7 +3527,7 @@
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_nordea"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1C"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1D_south"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#ff_toilets_east"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#ff_toilet_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#escalator_sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1C_corridor1Dsouth"/>
         <rdfs:label xml:lang="en">Zones by Sarkanniemi</rdfs:label>
