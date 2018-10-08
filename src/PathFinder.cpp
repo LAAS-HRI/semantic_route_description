@@ -38,6 +38,7 @@ void PathFinder::find(std::string from_place, std::string to_place, std::string 
 void PathFinder::find(std::string from_place, std::string to_place, std::string personas, bool signpost)
 {
   personas_ = personas;
+  completed_routes_step_index_ = 0;
 
   std::vector<std::string> to_places;
   if(signpost == true)
@@ -52,6 +53,8 @@ void PathFinder::find(std::string from_place, std::string to_place, std::string 
     find(from_place, to_places[i], empty_route);
     std::cout << to_places[i] << std::endl;
   }
+  computeCost(to_place);
+  std::cout << "printFinalRoutes" << std::endl;
 }
 
 void PathFinder::find(std::string from_place, std::string to_place, route_t region_route)
@@ -72,17 +75,19 @@ void PathFinder::find(std::string from_place, std::string to_place, route_t regi
 
       for(size_t i = 0; i < routes_.size(); i++)
       {
-        regions_costs_.push_back((routes_[i].size() - 1) / 2. + 1);
+        regions_costs_step_.push_back((routes_[i].size() - 1) / 2. + 1);
       }
 
       appendFromAndTo(from_place, to_place);
 
       createPlace2Place();
       getCompleteRoutes(to_place);
+      std::cout << "getCompleteRoutes" << std::endl;
       getFineRoutes();
+      std::cout << "getFineRoutes" << std::endl;
       printFinalRoutes();
 
-      computeCost(to_place);
+      completed_routes_step_index_ = completed_routes_.size();
     }
     else
       std::cout << "[ERROR] initial position must be a place" << std::endl;
@@ -154,6 +159,7 @@ void PathFinder::init()
   from_region_.clear();
   to_region_.clear();
   routes_.clear();
+  regions_costs_step_.clear();
 }
 
 void PathFinder::to_regions(std::string from_place, std::string to_place)
@@ -247,10 +253,10 @@ void PathFinder::getCompleteRoutes(std::string to_place)
     for(size_t route_i = 0; route_i < tmp_routes.size(); route_i++)
     {
       goals_.push_back(to_place);
-      regions_costs.push_back(regions_costs_[i]);
+      regions_costs.push_back(regions_costs_step_[i]);
     }
   }
-  regions_costs_ = regions_costs;
+  regions_costs_.insert(regions_costs_.end(), regions_costs.begin(), regions_costs.end());
 }
 
 void PathFinder::printFinalRoutes()
@@ -277,7 +283,7 @@ bool PathFinder::testToPlace(std::string to_place)
 void PathFinder::getFineRoutes()
 {
   routes_t tmp = completed_routes_;
-  for(size_t i = 0; i < completed_routes_.size();)
+  for(size_t i = completed_routes_step_index_; i < completed_routes_.size();)
   {
     bool erase = false;
     for(size_t j = 0; j < completed_routes_[i].size(); j++)
@@ -297,6 +303,6 @@ void PathFinder::getFineRoutes()
       i++;
   }
 
-  if(completed_routes_.size() == 0)
+  if(completed_routes_.size() - completed_routes_step_index_ == 0)
     completed_routes_ = tmp;
 }
