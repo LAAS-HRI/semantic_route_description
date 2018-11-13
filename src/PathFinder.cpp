@@ -54,7 +54,6 @@ void PathFinder::find(std::string from_place, std::string to_place, std::string 
     std::cout << to_places[i] << std::endl;
   }
   computeCost(to_place);
-  std::cout << "printFinalRoutes" << std::endl;
 }
 
 void PathFinder::find(std::string from_place, std::string to_place, route_t region_route)
@@ -82,9 +81,7 @@ void PathFinder::find(std::string from_place, std::string to_place, route_t regi
 
       createPlace2Place();
       getCompleteRoutes(to_place);
-      std::cout << "getCompleteRoutes" << std::endl;
       getFineRoutes();
-      std::cout << "getFineRoutes" << std::endl;
       printFinalRoutes();
 
       completed_routes_step_index_ = completed_routes_.size();
@@ -103,7 +100,7 @@ void PathFinder::find(std::string from_place, std::string to_place, route_t regi
             << "elapsed time: " << elapsed_microseconds << "us\n";
 
   std::cout << onto_.individuals.nb() << " requests done" << std::endl;
-  onto_.reset();
+  onto_.resetNb();
 }
 
 void PathFinder::findRegions(std::string from_place, std::string to_place, std::string personas, bool signpost)
@@ -151,7 +148,7 @@ void PathFinder::findRegions(std::string from_place, std::string to_place)
             << "elapsed time: " << elapsed_microseconds << "us\n";
 
   std::cout << onto_.individuals.nb() << " requests done" << std::endl;
-  onto_.reset();
+  onto_.resetNb();
 }
 
 void PathFinder::init()
