@@ -24,7 +24,7 @@ CostComputer::CostComputer(OntologyManipulator* onto, ros::NodeHandle* n)
   costs_.fast = 0;
 }
 
-std::vector<std::string> CostComputer::splitPersonnas(std::string text)
+std::vector<std::string> CostComputer::splitPersonnas(std::string& text)
 {
   std::vector<std::string> personas;
   size_t start = 0;
@@ -50,7 +50,7 @@ std::vector<std::string> CostComputer::splitPersonnas(std::string text)
   return personas;
 }
 
-void CostComputer::getParam(std::string persona_name)
+void CostComputer::getParam(std::string& persona_name)
 {
   if(persona_name == lambda_persona.name)
     updateCosts(lambda_persona.costs);
@@ -97,7 +97,7 @@ void CostComputer::putInRange()
   costs_.fast++;
 }
 
-float CostComputer::getParamCost(std::string param)
+float CostComputer::getParamCost(std::string& param)
 {
   float cost = 1;
   if(param == "salient")
@@ -131,7 +131,7 @@ float CostComputer::getParamCost(std::string param)
     return 1/cost;
 }
 
-std::vector<float> CostComputer::compute(routes_t& routes, std::vector<std::string> gloals, std::string goal, std::string personas)
+std::vector<float> CostComputer::compute(routes_t& routes, std::vector<std::string>& gloals, std::string& goal, std::string personas)
 {
   std::vector<std::string> personas_splitted = splitPersonnas(personas);
   for(size_t i = 0; i < personas_splitted.size(); i++)
@@ -165,7 +165,7 @@ std::vector<float> CostComputer::compute(routes_t& routes, std::vector<std::stri
   return result;
 }
 
-std::vector<float> CostComputer::compute(routes_t& routes, std::vector<std::string> gloals, std::string goal, std::string personas, std::vector<float> pre_costs)
+std::vector<float> CostComputer::compute(routes_t& routes, std::vector<std::string>& gloals, std::string& goal, std::string& personas, std::vector<float>& pre_costs)
 {
   std::vector<std::string> personas_splitted = splitPersonnas(personas);
   for(size_t i = 0; i < personas_splitted.size(); i++)
@@ -174,7 +174,8 @@ std::vector<float> CostComputer::compute(routes_t& routes, std::vector<std::stri
   putInRange();
 
   std::vector<float> result;
-  for(size_t route_i = 0; route_i < routes.size(); route_i++)
+  size_t nb_routes = routes.size();
+  for(size_t route_i = 0; route_i < nb_routes; route_i++)
     if(gloals[route_i] == goal)
       result.push_back(routes[route_i].size());
     else
@@ -191,7 +192,7 @@ std::vector<float> CostComputer::compute(routes_t& routes, std::vector<std::stri
       elementCost = elementCost * getParamCost(cost[j]);
     }
 
-    for(size_t route_i = 0; route_i < routes.size(); route_i++)
+    for(size_t route_i = 0; route_i < nb_routes; route_i++)
     {
       if(std::find(routes[route_i].begin(), routes[route_i].end(), havingCost[i]) != routes[route_i].end())
         result[route_i] = result[route_i]*elementCost;
