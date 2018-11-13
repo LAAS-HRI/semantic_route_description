@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   ontologenius
 )
-find_package(ontologenius 0.1.3 REQUIRED)
+find_package(ontologenius 0.1.4 REQUIRED)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -107,3 +107,9 @@ add_executable(description src/main.cpp)
  add_dependencies(description ${catkin_EXPORTED_TARGETS})
  add_dependencies(description semantic_route_description_gencpp)
  target_link_libraries(description semantic_finder_lib)
+
+ add_executable(count src/count.cpp)
+  target_link_libraries(count ${catkin_LIBRARIES})
+  add_dependencies(count ${catkin_EXPORTED_TARGETS})
+  add_dependencies(count semantic_route_description_gencpp)
+  target_link_libraries(count semantic_finder_lib)
