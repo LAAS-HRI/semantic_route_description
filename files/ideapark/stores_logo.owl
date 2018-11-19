@@ -28,6 +28,26 @@
 
 
 
+
+   <!-- ontologenius#hasLogoPath -->
+
+   <owl:DatatypeProperty rdf:about="ontologenius#hasLogoPath">
+       <rdfs:domain rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+       <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+   </owl:DatatypeProperty>
+
+
+
+
+  <!-- ontologenius#has3dMesh -->
+
+  <owl:DatatypeProperty rdf:about="ontologenius#has3dMesh">
+      <rdfs:domain rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+
+
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -44,6 +64,7 @@
 
      <owl:NamedIndividual rdf:about="ontologenius#Sinelli">
        <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sinelli_thumbnailxl.jpg</ontologenius:hasLogoURL>
+       <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sinelli_thumbnailxl.jpg</ontologenius:hasLogoPath>
      </owl:NamedIndividual>
 
 
@@ -54,7 +75,9 @@
 
      <owl:NamedIndividual rdf:about="ontologenius#Bella_Roma_and_Daddys_Diner">
        <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bellaroma_thumbnailxl.jpg</ontologenius:hasLogoURL>
+       <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bellaroma_thumbnailxl.jpg</ontologenius:hasLogoPath>
        <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/daddysdiner_thumbnailxl.jpg</ontologenius:hasLogoURL>
+       <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/daddysdiner_thumbnailxl.jpg</ontologenius:hasLogoPath>
      </owl:NamedIndividual>
 
 
@@ -65,6 +88,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Prisma">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/prisma_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/prisma_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -75,6 +99,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Alko">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/alko_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/alko_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -85,6 +110,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Name_It">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nameit_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nameit_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -95,6 +121,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Budget_Sport">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/budgetsport_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/budgetsport_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -105,6 +132,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Toys_R_Us">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/toysrus_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/toysrus_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -124,6 +152,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Jesper_Junior">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/jesperjunior_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/jesperjunior_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -134,6 +163,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Sievi_Shop">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sievishop_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sievishop_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -144,6 +174,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Tekniskamagasinet">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/teknikmagasinet_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/teknikmagasinet_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -154,6 +185,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Gant">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/gant_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/gant_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -164,6 +196,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kahvila_Ilopilleri">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ilopilleri_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ilopilleri_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -174,6 +207,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Tanssiopisto">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pirkanmaantanssiopisto_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pirkanmaantanssiopisto_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -184,6 +218,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Juvesport">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/juvesport_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/juvesport_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -194,6 +229,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Easy_Fit_Traingin">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/easyfitideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/easyfitideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -213,6 +249,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Gina_Tricot">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ginatricot_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ginatricot_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -223,6 +260,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Marco_Polo">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/marcopolo_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/marcopolo_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -233,6 +271,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Hairlekiini">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hairlekiini_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hairlekiini_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -243,6 +282,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Lumo_puoti">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/lumopuoti_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lumopuoti_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -253,6 +293,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Avain__ja_suutarityo_Helsky">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/avainjasuutarityohelsky_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/avainjasuutarityohelsky_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -263,6 +304,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#PiiPoo">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/piipoo_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/piipoo_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -273,6 +315,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Cafe_de_Lisa">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/cafedelisaliisanleipomo_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cafedelisaliisanleipomo_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -292,6 +335,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Ballot">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ballot_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ballot_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -302,6 +346,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Halonen">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/halonen_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/halonen_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -312,6 +357,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Clas_Ohlson">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/clasohlson_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/clasohlson_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -322,6 +368,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kicks">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kicks_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kicks_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -332,6 +379,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Power">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/power_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/power_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -342,6 +390,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Intersport_Ideapark">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/intersportideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/intersportideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -352,6 +401,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kalastus_Suomi">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/kalastussuomi_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kalastussuomi_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -362,6 +412,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Telia">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/teliakauppa_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/teliakauppa_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -381,6 +432,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Pukimo">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/blackmodapopup_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/blackmodapopup_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -391,6 +443,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Minimani">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.minimani.fi/media/theme_options/default/logo.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/Minimani.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -401,6 +454,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Tommy_Hilfiger">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/tommyhilfiger_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/tommyhilfiger_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -411,6 +465,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Guess">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.guess.eu/Content/responsive/Common/images/guess.svg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/guess.svg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -421,6 +476,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Saunalahti">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/saunalahtiideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/saunalahtiideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -431,6 +487,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Gerry_Weber">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/gerryweber_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/gerryweber_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -441,6 +498,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Flying_Tiger_Copenhagen">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/flyingtigercopenhagen_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/flyingtigercopenhagen_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -451,6 +509,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Zizzi">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/zizzi_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/zizzi_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -461,6 +520,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Pelaamo">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pelaamo_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pelaamo_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -471,6 +531,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Thai_Papaya">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/thaipapaya_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/thaipapaya_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -481,6 +542,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Spice_Ice">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/spiceice_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/spiceice_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -491,6 +553,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Superdry">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/superdry_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/superdry_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -501,6 +564,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Click_Shoe">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/clickshoes_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/clickshoes_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -511,6 +575,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Iittala_Outlet">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/iittalaoutletlempaala_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/iittalaoutletlempaala_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -521,6 +586,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Reima">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/reima_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/reima_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -531,6 +597,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Partioaitta">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/partioaitta_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/partioaitta_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -541,6 +608,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Ur_and_Penn">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/urpenn_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/urpenn_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -551,6 +619,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kultajousi">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kultajousi_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kultajousi_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -561,6 +630,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Life">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/life_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/life_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -580,6 +650,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#LahiTapiola_Service_desk">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lahitapiola_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lahitapiola_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -590,6 +661,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Nissen">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nissen_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nissen_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -600,6 +672,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Bjorn_Borg">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bjornborg_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bjornborg_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -610,6 +683,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Swamp_Music">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/swamp_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/swamp_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -620,6 +694,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Instrumentarium">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/instrumentarium_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/instrumentarium_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -630,6 +705,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Hemtex">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/hemtex_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hemtex_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -640,6 +716,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Farkkujen_Tehtaanmyymala">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/farkkujentehtaanmyymala_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/farkkujentehtaanmyymala_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -650,6 +727,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#SunWok">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sunwok_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sunwok_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -660,6 +738,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kultaporssi">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/suomenkultaporssi_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/suomenkultaporssi_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -670,6 +749,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#HoviKebab">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hovikebab_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hovikebab_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -680,7 +760,9 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kotipizza_and_Rolls_Expert">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kotipizza_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kotipizza_thumbnailxl.jpg</ontologenius:hasLogoPath>
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/rollsexpress_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/rollsexpress_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -691,6 +773,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Cafe_Linkosuo">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/cafelinkosuoautoareena_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cafelinkosuoautoareena_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -701,6 +784,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Aitoleipa">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/aitoleipa_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/aitoleipa_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -711,6 +795,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Mummola_Lahjapuoti">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mummolalahjapuoti_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mummolalahjapuoti_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -721,6 +806,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#SubWay">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/subway_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/subway_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -731,6 +817,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Information_desk">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/infopiste_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/infopiste_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -741,6 +828,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Digiman">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/digiman_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/digiman_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -751,6 +839,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Burger_King">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/burgerking_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/burgerking_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -761,6 +850,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Rax">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/raxbuffet_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/raxbuffet_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -771,6 +861,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Hesburger">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hesburger_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hesburger_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -781,6 +872,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Arnolds">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/arnolds_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/arnolds_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -791,6 +883,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Change">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/change_thumbnailxl-1.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/change_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -801,6 +894,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Timanttiset">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/timanttiset_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/timanttiset_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -811,6 +905,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#KappAhl">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kappahl_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kappahl_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -821,6 +916,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#NP">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/napu_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/napu_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -831,6 +927,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Linda_Mode">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/lindamode_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lindamode_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -841,6 +938,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Fonum">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/fonum_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/fonum_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -851,6 +949,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#DNA">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dnakauppaoy_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dnakauppaoy_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -861,6 +960,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Pentik">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pentik_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pentik_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -871,6 +971,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Fortum">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/fortum_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/fortum_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -881,6 +982,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Lagoon_Fish_Foot_Spa">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lagoonfishfootspa_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lagoonfishfootspa_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -891,6 +993,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Lindex">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lindex_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lindex_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -901,6 +1004,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#River_and_Co">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kauppahuoneriveri_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kauppahuoneriveri_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -911,6 +1015,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Musti_ja_Mirri">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mustijamirri_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mustijamirri_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -921,6 +1026,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kirjaporssi">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kirjaporssi_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kirjaporssi_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -931,6 +1037,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Suomalainen_Kirjakauppa">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/suomalainenkirjakauppa_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/suomalainenkirjakauppa_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -941,6 +1048,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#KOO_Kenka">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kookenka_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kookenka_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -951,6 +1059,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#New_Yorker">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/newyorker_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/newyorker_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -961,6 +1070,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Din_Sko">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dinsko_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dinsko_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -971,6 +1081,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#CM_Hiustalo">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hiustalooutlet_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hiustalooutlet_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -981,6 +1092,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Esprit_Ideapark">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/espritideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/espritideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1000,6 +1112,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Glitter">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/glitter_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/glitter_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1010,6 +1123,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Apteekki_Ideapark">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/apteekkiideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/apteekkiideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1020,6 +1134,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#HairStore">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/newhairstore_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/newhairstore_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1039,7 +1154,9 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Your_Face_and_Rils">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/yourface_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/yourface_thumbnailxl.jpg</ontologenius:hasLogoPath>
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/rils_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/rils_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1050,6 +1167,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Stadium">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/stadium_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/stadium_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1060,6 +1178,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Body_Shop">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/thebodyshop_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/thebodyshop_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1070,6 +1189,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Mango">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mango_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mango_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1080,6 +1200,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Top_Sport">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/topsport_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/topsport_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1090,6 +1211,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Vila">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/vila_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/vila_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1100,6 +1222,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Carlings">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/carlings_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/carlings_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1110,6 +1233,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Hennes_and_Mauritz">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/hma_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hma_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1120,6 +1244,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Dressman">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dressmann_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dressmann_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1130,6 +1255,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Faunatar">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/faunatar_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/faunatar_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1140,6 +1266,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kauneus__ja_jalkahoitola_Manna">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hoitolamanna_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hoitolamanna_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1150,6 +1277,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Bik_Bok">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bikbok_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bikbok_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1160,7 +1288,9 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Vero_Moda,_JandJ">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/veromoda_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/veromoda_thumbnailxl.jpg</ontologenius:hasLogoPath>
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/jackjones_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/jackjones_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1171,6 +1301,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Kristyle">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kristyle_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kristyle_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1181,6 +1312,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Cubus">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/cubus_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cubus_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1191,6 +1323,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Shoe_Store">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/shoehouse_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/shoehouse_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1201,6 +1334,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Brother_Clothing">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/brothers_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/brothers_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1211,6 +1345,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#BR_lelut">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/brlelut_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/brlelut_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1221,6 +1356,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Dressmann_XL">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dressmannxl_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dressmannxl_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1231,6 +1367,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Aleksi_13">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/aleksi13_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/aleksi13_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1241,6 +1378,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Unikulma">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/unikulma_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/unikulma_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1251,6 +1389,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Marimekko_Outlet">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/marimekkooutlet_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/marimekkooutlet_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1261,6 +1400,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Easyfit">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/easyfitideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/easyfitideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1271,6 +1411,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Oma_Saastopankki">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/omasaastopankki_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/omasaastopankki_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1281,6 +1422,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Pancho_Villa">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ravintolapanchovilla_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ravintolapanchovilla_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1291,6 +1433,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Coyote_Grill">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/coyotebargrill_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/coyotebargrill_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1301,6 +1444,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Ti_Ti_Nallen_Koti">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://ylojarvenuutiset.fi/wp-content/uploads/2018/06/titinallenkoti_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/titinallenkoti_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1311,6 +1455,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Netrauta">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/netrauta_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/netrauta_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1321,6 +1466,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Zones_by_Sarkanniemi">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/zonesbysarkanniemi_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/zonesbysarkanniemi_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1331,6 +1477,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Masku">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/maskunkalustetalo_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/maskunkalustetalo_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1341,6 +1488,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Finnlandia">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/finnlandia_thumbnailxl-1.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/finnlandia_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1351,6 +1499,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Eurokangas">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/eurokangas_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/eurokangas_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1361,6 +1510,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#empty_nordea">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nordeaideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nordeaideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1371,6 +1521,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#empty_elisa">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/elisanmyyntipiste_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/elisanmyyntipiste_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1381,6 +1532,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#carts_A">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1391,6 +1543,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#carts_B">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1401,6 +1554,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#carts_C">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1411,6 +1565,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#carts_D">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1421,6 +1576,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#ff_toilet_west">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1431,6 +1587,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#ff_toilet_east">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1441,6 +1598,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_telia">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1451,6 +1609,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_west">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1460,7 +1619,8 @@
 
 
     <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_east">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>>
     </owl:NamedIndividual>
 
 
@@ -1471,6 +1631,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#gf_atm_east">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://image.flaticon.com/icons/svg/57/57426.svg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/57426.svg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1481,6 +1642,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#gf_atm_west">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://image.flaticon.com/icons/svg/57/57426.svg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/57426.svg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1491,6 +1653,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#swamp">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/swamp_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/swamp_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1501,6 +1664,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#only">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.only.com/on/demandware.static/Sites-BSE-South-Site/-/default/dw6f9723c5/on/images/logo.svg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/only.svg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1511,6 +1675,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#only_2">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.only.com/on/demandware.static/Sites-BSE-South-Site/-/default/dw6f9723c5/on/images/logo.svg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/only.svg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1521,6 +1686,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#My_Bag">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mybag_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mybag_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1531,6 +1697,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Sticky_Wingers">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/stickywingers_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/stickywingers_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1541,6 +1708,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#pullonpalautus">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://papunet.net/sites/papunet.net/files/kuvapankki/20171009/pullonpalautus.png</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pullonpalautus.png</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1551,6 +1719,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Hairlekiini">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hairlekiini_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hairlekiini_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
@@ -1561,6 +1730,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#emotion">
       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/emotion_thumbnailxl.jpg</ontologenius:hasLogoURL>
+      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/emotion_thumbnailxl.jpg</ontologenius:hasLogoPath>
     </owl:NamedIndividual>
 
 
