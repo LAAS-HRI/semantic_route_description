@@ -342,10 +342,10 @@
 
 
 
-    <!-- ontologenius#Sonera_Kauppa -->
+    <!-- ontologenius#Telia -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Sonera_Kauppa">
+    <owl:NamedIndividual rdf:about="ontologenius#Telia">
         <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
     </owl:NamedIndividual>
 

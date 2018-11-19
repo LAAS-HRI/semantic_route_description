@@ -280,9 +280,9 @@
 
 
 
-    <!-- ontologenius#empty_mummola_ahja_puoti -->
+    <!-- ontologenius#Hairlekiini -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_mummola_ahja_puoti">
+    <owl:NamedIndividual rdf:about="ontologenius#Hairlekiini">
         <rdf:type rdf:resource="ontologenius#empty_place"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Marco_Polo"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#old_corridor_west"/>
@@ -345,7 +345,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#intersection_palapelikatu_sauruskatu">
         <rdf:type rdf:resource="ontologenius#pathIntersection"/>
-        <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_emotion"/>
+        <ontologenius:isInFrontOf rdf:resource="ontologenius#emotion"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Oma_Saastopankki"/>
@@ -421,19 +421,21 @@
 
 
 
-    <!-- ontologenius#empty_pullonpalautus -->
+    <!-- ontologenius#pullonpalautus -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_pullonpalautus">
-        <rdf:type rdf:resource="ontologenius#empty_place"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#empty_emotion"/>
+    <owl:NamedIndividual rdf:about="ontologenius#pullonpalautus">
+        <rdf:type rdf:resource="ontologenius#place"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#emotion"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
+        <rdfs:label xml:lang="fi">pullonpalautus</rdfs:label>
+        <rdfs:label xml:lang="en">bottle recovery</rdfs:label>
     </owl:NamedIndividual>
 
 
 
-    <!-- ontologenius#empty_emotion -->
+    <!-- ontologenius#emotion -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_emotion">
+    <owl:NamedIndividual rdf:about="ontologenius#emotion">
         <rdf:type rdf:resource="ontologenius#empty_place"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Prisma"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#carts_D"/>
@@ -510,15 +512,15 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#empty_fifi_et_fido">
         <rdf:type rdf:resource="ontologenius#empty_place"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#empty_nahka_albert"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#My_Bag"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- ontologenius#empty_nahka_albert -->
+    <!-- ontologenius#My_Bag -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_nahka_albert">
+    <owl:NamedIndividual rdf:about="ontologenius#My_Bag">
         <rdf:type rdf:resource="ontologenius#empty_place"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Power"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Timanttiset"/>
@@ -544,7 +546,7 @@
         <rdf:type rdf:resource="ontologenius#pathIntersection"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_toilets_east"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#Sonera_Kauppa"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#Telia"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
@@ -737,35 +739,39 @@
 
 
 
-    <!-- ontologenius#empty_gamestop -->
+    <!-- ontologenius#swamp -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_gamestop">
-        <rdf:type rdf:resource="ontologenius#empty_place"/>
+    <owl:NamedIndividual rdf:about="ontologenius#swamp">
+        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Click_Shoe"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- ontologenius#empty_spirit_store -->
+    <!-- ontologenius#only -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_spirit_store">
-        <rdf:type rdf:resource="ontologenius#empty_place"/>
+    <owl:NamedIndividual rdf:about="ontologenius#only">
+        <rdf:type rdf:resource="ontologenius#fashion_store"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Ur_and_Penn"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridortoiletswest_palapelikatu"/>
+        <rdfs:label xml:lang="en">only</rdfs:label>
+        <rdfs:label xml:lang="fi">only</rdfs:label>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#empty_spririt_store -->
+    <!-- ontologenius#only_2 -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_spririt_store">
-        <rdf:type rdf:resource="ontologenius#empty_place"/>
+    <owl:NamedIndividual rdf:about="ontologenius#only_2">
+        <rdf:type rdf:resource="ontologenius#fashion_store"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Life"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
+        <rdfs:label xml:lang="en">only</rdfs:label>
+        <rdfs:label xml:lang="fi">only</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1906,7 +1912,7 @@
         <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_toilets_west"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#empty_pullonpalautus"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#pullonpalautus"/>
         <rdfs:label xml:lang="en">Alko</rdfs:label>
         <rdfs:label xml:lang="fi">Alko</rdfs:label>
     </owl:NamedIndividual>
@@ -2252,14 +2258,14 @@
 
 
 
-    <!-- ontologenius#Sonera_Kauppa -->
+    <!-- ontologenius#Telia -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#Sonera_Kauppa">
+    <owl:NamedIndividual rdf:about="ontologenius#Telia">
         <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Intersport_Ideapark"/>
-        <rdfs:label xml:lang="en">Sonera Kauppa</rdfs:label>
-        <rdfs:label xml:lang="fi">Sonera Kauppa</rdfs:label>
+        <rdfs:label xml:lang="en">Telia</rdfs:label>
+        <rdfs:label xml:lang="fi">Telia</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2514,7 +2520,7 @@
         <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Alko"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#empty_spirit_store"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#only"/>
         <rdfs:label xml:lang="en">Kultajousi</rdfs:label>
         <rdfs:label xml:lang="fi">Kultajousi</rdfs:label>
     </owl:NamedIndividual>
@@ -2528,7 +2534,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kultajousi"/>
-        <ontologenius:hasAtLeft rdf:resource="ontologenius#empty_spririt_store"/>
+        <ontologenius:hasAtLeft rdf:resource="ontologenius#only_2"/>
         <rdfs:label xml:lang="en">Life</rdfs:label>
         <rdfs:label xml:lang="fi">Life</rdfs:label>
     </owl:NamedIndividual>
@@ -2564,7 +2570,7 @@
     <owl:NamedIndividual rdf:about="ontologenius#Nissen">
         <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#empty_spririt_store"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#only_2"/>
         <rdfs:label xml:lang="en">Nissen</rdfs:label>
         <rdfs:label xml:lang="fi">Nissen</rdfs:label>
     </owl:NamedIndividual>
@@ -2600,7 +2606,7 @@
     <owl:NamedIndividual rdf:about="ontologenius#Instrumentarium">
         <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#empty_gamestop"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#swamp"/>
         <rdfs:label xml:lang="en">Instrumentarium</rdfs:label>
         <rdfs:label xml:lang="fi">Instrumentarium</rdfs:label>
     </owl:NamedIndividual>
@@ -2717,7 +2723,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Mummola_Lahjapuoti">
         <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
-        <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_mummola_ahja_puoti"/>
+        <ontologenius:isInFrontOf rdf:resource="ontologenius#Hairlekiini"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#old_corridor_west"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#SubWay"/>
