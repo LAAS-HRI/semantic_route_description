@@ -1155,7 +1155,7 @@
         <rdf:type rdf:resource="ontologenius#pathIntersection"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1A_south"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1east"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#elevator_east"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#empty_netrauta_2"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
@@ -1169,7 +1169,7 @@
         <ontologenius:isIn rdf:resource="ontologenius#first_floor"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1east"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_elevator_east"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#Netrauta"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#empty_netrauta_1"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#slow"/>
         <rdfs:label xml:lang="en">elevator</rdfs:label>
@@ -3516,13 +3516,35 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Netrauta">
         <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
-        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1east"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1A_south"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1Asouth_corridor1east"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1east_corridor1northeast"/>
         <rdfs:label xml:lang="en">Netrauta</rdfs:label>
         <rdfs:label xml:lang="fi">Netrauta</rdfs:label>
     </owl:NamedIndividual>
+
+
+
+
+    <!-- ontologenius#empty_netrauta_1 -->
+
+
+    <owl:NamedIndividual rdf:about="ontologenius#empty_netrauta_1">
+        <rdf:type rdf:resource="ontologenius#empty_place"/>
+        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1east"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1east_corridor1northeast"/>
+    </owl:NamedIndividual>
+
+
+
+
+        <!-- ontologenius#empty_netrauta_2 -->
+
+
+        <owl:NamedIndividual rdf:about="ontologenius#empty_netrauta_2">
+            <rdf:type rdf:resource="ontologenius#empty_place"/>
+            <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1east"/>
+            <ontologenius:hasAtRight rdf:resource="ontologenius#elevator_east"/>
+        </owl:NamedIndividual>
 
 
 
