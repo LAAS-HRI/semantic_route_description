@@ -56,7 +56,7 @@ int main(int argc, char** argv)
   ros::NodeHandle n;
   n_ = &n;
 
-  ros::service::waitForService("ontoloGenius/arguer", -1);
+  ros::service::waitForService("/ontologenius/reasoner", -1);
   ros::ServiceServer route_service = n.advertiseService("semantic_route_description/get_route", route_handle);
   ros::ServiceServer region_service = n.advertiseService("semantic_route_description/get_route_region", routeRegion_handle);
 
