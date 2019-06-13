@@ -1,0 +1,18 @@
+<launch>
+
+  <include file="$(find ontologenius)/launch/ontologenius.launch">
+    <arg name="intern_file" default="/home/gsarthou/Robots/Pr2/Semantic/ideapark/ideapark.owl"/>
+    <arg name="files" default="
+     /home/gsarthou/Robots/Pr2/Semantic/ideapark/semantic_map_generator/saved_files/idea_elements.owl
+     /home/gsarthou/Robots/Pr2/Semantic/ideapark/semantic_map_generator/saved_files/idea_intersections.owl
+     /home/gsarthou/Robots/Pr2/Semantic/ideapark/semantic_map_generator/saved_files/idea_frontPlaces.owl
+     /home/gsarthou/Robots/Pr2/Semantic/ideapark/semantic_map_generator/saved_files/idea_interfaces.owl
+     /home/gsarthou/Robots/Pr2/Semantic/ideapark/semantic_map_generator/saved_files/idea_pathLocation.owl
+     /home/gsarthou/Robots/Pr2/Semantic/ideapark/semantic_map_generator/saved_files/idea_placeRelations.owl
+     /home/gsarthou/Robots/Pr2/Semantic/ideapark/semantic_map_generator/saved_files/idea_paths.owl
+     /home/gsarthou/Robots/Pr2/Semantic/ideapark/semantic_map_generator/saved_files/idea_stores.owl
+     "/>
+  </include>
+  <node name="gui" pkg="ontologenius" type="ontoloGUI" output="screen"> </node>
+
+</launch>
