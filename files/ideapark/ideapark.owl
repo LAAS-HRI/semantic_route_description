@@ -2015,7 +2015,7 @@
     <!-- ontologenius#Kahvila_Ilopilleri -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Kahvila_Ilopilleri">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_coffee_west"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
@@ -2154,7 +2154,7 @@
     <!-- ontologenius#Cafe_de_Lisa -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Cafe_de_Lisa">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#cafe"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#PiiPoo"/>
         <rdfs:label xml:lang="en">Cafe de Lisa</rdfs:label>
@@ -2378,7 +2378,7 @@
     <!-- ontologenius#Pelaamo -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Pelaamo">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Zizzi"/>
@@ -2391,7 +2391,7 @@
     <!-- ontologenius#Thai_Papaya -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Thai_Papaya">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Gina_Tricot"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Spice_Ice"/>
@@ -2404,7 +2404,7 @@
     <!-- ontologenius#Spice_Ice -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Spice_Ice">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#cafe"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Aitoleipa"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
@@ -2544,7 +2544,7 @@
     <!-- ontologenius#Banking_machine -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Banking_machine">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#palapelikatu"/>
         <rdfs:label xml:lang="en">Banking machine</rdfs:label>
         <rdfs:label xml:lang="fi">Banking machine</rdfs:label>
@@ -2555,7 +2555,7 @@
     <!-- ontologenius#LahiTapiola_Service_desk -->
 
     <owl:NamedIndividual rdf:about="ontologenius#LahiTapiola_Service_desk">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1north_west"/>
         <rdfs:label xml:lang="en">LahiTapiola Service desk</rdfs:label>
         <rdfs:label xml:lang="fi">LähiTapiola Service desk</rdfs:label>
@@ -2640,7 +2640,7 @@
     <!-- ontologenius#SunWok -->
 
     <owl:NamedIndividual rdf:about="ontologenius#SunWok">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#old_corridor_east"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_oldcorridoreast_oldopenspace"/>
@@ -2666,7 +2666,7 @@
     <!-- ontologenius#HoviKebab -->
 
     <owl:NamedIndividual rdf:about="ontologenius#HoviKebab">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kotipizza_and_Rolls_Expert"/>
         <rdfs:label xml:lang="en">HoviKebab</rdfs:label>
@@ -2678,7 +2678,7 @@
     <!-- ontologenius#Kotipizza_and_Rolls_Expert -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Kotipizza_and_Rolls_Expert">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#SunWok"/>
@@ -2694,7 +2694,7 @@
     <!-- ontologenius#Cafe_Linkosuo -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Cafe_Linkosuo">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#cafe"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Aitoleipa"/>
@@ -2708,7 +2708,7 @@
     <!-- ontologenius#Aitoleipa -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Aitoleipa">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#old_corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#old_interface_west"/>
@@ -2736,7 +2736,7 @@
     <!-- ontologenius#SubWay -->
 
     <owl:NamedIndividual rdf:about="ontologenius#SubWay">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_oldcorridorsouth_oldopenspace"/>
@@ -2771,7 +2771,7 @@
     <!-- ontologenius#Burger_King -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Burger_King">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Gerry_Weber"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Rax"/>
@@ -2784,7 +2784,7 @@
     <!-- ontologenius#Rax -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Rax">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hesburger"/>
         <rdfs:label xml:lang="en">Rax</rdfs:label>
@@ -2796,7 +2796,7 @@
     <!-- ontologenius#Hesburger -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Hesburger">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_east"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Arnolds"/>
@@ -2810,7 +2810,7 @@
     <!-- ontologenius#Arnolds -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Arnolds">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#cafe"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_east"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridoreast_pallokatu"/>
@@ -3422,7 +3422,7 @@
     <!-- ontologenius#Bella_Roma_and_Daddys_Diner -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Bella_Roma_and_Daddys_Diner">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_0"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1food"/>
         <ontologenius:isAlong rdf:resource="ontologenius#foodpark"/>
@@ -3453,7 +3453,7 @@
     <!-- ontologenius#Oma_Saastopankki -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Oma_Saastopankki">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridor1Dnorth_corridor1Dsouth"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
@@ -3468,7 +3468,7 @@
     <!-- ontologenius#Pancho_Villa -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Pancho_Villa">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_pancho"/>
         <rdfs:label xml:lang="en">Pancho Villa</rdfs:label>
         <rdfs:label xml:lang="fi">Pancho Villa</rdfs:label>
@@ -3479,7 +3479,7 @@
     <!-- ontologenius#Coyote_Grill -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Coyote_Grill">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAlong rdf:resource="ontologenius#coyote_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_coyoteopenspace_bridge1"/>
         <rdfs:label xml:lang="en">Coyote Grill</rdfs:label>
@@ -3492,7 +3492,7 @@
     <!-- ontologenius#Sticky_Wingers -->
 
     <owl:NamedIndividual rdf:about="ontologenius#Sticky_Wingers">
-        <rdf:type rdf:resource="ontologenius#cafe_restaurant"/>
+        <rdf:type rdf:resource="ontologenius#restaurant"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#bridge_1"/>
         <rdfs:label xml:lang="en">Sticky Wingers</rdfs:label>
         <rdfs:label xml:lang="fi">Sticky Wingers</rdfs:label>
