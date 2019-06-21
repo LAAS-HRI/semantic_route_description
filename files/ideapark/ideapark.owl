@@ -3434,7 +3434,7 @@
         <rdfs:label xml:lang="fi">Bella Roma</rdfs:label>
     </owl:NamedIndividual>
 
-    <!-- ontologenius#Daddys_Diner >
+    <!-- ontologenius#Daddys_Diner>
 
     <owl:NamedIndividual rdf:about="ontologenius#Daddys_Diner">
         <owl:sameAs rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner"/>
@@ -3442,7 +3442,7 @@
         <rdfs:label xml:lang="fi">Daddy's Diner</rdfs:label>
     </owl:NamedIndividual>
 
-    <!-- ontologenius#Bella_Roma >
+    <! ontologenius#Bella_Roma>
 
     <owl:NamedIndividual rdf:about="ontologenius#Bella_Roma">
         <owl:sameAs rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner"/>
