@@ -6,7 +6,6 @@
      $(find semantic_route_description)/files/ideapark/ideapark.owl
      $(find semantic_route_description)/files/ideapark/place_description.owl
      $(find semantic_route_description)/files/ideapark/route_cost.owl
-     $(find semantic_route_description)/files/ideapark/stores_logo.owl
      "/>
   </include>
   <node name="gui" pkg="ontologenius" type="ontoloGUI" output="screen"> </node>
