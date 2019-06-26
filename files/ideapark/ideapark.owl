@@ -2408,17 +2408,15 @@
 
 
 
-    <!-- ontologenius#Spice_Ice -->
+    <!-- ontologenius#Stahlberg -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#Spice_Ice">
+    <owl:NamedIndividual rdf:about="ontologenius#Stahlberg">
         <rdf:type rdf:resource="ontologenius#cafe"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Aitoleipa"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Pelaamo"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridorkeskuwest_palapelikatu"/>
-        <rdfs:label xml:lang="en">Spice Ice</rdfs:label>
-        <rdfs:label xml:lang="fi">Spice Ice</rdfs:label>
         <rdfs:label xml:lang="en">Stahlberg Home Bakery Cafe</rdfs:label>
         <rdfs:label xml:lang="fi">Ståhlberg Home Bakery Cafe</rdfs:label>
         <rdfs:label xml:lang="en">Stahlberg</rdfs:label>
@@ -2426,6 +2424,21 @@
         <rdfs:label xml:lang="en">Bakery Cafe</rdfs:label>
         <rdfs:label xml:lang="fi">Bakery Cafe</rdfs:label>
     </owl:NamedIndividual>
+
+
+
+
+    <!-- ontologenius#Spice_Ice -->
+
+
+    <owl:NamedIndividual rdf:about="ontologenius#Spice_Ice">
+        <rdf:type rdf:resource="ontologenius#cafe"/>
+        <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#Stahlberg"/>
+        <rdfs:label xml:lang="en">Spice Ice</rdfs:label>
+        <rdfs:label xml:lang="fi">Spice Ice</rdfs:label>
+
+    </owl:NamedIndividual>
 
 
 
