@@ -896,7 +896,7 @@
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_Keskuspuisto_kompassikatu"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#sauruskatu"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#Body_Shop"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#Stadium"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
@@ -3152,6 +3152,8 @@
     <owl:NamedIndividual rdf:about="ontologenius#Stadium">
         <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
+        <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#Body_Shop"/>
         <rdfs:label xml:lang="en">Stadium</rdfs:label>
         <rdfs:label xml:lang="fi">Stadium</rdfs:label>
     </owl:NamedIndividual>
