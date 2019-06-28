@@ -1615,7 +1615,7 @@
     <owl:NamedIndividual rdf:about="ontologenius#corridor_toilets_east">
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
-        <rdfs:label xml:lang="en">corridor toilets east</rdfs:label>
+        <rdfs:label xml:lang="en">toilet</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1625,7 +1625,7 @@
     <owl:NamedIndividual rdf:about="ontologenius#corridor_toilets_west">
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
-        <rdfs:label xml:lang="en">corridor toilets west</rdfs:label>
+        <rdfs:label xml:lang="en">toilet</rdfs:label>
     </owl:NamedIndividual>
 
 

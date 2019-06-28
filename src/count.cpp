@@ -51,7 +51,7 @@ bool download(const char* url, const char* out)
     curl_easy_getinfo(curlCtx, CURLINFO_RESPONSE_CODE, &res_code);
     if (!((res_code == 200 || res_code == 201) && rc != CURLE_ABORTED_BY_CALLBACK))
     {
-        printf("!!! Response code: %d\n", res_code);
+        printf("!!! Response code: %d\n", (int)res_code);
         return false;
     }
 
