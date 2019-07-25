@@ -62,111 +62,171 @@
       <owl:Class rdf:about="ontologenius#product"/>
 
 
+      <!-- ontologenius#fashion_product -->
 
-      <!-- ontologenius#cards_and_papers -->
-
-      <owl:Class rdf:about="ontologenius#cards_and_papers">
+      <owl:Class rdf:about="ontologenius#fashion_product">
           <rdfs:subClassOf rdf:resource="ontologenius#product"/>
       </owl:Class>
 
 
+      <!-- ontologenius#bag -->
 
-      <!-- ontologenius#food -->
-
-      <owl:Class rdf:about="ontologenius#food">
-          <rdfs:subClassOf rdf:resource="ontologenius#product"/>
+      <owl:Class rdf:about="ontologenius#bag">
+          <rdfs:subClassOf rdf:resource="ontologenius#fashion_product"/>
       </owl:Class>
 
 
+      <!-- ontologenius#shoe -->
 
-      <!-- ontologenius#pizza -->
-
-      <owl:Class rdf:about="ontologenius#pizza">
-          <rdfs:subClassOf rdf:resource="ontologenius#food"/>
+      <owl:Class rdf:about="ontologenius#shoe">
+          <rdfs:subClassOf rdf:resource="ontologenius#fashion_product"/>
       </owl:Class>
 
 
+      <!-- ontologenius#accesorie -->
 
-      <!-- ontologenius#grocery_department_store -->
-
-      <owl:Class rdf:about="ontologenius#grocery_department_store">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#accesorie">
+          <rdfs:subClassOf rdf:resource="ontologenius#fashion_product"/>
       </owl:Class>
 
 
+      <!-- ontologenius#clothe -->
 
-      <!-- ontologenius#speciality_retailer -->
-
-      <owl:Class rdf:about="ontologenius#speciality_retailer">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#clothe">
+          <rdfs:subClassOf rdf:resource="ontologenius#fashion_product"/>
       </owl:Class>
 
 
+      <!-- ontologenius#top -->
 
-      <!-- ontologenius#fashion_store -->
-
-      <owl:Class rdf:about="ontologenius#fashion_store">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#top">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
       </owl:Class>
 
 
+      <!-- ontologenius#blouse -->
 
-      <!-- ontologenius#leisure_sport_store -->
-
-      <owl:Class rdf:about="ontologenius#leisure_sport_store">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#blouse">
+          <rdfs:subClassOf rdf:resource="ontologenius#top"/>
       </owl:Class>
 
 
+      <!-- ontologenius#jacket -->
 
-      <!-- ontologenius#commercial_public_service -->
-
-      <owl:Class rdf:about="ontologenius#commercial_public_service">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#jacket">
+          <rdfs:subClassOf rdf:resource="ontologenius#top"/>
+          <rdfs:label xml:lang="en">jacket</rdfs:label>
+          <rdfs:label xml:lang="en">blazer</rdfs:label>
       </owl:Class>
 
 
+      <!-- ontologenius#shirt -->
 
-      <!-- ontologenius#cafe_restaurant -->
-
-      <owl:Class rdf:about="ontologenius#cafe_restaurant">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#shirt">
+          <rdfs:subClassOf rdf:resource="ontologenius#top"/>
       </owl:Class>
 
 
+      <!-- ontologenius#T-shirt -->
 
-      <!-- ontologenius#furnishing_decor_store -->
-
-      <owl:Class rdf:about="ontologenius#furnishing_decor_store">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#T-shirt">
+          <rdfs:subClassOf rdf:resource="ontologenius#top"/>
       </owl:Class>
 
 
+      <!-- ontologenius#tunic -->
 
-      <!-- ontologenius#department_store -->
-
-      <owl:Class rdf:about="ontologenius#department_store">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#tunic">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
+          <rdfs:label xml:lang="en">tunic</rdfs:label>
+          <rdfs:label xml:lang="en">jumpsuit</rdfs:label>
       </owl:Class>
 
 
+      <!-- ontologenius#coat -->
 
-      <!-- ontologenius#health_beauty_store -->
-
-      <owl:Class rdf:about="ontologenius#health_beauty_store">
-          <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+      <owl:Class rdf:about="ontologenius#coat">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
       </owl:Class>
 
 
+      <!-- ontologenius#short -->
 
-      <!-- ontologenius#cafe_restaurant -->
-
-      <owl:Class rdf:about="ontologenius#italian_restaurant">
-          <rdfs:subClassOf rdf:resource="ontologenius#cafe_restaurant"/>
+      <owl:Class rdf:about="ontologenius#short">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
       </owl:Class>
 
 
+      <!-- ontologenius#pant -->
 
+      <owl:Class rdf:about="ontologenius#pant">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
+          <rdfs:label xml:lang="en">pant</rdfs:label>
+          <rdfs:label xml:lang="en">trouser</rdfs:label>
+      </owl:Class>
+
+
+      <!-- ontologenius#jean -->
+
+      <owl:Class rdf:about="ontologenius#jean">
+          <rdfs:subClassOf rdf:resource="ontologenius#pant"/>
+      </owl:Class>
+
+
+      <!-- ontologenius#legging -->
+
+      <owl:Class rdf:about="ontologenius#legging">
+          <rdfs:subClassOf rdf:resource="ontologenius#pant"/>
+      </owl:Class>
+
+
+      <!-- ontologenius#dresse -->
+
+      <owl:Class rdf:about="ontologenius#dresse">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
+      </owl:Class>
+
+
+      <!-- ontologenius#skirt -->
+
+      <owl:Class rdf:about="ontologenius#skirt">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
+      </owl:Class>
+
+
+      <!-- ontologenius#suit -->
+
+      <owl:Class rdf:about="ontologenius#suit">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
+      </owl:Class>
+
+
+      <!-- ontologenius#nightwear -->
+
+      <owl:Class rdf:about="ontologenius#nightwear">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
+      </owl:Class>
+
+
+      <!-- ontologenius#swimwear -->
+
+      <owl:Class rdf:about="ontologenius#swimwear">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
+      </owl:Class>
+
+
+      <!-- ontologenius#underwear -->
+
+      <owl:Class rdf:about="ontologenius#underwear">
+          <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
+      </owl:Class>
+
+
+      <!-- ontologenius#underwear -->
+
+      <owl:Class rdf:about="ontologenius#lingerie">
+          <rdfs:subClassOf rdf:resource="ontologenius#underwear"/>
+      </owl:Class>
 
 
 </rdf:RDF>

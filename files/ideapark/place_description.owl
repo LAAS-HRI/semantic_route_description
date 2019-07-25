@@ -571,13 +571,80 @@
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
         <rdfs:label xml:lang="en">fashion store</rdfs:label>
-        <rdfs:label xml:lang="en">clothing</rdfs:label>
-        <rdfs:label xml:lang="en">clothes</rdfs:label>
-        <rdfs:label xml:lang="en">apparel</rdfs:label>
-        <rdfs:label xml:lang="en">attire</rdfs:label>
-        <rdfs:label xml:lang="en">dress</rdfs:label>
-        <rdfs:label xml:lang="en">shoes</rdfs:label>
-        <!-- /!\ some names are related to items, this will be change -->
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shoes_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shoes_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#bags_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#bags_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#accessories_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#accessories_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#clothes_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#clothes_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#women_clothes_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#women_clothes_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#clothes_store"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#men_clothes_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#men_clothes_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#clothes_store"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#child_clothes_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#child_clothes_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#clothes_store"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#adult_clothes_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#adult_clothes_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#men_clothes_store"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#global_clothes_store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#global_clothes_store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#child_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#adult_clothes_store"/>
     </owl:Class>
 
 
@@ -632,11 +699,54 @@
         <rdfs:label xml:lang="en">diner</rdfs:label>
         <rdfs:label xml:lang="en">dinner</rdfs:label>
         <rdfs:label xml:lang="en">dining room</rdfs:label>
-        <rdfs:label xml:lang="en">snack</rdfs:label>
-        <rdfs:label xml:lang="en">cafeteria</rdfs:label>
-        <rdfs:label xml:lang="en">lunch</rdfs:label>
-        <rdfs:label xml:lang="en">meal</rdfs:label>
-        <!-- /!\ some names are related to items, this will be change -->
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#native_restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#native_restaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#american_restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#american_restaurant">
+      <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#italian_restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#italian_restaurant">
+      <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#asian_restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#asian_restaurant">
+      <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#middle_eastern_restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#middle_eastern_restaurant">
+      <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#mexican_restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#mexican_restaurant">
+      <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
     </owl:Class>
 
 
@@ -691,7 +801,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#cafe_restaurant"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#commercial_public_service"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#leisure_sport_store"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#speciality_retailer"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#grocery_department_store"/>
         </owl:members>

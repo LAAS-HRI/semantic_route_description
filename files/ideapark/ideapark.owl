@@ -282,8 +282,12 @@
 
     <!-- ontologenius#Hairlekiini -->
 
+    <owl:Class rdf:about="ontologenius#Hairlekiini_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Hairlekiini">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Hairlekiini_"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Marco_Polo"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#old_corridor_west"/>
     </owl:NamedIndividual>
@@ -501,8 +505,12 @@
 
     <!-- ontologenius#Donna_Rosa -->
 
+    <owl:Class rdf:about="ontologenius#Donna_Rosa_">
+        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Donna_Rosa">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Donna_Rosa_"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Elviira"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <rdfs:label xml:lang="en">Donna Rosa</rdfs:label>
@@ -513,8 +521,12 @@
 
     <!-- ontologenius#Elviira -->
 
+    <owl:Class rdf:about="ontologenius#Elviira_">
+        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Elviira">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Elviira_"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#My_Bag"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <rdfs:label xml:lang="en">Elviira</rdfs:label>
@@ -525,8 +537,12 @@
 
     <!-- ontologenius#My_Bag -->
 
+    <owl:Class rdf:about="ontologenius#My_Bag_">
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#My_Bag">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#My_Bag_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Power"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Timanttiset"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
@@ -748,8 +764,12 @@
 
     <!-- ontologenius#swamp -->
 
+    <owl:Class rdf:about="ontologenius#swamp_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#swamp">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#swamp_"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Click_Shoe"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
     </owl:NamedIndividual>
@@ -758,8 +778,14 @@
 
     <!-- ontologenius#only -->
 
+    <owl:Class rdf:about="ontologenius#only_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#only">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#only_"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Saaga"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridortoiletswest_palapelikatu"/>
@@ -772,9 +798,8 @@
 
     <!-- ontologenius#only_2 -->
 
-
     <owl:NamedIndividual rdf:about="ontologenius#only_2">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#only_"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Life"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <rdfs:label xml:lang="en">only</rdfs:label>
@@ -1892,20 +1917,14 @@
 
 
 
-    <!-- ontologenius#BRANDI -->
-
-    <owl:NamedIndividual rdf:about="ontologenius#BRANDI">
-        <rdf:type rdf:resource="ontologenius#"/>
-        <rdfs:label xml:lang="en">BRANDI</rdfs:label>
-        <rdfs:label xml:lang="fi">BRANDI</rdfs:label>
-    </owl:NamedIndividual>
-
-
-
     <!-- ontologenius#Prisma -->
 
+    <owl:Class rdf:about="ontologenius#Prisma_">
+        <rdfs:subClassOf rdf:resource="ontologenius#grocery_department_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Prisma">
-        <rdf:type rdf:resource="ontologenius#grocery_department_store"/>
+        <rdf:type rdf:resource="ontologenius#Prisma_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sitruunakatu"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <rdfs:label xml:lang="en">Prisma</rdfs:label>
@@ -1916,8 +1935,12 @@
 
     <!-- ontologenius#Alko -->
 
+    <owl:Class rdf:about="ontologenius#Alko_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Alko">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Alko_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_toilets_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#pullonpalautus"/>
@@ -1929,8 +1952,13 @@
 
     <!-- ontologenius#Name_It -->
 
+    <owl:Class rdf:about="ontologenius#Name_It_">
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#child_clothes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Name_It">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Name_It_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridortoiletswest_palapelikatu"/>
         <rdfs:label xml:lang="en">Name It</rdfs:label>
@@ -1941,8 +1969,12 @@
 
     <!-- ontologenius#Budget_Sport -->
 
+    <owl:Class rdf:about="ontologenius#Budget_Sport_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Budget_Sport">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Budget_Sport_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Name_It"/>
         <rdfs:label xml:lang="en">Budget Sport</rdfs:label>
@@ -1963,8 +1995,12 @@
 
     <!-- ontologenius#Logistiikkakeskus -->
 
+    <owl:Class rdf:about="ontologenius#Logistiikkakeskus_">
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Logistiikkakeskus">
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
+        <rdf:type rdf:resource="ontologenius#Logistiikkakeskus_"/>
         <rdfs:label xml:lang="en">Logistiikkakeskus</rdfs:label>
         <rdfs:label xml:lang="fi">Logistiikkakeskus</rdfs:label>
     </owl:NamedIndividual>
@@ -1973,8 +2009,12 @@
 
     <!-- ontologenius#Jesper_Junior -->
 
+    <owl:Class rdf:about="ontologenius#Jesper_Junior_">
+        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Jesper_Junior">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Jesper_Junior_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_Toys_R_Us"/>
         <rdfs:label xml:lang="en">Jesper Junior</rdfs:label>
@@ -1985,8 +2025,12 @@
 
     <!-- ontologenius#Sievi_Shop -->
 
+    <owl:Class rdf:about="ontologenius#Sievi_Shop_">
+        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Sievi_Shop">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Sievi_Shop_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Jesper_Junior"/>
         <rdfs:label xml:lang="en">Sievi Shop</rdfs:label>
@@ -1997,8 +2041,12 @@
 
     <!-- ontologenius#Tekniskamagasinet -->
 
+    <owl:Class rdf:about="ontologenius#Tekniskamagasinet_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Tekniskamagasinet">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Tekniskamagasinet_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Sievi_Shop"/>
         <rdfs:label xml:lang="en">Tekniskamagasinet</rdfs:label>
@@ -2009,8 +2057,16 @@
 
     <!-- ontologenius#Gant -->
 
+    <owl:Class rdf:about="ontologenius#Gant_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Gant">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Gant_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
         <rdfs:label xml:lang="en">Gant</rdfs:label>
         <rdfs:label xml:lang="fi">Gant</rdfs:label>
@@ -2020,8 +2076,12 @@
 
     <!-- ontologenius#Kahvila_Ilopilleri -->
 
+    <owl:Class rdf:about="ontologenius#Kahvila_Ilopilleri_">
+        <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Kahvila_Ilopilleri">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Kahvila_Ilopilleri_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_coffee_west"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
@@ -2034,8 +2094,12 @@
 
     <!-- ontologenius#Tanssiopisto -->
 
+    <owl:Class rdf:about="ontologenius#Tanssiopisto_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Tanssiopisto">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Tanssiopisto_"/>
         <rdfs:label xml:lang="en">Tanssiopisto</rdfs:label>
         <rdfs:label xml:lang="fi">Tanssiopisto</rdfs:label>
     </owl:NamedIndividual>
@@ -2044,8 +2108,12 @@
 
     <!-- ontologenius#Juvesport -->
 
+    <owl:Class rdf:about="ontologenius#Juvesport_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Juvesport">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Juvesport_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_coffee_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Gina_Tricot"/>
         <rdfs:label xml:lang="en">Juvesport</rdfs:label>
@@ -2056,8 +2124,12 @@
 
     <!-- ontologenius#Easy_Fit_Traingin -->
 
+    <owl:Class rdf:about="ontologenius#Easy_Fit_Traingin_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Easy_Fit_Traingin">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Easy_Fit_Traingin_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1A_north"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_1north_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Easyfit"/>
@@ -2070,8 +2142,12 @@
 
     <!-- ontologenius#Ideapark_Sport_Areena -->
 
+    <owl:Class rdf:about="ontologenius#Ideapark_Sport_Areena_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Ideapark_Sport_Areena">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Ideapark_Sport_Areena_"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_coffee_west"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
         <rdfs:label xml:lang="en">Ideapark Sport Areena</rdfs:label>
@@ -2084,8 +2160,15 @@
 
     <!-- ontologenius#Gina_Tricot -->
 
+    <owl:Class rdf:about="ontologenius#Gina_Tricot_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Gina_Tricot">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Gina_Tricot_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_coffee_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Tekniskamagasinet"/>
@@ -2097,8 +2180,15 @@
 
     <!-- ontologenius#Marco_Polo -->
 
+    <owl:Class rdf:about="ontologenius#Marco_Polo_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Marco_Polo">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Marco_Polo_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#old_corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Gant"/>
@@ -2110,8 +2200,12 @@
 
     <!-- ontologenius#Makelan_Kauppapuutarna -->
 
+    <owl:Class rdf:about="ontologenius#Makelan_Kauppapuutarna_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Makelan_Kauppapuutarna">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Makelan_Kauppapuutarna_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridortoiletseast_pallokatu"/>
         <rdfs:label xml:lang="en">Makelan Kauppapuutarna</rdfs:label>
@@ -2123,8 +2217,12 @@
 
     <!-- ontologenius#Lumo_puoti -->
 
+    <owl:Class rdf:about="ontologenius#Lumo_puoti_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Lumo_puoti">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Lumo_puoti_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Kotipizza_and_Rolls_Expert"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_oldcorridorwest_oldopenspace"/>
@@ -2136,8 +2234,12 @@
 
     <!-- ontologenius#Avain__ja_suutarityo_Helsky -->
 
+    <owl:Class rdf:about="ontologenius#Avain__ja_suutarityo_Helsky_">
+        <rdfs:subClassOf rdf:resource="ontologenius#department_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Avain__ja_suutarityo_Helsky">
-        <rdf:type rdf:resource="ontologenius#department_store"/>
+        <rdf:type rdf:resource="ontologenius#Avain__ja_suutarityo_Helsky_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Lumo_puoti"/>
         <rdfs:label xml:lang="en">Avain- ja suutarityo Helsky</rdfs:label>
@@ -2148,8 +2250,12 @@
 
     <!-- ontologenius#PiiPoo -->
 
+    <owl:Class rdf:about="ontologenius#PiiPoo_">
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#PiiPoo">
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
+        <rdf:type rdf:resource="ontologenius#PiiPoo_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Avain__ja_suutarityo_Helsky"/>
         <rdfs:label xml:lang="en">PiiPoo</rdfs:label>
@@ -2160,8 +2266,12 @@
 
     <!-- ontologenius#Cafe_de_Lisa -->
 
+    <owl:Class rdf:about="ontologenius#Cafe_de_Lisa_">
+        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Cafe_de_Lisa">
-        <rdf:type rdf:resource="ontologenius#cafe"/>
+        <rdf:type rdf:resource="ontologenius#Cafe_de_Lisa_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#PiiPoo"/>
         <rdfs:label xml:lang="en">Cafe de Lisa</rdfs:label>
@@ -2172,8 +2282,12 @@
 
     <!-- ontologenius#Hiljainen_huone -->
 
+    <owl:Class rdf:about="ontologenius#Hiljainen_huone_">
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Hiljainen_huone">
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
+        <rdf:type rdf:resource="ontologenius#Hiljainen_huone_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#old_corridor_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Ballot"/>
         <rdfs:label xml:lang="en">Hiljainen huone</rdfs:label>
@@ -2184,8 +2298,12 @@
 
     <!-- ontologenius#Ballot -->
 
+    <owl:Class rdf:about="ontologenius#Ballot_">
+        <rdfs:subClassOf rdf:resource="ontologenius#child_clothes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Ballot">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Ballot_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#old_corridor_east"/>
         <rdfs:label xml:lang="en">Ballot</rdfs:label>
         <rdfs:label xml:lang="fi">Ballot</rdfs:label>
@@ -2195,8 +2313,15 @@
 
     <!-- ontologenius#Halonen -->
 
+    <owl:Class rdf:about="ontologenius#Halonen_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Halonen">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Halonen_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_kesku_east"/>
         <rdfs:label xml:lang="en">Halonen</rdfs:label>
@@ -2207,8 +2332,12 @@
 
     <!-- ontologenius#Clas_Ohlson -->
 
+    <owl:Class rdf:about="ontologenius#Clas_Ohlson_">
+        <rdfs:subClassOf rdf:resource="ontologenius#department_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Clas_Ohlson">
-        <rdf:type rdf:resource="ontologenius#department_store"/>
+        <rdf:type rdf:resource="ontologenius#Clas_Ohlson_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Halonen"/>
         <rdfs:label xml:lang="en">Clas Ohlson</rdfs:label>
@@ -2219,8 +2348,12 @@
 
     <!-- ontologenius#Kicks -->
 
+    <owl:Class rdf:about="ontologenius#Kicks_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Kicks">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Kicks_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Clas_Ohlson"/>
         <rdfs:label xml:lang="en">Kicks</rdfs:label>
@@ -2231,8 +2364,12 @@
 
     <!-- ontologenius#Power -->
 
+    <owl:Class rdf:about="ontologenius#Power_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Power">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Power_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kicks"/>
         <rdfs:label xml:lang="en">Power</rdfs:label>
@@ -2243,8 +2380,12 @@
 
     <!-- ontologenius#Intersport_Ideapark -->
 
+    <owl:Class rdf:about="ontologenius#Intersport_Ideapark_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Intersport_Ideapark">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Intersport_Ideapark_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Power"/>
         <rdfs:label xml:lang="en">Intersport</rdfs:label>
@@ -2255,8 +2396,12 @@
 
     <!-- ontologenius#Kalastus_Suomi -->
 
+    <owl:Class rdf:about="ontologenius#Kalastus_Suomi_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Kalastus_Suomi">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Kalastus_Suomi_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_toilets_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_4"/>
         <rdfs:label xml:lang="en">Kalastus Suomi</rdfs:label>
@@ -2267,8 +2412,12 @@
 
     <!-- ontologenius#Telia -->
 
+    <owl:Class rdf:about="ontologenius#Telia_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Telia">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Telia_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Intersport_Ideapark"/>
         <rdfs:label xml:lang="en">Telia</rdfs:label>
@@ -2279,8 +2428,12 @@
 
     <!-- ontologenius#Kukkakauppa -->
 
+    <owl:Class rdf:about="ontologenius#Kukkakauppa_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Kukkakauppa">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Kukkakauppa_"/>
         <rdfs:label xml:lang="en">Kukkakauppa</rdfs:label>
         <rdfs:label xml:lang="fi">Kukkakauppa</rdfs:label>
     </owl:NamedIndividual>
@@ -2289,8 +2442,12 @@
 
     <!-- ontologenius#Pukimo -->
 
+    <owl:Class rdf:about="ontologenius#Pukimo_">
+        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Pukimo">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Pukimo_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Makelan_Kauppapuutarna"/>
         <rdfs:label xml:lang="en">pukimo</rdfs:label>
@@ -2301,7 +2458,11 @@
 
     <!-- ontologenius#Minimani -->
 
-    <owl:NamedIndividual rdf:about="ontologenius#Minimani">
+    <owl:Class rdf:about="ontologenius#Minimani_">
+        <rdfs:subClassOf rdf:resource="ontologenius#department_store"/>
+    </owl:Class>
+
+    <owl:NamedIndividual rdf:about="ontologenius#Minimani_">
         <rdf:type rdf:resource="ontologenius#department_store"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#carts_A"/>
@@ -2313,8 +2474,15 @@
 
     <!-- ontologenius#Tommy_Hilfiger -->
 
+    <owl:Class rdf:about="ontologenius#Tommy_Hilfiger_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Tommy_Hilfiger">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Tommy_Hilfiger_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#veistoskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_vallila_shop"/>
         <rdfs:label xml:lang="en">Tommy Hilfiger</rdfs:label>
@@ -2325,8 +2493,15 @@
 
     <!-- ontologenius#Guess -->
 
+    <owl:Class rdf:about="ontologenius#Guess_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Guess">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Guess_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#veistoskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Tommy_Hilfiger"/>
         <rdfs:label xml:lang="en">Guess</rdfs:label>
@@ -2337,8 +2512,12 @@
 
     <!-- ontologenius#Saunalahti -->
 
+    <owl:Class rdf:about="ontologenius#Saunalahti_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Saunalahti">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Saunalahti_"/>
         <rdfs:label xml:lang="en">Saunalahti</rdfs:label>
         <rdfs:label xml:lang="fi">Saunalahti</rdfs:label>
     </owl:NamedIndividual>
@@ -2347,8 +2526,12 @@
 
     <!-- ontologenius#Espresso_House -->
 
+    <owl:Class rdf:about="ontologenius#Espresso_House_">
+        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Espresso_House">
-        <rdf:type rdf:resource="ontologenius#cafe"/>
+        <rdf:type rdf:resource="ontologenius#Espresso_House_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#escalator_sauruskatu"/>
         <rdfs:label xml:lang="en">Espresso House</rdfs:label>
@@ -2359,8 +2542,12 @@
 
     <!-- ontologenius#Flying_Tiger_Copenhagen -->
 
+    <owl:Class rdf:about="ontologenius#Flying_Tiger_Copenhagen_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Flying_Tiger_Copenhagen">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Flying_Tiger_Copenhagen_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Rax"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#pepper_infodesk"/>
@@ -2372,8 +2559,13 @@
 
     <!-- ontologenius#Zizzi -->
 
+    <owl:Class rdf:about="ontologenius#Zizzi_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Zizzi">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Zizzi_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Flying_Tiger_Copenhagen"/>
         <rdfs:label xml:lang="en">Zizzi</rdfs:label>
@@ -2384,8 +2576,12 @@
 
     <!-- ontologenius#Pelaamo -->
 
+    <owl:Class rdf:about="ontologenius#Pelaamo_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Pelaamo">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Pelaamo_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Zizzi"/>
@@ -2397,8 +2593,12 @@
 
     <!-- ontologenius#Hanko_Sushi -->
 
+    <owl:Class rdf:about="ontologenius#Hanko_Sushi_">
+        <rdfs:subClassOf rdf:resource="ontologenius#asian_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Hanko_Sushi">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Hanko_Sushi_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Gina_Tricot"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Spice_Ice"/>
@@ -2410,8 +2610,12 @@
 
     <!-- ontologenius#Stahlberg -->
 
+    <owl:Class rdf:about="ontologenius#Stahlberg_">
+        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Stahlberg">
-        <rdf:type rdf:resource="ontologenius#cafe"/>
+        <rdf:type rdf:resource="ontologenius#Stahlberg_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Aitoleipa"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
@@ -2426,13 +2630,14 @@
     </owl:NamedIndividual>
 
 
-
-
     <!-- ontologenius#Spice_Ice -->
 
+    <owl:Class rdf:about="ontologenius#Spice_Ice_">
+        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+    </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Spice_Ice">
-        <rdf:type rdf:resource="ontologenius#cafe"/>
+        <rdf:type rdf:resource="ontologenius#Spice_Ice_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Stahlberg"/>
         <rdfs:label xml:lang="en">Spice Ice</rdfs:label>
@@ -2444,8 +2649,15 @@
 
     <!-- ontologenius#Superdry -->
 
+    <owl:Class rdf:about="ontologenius#Superdry_">
+        <rdfs:subClassOf rdf:resource="ontologenius#adult_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Superdry">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Superdry_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridorwest_palapelikatu"/>
         <rdfs:label xml:lang="en">Superdry</rdfs:label>
@@ -2456,8 +2668,12 @@
 
     <!-- ontologenius#Sinelli -->
 
+    <owl:Class rdf:about="ontologenius#Sinelli_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Sinelli">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Sinelli_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Jesper_Junior"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Superdry"/>
@@ -2469,8 +2685,13 @@
 
     <!-- ontologenius#Click_Shoe -->
 
+    <owl:Class rdf:about="ontologenius#Click_Shoe_">
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Click_Shoe">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Click_Shoe_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Sinelli"/>
@@ -2483,8 +2704,12 @@
 
     <!-- ontologenius#Iittala_Outlet -->
 
+    <owl:Class rdf:about="ontologenius#Iittala_Outlet_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Iittala_Outlet">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Iittala_Outlet_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Bjorn_Borg"/>
         <rdfs:label xml:lang="en">Iittala Outlet</rdfs:label>
@@ -2495,8 +2720,14 @@
 
     <!-- ontologenius#Reima -->
 
+    <owl:Class rdf:about="ontologenius#Reima_">
+        <rdfs:subClassOf rdf:resource="ontologenius#child_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Reima">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Reima_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_Toys_R_Us"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Click_Shoe"/>
@@ -2508,8 +2739,12 @@
 
     <!-- ontologenius#Partioaitta -->
 
+    <owl:Class rdf:about="ontologenius#Partioaitta_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Partioaitta">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Partioaitta_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Budget_Sport"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
@@ -2523,8 +2758,12 @@
 
     <!-- ontologenius#Saaga -->
 
+    <owl:Class rdf:about="ontologenius#Saaga_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Saaga">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Saaga_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Name_It"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Partioaitta"/>
@@ -2536,8 +2775,12 @@
 
     <!-- ontologenius#Kultajousi -->
 
+    <owl:Class rdf:about="ontologenius#Kultajousi_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Kultajousi">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Kultajousi_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Alko"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#only"/>
@@ -2549,8 +2792,12 @@
 
     <!-- ontologenius#Life -->
 
+    <owl:Class rdf:about="ontologenius#Life_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Life">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Life_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kultajousi"/>
@@ -2563,8 +2810,12 @@
 
     <!-- ontologenius#Banking_machine -->
 
+    <owl:Class rdf:about="ontologenius#Banking_machine_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Banking_machine">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Banking_machine_"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#palapelikatu"/>
         <rdfs:label xml:lang="en">Banking machine</rdfs:label>
         <rdfs:label xml:lang="fi">Banking machine</rdfs:label>
@@ -2574,8 +2825,12 @@
 
     <!-- ontologenius#LahiTapiola_Service_desk -->
 
+    <owl:Class rdf:about="ontologenius#LahiTapiola_Service_desk_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#LahiTapiola_Service_desk">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#LahiTapiola_Service_desk_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1north_west"/>
         <rdfs:label xml:lang="en">LahiTapiola Service desk</rdfs:label>
         <rdfs:label xml:lang="fi">LähiTapiola Service desk</rdfs:label>
@@ -2587,8 +2842,12 @@
 
     <!-- ontologenius#Nissen -->
 
+    <owl:Class rdf:about="ontologenius#Nissen_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Nissen">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Nissen_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#only_2"/>
         <rdfs:label xml:lang="en">Nissen</rdfs:label>
@@ -2599,8 +2858,15 @@
 
     <!-- ontologenius#Bjorn_Borg -->
 
+    <owl:Class rdf:about="ontologenius#Bjorn_Borg_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Bjorn_Borg">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Bjorn_Borg_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Partioaitta"/>
         <rdfs:label xml:lang="en">Bjorn Borg</rdfs:label>
@@ -2611,8 +2877,13 @@
 
     <!-- ontologenius#Pizza_Hut -->
 
+    <owl:Class rdf:about="ontologenius#Pizza_Hut_">
+        <rdfs:subClassOf rdf:resource="ontologenius#italian_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Pizza_Hut">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Pizza_Hut_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#HoviKebab"/>
         <rdfs:label xml:lang="en">Pizza Hut</rdfs:label>
@@ -2623,8 +2894,12 @@
 
     <!-- ontologenius#Instrumentarium -->
 
+    <owl:Class rdf:about="ontologenius#Instrumentarium_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Instrumentarium">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Instrumentarium_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#swamp"/>
         <rdfs:label xml:lang="en">Instrumentarium</rdfs:label>
@@ -2635,8 +2910,12 @@
 
     <!-- ontologenius#Hemtex -->
 
+    <owl:Class rdf:about="ontologenius#Hemtex_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Hemtex">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Hemtex_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Instrumentarium"/>
         <rdfs:label xml:lang="en">Hemtex</rdfs:label>
@@ -2647,8 +2926,12 @@
 
     <!-- ontologenius#Farkkujen_Tehtaanmyymala -->
 
+    <owl:Class rdf:about="ontologenius#Farkkujen_Tehtaanmyymala_">
+        <rdfs:subClassOf rdf:resource="ontologenius#men_clothes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Farkkujen_Tehtaanmyymala">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Farkkujen_Tehtaanmyymala_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hemtex"/>
         <rdfs:label xml:lang="en">Farkkujen Tehtaanmyymala</rdfs:label>
@@ -2659,8 +2942,12 @@
 
     <!-- ontologenius#Luckiefun -->
 
+    <owl:Class rdf:about="ontologenius#Luckiefun_">
+        <rdfs:subClassOf rdf:resource="ontologenius#asian_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Luckiefun">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Luckiefun_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#old_corridor_east"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_oldcorridoreast_oldopenspace"/>
@@ -2673,8 +2960,12 @@
 
     <!-- ontologenius#Kultaporssi -->
 
+    <owl:Class rdf:about="ontologenius#Kultaporssi_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Kultaporssi">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Kultaporssi_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Ballot"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#old_corridor_east"/>
         <rdfs:label xml:lang="en">Kultaporssi</rdfs:label>
@@ -2685,8 +2976,12 @@
 
     <!-- ontologenius#HoviKebab -->
 
+    <owl:Class rdf:about="ontologenius#HoviKebab_">
+        <rdfs:subClassOf rdf:resource="ontologenius#middle_eastern_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#HoviKebab">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#HoviKebab_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kotipizza_and_Rolls_Expert"/>
         <rdfs:label xml:lang="en">HoviKebab</rdfs:label>
@@ -2697,8 +2992,13 @@
 
     <!-- ontologenius#Kotipizza_and_Rolls_Expert -->
 
+    <owl:Class rdf:about="ontologenius#Kotipizza_and_Rolls_Expert_">
+        <rdfs:subClassOf rdf:resource="ontologenius#italian_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Kotipizza_and_Rolls_Expert">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Kotipizza_and_Rolls_Expert_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Luckiefun"/>
@@ -2713,8 +3013,12 @@
 
     <!-- ontologenius#Cafe_Linkosuo -->
 
+    <owl:Class rdf:about="ontologenius#Cafe_Linkosuo_">
+        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Cafe_Linkosuo">
-        <rdf:type rdf:resource="ontologenius#cafe"/>
+        <rdf:type rdf:resource="ontologenius#Cafe_Linkosuo_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Aitoleipa"/>
@@ -2727,8 +3031,12 @@
 
     <!-- ontologenius#Aitoleipa -->
 
+    <owl:Class rdf:about="ontologenius#Aitoleipa_">
+        <rdfs:subClassOf rdf:resource="ontologenius#native_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Aitoleipa">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Aitoleipa_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#old_corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#old_interface_west"/>
@@ -2741,8 +3049,12 @@
 
     <!-- ontologenius#Mummola_Lahjapuoti -->
 
+    <owl:Class rdf:about="ontologenius#Mummola_Lahjapuoti_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Mummola_Lahjapuoti">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Mummola_Lahjapuoti_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Hairlekiini"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#old_corridor_west"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
@@ -2755,8 +3067,12 @@
 
     <!-- ontologenius#SubWay -->
 
+    <owl:Class rdf:about="ontologenius#SubWay_">
+        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#SubWay">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#SubWay_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_oldcorridorsouth_oldopenspace"/>
@@ -2769,8 +3085,12 @@
 
     <!-- ontologenius#Information_desk -->
 
+    <owl:Class rdf:about="ontologenius#Information_desk_">
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Information_desk">
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
+        <rdf:type rdf:resource="ontologenius#Information_desk_"/>
         <rdfs:label xml:lang="en">Information desk</rdfs:label>
         <rdfs:label xml:lang="fi">Information desk</rdfs:label>
     </owl:NamedIndividual>
@@ -2779,8 +3099,12 @@
 
     <!-- ontologenius#Digiman_pop_up -->
 
+    <owl:Class rdf:about="ontologenius#Digiman_pop_up_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Digiman_pop_up">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Digiman_pop_up_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#kompassikatu"/>
         <rdfs:label xml:lang="en">Digiman pop up</rdfs:label>
         <rdfs:label xml:lang="fi">Digiman pop up</rdfs:label>
@@ -2790,8 +3114,12 @@
 
     <!-- ontologenius#Burger_King -->
 
+    <owl:Class rdf:about="ontologenius#Burger_King_">
+        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Burger_King">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Burger_King_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Espresso_House"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Rax"/>
@@ -2803,8 +3131,12 @@
 
     <!-- ontologenius#Rax -->
 
+    <owl:Class rdf:about="ontologenius#Rax_">
+        <rdfs:subClassOf rdf:resource="ontologenius#native_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Rax">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Rax_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hesburger"/>
         <rdfs:label xml:lang="en">Rax</rdfs:label>
@@ -2815,8 +3147,12 @@
 
     <!-- ontologenius#Hesburger -->
 
+    <owl:Class rdf:about="ontologenius#Hesburger_">
+        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Hesburger">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Hesburger_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_east"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Arnolds"/>
@@ -2829,8 +3165,12 @@
 
     <!-- ontologenius#Arnolds -->
 
+    <owl:Class rdf:about="ontologenius#Arnolds_">
+        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Arnolds">
-        <rdf:type rdf:resource="ontologenius#cafe"/>
+        <rdf:type rdf:resource="ontologenius#Arnolds_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_east"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridoreast_pallokatu"/>
@@ -2842,8 +3182,12 @@
 
     <!-- ontologenius#Change -->
 
+    <owl:Class rdf:about="ontologenius#Change_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Change">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Change_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Kicks"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Donna_Rosa"/>
@@ -2855,8 +3199,12 @@
 
     <!-- ontologenius#Timanttiset -->
 
+    <owl:Class rdf:about="ontologenius#Timanttiset_">
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Timanttiset">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Timanttiset_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Intersport_Ideapark"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#KappAhl"/>
@@ -2868,8 +3216,14 @@
 
     <!-- ontologenius#KappAhl -->
 
+    <owl:Class rdf:about="ontologenius#KappAhl_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#KappAhl">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#KappAhl_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Cubus"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridortoiletseast_pallokatu"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#kompassikatu"/>
@@ -2884,8 +3238,13 @@
 
     <!-- ontologenius#NP -->
 
+    <owl:Class rdf:about="ontologenius#NP_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#NP">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#NP_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Linda_Mode"/>
         <rdfs:label xml:lang="en">NP</rdfs:label>
@@ -2896,8 +3255,13 @@
 
     <!-- ontologenius#Linda_Mode -->
 
+    <owl:Class rdf:about="ontologenius#Linda_Mode_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Linda_Mode">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Linda_Mode_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Fonum"/>
         <rdfs:label xml:lang="en">Linda Mode</rdfs:label>
@@ -2908,8 +3272,12 @@
 
     <!-- ontologenius#Fonum -->
 
+    <owl:Class rdf:about="ontologenius#Fonum_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Fonum">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Fonum_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#DNA"/>
         <rdfs:label xml:lang="en">Fonum</rdfs:label>
@@ -2920,8 +3288,12 @@
 
     <!-- ontologenius#DNA -->
 
+    <owl:Class rdf:about="ontologenius#DNA_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#DNA">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#DNA_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <rdfs:label xml:lang="en">DNA</rdfs:label>
         <rdfs:label xml:lang="fi">DNA</rdfs:label>
@@ -2931,8 +3303,12 @@
 
     <!-- ontologenius#Pentik -->
 
+    <owl:Class rdf:about="ontologenius#Pentik_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Pentik">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Pentik_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#KappAhl"/>
         <rdfs:label xml:lang="en">Pentik</rdfs:label>
@@ -2943,8 +3319,12 @@
 
     <!-- ontologenius#Fortum -->
 
+    <owl:Class rdf:about="ontologenius#Fortum_">
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Fortum">
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
+        <rdf:type rdf:resource="ontologenius#Fortum_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Lagoon_Fish_Foot_Spa"/>
         <rdfs:label xml:lang="en">Fortum</rdfs:label>
@@ -2955,8 +3335,12 @@
 
     <!-- ontologenius#Lagoon_Fish_Foot_Spa -->
 
+    <owl:Class rdf:about="ontologenius#Lagoon_Fish_Foot_Spa_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Lagoon_Fish_Foot_Spa">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Lagoon_Fish_Foot_Spa_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Lindex"/>
         <rdfs:label xml:lang="en">Lagoon Fish Foot Spa</rdfs:label>
@@ -2967,8 +3351,14 @@
 
     <!-- ontologenius#Lindex -->
 
+    <owl:Class rdf:about="ontologenius#Lindex_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Lindex">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Lindex_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridoreast_kompassikatu"/>
         <rdfs:label xml:lang="en">Lindex</rdfs:label>
@@ -2979,8 +3369,12 @@
 
     <!-- ontologenius#River_and_Co -->
 
+    <owl:Class rdf:about="ontologenius#River_and_Co_">
+        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#River_and_Co">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#River_and_Co_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sitruunakatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Musti_ja_Mirri"/>
         <rdfs:label xml:lang="en">River  Co</rdfs:label>
@@ -2991,8 +3385,12 @@
 
     <!-- ontologenius#Musti_ja_Mirri -->
 
+    <owl:Class rdf:about="ontologenius#Musti_ja_Mirri_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Musti_ja_Mirri">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Musti_ja_Mirri_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Prisma"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sitruunakatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_Kirjaporssi"/>
@@ -3015,8 +3413,12 @@
 
     <!-- ontologenius#Suomalainen_Kirjakauppa -->
 
+    <owl:Class rdf:about="ontologenius#Suomalainen_Kirjakauppa_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Suomalainen_Kirjakauppa">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Suomalainen_Kirjakauppa_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sitruunakatu"/>
         <rdfs:label xml:lang="en">Suomalainen Kirjakauppa</rdfs:label>
         <rdfs:label xml:lang="fi">Suomalainen Kirjakauppa</rdfs:label>
@@ -3026,8 +3428,12 @@
 
     <!-- ontologenius#KOO_Kenka -->
 
+    <owl:Class rdf:about="ontologenius#KOO_Kenka_">
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#KOO_Kenka">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#KOO_Kenka_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#New_Yorker"/>
         <rdfs:label xml:lang="en">KOO Kenka</rdfs:label>
@@ -3038,8 +3444,15 @@
 
     <!-- ontologenius#New_Yorker -->
 
+    <owl:Class rdf:about="ontologenius#New_Yorker_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#New_Yorker">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#New_Yorker_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Din_Sko"/>
         <rdfs:label xml:lang="en">New Yorker</rdfs:label>
@@ -3050,8 +3463,12 @@
 
     <!-- ontologenius#Din_Sko -->
 
+    <owl:Class rdf:about="ontologenius#Din_Sko_">
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Din_Sko">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Din_Sko_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Nissen"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#CM_Hiustalo"/>
@@ -3063,8 +3480,12 @@
 
     <!-- ontologenius#CM_Hiustalo -->
 
+    <owl:Class rdf:about="ontologenius#CM_Hiustalo_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#CM_Hiustalo">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#CM_Hiustalo_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Bjorn_Borg"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Esprit_Ideapark"/>
@@ -3076,8 +3497,14 @@
 
     <!-- ontologenius#Esprit_Ideapark -->
 
+    <owl:Class rdf:about="ontologenius#Esprit_Ideapark_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Esprit_Ideapark">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Esprit_Ideapark_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Digiman"/>
         <rdfs:label xml:lang="en">Esprit</rdfs:label>
@@ -3088,8 +3515,12 @@
 
     <!-- ontologenius#Digiman -->
 
+    <owl:Class rdf:about="ontologenius#Digiman_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Digiman">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Digiman_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Glitter"/>
         <rdfs:label xml:lang="en">Digiman</rdfs:label>
@@ -3100,8 +3531,14 @@
 
     <!-- ontologenius#Glitter -->
 
+    <owl:Class rdf:about="ontologenius#Glitter_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Glitter">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Glitter_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Instrumentarium"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_C"/>
@@ -3115,8 +3552,12 @@
 
     <!-- ontologenius#Apteekki_Ideapark -->
 
+    <owl:Class rdf:about="ontologenius#Apteekki_Ideapark_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Apteekki_Ideapark">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Apteekki_Ideapark_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_C"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#HairStore"/>
         <rdfs:label xml:lang="en">Apteekki</rdfs:label>
@@ -3127,8 +3568,12 @@
 
     <!-- ontologenius#HairStore -->
 
+    <owl:Class rdf:about="ontologenius#HairStore_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#HairStore">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#HairStore_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_C"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#carts_C"/>
         <rdfs:label xml:lang="en">HairStore</rdfs:label>
@@ -3139,8 +3584,12 @@
 
     <!-- ontologenius#Finla -->
 
+    <owl:Class rdf:about="ontologenius#Finla_">
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Finla">
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
+        <rdf:type rdf:resource="ontologenius#Finla_"/>
         <rdfs:label xml:lang="en">Finla</rdfs:label>
         <rdfs:label xml:lang="fi">Finla</rdfs:label>
     </owl:NamedIndividual>
@@ -3149,8 +3598,15 @@
 
     <!-- ontologenius#Your_Face_and_Rils -->
 
+    <owl:Class rdf:about="ontologenius#Your_Face_and_Rils_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Your_Face_and_Rils">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Your_Face_and_Rils_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridorwest_sauruskatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Stadium"/>
@@ -3162,8 +3618,12 @@
 
     <!-- ontologenius#Stadium -->
 
+    <owl:Class rdf:about="ontologenius#Stadium_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Stadium">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Stadium_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Body_Shop"/>
@@ -3175,8 +3635,12 @@
 
     <!-- ontologenius#Body_Shop -->
 
+    <owl:Class rdf:about="ontologenius#Body_Shop_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Body_Shop">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Body_Shop_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Mango"/>
         <rdfs:label xml:lang="en">Body Shop</rdfs:label>
@@ -3187,8 +3651,15 @@
 
     <!-- ontologenius#Mango -->
 
+    <owl:Class rdf:about="ontologenius#Mango_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Mango">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Mango_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Top_Sport"/>
         <rdfs:label xml:lang="en">Mango</rdfs:label>
@@ -3199,8 +3670,12 @@
 
     <!-- ontologenius#Top_Sport -->
 
+    <owl:Class rdf:about="ontologenius#Top_Sport_">
+        <rdfs:subClassOf rdf:resource="ontologenius#leisure_sport_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Top_Sport">
-        <rdf:type rdf:resource="ontologenius#leisure_sport_store"/>
+        <rdf:type rdf:resource="ontologenius#Top_Sport_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Vila"/>
         <rdfs:label xml:lang="en">Top-Sport</rdfs:label>
@@ -3211,8 +3686,14 @@
 
     <!-- ontologenius#Vila -->
 
+    <owl:Class rdf:about="ontologenius#Vila_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Vila">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Vila_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Carlings"/>
         <rdfs:label xml:lang="en">Vila</rdfs:label>
@@ -3223,8 +3704,14 @@
 
     <!-- ontologenius#Carlings -->
 
+    <owl:Class rdf:about="ontologenius#Carlings_">
+        <rdfs:subClassOf rdf:resource="ontologenius#adult_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Carlings">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Carlings_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hennes_and_Mauritz"/>
         <rdfs:label xml:lang="en">Carlings</rdfs:label>
@@ -3235,8 +3722,15 @@
 
     <!-- ontologenius#Hennes_and_Mauritz -->
 
+    <owl:Class rdf:about="ontologenius#Hennes_and_Mauritz_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Hennes_and_Mauritz">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Hennes_and_Mauritz_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_B"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
@@ -3253,8 +3747,13 @@
 
     <!-- ontologenius#Dressman -->
 
+    <owl:Class rdf:about="ontologenius#Dressman_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Dressman">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Dressman_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hennes_and_Mauritz"/>
         <rdfs:label xml:lang="en">Dressman</rdfs:label>
@@ -3265,8 +3764,12 @@
 
     <!-- ontologenius#Faunatar -->
 
+    <owl:Class rdf:about="ontologenius#Faunatar_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Faunatar">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Faunatar_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_B"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kauneus__ja_jalkahoitola_Manna"/>
         <rdfs:label xml:lang="en">Faunatar</rdfs:label>
@@ -3277,8 +3780,12 @@
 
     <!-- ontologenius#Kauneus__ja_jalkahoitola_Manna -->
 
+    <owl:Class rdf:about="ontologenius#Kauneus__ja_jalkahoitola_Manna_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Kauneus__ja_jalkahoitola_Manna">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Kauneus__ja_jalkahoitola_Manna_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_B"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Bik_Bok"/>
         <rdfs:label xml:lang="en">Kauneus- ja jalkahoitola Manna</rdfs:label>
@@ -3289,8 +3796,12 @@
 
     <!-- ontologenius#Bik_Bok -->
 
+    <owl:Class rdf:about="ontologenius#Bik_Bok_">
+        <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Bik_Bok">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Bik_Bok_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Lindex"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_B"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
@@ -3303,8 +3814,15 @@
 
     <!-- ontologenius#Vero_Moda,_JandJ -->
 
+    <owl:Class rdf:about="ontologenius#Vero_Moda,_JandJ_">
+        <rdfs:subClassOf rdf:resource="ontologenius#adult_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Vero_Moda,_JandJ">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Vero_Moda,_JandJ_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Lagoon_Fish_Foot_Spa"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_Kristyle"/>
@@ -3327,8 +3845,13 @@
 
     <!-- ontologenius#Cubus -->
 
+    <owl:Class rdf:about="ontologenius#Cubus_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Cubus">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Cubus_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Shoe_Store"/>
         <rdfs:label xml:lang="en">Cubus</rdfs:label>
@@ -3339,8 +3862,12 @@
 
     <!-- ontologenius#Shoe_Store -->
 
+    <owl:Class rdf:about="ontologenius#Shoe_Store_">
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Shoe_Store">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Shoe_Store_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Brother_Clothing"/>
         <rdfs:label xml:lang="en">Shoe Store</rdfs:label>
@@ -3351,8 +3878,12 @@
 
     <!-- ontologenius#Brother_Clothing -->
 
+    <owl:Class rdf:about="ontologenius#Brother_Clothing_">
+        <rdfs:subClassOf rdf:resource="ontologenius#men_clothes_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Brother_Clothing">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Brother_Clothing_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Ten_Art"/>
         <rdfs:label xml:lang="en">Brother Clothing</rdfs:label>
@@ -3363,8 +3894,12 @@
 
     <!-- ontologenius#Ten_Art -->
 
+    <owl:Class rdf:about="ontologenius#Ten_Art_">
+        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Ten_Art">
-        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <rdf:type rdf:resource="ontologenius#Ten_Art_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Pentik"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Dressmann_XL"/>
@@ -3376,8 +3911,12 @@
 
     <!-- ontologenius#Dressmann_XL -->
 
+    <owl:Class rdf:about="ontologenius#Dressmann_XL_">
+        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Dressmann_XL">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Dressmann_XL_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Aleksi_13"/>
         <rdfs:label xml:lang="en">Dressmann XL</rdfs:label>
@@ -3388,8 +3927,16 @@
 
     <!-- ontologenius#Aleksi_13 -->
 
+    <owl:Class rdf:about="ontologenius#Aleksi_13_">
+        <rdfs:subClassOf rdf:resource="ontologenius#global_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Aleksi_13">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Aleksi_13_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_vallila_shop"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#veistoskatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
@@ -3402,8 +3949,12 @@
 
     <!-- ontologenius#Unikulma -->
 
+    <owl:Class rdf:about="ontologenius#Unikulma_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Unikulma">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Unikulma_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Tommy_Hilfiger"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#veistoskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Marimekko_Outlet"/>
@@ -3415,8 +3966,15 @@
 
     <!-- ontologenius#Marimekko_Outlet -->
 
+    <owl:Class rdf:about="ontologenius#Marimekko_Outlet_">
+        <rdfs:subClassOf rdf:resource="ontologenius#adult_clothes_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Marimekko_Outlet">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Marimekko_Outlet_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Guess"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#veistoskatu"/>
         <rdfs:label xml:lang="en">Marimekko Outlet</rdfs:label>
@@ -3427,8 +3985,12 @@
 
     <!-- ontologenius#Easyfit -->
 
+    <owl:Class rdf:about="ontologenius#Easyfit_">
+        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Easyfit">
-        <rdf:type rdf:resource="ontologenius#health_beauty_store"/>
+        <rdf:type rdf:resource="ontologenius#Easyfit_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1A_north"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_1north_east"/>
         <rdfs:label xml:lang="en">Easyfit</rdfs:label>
@@ -3439,8 +4001,13 @@
 
     <!-- ontologenius#Bella_Roma_and_Daddys_Diner -->
 
+    <owl:Class rdf:about="ontologenius#Bella_Roma_and_Daddys_Diner_">
+        <rdfs:subClassOf rdf:resource="ontologenius#italian_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Bella_Roma_and_Daddys_Diner">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_0"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1food"/>
         <ontologenius:isAlong rdf:resource="ontologenius#foodpark"/>
@@ -3470,8 +4037,12 @@
 
     <!-- ontologenius#Oma_Saastopankki -->
 
+    <owl:Class rdf:about="ontologenius#Oma_Saastopankki_">
+        <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Oma_Saastopankki">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Oma_Saastopankki_"/>
         <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridor1Dnorth_corridor1Dsouth"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
@@ -3485,8 +4056,12 @@
 
     <!-- ontologenius#Pancho_Villa -->
 
+    <owl:Class rdf:about="ontologenius#Pancho_Villa_">
+        <rdfs:subClassOf rdf:resource="ontologenius#mexican_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Pancho_Villa">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Pancho_Villa_"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_pancho"/>
         <rdfs:label xml:lang="en">Pancho Villa</rdfs:label>
         <rdfs:label xml:lang="fi">Pancho Villa</rdfs:label>
@@ -3496,8 +4071,12 @@
 
     <!-- ontologenius#Coyote_Grill -->
 
+    <owl:Class rdf:about="ontologenius#Coyote_Grill_">
+        <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Coyote_Grill">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Coyote_Grill_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#coyote_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_coyoteopenspace_bridge1"/>
         <rdfs:label xml:lang="en">Coyote Grill</rdfs:label>
@@ -3509,8 +4088,12 @@
 
     <!-- ontologenius#Sticky_Wingers -->
 
+    <owl:Class rdf:about="ontologenius#Sticky_Wingers_">
+        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Sticky_Wingers">
-        <rdf:type rdf:resource="ontologenius#restaurant"/>
+        <rdf:type rdf:resource="ontologenius#Sticky_Wingers_"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#bridge_1"/>
         <rdfs:label xml:lang="en">Sticky Wingers</rdfs:label>
         <rdfs:label xml:lang="fi">Sticky Wingers</rdfs:label>
@@ -3520,8 +4103,12 @@
 
     <!-- ontologenius#Ti_Ti_Nallen_Koti -->
 
+    <owl:Class rdf:about="ontologenius#Ti_Ti_Nallen_Koti_">
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Ti_Ti_Nallen_Koti">
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
+        <rdf:type rdf:resource="ontologenius#Ti_Ti_Nallen_Koti_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#escalator_kompassikatu"/>
         <rdfs:label xml:lang="en">Ti-Ti Nallen Koti</rdfs:label>
@@ -3532,8 +4119,12 @@
 
     <!-- ontologenius#Netrauta -->
 
+    <owl:Class rdf:about="ontologenius#Netrauta_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Netrauta">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Netrauta_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1A_south"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1Asouth_corridor1east"/>
         <rdfs:label xml:lang="en">Netrauta</rdfs:label>
@@ -3555,21 +4146,25 @@
 
 
 
-        <!-- ontologenius#empty_netrauta_2 -->
+    <!-- ontologenius#empty_netrauta_2 -->
 
 
-        <owl:NamedIndividual rdf:about="ontologenius#empty_netrauta_2">
-            <rdf:type rdf:resource="ontologenius#empty_place"/>
-            <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1east"/>
-            <ontologenius:hasAtRight rdf:resource="ontologenius#elevator_east"/>
-        </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="ontologenius#empty_netrauta_2">
+        <rdf:type rdf:resource="ontologenius#empty_place"/>
+        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1east"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#elevator_east"/>
+    </owl:NamedIndividual>
 
 
 
     <!-- ontologenius#Zones_by_Sarkanniemi -->
 
+    <owl:Class rdf:about="ontologenius#Zones_by_Sarkanniemi_">
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Zones_by_Sarkanniemi">
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
+        <rdf:type rdf:resource="ontologenius#Zones_by_Sarkanniemi_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Nordea"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1C"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1D_south"/>
@@ -3586,8 +4181,12 @@
 
     <!-- ontologenius#Masku -->
 
+    <owl:Class rdf:about="ontologenius#Masku_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Masku">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Masku_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Netrauta"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1A_south"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Finnlandia"/>
@@ -3599,8 +4198,12 @@
 
     <!-- ontologenius#Finnlandia -->
 
+    <owl:Class rdf:about="ontologenius#Finnlandia_">
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Finnlandia">
-        <rdf:type rdf:resource="ontologenius#furnishing_decor_store"/>
+        <rdf:type rdf:resource="ontologenius#Finnlandia_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridor1Anorth_corridor1Asouth"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1A_south"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Eurokangas"/>
@@ -3612,8 +4215,12 @@
 
     <!-- ontologenius#Eurokangas -->
 
+    <owl:Class rdf:about="ontologenius#Eurokangas_">
+        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+    </owl:Class>
+
     <owl:NamedIndividual rdf:about="ontologenius#Eurokangas">
-        <rdf:type rdf:resource="ontologenius#fashion_store"/>
+        <rdf:type rdf:resource="ontologenius#Eurokangas_"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1A_south"/>
         <rdfs:label xml:lang="en">Eurokangas</rdfs:label>
         <rdfs:label xml:lang="fi">Eurokangas</rdfs:label>
