@@ -37,7 +37,7 @@
      <!-- ontologenius#accessories_store -->
 
      <owl:Class rdf:about="ontologenius#accessories_store">
-       <ontologenius:sells rdf:resource="ontologenius#accesorie"/>
+       <ontologenius:sells rdf:resource="ontologenius#accesory"/>
      </owl:Class>
 
 
@@ -92,7 +92,7 @@
 
     <owl:Class rdf:about="ontologenius#only_">
       <ontologenius:sells rdf:resource="ontologenius#jean"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
       <ontologenius:sells rdf:resource="ontologenius#coat"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
@@ -129,7 +129,7 @@
     <owl:Class rdf:about="ontologenius#Name_It_">
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#jean"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#skirt"/>
       <ontologenius:sells rdf:resource="ontologenius#coat"/>
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
@@ -195,7 +195,7 @@
       <ontologenius:sells rdf:resource="ontologenius#swimwear"/>
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#underwear"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
     </owl:Class>
 
 
@@ -254,7 +254,7 @@
       <ontologenius:sells rdf:resource="ontologenius#jean"/>
       <ontologenius:sells rdf:resource="ontologenius#blouse"/>
       <ontologenius:sells rdf:resource="ontologenius#skirt"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
     </owl:Class>
@@ -275,7 +275,7 @@
       <ontologenius:sells rdf:resource="ontologenius#underwear"/>
       <ontologenius:sells rdf:resource="ontologenius#swimwear"/>
       <ontologenius:sells rdf:resource="ontologenius#blouse"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#skirt"/>
     </owl:Class>
 
@@ -340,7 +340,7 @@
 
     <owl:Class rdf:about="ontologenius#Ballot_">
       <ontologenius:sells rdf:resource="ontologenius#shirt"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
       <ontologenius:sells rdf:resource="ontologenius#legging"/>
     </owl:Class>
@@ -352,7 +352,7 @@
 
     <owl:Class rdf:about="ontologenius#Halonen_">
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#swimwear"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
@@ -448,7 +448,7 @@
     <!-- ontologenius#Tommy_Hilfiger -->
 
     <owl:Class rdf:about="ontologenius#Tommy_Hilfiger_">
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#blouse"/>
@@ -477,7 +477,7 @@
       <ontologenius:sells rdf:resource="ontologenius#suit"/>
       <ontologenius:sells rdf:resource="ontologenius#underwear"/>
       <ontologenius:sells rdf:resource="ontologenius#swimwear"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
     </owl:Class>
 
 
@@ -518,7 +518,7 @@
       <ontologenius:sells rdf:resource="ontologenius#tunic"/>
       <ontologenius:sells rdf:resource="ontologenius#blouse"/>
       <ontologenius:sells rdf:resource="ontologenius#jean"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#skirt"/>
       <ontologenius:sells rdf:resource="ontologenius#legging"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
@@ -569,7 +569,7 @@
 
     <owl:Class rdf:about="ontologenius#Superdry_">
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
@@ -617,7 +617,7 @@
       <ontologenius:sells rdf:resource="ontologenius#coat"/>
       <ontologenius:sells rdf:resource="ontologenius#shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#jean"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
       <ontologenius:sells rdf:resource="ontologenius#skirt"/>
@@ -694,7 +694,7 @@
 
     <owl:Class rdf:about="ontologenius#Bjorn_Borg_">
       <ontologenius:sells rdf:resource="ontologenius#underwear"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
       <ontologenius:sells rdf:resource="ontologenius#pant"/>
@@ -891,7 +891,7 @@
     <!-- ontologenius#KappAhl -->
 
     <owl:Class rdf:about="ontologenius#KappAhl_">
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#swimwear"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
       <ontologenius:sells rdf:resource="ontologenius#jean"/>
@@ -918,7 +918,7 @@
     <owl:Class rdf:about="ontologenius#Linda_Mode_">
       <ontologenius:sells rdf:resource="ontologenius#pant"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#top"/>
     </owl:Class>
 
@@ -973,7 +973,7 @@
     <!-- ontologenius#Lindex -->
 
     <owl:Class rdf:about="ontologenius#Lindex_">
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#blouse"/>
       <ontologenius:sells rdf:resource="ontologenius#shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#tunic"/>
@@ -1032,7 +1032,7 @@
     <owl:Class rdf:about="ontologenius#New_Yorker_">
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
       <ontologenius:sells rdf:resource="ontologenius#coat"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#tunic"/>
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#blouse"/>
@@ -1076,7 +1076,7 @@
       <ontologenius:sells rdf:resource="ontologenius#suit"/>
       <ontologenius:sells rdf:resource="ontologenius#underwear"/>
       <ontologenius:sells rdf:resource="ontologenius#swimwear"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
     </owl:Class>
 
 
@@ -1133,7 +1133,7 @@
 
     <owl:Class rdf:about="ontologenius#Your_Face_and_Rils_">
       <ontologenius:sells rdf:resource="ontologenius#shirt"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#pant"/>
       <ontologenius:sells rdf:resource="ontologenius#coat"/>
       <ontologenius:sells rdf:resource="ontologenius#blouse"/>
@@ -1165,7 +1165,7 @@
     <!-- ontologenius#Mango -->
 
     <owl:Class rdf:about="ontologenius#Mango_">
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
       <ontologenius:sells rdf:resource="ontologenius#coat"/>
@@ -1192,7 +1192,7 @@
     <!-- ontologenius#Vila -->
 
     <owl:Class rdf:about="ontologenius#Vila_">
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#coat"/>
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
@@ -1216,7 +1216,7 @@
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
       <ontologenius:sells rdf:resource="ontologenius#underwear"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
     </owl:Class>
 
 
@@ -1233,7 +1233,7 @@
       <ontologenius:sells rdf:resource="ontologenius#suit"/>
       <ontologenius:sells rdf:resource="ontologenius#underwear"/>
       <ontologenius:sells rdf:resource="ontologenius#swimwear"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
     </owl:Class>
 
 
@@ -1274,7 +1274,7 @@
 
     <owl:Class rdf:about="ontologenius#Bik_Bok_">
        <ontologenius:sells rdf:resource="ontologenius#blouse"/>
-       <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+       <ontologenius:sells rdf:resource="ontologenius#dress"/>
        <ontologenius:sells rdf:resource="ontologenius#jean"/>
        <ontologenius:sells rdf:resource="ontologenius#jacket"/>
        <ontologenius:sells rdf:resource="ontologenius#short"/>
@@ -1294,7 +1294,7 @@
       <ontologenius:sells rdf:resource="ontologenius#swimwear"/>
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
       <ontologenius:sells rdf:resource="ontologenius#suit"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#skirt"/>
       <ontologenius:sells rdf:resource="ontologenius#legging"/>
     </owl:Class>
@@ -1369,7 +1369,7 @@
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
       <ontologenius:sells rdf:resource="ontologenius#skirt"/>
       <ontologenius:sells rdf:resource="ontologenius#short"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
     </owl:Class>
 
 
@@ -1388,7 +1388,7 @@
 
     <owl:Class rdf:about="ontologenius#Marimekko_Outlet_">
       <ontologenius:sells rdf:resource="ontologenius#tunic"/>
-      <ontologenius:sells rdf:resource="ontologenius#dresse"/>
+      <ontologenius:sells rdf:resource="ontologenius#dress"/>
       <ontologenius:sells rdf:resource="ontologenius#coat"/>
       <ontologenius:sells rdf:resource="ontologenius#jacket"/>
       <ontologenius:sells rdf:resource="ontologenius#skirt"/>

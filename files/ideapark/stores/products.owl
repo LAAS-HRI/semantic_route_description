@@ -180,9 +180,9 @@
       </owl:Class>
 
 
-      <!-- ontologenius#dresse -->
+      <!-- ontologenius#dress -->
 
-      <owl:Class rdf:about="ontologenius#dresse">
+      <owl:Class rdf:about="ontologenius#dress">
           <rdfs:subClassOf rdf:resource="ontologenius#clothe"/>
       </owl:Class>
 
