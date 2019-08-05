@@ -2077,7 +2077,7 @@
     <!-- ontologenius#Kahvila_Ilopilleri -->
 
     <owl:Class rdf:about="ontologenius#Kahvila_Ilopilleri_">
-        <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Kahvila_Ilopilleri">
@@ -4038,7 +4038,7 @@
     <!-- ontologenius#Oma_Saastopankki -->
 
     <owl:Class rdf:about="ontologenius#Oma_Saastopankki_">
-        <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Oma_Saastopankki">
@@ -4072,7 +4072,7 @@
     <!-- ontologenius#Coyote_Grill -->
 
     <owl:Class rdf:about="ontologenius#Coyote_Grill_">
-        <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Coyote_Grill">

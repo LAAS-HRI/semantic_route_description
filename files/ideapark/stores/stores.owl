@@ -201,15 +201,6 @@
 
 
 
-    <!-- ontologenius#Kahvila_Ilopilleri -->
-
-    <owl:Class rdf:about="ontologenius#Kahvila_Ilopilleri_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
     <!-- ontologenius#Tanssiopisto -->
 
     <owl:Class rdf:about="ontologenius#Tanssiopisto_">
@@ -313,15 +304,6 @@
 
     <owl:Class rdf:about="ontologenius#PiiPoo_">
        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Cafe_de_Lisa -->
-
-    <owl:Class rdf:about="ontologenius#Cafe_de_Lisa_">
-       <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
     </owl:Class>
 
 
@@ -492,15 +474,6 @@
 
 
 
-    <!-- ontologenius#Espresso_House -->
-
-    <owl:Class rdf:about="ontologenius#Espresso_House_">
-       <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
-    </owl:Class>
-
-
-
-
     <!-- ontologenius#Flying_Tiger_Copenhagen -->
 
     <owl:Class rdf:about="ontologenius#Flying_Tiger_Copenhagen_">
@@ -535,31 +508,6 @@
 
     <owl:Class rdf:about="ontologenius#Pelaamo_">
        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Hanko_Sushi -->
-
-    <owl:Class rdf:about="ontologenius#Hanko_Sushi_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Stahlberg -->
-
-    <owl:Class rdf:about="ontologenius#Stahlberg_">
-       <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
-    </owl:Class>
-
-
-         <!-- ontologenius#Spice_Ice -->
-
-    <owl:Class rdf:about="ontologenius#Spice_Ice_">
-       <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
     </owl:Class>
 
 
@@ -703,15 +651,6 @@
 
 
 
-    <!-- ontologenius#Pizza_Hut -->
-
-    <owl:Class rdf:about="ontologenius#Pizza_Hut_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
     <!-- ontologenius#Instrumentarium -->
 
     <owl:Class rdf:about="ontologenius#Instrumentarium_">
@@ -742,15 +681,6 @@
 
 
 
-    <!-- ontologenius#Luckiefun -->
-
-    <owl:Class rdf:about="ontologenius#Luckiefun_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
     <!-- ontologenius#Kultaporssi -->
 
     <owl:Class rdf:about="ontologenius#Kultaporssi_">
@@ -760,55 +690,10 @@
 
 
 
-    <!-- ontologenius#HoviKebab -->
-
-    <owl:Class rdf:about="ontologenius#HoviKebab_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Kotipizza_and_Rolls_Expert -->
-
-    <owl:Class rdf:about="ontologenius#Kotipizza_and_Rolls_Expert_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Cafe_Linkosuo -->
-
-    <owl:Class rdf:about="ontologenius#Cafe_Linkosuo_">
-       <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Aitoleipa -->
-
-    <owl:Class rdf:about="ontologenius#Aitoleipa_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
     <!-- ontologenius#Mummola_Lahjapuoti -->
 
     <owl:Class rdf:about="ontologenius#Mummola_Lahjapuoti_">
        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#SubWay -->
-
-    <owl:Class rdf:about="ontologenius#SubWay_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
     </owl:Class>
 
 
@@ -827,42 +712,6 @@
 
     <owl:Class rdf:about="ontologenius#Digiman_pop_up_">
        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Burger_King -->
-
-    <owl:Class rdf:about="ontologenius#Burger_King_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Rax -->
-
-    <owl:Class rdf:about="ontologenius#Rax_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Hesburger -->
-
-    <owl:Class rdf:about="ontologenius#Hesburger_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Arnolds -->
-
-    <owl:Class rdf:about="ontologenius#Arnolds_">
-       <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
     </owl:Class>
 
 
@@ -1403,49 +1252,6 @@
 
     <owl:Class rdf:about="ontologenius#Easyfit_">
        <rdfs:subClassOf rdf:resource="ontologenius#health_beauty_store"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Bella_Roma_and_Daddys_Diner -->
-
-    <owl:Class rdf:about="ontologenius#Bella_Roma_and_Daddys_Diner_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-    <!-- ontologenius#Oma_Saastopankki -->
-
-    <owl:Class rdf:about="ontologenius#Oma_Saastopankki_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Pancho_Villa -->
-
-    <owl:Class rdf:about="ontologenius#Pancho_Villa_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Coyote_Grill -->
-
-    <owl:Class rdf:about="ontologenius#Coyote_Grill_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
-    </owl:Class>
-
-
-
-
-    <!-- ontologenius#Sticky_Wingers -->
-
-    <owl:Class rdf:about="ontologenius#Sticky_Wingers_">
-       <rdfs:subClassOf rdf:resource="ontologenius#restaurant"/>
     </owl:Class>
 
 
