@@ -4216,7 +4216,7 @@
     <!-- ontologenius#Eurokangas -->
 
     <owl:Class rdf:about="ontologenius#Eurokangas_">
-        <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Eurokangas">

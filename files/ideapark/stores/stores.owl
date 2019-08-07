@@ -55,7 +55,7 @@
     <!-- ontologenius#Donna_Rosa -->
 
     <owl:Class rdf:about="ontologenius#Donna_Rosa_">
-       <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
     </owl:Class>
 
 
@@ -64,7 +64,7 @@
     <!-- ontologenius#Elviira -->
 
     <owl:Class rdf:about="ontologenius#Elviira_">
-       <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
     </owl:Class>
 
 
@@ -161,7 +161,7 @@
     <!-- ontologenius#Jesper_Junior -->
 
     <owl:Class rdf:about="ontologenius#Jesper_Junior_">
-       <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#child_clothes_store"/>
     </owl:Class>
 
 
@@ -170,7 +170,8 @@
     <!-- ontologenius#Sievi_Shop -->
 
     <owl:Class rdf:about="ontologenius#Sievi_Shop_">
-       <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
     </owl:Class>
 
 
@@ -412,7 +413,7 @@
     <!-- ontologenius#Pukimo -->
 
     <owl:Class rdf:about="ontologenius#Pukimo_">
-       <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
     </owl:Class>
 
 
@@ -843,7 +844,7 @@
     <!-- ontologenius#River_and_Co -->
 
     <owl:Class rdf:about="ontologenius#River_and_Co_">
-       <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#adult_clothes_store"/>
     </owl:Class>
 
 
@@ -1202,7 +1203,7 @@
     <!-- ontologenius#Dressmann_XL -->
 
     <owl:Class rdf:about="ontologenius#Dressmann_XL_">
-       <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
     </owl:Class>
 
 
@@ -1305,7 +1306,7 @@
     <!-- ontologenius#Eurokangas -->
 
     <owl:Class rdf:about="ontologenius#Eurokangas_">
-       <rdfs:subClassOf rdf:resource="ontologenius#fashion_store"/>
+       <rdfs:subClassOf rdf:resource="ontologenius#furnishing_decor_store"/>
     </owl:Class>
 
 
