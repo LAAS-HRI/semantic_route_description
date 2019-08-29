@@ -3003,6 +3003,8 @@
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Luckiefun"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#old_interface_south"/>
+        <rdfs:label xml:lang="en">Kotipizza and Rolls Expert</rdfs:label>
+        <rdfs:label xml:lang="fi">Kotipizza and Rolls Expert</rdfs:label>
         <rdfs:label xml:lang="en">Kotipizza Rolls Expert</rdfs:label>
         <rdfs:label xml:lang="fi">Kotipizza Rolls Expert</rdfs:label>
         <rdfs:label xml:lang="en">Kotipizza</rdfs:label>
