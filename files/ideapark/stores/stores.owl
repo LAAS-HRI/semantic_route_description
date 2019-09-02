@@ -61,15 +61,6 @@
 
 
 
-    <!-- ontologenius#Elviira -->
-
-    <owl:Class rdf:about="ontologenius#Elviira_">
-       <rdfs:subClassOf rdf:resource="ontologenius#women_clothes_store"/>
-    </owl:Class>
-
-
-
-
     <!-- ontologenius#My_Bag -->
 
     <owl:Class rdf:about="ontologenius#My_Bag_">
@@ -167,16 +158,6 @@
 
 
 
-    <!-- ontologenius#Sievi_Shop -->
-
-    <owl:Class rdf:about="ontologenius#Sievi_Shop_">
-       <rdfs:subClassOf rdf:resource="ontologenius#bags_store"/>
-       <rdfs:subClassOf rdf:resource="ontologenius#shoes_store"/>
-    </owl:Class>
-
-
-
-
     <!-- ontologenius#Tekniskamagasinet -->
 
     <owl:Class rdf:about="ontologenius#Tekniskamagasinet_">
@@ -198,6 +179,21 @@
       <ontologenius:sells rdf:resource="ontologenius#underwear"/>
       <ontologenius:sells rdf:resource="ontologenius#dress"/>
     </owl:Class>
+
+
+
+
+    <!-- ontologenius#Putiikki_WOW -->
+
+        <owl:Class rdf:about="ontologenius#Putiikki_WOW_">
+          <ontologenius:sells rdf:resource="ontologenius#skirt"/>
+          <ontologenius:sells rdf:resource="ontologenius#jacket"/>
+          <ontologenius:sells rdf:resource="ontologenius#jean"/>
+          <ontologenius:sells rdf:resource="ontologenius#short"/>
+          <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
+          <ontologenius:sells rdf:resource="ontologenius#shirt"/>
+          <ontologenius:sells rdf:resource="ontologenius#dress"/>
+        </owl:Class>
 
 
 
