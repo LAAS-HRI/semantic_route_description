@@ -1130,9 +1130,9 @@
 
 
 
-    <!-- ontologenius#Vero_Moda,_JandJ -->
+    <!-- ontologenius#Vero_Moda_JandJ -->
 
-    <owl:Class rdf:about="ontologenius#Vero_Moda,_JandJ_">
+    <owl:Class rdf:about="ontologenius#Vero_Moda_JandJ_">
       <ontologenius:sells rdf:resource="ontologenius#jean"/>
       <ontologenius:sells rdf:resource="ontologenius#T-shirt"/>
       <ontologenius:sells rdf:resource="ontologenius#shirt"/>
