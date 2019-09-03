@@ -3011,6 +3011,7 @@
         <rdfs:label xml:lang="fi">Kotipizza Rolls Expert</rdfs:label>
         <rdfs:label xml:lang="en">Kotipizza</rdfs:label>
         <rdfs:label xml:lang="fi">Kotipizza</rdfs:label>
+        <rdfs:label xml:lang="en">Rolls Expert</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3611,6 +3612,8 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Stadium"/>
         <rdfs:label xml:lang="en">Your Face and Rils</rdfs:label>
+        <rdfs:label xml:lang="en">Rils</rdfs:label>
+        <rdfs:label xml:lang="en">Your Face</rdfs:label>
         <rdfs:label xml:lang="fi">Your Face and Rils</rdfs:label>
     </owl:NamedIndividual>
 
@@ -4045,12 +4048,11 @@
     <!-- ontologenius#Oma_Saastopankki -->
 
     <owl:Class rdf:about="ontologenius#Oma_Saastopankki_">
-        <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Oma_Saastopankki">
         <rdf:type rdf:resource="ontologenius#Oma_Saastopankki_"/>
-        <rdf:type rdf:resource="ontologenius#commercial_public_service"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridor1Dnorth_corridor1Dsouth"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1D_north"/>
