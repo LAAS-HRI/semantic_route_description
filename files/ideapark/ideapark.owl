@@ -442,11 +442,13 @@
     <!-- ontologenius#emotion -->
 
     <owl:NamedIndividual rdf:about="ontologenius#emotion">
-        <rdf:type rdf:resource="ontologenius#empty_place"/>
+        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Prisma"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#carts_D"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sitruunakatu"/>
+        <rdfs:label xml:lang="fi">emotion</rdfs:label>
+        <rdfs:label xml:lang="en">emotion</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1983,6 +1985,8 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Name_It"/>
         <rdfs:label xml:lang="en">Budget Sport</rdfs:label>
         <rdfs:label xml:lang="fi">Budget Sport</rdfs:label>
+        <rdfs:label xml:lang="en">Budget</rdfs:label>
+        <rdfs:label xml:lang="fi">Budget</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2025,6 +2029,8 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kid_Zone"/>
         <rdfs:label xml:lang="en">Jesper Junior</rdfs:label>
         <rdfs:label xml:lang="fi">Jesper Junior</rdfs:label>
+        <rdfs:label xml:lang="en">Jesper</rdfs:label>
+        <rdfs:label xml:lang="fi">Jesper</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3952,8 +3958,11 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Unikulma"/>
         <rdfs:label xml:lang="en">Aleksi 13</rdfs:label>
-        <rdfs:label xml:lang="fi">Aleksi 13</rdfs:label>
-    </owl:NamedIndividual>
+        <rdfs:label xml:lang="fi">Aleksi 13</rdfs:label>
+        <rdfs:label xml:lang="en">Aleksi</rdfs:label>
+        <rdfs:label xml:lang="fi">Aleksi</rdfs:label>
+    </owl:NamedIndividual>
+
 
 
 
