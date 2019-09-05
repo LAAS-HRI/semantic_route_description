@@ -252,9 +252,9 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#intersection_corridorkeskuwest_palapelikatu">
         <rdf:type rdf:resource="ontologenius#pathIntersection"/>
-        <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_corridorcoffeeeast_palapelikatu"/>
-        <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
-        <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
+        <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
+        <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#palapelikatu"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#Stahlberg"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
@@ -266,17 +266,6 @@
         <rdf:type rdf:resource="ontologenius#pathIntersection"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#veistoskatu"/>
-        <rdfs:label xml:lang="en">intersection</rdfs:label>
-    </owl:NamedIndividual>
-
-
-
-    <!-- ontologenius#intersection_corridorcoffeeeast_corridorkeskuwest -->
-
-    <owl:NamedIndividual rdf:about="ontologenius#intersection_corridorcoffeeeast_corridorkeskuwest">
-        <rdf:type rdf:resource="ontologenius#pathIntersection"/>
-        <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
-        <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
@@ -386,18 +375,6 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_west"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hanko_Sushi"/>
-        <rdfs:label xml:lang="en">intersection</rdfs:label>
-    </owl:NamedIndividual>
-
-
-
-    <!-- ontologenius#intersection_corridorcoffeeeast_palapelikatu -->
-
-    <owl:NamedIndividual rdf:about="ontologenius#intersection_corridorcoffeeeast_palapelikatu">
-        <rdf:type rdf:resource="ontologenius#pathIntersection"/>
-        <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
-        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#Kahvila_Ilopilleri"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
@@ -1090,7 +1067,6 @@
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <ontologenius:isIn rdf:resource="ontologenius#old_town"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
-        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#old_corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Marco_Polo"/>
@@ -1701,16 +1677,6 @@
 
 
 
-    <!-- ontologenius#corridor_coffee_east -->
-
-    <owl:NamedIndividual rdf:about="ontologenius#corridor_coffee_east">
-        <rdf:type rdf:resource="ontologenius#corridor"/>
-        <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
-        <rdfs:label xml:lang="en">corridor_coffee_east</rdfs:label>
-    </owl:NamedIndividual>
-
-
-
     <!-- ontologenius#corridor_1B -->
 
     <owl:NamedIndividual rdf:about="ontologenius#corridor_1B">
@@ -2077,7 +2043,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Gant">
         <rdf:type rdf:resource="ontologenius#Gant_"/>
-        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
+        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <rdfs:label xml:lang="en">Gant</rdfs:label>
         <rdfs:label xml:lang="fi">Gant</rdfs:label>
     </owl:NamedIndividual>
@@ -2094,8 +2060,9 @@
         <rdf:type rdf:resource="ontologenius#Kahvila_Ilopilleri_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_coffee_west"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
-        <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
+        <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridorcoffeewest_palapelikatu"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridorkeskuwest_palapelikatu"/>
         <rdfs:label xml:lang="en">Kahvila Ilopilleri</rdfs:label>
         <rdfs:label xml:lang="fi">Kahvila Ilopilleri</rdfs:label>
     </owl:NamedIndividual>
@@ -2159,7 +2126,7 @@
     <owl:NamedIndividual rdf:about="ontologenius#Ideapark_Sport_Areena">
         <rdf:type rdf:resource="ontologenius#Ideapark_Sport_Areena_"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_coffee_west"/>
-        <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
+        <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <rdfs:label xml:lang="en">Ideapark Sport Areena</rdfs:label>
         <rdfs:label xml:lang="fi">Ideapark Sport Areena</rdfs:label>
         <rdfs:label xml:lang="en">Sport Areena</rdfs:label>
@@ -2199,7 +2166,7 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#Marco_Polo">
         <rdf:type rdf:resource="ontologenius#Marco_Polo_"/>
-        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_coffee_east"/>
+        <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#old_corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Gant"/>
         <rdfs:label xml:lang="en">Marco Polo</rdfs:label>
@@ -2628,7 +2595,6 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Pelaamo"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridorkeskuwest_palapelikatu"/>
         <rdfs:label xml:lang="en">Stahlberg Home Bakery Cafe</rdfs:label>
         <rdfs:label xml:lang="fi">Ståhlberg Home Bakery Cafe</rdfs:label>
         <rdfs:label xml:lang="en">Stahlberg</rdfs:label>
