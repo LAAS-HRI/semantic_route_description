@@ -1969,7 +1969,7 @@
         <rdf:type rdf:resource="ontologenius#amusementPark"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Budget_Sport"/>
-        <rdfs:label xml:lang="en">Kid Zone</rdfs:label>
+        <rdfs:label xml:lang="en">KidZone</rdfs:label>
         <rdfs:label xml:lang="fi">Kid Zone</rdfs:label>
     </owl:NamedIndividual>
 
