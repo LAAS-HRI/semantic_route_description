@@ -707,6 +707,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#native_restaurant">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+        <rdfs:label xml:lang="en">natice</rdfs:label>
     </owl:Class>
 
 
@@ -715,6 +716,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#american_restaurant">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+      <rdfs:label xml:lang="en">american</rdfs:label>
     </owl:Class>
 
 
@@ -723,6 +725,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#italian_restaurant">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+      <rdfs:label xml:lang="en">italian</rdfs:label>
     </owl:Class>
 
 
@@ -731,6 +734,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#asian_restaurant">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+      <rdfs:label xml:lang="en">asian</rdfs:label>
     </owl:Class>
 
 
@@ -739,6 +743,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#middle_eastern_restaurant">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+      <rdfs:label xml:lang="en">middle eastern</rdfs:label>
     </owl:Class>
 
 
@@ -747,6 +752,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#mexican_restaurant">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+      <rdfs:label xml:lang="en">mexican</rdfs:label>
     </owl:Class>
 
 
