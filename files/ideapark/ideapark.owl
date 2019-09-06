@@ -2527,6 +2527,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#pepper_infodesk"/>
         <rdfs:label xml:lang="en">Flying Tiger Copenhagen</rdfs:label>
+        <rdfs:label xml:lang="en">Flying Tiger</rdfs:label>
         <rdfs:label xml:lang="fi">Flying Tiger Copenhagen</rdfs:label>
     </owl:NamedIndividual>
 
@@ -3534,6 +3535,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_C"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#HairStore"/>
         <rdfs:label xml:lang="en">Apteekki</rdfs:label>
+        <rdfs:label xml:lang="en">pharmacy</rdfs:label>
         <rdfs:label xml:lang="fi">Apteekki</rdfs:label>
     </owl:NamedIndividual>
 
@@ -3550,6 +3552,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_C"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#carts_C"/>
         <rdfs:label xml:lang="en">HairStore</rdfs:label>
+        <rdfs:label xml:lang="en">Hair Store</rdfs:label>
         <rdfs:label xml:lang="fi">HairStore</rdfs:label>
     </owl:NamedIndividual>
 
@@ -3557,7 +3560,7 @@
 
     <!-- ontologenius#Finla -->
 
-    <owl:Class rdf:about="ontologenius#Finla_">
+    <!--owl:Class rdf:about="ontologenius#Finla_">
         <rdfs:subClassOf rdf:resource="ontologenius#commercial_public_service"/>
     </owl:Class>
 
@@ -3565,7 +3568,7 @@
         <rdf:type rdf:resource="ontologenius#Finla_"/>
         <rdfs:label xml:lang="en">Finla</rdfs:label>
         <rdfs:label xml:lang="fi">Finla</rdfs:label>
-    </owl:NamedIndividual>
+    </owl:NamedIndividual-->
 
 
 
@@ -3672,6 +3675,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Carlings"/>
         <rdfs:label xml:lang="en">Vila</rdfs:label>
+        <rdfs:label xml:lang="en">Villa</rdfs:label>
         <rdfs:label xml:lang="fi">Vila</rdfs:label>
     </owl:NamedIndividual>
 
@@ -3690,6 +3694,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hennes_and_Mauritz"/>
         <rdfs:label xml:lang="en">Carlings</rdfs:label>
+        <rdfs:label xml:lang="en">Carling</rdfs:label>
         <rdfs:label xml:lang="fi">Carlings</rdfs:label>
     </owl:NamedIndividual>
 
