@@ -162,7 +162,9 @@
     <owl:NamedIndividual rdf:about="ontologenius#ff_toilet_east">
         <rdf:type rdf:resource="ontologenius#toilets"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1B"/>
-        <rdfs:label xml:lang="en">toilet</rdfs:label>
+          <rdfs:label xml:lang="en">toilet</rdfs:label>
+          <rdfs:label xml:lang="en">restroom</rdfs:label>
+
     </owl:NamedIndividual>
 
 
@@ -1100,7 +1102,8 @@
         <rdf:type rdf:resource="ontologenius#toilets"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_toilets_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_5"/>
-        <rdfs:label xml:lang="en">toilet</rdfs:label>
+          <rdfs:label xml:lang="en">toilet</rdfs:label>
+	  <rdfs:label xml:lang="en">restroom</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1257,6 +1260,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1C"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Zones_by_Sarkanniemi"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
+	<rdfs:label xml:lang="en">restroom</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1386,6 +1390,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridoreast_corridorelevatoreast"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
+	<rdfs:label xml:lang="en">restroom</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1441,6 +1446,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_16"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
+	<rdfs:label xml:lang="en">restroom</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3675,7 +3681,6 @@
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Carlings"/>
         <rdfs:label xml:lang="en">Vila</rdfs:label>
-        <rdfs:label xml:lang="en">Villa</rdfs:label>
         <rdfs:label xml:lang="fi">Vila</rdfs:label>
     </owl:NamedIndividual>
 

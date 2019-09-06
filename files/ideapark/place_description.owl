@@ -708,7 +708,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#native_restaurant">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
-        <rdfs:label xml:lang="en">natice</rdfs:label>
+        <rdfs:label xml:lang="en">native</rdfs:label>
     </owl:Class>
 
 
@@ -745,6 +745,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#middle_eastern_restaurant">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
       <rdfs:label xml:lang="en">middle eastern</rdfs:label>
+      <rdfs:label xml:lang="en">middle east</rdfs:label>
     </owl:Class>
 
 
