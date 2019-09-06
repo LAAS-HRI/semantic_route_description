@@ -579,6 +579,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shoes_store">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+        <rdfs:label xml:lang="en">shoes store</rdfs:label>
+        <rdfs:label xml:lang="en">shoe store</rdfs:label>
+        <rdfs:label xml:lang="en">shoes shop</rdfs:label>
+        <rdfs:label xml:lang="en">shoe shop</rdfs:label>
     </owl:Class>
 
 
@@ -654,11 +658,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#leisure_sport_store">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
         <rdfs:label xml:lang="en">sport store</rdfs:label>
+        <rdfs:label xml:lang="en">sport shop</rdfs:label>
         <rdfs:label xml:lang="en">sport</rdfs:label>
-        <rdfs:label xml:lang="en">sportswear</rdfs:label>
-        <rdfs:label xml:lang="en">running</rdfs:label>
-        <rdfs:label xml:lang="en">running shoes</rdfs:label>
-        <!-- /!\ some names are related to items, this will be change -->
     </owl:Class>
 
 
