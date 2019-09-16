@@ -2257,8 +2257,10 @@
         <rdf:type rdf:resource="ontologenius#Cafe_de_Lisa_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#PiiPoo"/>
-        <rdfs:label xml:lang="en">Cafe de Lisa</rdfs:label>
-        <rdfs:label xml:lang="fi">Cafe de Lisa</rdfs:label>
+        <rdfs:label xml:lang="en">Cafe Delisa</rdfs:label>
+        <rdfs:label xml:lang="en">Liisan Leipomo</rdfs:label>
+        <onto:label xml:lang="en">liisa's bakery</onto:label>
+        <rdfs:label xml:lang="fi">Cafe Delisa</rdfs:label>
     </owl:NamedIndividual>
 
 
