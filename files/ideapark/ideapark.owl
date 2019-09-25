@@ -2154,6 +2154,8 @@
         <rdfs:label xml:lang="fi">Ideapark Sport Areena</rdfs:label>
         <rdfs:label xml:lang="en">Sport Areena</rdfs:label>
         <rdfs:label xml:lang="fi">Sport Areena</rdfs:label>
+        <rdfs:label xml:lang="en">Ideapark Sport</rdfs:label>
+        <rdfs:label xml:lang="fi">Ideapark Sport</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2274,8 +2276,10 @@
         <rdf:type rdf:resource="ontologenius#Cafe_de_Lisa_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#PiiPoo"/>
-        <rdfs:label xml:lang="en">Cafe de Lisa</rdfs:label>
-        <rdfs:label xml:lang="fi">Cafe de Lisa</rdfs:label>
+        <rdfs:label xml:lang="en">Cafe Delisa</rdfs:label>
+        <rdfs:label xml:lang="en">Liisan Leipomo</rdfs:label>
+        <onto:label xml:lang="en">liisa's bakery</onto:label>
+        <rdfs:label xml:lang="fi">Cafe Delisa</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2534,6 +2538,8 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#escalator_sauruskatu"/>
         <rdfs:label xml:lang="en">Espresso House</rdfs:label>
         <rdfs:label xml:lang="fi">Espresso House</rdfs:label>
+        <onto:label xml:lang="en">Espress House</onto:label>
+        <onto:label xml:lang="fi">Espress House</onto:label>
     </owl:NamedIndividual>
 
 
@@ -2551,7 +2557,9 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#pepper_infodesk"/>
         <rdfs:label xml:lang="en">Flying Tiger Copenhagen</rdfs:label>
         <rdfs:label xml:lang="en">Flying Tiger</rdfs:label>
+        <onto:label xml:lang="en">Tiger</onto:label>
         <rdfs:label xml:lang="fi">Flying Tiger Copenhagen</rdfs:label>
+        <onto:label xml:lang="fi">Tiger</onto:label>
     </owl:NamedIndividual>
 
 
@@ -3026,6 +3034,8 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#elevator_keskuspuisto"/>
         <rdfs:label xml:lang="en">Cafe Linkosuo</rdfs:label>
         <rdfs:label xml:lang="fi">Café Linkosuo</rdfs:label>
+        <onto:label xml:lang="en">Linkosuo</onto:label>
+        <onto:label xml:lang="fi">Linkosuo</onto:label>
     </owl:NamedIndividual>
 
 
@@ -4030,6 +4040,8 @@
         <rdfs:label xml:lang="fi">Daddy's Diner</rdfs:label>
         <rdfs:label xml:lang="en">Bella Roma</rdfs:label>
         <rdfs:label xml:lang="fi">Bella Roma</rdfs:label>
+        <onto:label xml:lang="en">Bella's Roma</onto:label>
+        <onto:label xml:lang="fi">Bella's Roma</onto:label>
     </owl:NamedIndividual>
 
     <!-- ontologenius#Daddys_Diner>
