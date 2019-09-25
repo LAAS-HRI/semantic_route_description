@@ -607,6 +607,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#clothes_store">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+        <rdfs:label xml:lang="en">clothes store</rdfs:label>
+        <rdfs:label xml:lang="en">clothing store</rdfs:label>
     </owl:Class>
 
 
@@ -631,6 +633,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#child_clothes_store">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#clothes_store"/>
+        <rdfs:label xml:lang="en">child clothes store</rdfs:label>
+        <rdfs:label xml:lang="en">children's clothing store</rdfs:label>
     </owl:Class>
 
 

@@ -89,6 +89,22 @@
 
 
 
+    <!-- ontologenius#auto_arena -->
+
+    <owl:NamedIndividual rdf:about="ontologenius#auto_arena">
+        <rdf:type rdf:resource="ontologenius#speciality_retailer"/>
+        <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#veistoskatu"/>
+        <rdfs:label xml:lang="en">auto arena</rdfs:label>
+        <onto:label xml:lang="en">autoarena</onto:label>
+        <onto:label xml:lang="en">autoareena</onto:label>
+        <onto:label xml:lang="en">kamux</onto:label>
+        <onto:label xml:lang="en">saka</onto:label>
+        <onto:label xml:lang="en">mobila</onto:label>
+        <onto:label xml:lang="en">vaihto</onto:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- ontologenius#door_A -->
 
     <owl:NamedIndividual rdf:about="ontologenius#door_A">
@@ -96,6 +112,7 @@
         <ontologenius:isIn rdf:resource="ontologenius#outside"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#veistoskatu"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#auto_arena"/>
     </owl:NamedIndividual>
 
 
@@ -4108,6 +4125,10 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#escalator_kompassikatu"/>
         <rdfs:label xml:lang="en">Ti-Ti Nallen Koti</rdfs:label>
         <rdfs:label xml:lang="fi">Ti-Ti Nallen Koti</rdfs:label>
+        <rdfs:label xml:lang="en">Ti-Ti Nallen</rdfs:label>
+        <rdfs:label xml:lang="fi">Ti-Ti Nallen</rdfs:label>
+        <onto:label xml:lang="en">Ti - Ti Nallen</onto:label>
+        <onto:label xml:lang="fi">Ti - Ti Nallen</onto:label>
     </owl:NamedIndividual>
 
 
@@ -4204,6 +4225,8 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Eurokangas"/>
         <rdfs:label xml:lang="en">Finnlandia</rdfs:label>
         <rdfs:label xml:lang="fi">Finnlandia</rdfs:label>
+        <onto:label xml:lang="en">Finlandia</onto:label>
+        <onto:label xml:lang="fi">Finlandia</onto:label>
     </owl:NamedIndividual>
 
 
