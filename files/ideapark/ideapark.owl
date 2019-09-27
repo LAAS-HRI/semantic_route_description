@@ -102,7 +102,7 @@
         <onto:label xml:lang="en">mobila</onto:label>
         <onto:label xml:lang="en">vaihto</onto:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- ontologenius#door_A -->
@@ -192,7 +192,9 @@
         <rdf:type rdf:resource="ontologenius#atm"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_13"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_east"/>
-        <rdfs:label xml:lang="en">atm</rdfs:label>
+        <rdfs:label xml:lang="en">ATM</rdfs:label>
+        <rdfs:label xml:lang="en">cash machine</rdfs:label>
+        <rdfs:label xml:lang="en">bank</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1474,7 +1476,9 @@
         <rdf:type rdf:resource="ontologenius#atm"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_17"/>
-        <rdfs:label xml:lang="en">atm</rdfs:label>
+        <rdfs:label xml:lang="en">ATM</rdfs:label>
+        <rdfs:label xml:lang="en">cash machine</rdfs:label>
+        <rdfs:label xml:lang="en">bank</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2245,6 +2249,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Lumo_puoti"/>
         <rdfs:label xml:lang="en">Avain- ja suutarityo Helsky</rdfs:label>
+        <rdfs:label xml:lang="en">shoemaker</rdfs:label>
         <rdfs:label xml:lang="fi">Avain- ja suutarityö Helsky</rdfs:label>
     </owl:NamedIndividual>
 
@@ -2876,6 +2881,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Partioaitta"/>
         <rdfs:label xml:lang="en">Bjorn Borg</rdfs:label>
+        <rdfs:label xml:lang="en">Björn Borg</rdfs:label>
         <rdfs:label xml:lang="fi">Björn Borg</rdfs:label>
     </owl:NamedIndividual>
 
@@ -4001,6 +4007,7 @@
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Guess"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#veistoskatu"/>
         <rdfs:label xml:lang="en">Marimekko Outlet</rdfs:label>
+        <rdfs:label xml:lang="en">Marimekko</rdfs:label>
         <rdfs:label xml:lang="fi">Marimekko Outlet</rdfs:label>
     </owl:NamedIndividual>
 
