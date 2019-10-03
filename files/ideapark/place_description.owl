@@ -713,24 +713,37 @@
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#native_restaurant">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
         <rdfs:label xml:lang="en">native</rdfs:label>
+        <rdfs:label xml:lang="fi">kotiruokaravintolat</rdfs:label>
     </owl:Class>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#american_restaurant -->
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fast_food -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#american_restaurant">
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fast_food">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
-      <rdfs:label xml:lang="en">american</rdfs:label>
+      <rdfs:label xml:lang="en">fast food</rdfs:label>
+      <rdfs:label xml:lang="fi">pikaruoka</rdfs:label>
     </owl:Class>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#italian_restaurant -->
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pizzeria -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#italian_restaurant">
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pizzeria">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
-      <rdfs:label xml:lang="en">italian</rdfs:label>
+      <rdfs:label xml:lang="en">pizzeria</rdfs:label>
+      <rdfs:label xml:lang="fi">pizzeriat</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#hamburger_restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#hamburger_restaurant">
+      <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+      <rdfs:label xml:lang="en">hamburger</rdfs:label>
+      <rdfs:label xml:lang="fi">hampurilaisravintolat</rdfs:label>
     </owl:Class>
 
 
@@ -740,25 +753,17 @@
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#asian_restaurant">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
       <rdfs:label xml:lang="en">asian</rdfs:label>
+      <rdfs:label xml:lang="fi">aasialaiset ravintolat</rdfs:label>
     </owl:Class>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#middle_eastern_restaurant -->
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#casual_dining_restaurant -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#middle_eastern_restaurant">
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#casual_dining_restaurant">
       <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
-      <rdfs:label xml:lang="en">middle eastern</rdfs:label>
-      <rdfs:label xml:lang="en">middle east</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#mexican_restaurant -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#mexican_restaurant">
-      <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
-      <rdfs:label xml:lang="en">mexican</rdfs:label>
+      <rdfs:label xml:lang="en">casual dining</rdfs:label>
+      <rdfs:label xml:lang="fi">Muut ruokaravintolat</rdfs:label>
     </owl:Class>
 
 

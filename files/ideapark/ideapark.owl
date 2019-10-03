@@ -102,7 +102,7 @@
         <onto:label xml:lang="en">mobila</onto:label>
         <onto:label xml:lang="en">vaihto</onto:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- ontologenius#door_A -->
@@ -661,7 +661,6 @@
         <ontologenius:isInFrontOf rdf:resource="ontologenius#intersection_bridge1_foodpark"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1food"/>
         <ontologenius:isAlong rdf:resource="ontologenius#foodpark"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1Dsouth_foodpark"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
@@ -710,7 +709,7 @@
         <rdf:type rdf:resource="ontologenius#pathIntersection"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#bridge_1"/>
         <ontologenius:isAlong rdf:resource="ontologenius#foodpark"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#Beefking_steakhouse"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
@@ -2077,6 +2076,7 @@
 
     <owl:Class rdf:about="ontologenius#Kahvila_Ilopilleri_">
         <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Kahvila_Ilopilleri">
@@ -2088,6 +2088,8 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridorkeskuwest_palapelikatu"/>
         <rdfs:label xml:lang="en">Kahvila Ilopilleri</rdfs:label>
         <rdfs:label xml:lang="fi">Kahvila Ilopilleri</rdfs:label>
+        <rdfs:label xml:lang="en">Ilopilleri</rdfs:label>
+        <rdfs:label xml:lang="fi">Ilopilleri</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2270,6 +2272,7 @@
 
     <owl:Class rdf:about="ontologenius#Cafe_de_Lisa_">
         <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#native_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Cafe_de_Lisa">
@@ -2280,6 +2283,7 @@
         <rdfs:label xml:lang="en">Liisan Leipomo</rdfs:label>
         <onto:label xml:lang="en">liisa's bakery</onto:label>
         <rdfs:label xml:lang="fi">Cafe Delisa</rdfs:label>
+        <rdfs:label xml:lang="fi">Liisan Leipomo</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2619,6 +2623,7 @@
 
     <owl:Class rdf:about="ontologenius#Stahlberg_">
         <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#native_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Stahlberg">
@@ -2633,6 +2638,8 @@
         <rdfs:label xml:lang="fi">Ståhlberg</rdfs:label>
         <rdfs:label xml:lang="en">Bakery Cafe</rdfs:label>
         <rdfs:label xml:lang="fi">Bakery Cafe</rdfs:label>
+        <rdfs:label xml:lang="en">Cafe Stahlberg</rdfs:label>
+        <rdfs:label xml:lang="fi">Cafe Ståhlberg</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2884,8 +2891,8 @@
     <!-- ontologenius#Pizza_Hut -->
 
     <owl:Class rdf:about="ontologenius#Pizza_Hut_">
-        <rdfs:subClassOf rdf:resource="ontologenius#italian_restaurant"/>
-        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#pizzeria"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Pizza_Hut">
@@ -2893,7 +2900,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#HoviKebab"/>
         <rdfs:label xml:lang="en">Pizza Hut</rdfs:label>
-        <rdfs:label xml:lang="fi">Pizza Hut</rdfs:label>
+        <rdfs:label xml:lang="fi">Pizza hat</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2959,7 +2966,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_oldcorridoreast_oldopenspace"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kultaporssi"/>
         <rdfs:label xml:lang="en">Luckiefun</rdfs:label>
-        <rdfs:label xml:lang="fi">Luckiefun</rdfs:label>
+        <rdfs:label xml:lang="fi">lakkiefans</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2983,7 +2990,7 @@
     <!-- ontologenius#HoviKebab -->
 
     <owl:Class rdf:about="ontologenius#HoviKebab_">
-        <rdfs:subClassOf rdf:resource="ontologenius#middle_eastern_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#HoviKebab">
@@ -2999,8 +3006,9 @@
     <!-- ontologenius#Kotipizza_and_Rolls_Expert -->
 
     <owl:Class rdf:about="ontologenius#Kotipizza_and_Rolls_Expert_">
-        <rdfs:subClassOf rdf:resource="ontologenius#italian_restaurant"/>
-        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#pizzeria"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#hamburger_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Kotipizza_and_Rolls_Expert">
@@ -3016,6 +3024,7 @@
         <rdfs:label xml:lang="en">Kotipizza</rdfs:label>
         <rdfs:label xml:lang="fi">Kotipizza</rdfs:label>
         <rdfs:label xml:lang="en">Rolls Expert</rdfs:label>
+        <rdfs:label xml:lang="en">Rolls Express</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3024,6 +3033,7 @@
 
     <owl:Class rdf:about="ontologenius#Cafe_Linkosuo_">
         <rdfs:subClassOf rdf:resource="ontologenius#cafe"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#native_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Cafe_Linkosuo">
@@ -3079,7 +3089,7 @@
     <!-- ontologenius#SubWay -->
 
     <owl:Class rdf:about="ontologenius#SubWay_">
-        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#SubWay">
@@ -3089,7 +3099,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_oldcorridorsouth_oldopenspace"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#stairs_coyote"/>
         <rdfs:label xml:lang="en">SubWay</rdfs:label>
-        <rdfs:label xml:lang="fi">SubWay</rdfs:label>
+        <rdfs:label xml:lang="fi">sabvei</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3124,7 +3134,8 @@
     <!-- ontologenius#Burger_King -->
 
     <owl:Class rdf:about="ontologenius#Burger_King_">
-        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#hamburger_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Burger_King">
@@ -3141,15 +3152,18 @@
     <!-- ontologenius#Rax -->
 
     <owl:Class rdf:about="ontologenius#Rax_">
-        <rdfs:subClassOf rdf:resource="ontologenius#native_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#pizzeria"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Rax">
         <rdf:type rdf:resource="ontologenius#Rax_"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hesburger"/>
-        <rdfs:label xml:lang="en">Rax</rdfs:label>
-        <rdfs:label xml:lang="fi">Rax</rdfs:label>
+        <rdfs:label xml:lang="en">Rax buffet</rdfs:label>
+        <onto:label xml:lang="en">Rax</onto:label>
+        <rdfs:label xml:lang="fi">Rax bufee</rdfs:label>
+        <onto:label xml:lang="fi">Rax</onto:label>
     </owl:NamedIndividual>
 
 
@@ -3157,7 +3171,8 @@
     <!-- ontologenius#Hesburger -->
 
     <owl:Class rdf:about="ontologenius#Hesburger_">
-        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#hamburger_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Hesburger">
@@ -4025,40 +4040,46 @@
     <!-- ontologenius#Bella_Roma_and_Daddys_Diner -->
 
     <owl:Class rdf:about="ontologenius#Bella_Roma_and_Daddys_Diner_">
-        <rdfs:subClassOf rdf:resource="ontologenius#italian_restaurant"/>
-        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#pizzeria"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#hamburger_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Bella_Roma_and_Daddys_Diner">
         <rdf:type rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_0"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1food_foodpark"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1food"/>
         <ontologenius:isAlong rdf:resource="ontologenius#foodpark"/>
         <rdfs:label xml:lang="en">Bella Roma and Daddy's Diner</rdfs:label>
         <rdfs:label xml:lang="fi">Bella Roma and Daddy's Diner</rdfs:label>
         <rdfs:label xml:lang="en">Daddy's Diner</rdfs:label>
-        <rdfs:label xml:lang="fi">Daddy's Diner</rdfs:label>
+        <rdfs:label xml:lang="fi">dadis dainer</rdfs:label>
         <rdfs:label xml:lang="en">Bella Roma</rdfs:label>
         <rdfs:label xml:lang="fi">Bella Roma</rdfs:label>
         <onto:label xml:lang="en">Bella's Roma</onto:label>
         <onto:label xml:lang="fi">Bella's Roma</onto:label>
     </owl:NamedIndividual>
 
-    <!-- ontologenius#Daddys_Diner>
 
-    <owl:NamedIndividual rdf:about="ontologenius#Daddys_Diner">
-        <owl:sameAs rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner"/>
-        <rdfs:label xml:lang="en">Daddy's Diner</rdfs:label>
-        <rdfs:label xml:lang="fi">Daddy's Diner</rdfs:label>
+
+    <!-- ontologenius#Beefking_steakhouse -->
+
+    <owl:Class rdf:about="ontologenius#Beefking_steakhouse_">
+        <rdfs:subClassOf rdf:resource="ontologenius#casual_dining_restaurant"/>
+    </owl:Class>
+
+
+    <owl:NamedIndividual rdf:about="ontologenius#Beefking_steakhouse">
+        <rdf:type rdf:resource="ontologenius#Beefking_steakhouse_"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner"/>
+        <ontologenius:isAlong rdf:resource="ontologenius#foodpark"/>
+        <rdfs:label xml:lang="en">Beefking steakhouse</rdfs:label>
+        <rdfs:label xml:lang="fi">Biifking steikhaus</rdfs:label>
+        <rdfs:label xml:lang="en">Beefking</rdfs:label>
+        <rdfs:label xml:lang="fi">Biifking</rdfs:label>
     </owl:NamedIndividual>
 
-    <! ontologenius#Bella_Roma>
 
-    <owl:NamedIndividual rdf:about="ontologenius#Bella_Roma">
-        <owl:sameAs rdf:resource="ontologenius#Bella_Roma_and_Daddys_Diner"/>
-        <rdfs:label xml:lang="en">Bella Roma</rdfs:label>
-        <rdfs:label xml:lang="fi">Bella Roma</rdfs:label>
-    </owl:NamedIndividual-->
 
     <!-- ontologenius#Oma_Saastopankki -->
 
@@ -4081,14 +4102,14 @@
     <!-- ontologenius#Pancho_Villa -->
 
     <owl:Class rdf:about="ontologenius#Pancho_Villa_">
-        <rdfs:subClassOf rdf:resource="ontologenius#mexican_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#casual_dining_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Pancho_Villa">
         <rdf:type rdf:resource="ontologenius#Pancho_Villa_"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_pancho"/>
         <rdfs:label xml:lang="en">Pancho Villa</rdfs:label>
-        <rdfs:label xml:lang="fi">Pancho Villa</rdfs:label>
+        <rdfs:label xml:lang="fi">Pantso Villa</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -4096,7 +4117,8 @@
     <!-- ontologenius#Coyote_Grill -->
 
     <owl:Class rdf:about="ontologenius#Coyote_Grill_">
-        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#casual_dining_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#native_restaurant"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Coyote_Grill">
@@ -4104,7 +4126,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#coyote_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_coyoteopenspace_bridge1"/>
         <rdfs:label xml:lang="en">Coyote Grill</rdfs:label>
-        <rdfs:label xml:lang="fi">Coyote Grill</rdfs:label>
+        <rdfs:label xml:lang="fi">Kojote Grill</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -4113,14 +4135,14 @@
     <!-- ontologenius#Sticky_Wingers -->
 
     <owl:Class rdf:about="ontologenius#Sticky_Wingers_">
-        <rdfs:subClassOf rdf:resource="ontologenius#american_restaurant"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#fast_food"/>
     </owl:Class>
 
     <owl:NamedIndividual rdf:about="ontologenius#Sticky_Wingers">
         <rdf:type rdf:resource="ontologenius#Sticky_Wingers_"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#bridge_1"/>
         <rdfs:label xml:lang="en">Sticky Wingers</rdfs:label>
-        <rdfs:label xml:lang="fi">Sticky Wingers</rdfs:label>
+        <rdfs:label xml:lang="fi">stikki vingers</rdfs:label>
     </owl:NamedIndividual>
 
 
