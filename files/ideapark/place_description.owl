@@ -704,6 +704,7 @@
         <rdfs:label xml:lang="en">diner</rdfs:label>
         <rdfs:label xml:lang="en">dinner</rdfs:label>
         <rdfs:label xml:lang="en">dining room</rdfs:label>
+        <onto:label xml:lang="en">eatery</onto:label>
     </owl:Class>
 
 

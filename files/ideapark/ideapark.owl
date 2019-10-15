@@ -2051,8 +2051,8 @@
         <rdf:type rdf:resource="ontologenius#Tekniskamagasinet_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_Sievi_Shop"/>
-        <rdfs:label xml:lang="en">Tekniskamagasinet</rdfs:label>
-        <rdfs:label xml:lang="fi">Tekniskamagasinet</rdfs:label>
+        <rdfs:label xml:lang="en">Tekniskmagasinet</rdfs:label>
+        <rdfs:label xml:lang="fi">Tekniskmagasinet</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2446,6 +2446,7 @@
     <owl:NamedIndividual rdf:about="ontologenius#Kukkakauppa">
         <rdf:type rdf:resource="ontologenius#Kukkakauppa_"/>
         <rdfs:label xml:lang="en">Kukkakauppa</rdfs:label>
+        <rdfs:label xml:lang="en">florsit</rdfs:label>
         <rdfs:label xml:lang="fi">Kukkakauppa</rdfs:label>
     </owl:NamedIndividual>
 
@@ -3120,6 +3121,7 @@
         <rdf:type rdf:resource="ontologenius#Information_desk_"/>
         <rdfs:label xml:lang="en">Information desk</rdfs:label>
         <rdfs:label xml:lang="fi">Information desk</rdfs:label>
+        <rdfs:label xml:lang="en">info point</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3407,6 +3409,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Musti_ja_Mirri"/>
         <rdfs:label xml:lang="en">River and Co</rdfs:label>
         <rdfs:label xml:lang="fi">River and Co</rdfs:label>
+        <rdfs:label xml:lang="en">Kauppahuone Riveri</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3824,6 +3827,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Bik_Bok"/>
         <rdfs:label xml:lang="en">Kauneus- ja jalkahoitola Manna</rdfs:label>
         <rdfs:label xml:lang="en">hoitola Manna</rdfs:label>
+        <onto:label xml:lang="en">beauty pedicure manna</onto:label>
         <rdfs:label xml:lang="fi">Kauneus- ja jalkahoitola Manna</rdfs:label>
         <rdfs:label xml:lang="fi">hoitola Manna</rdfs:label>
     </owl:NamedIndividual>
@@ -3864,6 +3868,9 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Putiikki_WOW"/>
         <rdfs:label xml:lang="en">Vero Moda</rdfs:label>
         <rdfs:label xml:lang="fi">Vero Moda</rdfs:label>
+        <rdfs:label xml:lang="en">Jack & Jones</rdfs:label>
+        <rdfs:label xml:lang="en">Jack and Jones</rdfs:label>
+        <onto:label xml:lang="en">Jack Jones</onto:label>
     </owl:NamedIndividual>
 
 
@@ -3929,6 +3936,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Ten_Art"/>
         <rdfs:label xml:lang="en">Brother Clothing</rdfs:label>
         <rdfs:label xml:lang="fi">Brother Clothing</rdfs:label>
+        <rdfs:label xml:lang="en">Brothers to Brother Clothing</rdfs:label>
     </owl:NamedIndividual>
 
 
