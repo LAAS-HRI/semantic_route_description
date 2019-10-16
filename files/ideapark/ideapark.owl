@@ -3936,7 +3936,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Ten_Art"/>
         <rdfs:label xml:lang="en">Brother Clothing</rdfs:label>
         <rdfs:label xml:lang="fi">Brother Clothing</rdfs:label>
-        <rdfs:label xml:lang="en">Brothers to Brother Clothing</rdfs:label>
+        <rdfs:label xml:lang="en">Brothers</rdfs:label>
     </owl:NamedIndividual>
 
 
