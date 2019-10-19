@@ -207,7 +207,7 @@
         <rdfs:label xml:lang="en">ATM</rdfs:label>
         <rdfs:label xml:lang="en">cash machine</rdfs:label>
         <onto:label xml:lang="en">bank</onto:label>
-        <onto:label xml:lang="en">bank</onto:label>
+        <onto:label xml:lang="en">cash</onto:label>
     </owl:NamedIndividual>
 
 
