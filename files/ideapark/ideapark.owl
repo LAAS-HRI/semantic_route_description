@@ -206,7 +206,8 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_east"/>
         <rdfs:label xml:lang="en">ATM</rdfs:label>
         <rdfs:label xml:lang="en">cash machine</rdfs:label>
-        <rdfs:label xml:lang="en">bank</rdfs:label>
+        <onto:label xml:lang="en">bank</onto:label>
+        <onto:label xml:lang="en">bank</onto:label>
     </owl:NamedIndividual>
 
 
@@ -3738,6 +3739,7 @@
         <rdfs:label xml:lang="en">River and Co</rdfs:label>
         <rdfs:label xml:lang="fi">River and Co</rdfs:label>
         <rdfs:label xml:lang="en">Kauppahuone Riveri</rdfs:label>
+        <onto:label xml:lang="en">River</onto:label>
     </owl:NamedIndividual>
 
 
