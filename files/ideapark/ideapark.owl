@@ -29,6 +29,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#veistoskatu"/>
         <ontologenius:hasAtRight rdf:resource="Minimani"/>
         <rdfs:label xml:lang="en">vallila shop</rdfs:label>
+        <rdfs:label xml:lang="fi">vallila shop</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -94,6 +95,7 @@
         <rdf:type rdf:resource="ontologenius#carts"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_C"/>
         <rdfs:label xml:lang="en">carts</rdfs:label>
+        <rdfs:label xml:lang="fi">ostoskärryt</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -110,6 +112,14 @@
         <onto:label xml:lang="en">saka</onto:label>
         <onto:label xml:lang="en">mobila</onto:label>
         <onto:label xml:lang="en">vaihto</onto:label>
+
+        <rdfs:label xml:lang="fi">auto arena</rdfs:label>
+        <onto:label xml:lang="fi">autoarena</onto:label>
+        <onto:label xml:lang="fi">autoareena</onto:label>
+        <onto:label xml:lang="fi">kamux</onto:label>
+        <onto:label xml:lang="fi">saka</onto:label>
+        <onto:label xml:lang="fi">mobila</onto:label>
+        <onto:label xml:lang="fi">vaihto</onto:label>
     </owl:NamedIndividual>
 
 
@@ -123,6 +133,8 @@
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#veistoskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#auto_arena"/>
+        <rdfs:label xml:lang="en">door A</rdfs:label>
+        <rdfs:label xml:lang="fi">ovi A</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -135,6 +147,8 @@
         <ontologenius:isIn rdf:resource="ontologenius#outside"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_B"/>
+        <rdfs:label xml:lang="en">door B</rdfs:label>
+        <rdfs:label xml:lang="fi">ovi B</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -147,6 +161,8 @@
         <ontologenius:isIn rdf:resource="ontologenius#outside"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_C"/>
+        <rdfs:label xml:lang="en">door C</rdfs:label>
+        <rdfs:label xml:lang="fi">ovi C</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -159,6 +175,8 @@
         <ontologenius:isIn rdf:resource="ontologenius#outside"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#sitruunakatu"/>
+        <rdfs:label xml:lang="en">door D</rdfs:label>
+        <rdfs:label xml:lang="fi">ovi D</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -193,6 +211,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1B"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
         <rdfs:label xml:lang="en">restroom</rdfs:label>
+        <rdfs:label xml:lang="fi">maksuton</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -208,6 +227,7 @@
         <rdfs:label xml:lang="en">cash machine</rdfs:label>
         <onto:label xml:lang="en">bank</onto:label>
         <onto:label xml:lang="en">cash</onto:label>
+        <onto:label xml:lang="fi">pankkiautomaatti</onto:label>
     </owl:NamedIndividual>
 
 
@@ -224,6 +244,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_pancho"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#inaccessible"/>
         <rdfs:label xml:lang="en">stairs</rdfs:label>
+        <rdfs:label xml:lang="fi">portaat</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -236,6 +257,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_1B"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_1east"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -248,6 +270,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_1C"/>
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_1food"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -260,6 +283,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1D_north"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_1north_west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -272,6 +296,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_1central_north"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_1north_east"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -284,6 +309,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#corridor_1central_north"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -297,6 +323,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Stahlberg"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -309,6 +336,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#veistoskatu"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -325,6 +353,8 @@
         <rdf:type rdf:resource="ontologenius#Hairlekiini_"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Marco_Polo"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#old_corridor_west"/>
+        <rdfs:label xml:lang="en">Hairlekiini</rdfs:label>
+        <rdfs:label xml:lang="fi">Hairlekiini</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -337,6 +367,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#veistoskatu"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -353,6 +384,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#veistoskatu"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <rdfs:label xml:lang="en">escalator</rdfs:label>
+        <rdfs:label xml:lang="fi">liukuportaat</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -366,6 +398,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Bik_Bok"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -380,6 +413,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_Digiman_pop_up"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -394,6 +428,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Oma_Saastopankki"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -413,6 +448,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_palapelikatu_sitruunakatu"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <rdfs:label xml:lang="en">escalator</rdfs:label>
+        <rdfs:label xml:lang="fi">liukuportaat</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -427,6 +463,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Hanko_Sushi"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -440,6 +477,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Gina_Tricot"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -453,6 +491,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Alko"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -494,6 +533,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#sitruunakatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Banking_machine"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -525,6 +565,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Halonen"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Arnolds"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -539,6 +580,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Change"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -606,6 +648,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Pukimo"/>
         <rdfs:label xml:lang="en">carts</rdfs:label>
+        <rdfs:label xml:lang="fi">Ostoskärryt</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -619,6 +662,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_Telia"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -633,6 +677,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Mummola_Lahjapuoti"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -647,6 +692,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Kotipizza_and_Rolls_Expert"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -660,6 +706,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#old_open_space"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Cafe_de_Lisa"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -673,6 +720,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_1little"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_empty_food1"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -704,6 +752,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_Keskuspuisto_sauruskatu"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <rdfs:label xml:lang="en">escalator</rdfs:label>
+        <rdfs:label xml:lang="fi">liukuportaat</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -718,6 +767,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#foodpark"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1Dsouth_foodpark"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -732,6 +782,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1C_foodpark"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1Dsouth_corridor1food"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -746,6 +797,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_0"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1C_corridor1food"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -770,6 +822,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#foodpark"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Beefking_steakhouse"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -782,6 +835,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_B"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Faunatar"/>
         <rdfs:label xml:lang="en">carts</rdfs:label>
+        <rdfs:label xml:lang="fi">Ostoskärryt</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -796,6 +850,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Your_Face_and_Rils"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -809,6 +864,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <rdfs:label xml:lang="en">Elisan</rdfs:label>
         <rdfs:label xml:lang="en">Elisa</rdfs:label>
+        <rdfs:label xml:lang="fi">Elisa</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -822,6 +878,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Farkkujen_Tehtaanmyymala"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -838,6 +895,8 @@
         <rdf:type rdf:resource="ontologenius#swamp_"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Click_Shoe"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sauruskatu"/>
+        <rdfs:label xml:lang="en">swamp</rdfs:label>
+        <rdfs:label xml:lang="fi">swamp</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -908,6 +967,7 @@
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#explicable"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#salient"/>
         <rdfs:label xml:lang="en">stairs</rdfs:label>
+        <rdfs:label xml:lang="fi">portaat</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -925,6 +985,7 @@
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#slow"/>
         <rdfs:label xml:lang="en">elevator</rdfs:label>
+        <rdfs:label xml:lang="fi">Hissi</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -943,6 +1004,7 @@
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#slow"/>
         <rdfs:label xml:lang="en">elevator</rdfs:label>
+        <rdfs:label xml:lang="fi">Hissi</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -959,6 +1021,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_Keskuspuisto_corridorkeskuwest"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#inaccessible"/>
         <rdfs:label xml:lang="en">stairs</rdfs:label>
+        <rdfs:label xml:lang="fi">portaat</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -973,6 +1036,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_kesku_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Pelaamo"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -985,6 +1049,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Espresso_House"/>
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <rdfs:label xml:lang="en">robot info desk</rdfs:label>
+        <rdfs:label xml:lang="fi">robotin infopiste</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -999,6 +1064,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Stadium"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1012,6 +1078,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#escalator_kompassikatu"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1034,6 +1101,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Zones_by_Sarkanniemi"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <rdfs:label xml:lang="en">escalator</rdfs:label>
+        <rdfs:label xml:lang="fi">liukuportaat</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1048,6 +1116,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_kesku_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Pizza_Hut"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1062,6 +1131,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#bridge_1"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#elevator_coyote"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1088,6 +1158,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_1A_north"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Easy_Fit_Traingin"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1133,6 +1204,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1north_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_3"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1147,6 +1219,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1B"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Masku"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1161,6 +1234,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1A_south"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Netrauta"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1211,6 +1285,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_5"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
 	      <rdfs:label xml:lang="en">restroom</rdfs:label>
+	      <rdfs:label xml:lang="fi">maksuton</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1223,6 +1298,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#sitruunakatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Prisma"/>
         <rdfs:label xml:lang="en">carts</rdfs:label>
+	      <rdfs:label xml:lang="fi">Ostoskärryt</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1236,6 +1312,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#sitruunakatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#escalator_D"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1261,6 +1338,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Ti_Ti_Nallen_Koti"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1274,6 +1352,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1central_north"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_18"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1287,6 +1366,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_netrauta_2"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1304,6 +1384,7 @@
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#slow"/>
         <rdfs:label xml:lang="en">elevator</rdfs:label>
+        <rdfs:label xml:lang="fi">hissi</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1317,6 +1398,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_1extrem_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_7"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1342,6 +1424,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1D_south"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_8"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1367,6 +1450,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1C"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1D_south"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1380,6 +1464,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Zones_by_Sarkanniemi"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
 	      <rdfs:label xml:lang="en">restroom</rdfs:label>
+	      <rdfs:label xml:lang="fi">maksuton</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1394,6 +1479,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1food"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1Dsouth_corridor1west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1407,6 +1493,7 @@
         <ontologenius:isAtBeginEdgeOfPath rdf:resource="ontologenius#corridor_1west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Nordea"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1418,6 +1505,8 @@
         <rdf:type rdf:resource="ontologenius#empty_place"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridor1Dnorth_corridor1Dsouth"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1D_south"/>
+        <rdfs:label xml:lang="en">Nordea</rdfs:label>
+        <rdfs:label xml:lang="fi">Nordea</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1432,6 +1521,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_1west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_9"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1456,6 +1546,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_1west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#elevator_west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1474,6 +1565,7 @@
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#slow"/>
         <rdfs:label xml:lang="en">elevator</rdfs:label>
+        <rdfs:label xml:lang="fi">hissi</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1521,6 +1613,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_corridoreast_corridorelevatoreast"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
         <rdfs:label xml:lang="en">restroom</rdfs:label>
+        <rdfs:label xml:lang="fi">maksuton</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1544,6 +1637,7 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#corridor_east"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_14"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1569,6 +1663,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#gf_toilet_west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
+        <rdfs:label xml:lang="fi">risteys</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1582,6 +1677,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_16"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
 	      <rdfs:label xml:lang="en">restroom</rdfs:label>
+	      <rdfs:label xml:lang="fi">maksuton</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1596,6 +1692,7 @@
         <rdfs:label xml:lang="en">ATM</rdfs:label>
         <rdfs:label xml:lang="en">cash machine</rdfs:label>
         <rdfs:label xml:lang="en">bank</rdfs:label>
+        <rdfs:label xml:lang="fi">pankkiautomaatti</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1618,6 +1715,7 @@
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">veistoskatu</rdfs:label>
+        <rdfs:label xml:lang="fi">veistoskatu</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1629,6 +1727,7 @@
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">pallokatu</rdfs:label>
+        <rdfs:label xml:lang="fi">pallokatu</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1640,6 +1739,7 @@
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">kompassikatu</rdfs:label>
+        <rdfs:label xml:lang="fi">kompassikatu</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1652,6 +1752,7 @@
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">Keskuspuisto</rdfs:label>
         <rdfs:label xml:lang="en">square</rdfs:label>
+        <rdfs:label xml:lang="fi">Keskuspuisto</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1663,6 +1764,7 @@
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">sauruskatu</rdfs:label>
+        <rdfs:label xml:lang="fi">sauruskatu</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1674,6 +1776,7 @@
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">palapelikatu</rdfs:label>
+        <rdfs:label xml:lang="fi">palapelikatu</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1685,6 +1788,7 @@
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">sitruunakatu</rdfs:label>
+        <rdfs:label xml:lang="fi">sitruunakatu</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1784,6 +1888,8 @@
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
+        <rdfs:label xml:lang="en">restroom</rdfs:label>
+        <rdfs:label xml:lang="fi">maksuton</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1795,6 +1901,8 @@
         <rdf:type rdf:resource="ontologenius#corridor"/>
         <ontologenius:isIn rdf:resource="ontologenius#ground_floor"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
+        <rdfs:label xml:lang="en">restroom</rdfs:label>
+        <rdfs:label xml:lang="fi">maksuton</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2046,8 +2154,8 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#first_floor">
         <rdf:type rdf:resource="ontologenius#region"/>
-        <rdfs:label xml:lang="en">first floor</rdfs:label>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unexplicable"/>
+        <rdfs:label xml:lang="en">first floor</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2057,8 +2165,8 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#ground_floor">
         <rdf:type rdf:resource="ontologenius#region"/>
-        <rdfs:label xml:lang="en">ground floor</rdfs:label>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unexplicable"/>
+        <rdfs:label xml:lang="en">ground floor</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2068,8 +2176,8 @@
 
     <owl:NamedIndividual rdf:about="ontologenius#old_town">
         <rdf:type rdf:resource="ontologenius#region"/>
-        <rdfs:label xml:lang="en">old town</rdfs:label>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unexplicable"/>
+        <rdfs:label xml:lang="en">old town</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2158,7 +2266,8 @@
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#palapelikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Budget_Sport"/>
         <rdfs:label xml:lang="en">KidZone</rdfs:label>
-        <rdfs:label xml:lang="fi">Kid Zone</rdfs:label>
+        <rdfs:label xml:lang="en">Kid Zone</rdfs:label>
+        <rdfs:label xml:lang="fi">KidZone</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2450,7 +2559,8 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Lumo_puoti"/>
         <rdfs:label xml:lang="en">Avain- ja suutarityo Helsky</rdfs:label>
         <rdfs:label xml:lang="en">shoemaker</rdfs:label>
-        <rdfs:label xml:lang="fi">Avain- ja suutarityö Helsky</rdfs:label>
+        <rdfs:label xml:lang="en">Avain</rdfs:label>
+        <rdfs:label xml:lang="fi">Avain</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -3739,6 +3849,7 @@
         <rdfs:label xml:lang="en">River and Co</rdfs:label>
         <rdfs:label xml:lang="fi">River and Co</rdfs:label>
         <rdfs:label xml:lang="en">Kauppahuone Riveri</rdfs:label>
+        <rdfs:label xml:lang="fi">Kauppahuone Riveri</rdfs:label>
         <onto:label xml:lang="en">River</onto:label>
     </owl:NamedIndividual>
 
@@ -4252,6 +4363,7 @@
         <rdfs:label xml:lang="en">Jack & Jones</rdfs:label>
         <rdfs:label xml:lang="en">Jack and Jones</rdfs:label>
         <onto:label xml:lang="en">Jack Jones</onto:label>
+        <rdfs:label xml:lang="fi">Jack and Jones</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -4270,6 +4382,8 @@
         <ontologenius:isInFrontOf rdf:resource="ontologenius#empty_Fortum"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#kompassikatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Cubus"/>
+        <rdfs:label xml:lang="en">Putiikki WOW</rdfs:label>
+        <rdfs:label xml:lang="fi">Putiikki WOW</rdfs:label>
     </owl:NamedIndividual>
 
 
