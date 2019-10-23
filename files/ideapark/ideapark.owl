@@ -1691,8 +1691,9 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#empty_17"/>
         <rdfs:label xml:lang="en">ATM</rdfs:label>
         <rdfs:label xml:lang="en">cash machine</rdfs:label>
-        <rdfs:label xml:lang="en">bank</rdfs:label>
-        <rdfs:label xml:lang="fi">pankkiautomaatti</rdfs:label>
+        <onto:label xml:lang="en">bank</onto:label>
+        <onto:label xml:lang="en">cash</onto:label>
+        <onto:label xml:lang="fi">pankkiautomaatti</onto:label>
     </owl:NamedIndividual>
 
 
