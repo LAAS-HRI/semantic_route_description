@@ -3917,6 +3917,7 @@
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#sauruskatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#New_Yorker"/>
         <rdfs:label xml:lang="en">KOO Kenka</rdfs:label>
+        <onto:label xml:lang="en">kookoot</onto:label>
         <rdfs:label xml:lang="fi">KOO Kenkä</rdfs:label>
     </owl:NamedIndividual>
 
