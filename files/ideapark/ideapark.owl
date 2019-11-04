@@ -2523,6 +2523,9 @@
         <rdfs:label xml:lang="en">Makelan Kauppapuutarna</rdfs:label>
         <rdfs:label xml:lang="en">Makelan</rdfs:label>
         <rdfs:label xml:lang="fi">Makelan Kauppapuutarna</rdfs:label>
+        <rdfs:label xml:lang="en">Kukkakauppa</rdfs:label>
+        <rdfs:label xml:lang="en">florist</rdfs:label>
+        <rdfs:label xml:lang="fi">Kukkakauppa</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2764,23 +2767,6 @@
         <rdf:type rdf:resource="ontologenius#empty_Telia_"/>
         <ontologenius:isAtRightOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Intersport_Ideapark"/>
-    </owl:NamedIndividual>
-
-
-
-
-    <!-- ontologenius#Kukkakauppa -->
-
-    <owl:Class rdf:about="ontologenius#Kukkakauppa_">
-        <rdfs:subClassOf rdf:resource="ontologenius#speciality_retailer"/>
-    </owl:Class>
-
-
-    <owl:NamedIndividual rdf:about="ontologenius#Kukkakauppa">
-        <rdf:type rdf:resource="ontologenius#Kukkakauppa_"/>
-        <rdfs:label xml:lang="en">Kukkakauppa</rdfs:label>
-        <rdfs:label xml:lang="en">florist</rdfs:label>
-        <rdfs:label xml:lang="fi">Kukkakauppa</rdfs:label>
     </owl:NamedIndividual>
 
 

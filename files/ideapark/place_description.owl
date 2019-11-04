@@ -571,6 +571,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
         <rdfs:label xml:lang="en">fashion store</rdfs:label>
+        <rdfs:label xml:lang="fi">muotikauppa</rdfs:label>
     </owl:Class>
 
 
@@ -583,6 +584,7 @@
         <rdfs:label xml:lang="en">shoe store</rdfs:label>
         <rdfs:label xml:lang="en">shoes shop</rdfs:label>
         <rdfs:label xml:lang="en">shoe shop</rdfs:label>
+        <rdfs:label xml:lang="fi">kenkäkauppa</rdfs:label>
     </owl:Class>
 
 
@@ -609,6 +611,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
         <rdfs:label xml:lang="en">clothes store</rdfs:label>
         <rdfs:label xml:lang="en">clothing store</rdfs:label>
+        <rdfs:label xml:lang="fi">vaatekauppa</rdfs:label>
     </owl:Class>
 
 
@@ -664,6 +667,8 @@
         <rdfs:label xml:lang="en">sport store</rdfs:label>
         <rdfs:label xml:lang="en">sport shop</rdfs:label>
         <rdfs:label xml:lang="en">sport</rdfs:label>
+        <rdfs:label xml:lang="fi">urheilukauppa</rdfs:label>
+        <rdfs:label xml:lang="fi">Urheilu</rdfs:label>
     </owl:Class>
 
 
@@ -691,7 +696,8 @@
         <rdfs:label xml:lang="en">cafe</rdfs:label>
         <rdfs:label xml:lang="en">café</rdfs:label>
         <rdfs:label xml:lang="en">coffee shop</rdfs:label>
-        <!-- /!\ some names are related to items, this will be change -->
+        <rdfs:label xml:lang="fi">kahvi</rdfs:label>
+        <rdfs:label xml:lang="fi">kahvila</rdfs:label>
     </owl:Class>
 
 
@@ -705,6 +711,7 @@
         <rdfs:label xml:lang="en">dinner</rdfs:label>
         <rdfs:label xml:lang="en">dining room</rdfs:label>
         <onto:label xml:lang="en">eatery</onto:label>
+        <rdfs:label xml:lang="fi">ravintola</rdfs:label>
     </owl:Class>
 
 
