@@ -131,7 +131,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#signpost"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:makeReferenceTo rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king"/>
-        <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#zizzi"/>
+        <!--adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#zizzi"/-->
         <rdfs:label xml:lang="en">burger king sign</rdfs:label>
     </owl:NamedIndividual>
 
@@ -210,7 +210,8 @@
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#outside"/>
-        <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king_signpost_1"/>
+        <!--adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king_signpost_1"/-->
+        <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#zizzi"/>
         <place_description:isInFrontOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h20"/>
         <rdfs:label xml:lang="en">door E</rdfs:label>
     </owl:NamedIndividual>
