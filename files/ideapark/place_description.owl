@@ -419,6 +419,17 @@
 
 
 
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#toystore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#toystore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#shop"/>
+        <rdfs:label xml:lang="en">toystore</rdfs:label>
+        <rdfs:label xml:lang="fi">lelukauppa</rdfs:label>
+        <rdfs:label xml:lang="fi">toystore</rdfs:label>
+    </owl:Class>
+
+
+
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#atm -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#atm">
