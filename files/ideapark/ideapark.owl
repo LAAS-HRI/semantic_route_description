@@ -2545,6 +2545,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#intersection_oldcorridorwest_oldopenspace"/>
         <rdfs:label xml:lang="en">Lumo-puoti</rdfs:label>
         <rdfs:label xml:lang="fi">Lumo-puoti</rdfs:label>
+        <onto:label xml:lang="fi">magic shop</onto:label>
     </owl:NamedIndividual>
 
 
@@ -2565,6 +2566,7 @@
         <rdfs:label xml:lang="en">shoemaker</rdfs:label>
         <rdfs:label xml:lang="en">Avain</rdfs:label>
         <rdfs:label xml:lang="fi">Avain</rdfs:label>
+        <onto:label xml:lang="fi">shoemaker live</onto:label>
     </owl:NamedIndividual>
 
 
@@ -3457,6 +3459,7 @@
         <ontologenius:hasAtRight rdf:resource="ontologenius#Mummola_Lahjapuoti"/>
         <rdfs:label xml:lang="en">Aitoleipa</rdfs:label>
         <rdfs:label xml:lang="fi">Aitoleipä</rdfs:label>
+        <onto:label xml:lang="fi">genuine bread</onto:label>
     </owl:NamedIndividual>
 
 
@@ -4044,6 +4047,7 @@
         <rdfs:label xml:lang="en">Apteekki</rdfs:label>
         <rdfs:label xml:lang="en">pharmacy</rdfs:label>
         <rdfs:label xml:lang="fi">Apteekki</rdfs:label>
+        <onto:label xml:lang="fi">pharmacy</onto:label>
     </owl:NamedIndividual>
 
 

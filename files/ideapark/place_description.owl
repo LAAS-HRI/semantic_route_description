@@ -426,6 +426,7 @@
         <rdfs:label xml:lang="en">toystore</rdfs:label>
         <rdfs:label xml:lang="fi">lelukauppa</rdfs:label>
         <rdfs:label xml:lang="fi">toystore</rdfs:label>
+        <onto:label xml:lang="fi">toy store</onto:label>
     </owl:Class>
 
 
