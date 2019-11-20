@@ -550,6 +550,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#stairs_pancho"/>
         <rdfs:label xml:lang="en">passage</rdfs:label>
+        <rdfs:label xml:lang="fi">läpikulku</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -947,6 +948,7 @@
         <ontologenius:isAlong rdf:resource="ontologenius#Keskuspuisto"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#SubWay"/>
         <rdfs:label xml:lang="en">passage</rdfs:label>
+        <rdfs:label xml:lang="fi">läpikulku</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1251,6 +1253,7 @@
         <ontologenius:isAtEndEdgeOfPath rdf:resource="ontologenius#old_corridor_west"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#Marco_Polo"/>
         <rdfs:label xml:lang="en">passage</rdfs:label>
+        <rdfs:label xml:lang="fi">läpikulku</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -2565,7 +2568,8 @@
         <rdfs:label xml:lang="en">Avain- ja suutarityo Helsky</rdfs:label>
         <rdfs:label xml:lang="en">shoemaker</rdfs:label>
         <rdfs:label xml:lang="en">Avain</rdfs:label>
-        <rdfs:label xml:lang="fi">Avain</rdfs:label>
+        <rdfs:label xml:lang="fi">Suutari</rdfs:label>
+        <rdfs:label xml:lang="fi">Avain- ja suutarityö Helsky</rdfs:label>
         <onto:label xml:lang="fi">shoemaker live</onto:label>
     </owl:NamedIndividual>
 
