@@ -227,7 +227,7 @@
         <rdfs:label xml:lang="en">cash machine</rdfs:label>
         <onto:label xml:lang="en">bank</onto:label>
         <onto:label xml:lang="en">cash</onto:label>
-        <onto:label xml:lang="fi">pankkiautomaatti</onto:label>
+        <rdfs:label xml:lang="fi">pankkiautomaatti</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -1693,7 +1693,7 @@
         <rdfs:label xml:lang="en">cash machine</rdfs:label>
         <onto:label xml:lang="en">bank</onto:label>
         <onto:label xml:lang="en">cash</onto:label>
-        <onto:label xml:lang="fi">pankkiautomaatti</onto:label>
+        <rdfs:label xml:lang="fi">pankkiautomaatti</rdfs:label>
     </owl:NamedIndividual>
 
 
