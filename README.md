@@ -4,7 +4,7 @@
 
 ### Launch the semantic route description
 
-Fisrt, launch the ontoloGenius with the semantic_route_description's files:
+Fisrt, launch the ontologenius with the semantic_route_description's files:
 ```
 $ roslaunch semantic_route_description route_ontology.launch
 ```
@@ -160,5 +160,5 @@ $ rosservice call /semantic_route_description/get_route "{from_: 'robot_infodesk
 
 [License-Url]: https://opensource.org/licenses/Apache-2.0
 [License-Image]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
-[Dependency-Image]: https://img.shields.io/badge/dependencies-ontoloGenius-1eb0fc.svg
+[Dependency-Image]: https://img.shields.io/badge/dependencies-ontologenius-1eb0fc.svg
 [Dependency-Url]: https://github.com/sarthou/ontologenius

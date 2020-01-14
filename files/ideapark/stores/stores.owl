@@ -725,9 +725,9 @@
 
 
 
-    <!-- ontologenius#Timanttiset -->
+    <!-- ontologenius#City_Kulta -->
 
-    <owl:Class rdf:about="ontologenius#Timanttiset_">
+    <owl:Class rdf:about="ontologenius#City_Kulta_">
        <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
     </owl:Class>
 

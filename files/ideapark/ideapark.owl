@@ -633,7 +633,7 @@
     <owl:NamedIndividual rdf:about="ontologenius#My_Bag">
         <rdf:type rdf:resource="ontologenius#My_Bag_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Power"/>
-        <ontologenius:hasAtRight rdf:resource="ontologenius#Timanttiset"/>
+        <ontologenius:hasAtRight rdf:resource="ontologenius#City_Kulta"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <rdfs:label xml:lang="en">My Bag</rdfs:label>
         <rdfs:label xml:lang="fi">My Bag</rdfs:label>
@@ -3641,20 +3641,20 @@
 
 
 
-    <!-- ontologenius#Timanttiset -->
+    <!-- ontologenius#City_Kulta -->
 
-    <owl:Class rdf:about="ontologenius#Timanttiset_">
+    <owl:Class rdf:about="ontologenius#City_Kulta_">
         <rdfs:subClassOf rdf:resource="ontologenius#accessories_store"/>
     </owl:Class>
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Timanttiset">
-        <rdf:type rdf:resource="ontologenius#Timanttiset_"/>
+    <owl:NamedIndividual rdf:about="ontologenius#City_Kulta">
+        <rdf:type rdf:resource="ontologenius#City_Kulta_"/>
         <ontologenius:isInFrontOf rdf:resource="ontologenius#Intersport_Ideapark"/>
         <ontologenius:isAtLeftOfPath rdf:resource="ontologenius#pallokatu"/>
         <ontologenius:hasAtRight rdf:resource="ontologenius#KappAhl"/>
-        <rdfs:label xml:lang="en">Timanttiset</rdfs:label>
-        <rdfs:label xml:lang="fi">Timanttiset</rdfs:label>
+        <rdfs:label xml:lang="en">City Kulta</rdfs:label>
+        <rdfs:label xml:lang="fi">City Kulta</rdfs:label>
     </owl:NamedIndividual>
 
 

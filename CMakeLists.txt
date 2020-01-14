@@ -85,7 +85,7 @@ catkin_package(
 include_directories(
  include
   ${catkin_INCLUDE_DIRS}
-  ${ontoloGenius_lib_INCLUDE_DIRS}
+  ${ontologenius_lib_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
