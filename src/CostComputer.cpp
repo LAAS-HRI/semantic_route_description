@@ -4,7 +4,8 @@
 #include <limits>
 #include <map>
 
-const struct Personna CostComputer::lambda_persona = {"lambda", {0.2,0.2,0.3,0.2,0.2,0.6}};
+//const struct Personna CostComputer::lambda_persona = {"lambda", {0.2,0.2,0.3,0.2,0.2,0.6}};
+const struct Personna CostComputer::lambda_persona = {"lambda", {0,0,0,0,0,1}};
 const struct Personna CostComputer::disabled_persona = {"disabled", {0.5,2.0,0.9,0.7,0.5,0.0}};
 const struct Personna CostComputer::knowing_persona = {"knowing", {0.1,0.5,0.6,0.5,0.2,0.7}};
 const struct Personna CostComputer::not_knowing_persona = {"notKnowing", {0.9,0.5,0.2,0.7,0.7,0.2}};

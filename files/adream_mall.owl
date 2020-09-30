@@ -278,11 +278,24 @@
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
-        <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/>
+        <!--route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable"/-->
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#slow"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c13_intersection"/>
         <rdfs:label xml:lang="en">elevator</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#capsule -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#capsule">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+        <adream_mall:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
+        <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
+        <place_description:isInFrontOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#elevator_1"/>
+        <onto:label xml:lang="en">capsule</onto:label>
+        <rdfs:label xml:lang="en">the capsule</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -311,13 +324,26 @@
 
 
 
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#empty_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#empty_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+        <adream_mall:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1"/>
+        <adream_mall:isInFrontOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#stairs_1"/>
+        <adream_mall:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c13_intersection"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c13_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c13_intersection">
         <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
-        <adream_mall:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1"/>
-        <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
-        <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#stairs_1"/>
+        <!--adream_mall:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1"/-->
+        <adream_mall:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1"/>
+        <!--adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/-->
+        <adream_mall:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
+        <!--adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#stairs_1"/-->
         <rdfs:label xml:lang="en">intersection</rdfs:label>
     </owl:NamedIndividual>
 
@@ -609,7 +635,7 @@
         <place_description:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <place_description:hasSaliency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</place_description:hasSaliency>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#daddys_diner"/>
-        <rdfs:label xml:lang="en">H&amp;M</rdfs:label>
+        <rdfs:label xml:lang="en">drone arena</rdfs:label>
     </owl:NamedIndividual>
 
 
@@ -776,11 +802,12 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#stairs_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#stair"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1"/>
-        <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
+        <!--adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/-->
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#inaccessible"/>
+        <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#fast"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_B"/>
         <rdfs:label xml:lang="en">stairs</rdfs:label>
     </owl:NamedIndividual>
