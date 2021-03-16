@@ -1,4 +1,4 @@
-#include "ontoloGenius/utility/OntologyManipulator.h"
+#include "ontologenius/OntologyManipulator.h"
 #include <iostream>
 #include "ros/ros.h"
 
