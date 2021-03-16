@@ -1,7 +1,7 @@
 #ifndef COSTCOMPUTER_H
 #define COSTCOMPUTER_H
 
-#include "ontoloGenius/utility/OntologyManipulator.h"
+#include "ontologenius/OntologyManipulator.h"
 #include "route_description/Routes.h"
 
 #include "ros/ros.h"

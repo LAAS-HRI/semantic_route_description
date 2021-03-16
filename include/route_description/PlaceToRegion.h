@@ -1,7 +1,7 @@
 #ifndef PLACETOREGION_H
 #define PLACETOREGION_H
 
-#include "ontoloGenius/utility/OntologyManipulator.h"
+#include "ontologenius/OntologyManipulator.h"
 
 #include <vector>
 #include <string>

@@ -1,7 +1,7 @@
 #ifndef REGIONPATHFINDER_H
 #define REGIONPATHFINDER_H
 
-#include "ontoloGenius/utility/OntologyManipulator.h"
+#include "ontologenius/OntologyManipulator.h"
 #include "route_description/Routes.h"
 
 #include <vector>
