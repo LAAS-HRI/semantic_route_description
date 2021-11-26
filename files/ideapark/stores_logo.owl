@@ -1,11 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="ontologenius#"
+<rdf:RDF xmlns="stores_logo#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="ontologenius"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:stores_logo="stores_logo#"
+     xmlns:place_description="place_description#"
+     xmlns:ideapark="ideapark#">
+    <owl:Ontology rdf:about="stores_logo"/>
 
 
     <!--
@@ -19,30 +22,30 @@
 
 
 
-    <!-- ontologenius#hasLogoURL -->
+    <!-- stores_logo#hasLogoURL -->
 
-    <owl:DatatypeProperty rdf:about="ontologenius#hasLogoURL">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+    <owl:DatatypeProperty rdf:about="stores_logo#hasLogoURL">
+        <rdfs:domain rdf:resource="place_description#place"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
 
 
 
 
-   <!-- ontologenius#hasLogoPath -->
+   <!-- stores_logo#hasLogoPath -->
 
-   <owl:DatatypeProperty rdf:about="ontologenius#hasLogoPath">
-       <rdfs:domain rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+   <owl:DatatypeProperty rdf:about="stores_logo#hasLogoPath">
+       <rdfs:domain rdf:resource="place_description#place"/>
        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
    </owl:DatatypeProperty>
 
 
 
 
-  <!-- ontologenius#has3dMesh -->
+  <!-- stores_logo#has3dMesh -->
 
-  <owl:DatatypeProperty rdf:about="ontologenius#has3dMesh">
-      <rdfs:domain rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+  <owl:DatatypeProperty rdf:about="stores_logo#has3dMesh">
+      <rdfs:domain rdf:resource="place_description#place"/>
       <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:DatatypeProperty>
 
@@ -59,1678 +62,1678 @@
 
 
 
-     <!-- ontologenius#Sinelli -->
+     <!-- ideapark#Sinelli -->
 
 
-     <owl:NamedIndividual rdf:about="ontologenius#Sinelli">
-       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sinelli_thumbnailxl.jpg</ontologenius:hasLogoURL>
-       <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sinelli_thumbnailxl.jpg</ontologenius:hasLogoPath>
+     <owl:NamedIndividual rdf:about="ideapark#Sinelli">
+       <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sinelli_thumbnailxl.jpg</stores_logo:hasLogoURL>
+       <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sinelli_thumbnailxl.jpg</stores_logo:hasLogoPath>
      </owl:NamedIndividual>
 
 
 
 
-     <!-- ontologenius#Bella_Roma_and_Daddys_Diner -->
+     <!-- ideapark#Bella_Roma_and_Daddys_Diner -->
 
 
-     <owl:NamedIndividual rdf:about="ontologenius#Bella_Roma_and_Daddys_Diner">
-       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bellaroma_thumbnailxl.jpg</ontologenius:hasLogoURL>
-       <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bellaroma_thumbnailxl.jpg</ontologenius:hasLogoPath>
-       <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/daddysdiner_thumbnailxl.jpg</ontologenius:hasLogoURL>
-       <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/daddysdiner_thumbnailxl.jpg</ontologenius:hasLogoPath>
+     <owl:NamedIndividual rdf:about="ideapark#Bella_Roma_and_Daddys_Diner">
+       <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bellaroma_thumbnailxl.jpg</stores_logo:hasLogoURL>
+       <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bellaroma_thumbnailxl.jpg</stores_logo:hasLogoPath>
+       <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/daddysdiner_thumbnailxl.jpg</stores_logo:hasLogoURL>
+       <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/daddysdiner_thumbnailxl.jpg</stores_logo:hasLogoPath>
      </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Prisma -->
+    <!-- ideapark#Prisma -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Prisma">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/prisma_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/prisma_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Prisma">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/prisma_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/prisma_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Alko -->
+    <!-- ideapark#Alko -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Alko">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/alko_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/alko_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Alko">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/alko_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/alko_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Name_It -->
+    <!-- ideapark#Name_It -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Name_It">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nameit_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nameit_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Name_It">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nameit_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nameit_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Budget_Sport -->
+    <!-- ideapark#Budget_Sport -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Budget_Sport">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/budgetsport_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/budgetsport_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Budget_Sport">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/budgetsport_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/budgetsport_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Toys_R_Us -->
+    <!-- ideapark#Toys_R_Us -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Toys_R_Us">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/toysrus_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/toysrus_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Toys_R_Us">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/toysrus_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/toysrus_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Logistiikkakeskus -->
+    <!-- ideapark#Logistiikkakeskus -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Logistiikkakeskus">
+    <owl:NamedIndividual rdf:about="ideapark#Logistiikkakeskus">
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Jesper_Junior -->
+    <!-- ideapark#Jesper_Junior -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Jesper_Junior">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/jesperjunior_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/jesperjunior_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Jesper_Junior">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/jesperjunior_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/jesperjunior_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Sievi_Shop -->
+    <!-- ideapark#Sievi_Shop -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Sievi_Shop">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sievishop_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sievishop_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Sievi_Shop">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sievishop_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sievishop_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Tekniskamagasinet -->
+    <!-- ideapark#Tekniskamagasinet -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Tekniskamagasinet">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/teknikmagasinet_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/teknikmagasinet_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Tekniskamagasinet">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/teknikmagasinet_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/teknikmagasinet_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Gant -->
+    <!-- ideapark#Gant -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Gant">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/gant_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/gant_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Gant">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/gant_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/gant_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kahvila_Ilopilleri -->
+    <!-- ideapark#Kahvila_Ilopilleri -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kahvila_Ilopilleri">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ilopilleri_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ilopilleri_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kahvila_Ilopilleri">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ilopilleri_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ilopilleri_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Tanssiopisto -->
+    <!-- ideapark#Tanssiopisto -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Tanssiopisto">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pirkanmaantanssiopisto_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pirkanmaantanssiopisto_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Tanssiopisto">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pirkanmaantanssiopisto_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pirkanmaantanssiopisto_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Juvesport -->
+    <!-- ideapark#Juvesport -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Juvesport">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/juvesport_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/juvesport_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Juvesport">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/juvesport_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/juvesport_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Easy_Fit_Traingin -->
+    <!-- ideapark#Easy_Fit_Traingin -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Easy_Fit_Traingin">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/easyfitideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/easyfitideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Easy_Fit_Traingin">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/easyfitideapark_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/easyfitideapark_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Ideapark_Sport_Areena -->
+    <!-- ideapark#Ideapark_Sport_Areena -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Ideapark_Sport_Areena">
+    <owl:NamedIndividual rdf:about="ideapark#Ideapark_Sport_Areena">
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Gina_Tricot -->
+    <!-- ideapark#Gina_Tricot -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Gina_Tricot">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ginatricot_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ginatricot_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Gina_Tricot">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ginatricot_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ginatricot_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Marco_Polo -->
+    <!-- ideapark#Marco_Polo -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Marco_Polo">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/marcopolo_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/marcopolo_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Marco_Polo">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/marcopolo_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/marcopolo_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Hairlekiini -->
+    <!-- ideapark#Hairlekiini -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Hairlekiini">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hairlekiini_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hairlekiini_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Hairlekiini">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hairlekiini_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hairlekiini_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Lumo_puoti -->
+    <!-- ideapark#Lumo_puoti -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Lumo_puoti">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/lumopuoti_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lumopuoti_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Lumo_puoti">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/lumopuoti_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lumopuoti_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Avain__ja_suutarityo_Helsky -->
+    <!-- ideapark#Avain__ja_suutarityo_Helsky -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Avain__ja_suutarityo_Helsky">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/avainjasuutarityohelsky_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/avainjasuutarityohelsky_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Avain__ja_suutarityo_Helsky">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/avainjasuutarityohelsky_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/avainjasuutarityohelsky_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#PiiPoo -->
+    <!-- ideapark#PiiPoo -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#PiiPoo">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/piipoo_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/piipoo_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#PiiPoo">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/piipoo_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/piipoo_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Cafe_de_Lisa -->
+    <!-- ideapark#Cafe_de_Lisa -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Cafe_de_Lisa">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/cafedelisaliisanleipomo_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cafedelisaliisanleipomo_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Cafe_de_Lisa">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/cafedelisaliisanleipomo_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cafedelisaliisanleipomo_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Hiljainen_huone -->
+    <!-- ideapark#Hiljainen_huone -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Hiljainen_huone">
+    <owl:NamedIndividual rdf:about="ideapark#Hiljainen_huone">
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Ballot -->
+    <!-- ideapark#Ballot -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Ballot">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ballot_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ballot_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Ballot">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ballot_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ballot_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Halonen -->
+    <!-- ideapark#Halonen -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Halonen">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/halonen_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/halonen_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Halonen">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/halonen_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/halonen_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Clas_Ohlson -->
+    <!-- ideapark#Clas_Ohlson -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Clas_Ohlson">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/clasohlson_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/clasohlson_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Clas_Ohlson">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/clasohlson_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/clasohlson_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kicks -->
+    <!-- ideapark#Kicks -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kicks">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kicks_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kicks_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kicks">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kicks_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kicks_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Power -->
+    <!-- ideapark#Power -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Power">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/power_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/power_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Power">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/power_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/power_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Intersport_Ideapark -->
+    <!-- ideapark#Intersport_Ideapark -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Intersport_Ideapark">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/intersportideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/intersportideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Intersport_Ideapark">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/intersportideapark_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/intersportideapark_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kalastus_Suomi -->
+    <!-- ideapark#Kalastus_Suomi -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kalastus_Suomi">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/kalastussuomi_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kalastussuomi_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kalastus_Suomi">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/kalastussuomi_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kalastussuomi_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Telia -->
+    <!-- ideapark#Telia -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Telia">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/teliakauppa_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/teliakauppa_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Telia">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/teliakauppa_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/teliakauppa_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kukkakauppa -->
+    <!-- ideapark#Kukkakauppa -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kukkakauppa">
+    <owl:NamedIndividual rdf:about="ideapark#Kukkakauppa">
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Pukimo -->
+    <!-- ideapark#Pukimo -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Pukimo">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/blackmodapopup_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/blackmodapopup_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Pukimo">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/blackmodapopup_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/blackmodapopup_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Minimani -->
+    <!-- ideapark#Minimani -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Minimani">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.minimani.fi/media/theme_options/default/logo.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/Minimani.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Minimani">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.minimani.fi/media/theme_options/default/logo.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/Minimani.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Tommy_Hilfiger -->
+    <!-- ideapark#Tommy_Hilfiger -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Tommy_Hilfiger">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/tommyhilfiger_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/tommyhilfiger_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Tommy_Hilfiger">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/tommyhilfiger_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/tommyhilfiger_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Guess -->
+    <!-- ideapark#Guess -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Guess">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.guess.eu/Content/responsive/Common/images/guess.svg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/guess.svg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Guess">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.guess.eu/Content/responsive/Common/images/guess.svg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/guess.svg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Saunalahti -->
+    <!-- ideapark#Saunalahti -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Saunalahti">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/saunalahtiideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/saunalahtiideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Saunalahti">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/saunalahtiideapark_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/saunalahtiideapark_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Gerry_Weber -->
+    <!-- ideapark#Gerry_Weber -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Gerry_Weber">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/gerryweber_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/gerryweber_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Gerry_Weber">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/gerryweber_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/gerryweber_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Flying_Tiger_Copenhagen -->
+    <!-- ideapark#Flying_Tiger_Copenhagen -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Flying_Tiger_Copenhagen">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/flyingtigercopenhagen_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/flyingtigercopenhagen_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Flying_Tiger_Copenhagen">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/flyingtigercopenhagen_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/flyingtigercopenhagen_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Zizzi -->
+    <!-- ideapark#Zizzi -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Zizzi">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/zizzi_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/zizzi_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Zizzi">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/zizzi_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/zizzi_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Pelaamo -->
+    <!-- ideapark#Pelaamo -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Pelaamo">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pelaamo_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pelaamo_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Pelaamo">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pelaamo_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pelaamo_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Thai_Papaya -->
+    <!-- ideapark#Thai_Papaya -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Thai_Papaya">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/thaipapaya_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/thaipapaya_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Thai_Papaya">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/thaipapaya_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/thaipapaya_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Spice_Ice -->
+    <!-- ideapark#Spice_Ice -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Spice_Ice">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/spiceice_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/spiceice_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Spice_Ice">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/spiceice_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/spiceice_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Superdry -->
+    <!-- ideapark#Superdry -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Superdry">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/superdry_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/superdry_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Superdry">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/superdry_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/superdry_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Click_Shoe -->
+    <!-- ideapark#Click_Shoe -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Click_Shoe">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/clickshoes_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/clickshoes_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Click_Shoe">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/clickshoes_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/clickshoes_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Iittala_Outlet -->
+    <!-- ideapark#Iittala_Outlet -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Iittala_Outlet">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/iittalaoutletlempaala_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/iittalaoutletlempaala_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Iittala_Outlet">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/iittalaoutletlempaala_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/iittalaoutletlempaala_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Reima -->
+    <!-- ideapark#Reima -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Reima">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/reima_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/reima_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Reima">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/reima_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/reima_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Partioaitta -->
+    <!-- ideapark#Partioaitta -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Partioaitta">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/partioaitta_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/partioaitta_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Partioaitta">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/partioaitta_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/partioaitta_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Ur_and_Penn -->
+    <!-- ideapark#Ur_and_Penn -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Ur_and_Penn">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/urpenn_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/urpenn_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Ur_and_Penn">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/urpenn_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/urpenn_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kultajousi -->
+    <!-- ideapark#Kultajousi -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kultajousi">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kultajousi_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kultajousi_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kultajousi">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kultajousi_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kultajousi_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Life -->
+    <!-- ideapark#Life -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Life">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/life_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/life_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Life">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/life_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/life_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Banking_machine -->
+    <!-- ideapark#Banking_machine -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Banking_machine">
+    <owl:NamedIndividual rdf:about="ideapark#Banking_machine">
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#LahiTapiola_Service_desk -->
+    <!-- ideapark#LahiTapiola_Service_desk -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#LahiTapiola_Service_desk">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lahitapiola_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lahitapiola_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#LahiTapiola_Service_desk">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lahitapiola_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lahitapiola_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Nissen -->
+    <!-- ideapark#Nissen -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Nissen">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nissen_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nissen_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Nissen">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nissen_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nissen_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Bjorn_Borg -->
+    <!-- ideapark#Bjorn_Borg -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Bjorn_Borg">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bjornborg_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bjornborg_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Bjorn_Borg">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bjornborg_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bjornborg_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Swamp_Music -->
+    <!-- ideapark#Swamp_Music -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Swamp_Music">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/swamp_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/swamp_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Swamp_Music">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/swamp_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/swamp_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Instrumentarium -->
+    <!-- ideapark#Instrumentarium -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Instrumentarium">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/instrumentarium_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/instrumentarium_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Instrumentarium">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/instrumentarium_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/instrumentarium_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Hemtex -->
+    <!-- ideapark#Hemtex -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Hemtex">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/hemtex_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hemtex_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Hemtex">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/hemtex_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hemtex_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Farkkujen_Tehtaanmyymala -->
+    <!-- ideapark#Farkkujen_Tehtaanmyymala -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Farkkujen_Tehtaanmyymala">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/farkkujentehtaanmyymala_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/farkkujentehtaanmyymala_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Farkkujen_Tehtaanmyymala">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/farkkujentehtaanmyymala_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/farkkujentehtaanmyymala_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#SunWok -->
+    <!-- ideapark#SunWok -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#SunWok">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sunwok_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sunwok_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#SunWok">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/sunwok_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/sunwok_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kultaporssi -->
+    <!-- ideapark#Kultaporssi -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kultaporssi">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/suomenkultaporssi_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/suomenkultaporssi_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kultaporssi">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/suomenkultaporssi_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/suomenkultaporssi_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#HoviKebab -->
+    <!-- ideapark#HoviKebab -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#HoviKebab">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hovikebab_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hovikebab_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#HoviKebab">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hovikebab_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hovikebab_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kotipizza_and_Rolls_Expert -->
+    <!-- ideapark#Kotipizza_and_Rolls_Expert -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kotipizza_and_Rolls_Expert">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kotipizza_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kotipizza_thumbnailxl.jpg</ontologenius:hasLogoPath>
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/rollsexpress_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/rollsexpress_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kotipizza_and_Rolls_Expert">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kotipizza_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kotipizza_thumbnailxl.jpg</stores_logo:hasLogoPath>
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/rollsexpress_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/rollsexpress_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Cafe_Linkosuo -->
+    <!-- ideapark#Cafe_Linkosuo -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Cafe_Linkosuo">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/cafelinkosuoautoareena_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cafelinkosuoautoareena_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Cafe_Linkosuo">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/cafelinkosuoautoareena_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cafelinkosuoautoareena_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Aitoleipa -->
+    <!-- ideapark#Aitoleipa -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Aitoleipa">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/aitoleipa_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/aitoleipa_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Aitoleipa">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/aitoleipa_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/aitoleipa_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Mummola_Lahjapuoti -->
+    <!-- ideapark#Mummola_Lahjapuoti -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Mummola_Lahjapuoti">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mummolalahjapuoti_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mummolalahjapuoti_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Mummola_Lahjapuoti">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mummolalahjapuoti_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mummolalahjapuoti_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#SubWay -->
+    <!-- ideapark#SubWay -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#SubWay">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/subway_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/subway_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#SubWay">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/subway_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/subway_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Information_desk -->
+    <!-- ideapark#Information_desk -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Information_desk">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/infopiste_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/infopiste_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Information_desk">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/infopiste_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/infopiste_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Digiman -->
+    <!-- ideapark#Digiman -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Digiman">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/digiman_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/digiman_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Digiman">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/digiman_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/digiman_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Burger_King -->
+    <!-- ideapark#Burger_King -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Burger_King">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/burgerking_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/burgerking_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Burger_King">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/burgerking_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/burgerking_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Rax -->
+    <!-- ideapark#Rax -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Rax">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/raxbuffet_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/raxbuffet_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Rax">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/raxbuffet_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/raxbuffet_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Hesburger -->
+    <!-- ideapark#Hesburger -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Hesburger">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hesburger_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hesburger_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Hesburger">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hesburger_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hesburger_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Arnolds -->
+    <!-- ideapark#Arnolds -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Arnolds">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/arnolds_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/arnolds_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Arnolds">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/arnolds_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/arnolds_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Change -->
+    <!-- ideapark#Change -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Change">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/change_thumbnailxl-1.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/change_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Change">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/change_thumbnailxl-1.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/change_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Timanttiset -->
+    <!-- ideapark#Timanttiset -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Timanttiset">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/timanttiset_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/timanttiset_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Timanttiset">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/timanttiset_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/timanttiset_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#KappAhl -->
+    <!-- ideapark#KappAhl -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#KappAhl">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kappahl_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kappahl_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#KappAhl">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kappahl_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kappahl_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#NP -->
+    <!-- ideapark#NP -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#NP">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/napu_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/napu_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#NP">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/napu_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/napu_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Linda_Mode -->
+    <!-- ideapark#Linda_Mode -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Linda_Mode">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/lindamode_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lindamode_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Linda_Mode">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/lindamode_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lindamode_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Fonum -->
+    <!-- ideapark#Fonum -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Fonum">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/fonum_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/fonum_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Fonum">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/fonum_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/fonum_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#DNA -->
+    <!-- ideapark#DNA -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#DNA">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dnakauppaoy_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dnakauppaoy_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#DNA">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dnakauppaoy_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dnakauppaoy_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Pentik -->
+    <!-- ideapark#Pentik -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Pentik">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pentik_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pentik_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Pentik">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/pentik_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pentik_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Fortum -->
+    <!-- ideapark#Fortum -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Fortum">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/fortum_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/fortum_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Fortum">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/fortum_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/fortum_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Lagoon_Fish_Foot_Spa -->
+    <!-- ideapark#Lagoon_Fish_Foot_Spa -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Lagoon_Fish_Foot_Spa">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lagoonfishfootspa_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lagoonfishfootspa_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Lagoon_Fish_Foot_Spa">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lagoonfishfootspa_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lagoonfishfootspa_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Lindex -->
+    <!-- ideapark#Lindex -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Lindex">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lindex_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lindex_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Lindex">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/lindex_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/lindex_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#River_and_Co -->
+    <!-- ideapark#River_and_Co -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#River_and_Co">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kauppahuoneriveri_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kauppahuoneriveri_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#River_and_Co">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kauppahuoneriveri_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kauppahuoneriveri_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Musti_ja_Mirri -->
+    <!-- ideapark#Musti_ja_Mirri -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Musti_ja_Mirri">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mustijamirri_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mustijamirri_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Musti_ja_Mirri">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mustijamirri_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mustijamirri_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kirjaporssi -->
+    <!-- ideapark#Kirjaporssi -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kirjaporssi">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kirjaporssi_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kirjaporssi_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kirjaporssi">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kirjaporssi_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kirjaporssi_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Suomalainen_Kirjakauppa -->
+    <!-- ideapark#Suomalainen_Kirjakauppa -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Suomalainen_Kirjakauppa">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/suomalainenkirjakauppa_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/suomalainenkirjakauppa_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Suomalainen_Kirjakauppa">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/suomalainenkirjakauppa_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/suomalainenkirjakauppa_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#KOO_Kenka -->
+    <!-- ideapark#KOO_Kenka -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#KOO_Kenka">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kookenka_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kookenka_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#KOO_Kenka">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kookenka_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kookenka_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#New_Yorker -->
+    <!-- ideapark#New_Yorker -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#New_Yorker">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/newyorker_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/newyorker_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#New_Yorker">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/newyorker_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/newyorker_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Din_Sko -->
+    <!-- ideapark#Din_Sko -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Din_Sko">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dinsko_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dinsko_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Din_Sko">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dinsko_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dinsko_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#CM_Hiustalo -->
+    <!-- ideapark#CM_Hiustalo -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#CM_Hiustalo">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hiustalooutlet_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hiustalooutlet_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#CM_Hiustalo">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hiustalooutlet_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hiustalooutlet_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Esprit_Ideapark -->
+    <!-- ideapark#Esprit_Ideapark -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Esprit_Ideapark">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/espritideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/espritideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Esprit_Ideapark">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/09/espritideapark_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/espritideapark_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kyosho_Ideapark -->
+    <!-- ideapark#Kyosho_Ideapark -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kyosho_Ideapark">
+    <owl:NamedIndividual rdf:about="ideapark#Kyosho_Ideapark">
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Glitter -->
+    <!-- ideapark#Glitter -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Glitter">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/glitter_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/glitter_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Glitter">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/glitter_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/glitter_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Apteekki_Ideapark -->
+    <!-- ideapark#Apteekki_Ideapark -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Apteekki_Ideapark">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/apteekkiideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/apteekkiideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Apteekki_Ideapark">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/apteekkiideapark_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/apteekkiideapark_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#HairStore -->
+    <!-- ideapark#HairStore -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#HairStore">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/newhairstore_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/newhairstore_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#HairStore">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/newhairstore_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/newhairstore_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Finla -->
+    <!-- ideapark#Finla -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Finla">
+    <owl:NamedIndividual rdf:about="ideapark#Finla">
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Your_Face_and_Rils -->
+    <!-- ideapark#Your_Face_and_Rils -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Your_Face_and_Rils">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/yourface_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/yourface_thumbnailxl.jpg</ontologenius:hasLogoPath>
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/rils_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/rils_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Your_Face_and_Rils">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/yourface_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/yourface_thumbnailxl.jpg</stores_logo:hasLogoPath>
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/rils_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/rils_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Stadium -->
+    <!-- ideapark#Stadium -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Stadium">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/stadium_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/stadium_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Stadium">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/stadium_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/stadium_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Body_Shop -->
+    <!-- ideapark#Body_Shop -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Body_Shop">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/thebodyshop_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/thebodyshop_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Body_Shop">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/thebodyshop_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/thebodyshop_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Mango -->
+    <!-- ideapark#Mango -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Mango">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mango_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mango_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Mango">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mango_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mango_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Top_Sport -->
+    <!-- ideapark#Top_Sport -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Top_Sport">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/topsport_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/topsport_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Top_Sport">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/topsport_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/topsport_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Vila -->
+    <!-- ideapark#Vila -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Vila">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/vila_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/vila_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Vila">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/vila_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/vila_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Carlings -->
+    <!-- ideapark#Carlings -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Carlings">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/carlings_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/carlings_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Carlings">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/carlings_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/carlings_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Hennes_and_Mauritz -->
+    <!-- ideapark#Hennes_and_Mauritz -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Hennes_and_Mauritz">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/hma_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hma_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Hennes_and_Mauritz">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/hma_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hma_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Dressman -->
+    <!-- ideapark#Dressman -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Dressman">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dressmann_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dressmann_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Dressman">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dressmann_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dressmann_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Faunatar -->
+    <!-- ideapark#Faunatar -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Faunatar">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/faunatar_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/faunatar_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Faunatar">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/faunatar_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/faunatar_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kauneus__ja_jalkahoitola_Manna -->
+    <!-- ideapark#Kauneus__ja_jalkahoitola_Manna -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kauneus__ja_jalkahoitola_Manna">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hoitolamanna_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hoitolamanna_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kauneus__ja_jalkahoitola_Manna">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hoitolamanna_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hoitolamanna_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Bik_Bok -->
+    <!-- ideapark#Bik_Bok -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Bik_Bok">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bikbok_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bikbok_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Bik_Bok">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/bikbok_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/bikbok_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Vero_Moda,_JandJ -->
+    <!-- ideapark#Vero_Moda,_JandJ -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Vero_Moda,_JandJ">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/veromoda_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/veromoda_thumbnailxl.jpg</ontologenius:hasLogoPath>
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/jackjones_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/jackjones_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Vero_Moda,_JandJ">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/veromoda_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/veromoda_thumbnailxl.jpg</stores_logo:hasLogoPath>
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/jackjones_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/jackjones_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Kristyle -->
+    <!-- ideapark#Kristyle -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Kristyle">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kristyle_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kristyle_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Kristyle">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/kristyle_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/kristyle_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Cubus -->
+    <!-- ideapark#Cubus -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Cubus">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/cubus_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cubus_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Cubus">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/cubus_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/cubus_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Shoe_Store -->
+    <!-- ideapark#Shoe_Store -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Shoe_Store">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/shoehouse_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/shoehouse_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Shoe_Store">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/shoehouse_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/shoehouse_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Brother_Clothing -->
+    <!-- ideapark#Brother_Clothing -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Brother_Clothing">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/brothers_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/brothers_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Brother_Clothing">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/brothers_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/brothers_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#BR_lelut -->
+    <!-- ideapark#BR_lelut -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#BR_lelut">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/brlelut_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/brlelut_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#BR_lelut">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/brlelut_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/brlelut_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Dressmann_XL -->
+    <!-- ideapark#Dressmann_XL -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Dressmann_XL">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dressmannxl_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dressmannxl_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Dressmann_XL">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/dressmannxl_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/dressmannxl_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Aleksi_13 -->
+    <!-- ideapark#Aleksi_13 -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Aleksi_13">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/aleksi13_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/aleksi13_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Aleksi_13">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/aleksi13_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/aleksi13_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Unikulma -->
+    <!-- ideapark#Unikulma -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Unikulma">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/unikulma_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/unikulma_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Unikulma">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/unikulma_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/unikulma_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Marimekko_Outlet -->
+    <!-- ideapark#Marimekko_Outlet -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Marimekko_Outlet">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/marimekkooutlet_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/marimekkooutlet_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Marimekko_Outlet">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/marimekkooutlet_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/marimekkooutlet_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Easyfit -->
+    <!-- ideapark#Easyfit -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Easyfit">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/easyfitideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/easyfitideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Easyfit">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/easyfitideapark_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/easyfitideapark_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Oma_Saastopankki -->
+    <!-- ideapark#Oma_Saastopankki -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Oma_Saastopankki">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/omasaastopankki_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/omasaastopankki_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Oma_Saastopankki">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/omasaastopankki_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/omasaastopankki_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Pancho_Villa -->
+    <!-- ideapark#Pancho_Villa -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Pancho_Villa">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ravintolapanchovilla_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ravintolapanchovilla_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Pancho_Villa">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/ravintolapanchovilla_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/ravintolapanchovilla_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Coyote_Grill -->
+    <!-- ideapark#Coyote_Grill -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Coyote_Grill">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/coyotebargrill_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/coyotebargrill_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Coyote_Grill">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/08/coyotebargrill_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/coyotebargrill_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Ti_Ti_Nallen_Koti -->
+    <!-- ideapark#Ti_Ti_Nallen_Koti -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Ti_Ti_Nallen_Koti">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://ylojarvenuutiset.fi/wp-content/uploads/2018/06/titinallenkoti_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/titinallenkoti_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Ti_Ti_Nallen_Koti">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://ylojarvenuutiset.fi/wp-content/uploads/2018/06/titinallenkoti_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/titinallenkoti_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Netrauta -->
+    <!-- ideapark#Netrauta -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Netrauta">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/netrauta_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/netrauta_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Netrauta">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/07/netrauta_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/netrauta_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Zones_by_Sarkanniemi -->
+    <!-- ideapark#Zones_by_Sarkanniemi -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Zones_by_Sarkanniemi">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/zonesbysarkanniemi_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/zonesbysarkanniemi_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Zones_by_Sarkanniemi">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/zonesbysarkanniemi_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/zonesbysarkanniemi_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Masku -->
+    <!-- ideapark#Masku -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Masku">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/maskunkalustetalo_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/maskunkalustetalo_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Masku">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/maskunkalustetalo_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/maskunkalustetalo_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Finnlandia -->
+    <!-- ideapark#Finnlandia -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Finnlandia">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/finnlandia_thumbnailxl-1.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/finnlandia_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Finnlandia">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/finnlandia_thumbnailxl-1.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/finnlandia_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Eurokangas -->
+    <!-- ideapark#Eurokangas -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Eurokangas">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/eurokangas_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/eurokangas_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Eurokangas">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/eurokangas_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/eurokangas_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#empty_nordea -->
+    <!-- ideapark#empty_nordea -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_nordea">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nordeaideapark_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nordeaideapark_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#empty_nordea">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/nordeaideapark_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/nordeaideapark_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#empty_elisa -->
+    <!-- ideapark#empty_elisa -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#empty_elisa">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/elisanmyyntipiste_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/elisanmyyntipiste_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#empty_elisa">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/elisanmyyntipiste_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/elisanmyyntipiste_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#carts_A -->
+    <!-- ideapark#carts_A -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#carts_A">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#carts_A">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#carts_B -->
+    <!-- ideapark#carts_B -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#carts_B">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#carts_B">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#carts_C -->
+    <!-- ideapark#carts_C -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#carts_C">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#carts_C">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#carts_D -->
+    <!-- ideapark#carts_D -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#carts_D">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#carts_D">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cdn.onlinewebfonts.com/svg/img_334581.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/img_334581.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#ff_toilet_west -->
+    <!-- ideapark#ff_toilet_west -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#ff_toilet_west">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#ff_toilet_west">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#ff_toilet_east -->
+    <!-- ideapark#ff_toilet_east -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#ff_toilet_east">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#ff_toilet_east">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#gf_toilet_telia -->
+    <!-- ideapark#gf_toilet_telia -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_telia">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#gf_toilet_telia">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#gf_toilet_west -->
+    <!-- ideapark#gf_toilet_west -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_west">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#gf_toilet_west">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#gf_toilet_east -->
+    <!-- ideapark#gf_toilet_east -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#gf_toilet_east">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoURL
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</ontologenius:hasLogoPath>>
+    <owl:NamedIndividual rdf:about="ideapark#gf_toilet_east">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aiga_toilets_inv.svg/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/2000px-Aiga_toilets_inv.svg.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#gf_atm_east -->
+    <!-- ideapark#gf_atm_east -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#gf_atm_east">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://image.flaticon.com/icons/svg/57/57426.svg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/57426.svg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#gf_atm_east">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://image.flaticon.com/icons/svg/57/57426.svg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/57426.svg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#gf_atm_west -->
+    <!-- ideapark#gf_atm_west -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#gf_atm_west">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://image.flaticon.com/icons/svg/57/57426.svg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/57426.svg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#gf_atm_west">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://image.flaticon.com/icons/svg/57/57426.svg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/57426.svg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#swamp -->
+    <!-- ideapark#swamp -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#swamp">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/swamp_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/swamp_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#swamp">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/swamp_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/swamp_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#only -->
+    <!-- ideapark#only -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#only">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.only.com/on/demandware.static/Sites-BSE-South-Site/-/default/dw6f9723c5/on/images/logo.svg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/only.svg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#only">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.only.com/on/demandware.static/Sites-BSE-South-Site/-/default/dw6f9723c5/on/images/logo.svg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/only.svg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#only_2 -->
+    <!-- ideapark#only_2 -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#only_2">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.only.com/on/demandware.static/Sites-BSE-South-Site/-/default/dw6f9723c5/on/images/logo.svg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/only.svg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#only_2">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.only.com/on/demandware.static/Sites-BSE-South-Site/-/default/dw6f9723c5/on/images/logo.svg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/only.svg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#My_Bag -->
+    <!-- ideapark#My_Bag -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#My_Bag">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mybag_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mybag_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#My_Bag">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/mybag_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/mybag_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Sticky_Wingers -->
+    <!-- ideapark#Sticky_Wingers -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Sticky_Wingers">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/stickywingers_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/stickywingers_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Sticky_Wingers">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/stickywingers_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/stickywingers_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#pullonpalautus -->
+    <!-- ideapark#pullonpalautus -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#pullonpalautus">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://papunet.net/sites/papunet.net/files/kuvapankki/20171009/pullonpalautus.png</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pullonpalautus.png</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#pullonpalautus">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://papunet.net/sites/papunet.net/files/kuvapankki/20171009/pullonpalautus.png</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/pullonpalautus.png</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#Hairlekiini -->
+    <!-- ideapark#Hairlekiini -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#Hairlekiini">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hairlekiini_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hairlekiini_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#Hairlekiini">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/06/hairlekiini_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/hairlekiini_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
 
 
-    <!-- ontologenius#emotion -->
+    <!-- ideapark#emotion -->
 
 
-    <owl:NamedIndividual rdf:about="ontologenius#emotion">
-      <ontologenius:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/emotion_thumbnailxl.jpg</ontologenius:hasLogoURL>
-      <ontologenius:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/emotion_thumbnailxl.jpg</ontologenius:hasLogoPath>
+    <owl:NamedIndividual rdf:about="ideapark#emotion">
+      <stores_logo:hasLogoURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lempaala.ideapark.fi/wp-content/uploads/2018/11/emotion_thumbnailxl.jpg</stores_logo:hasLogoURL>
+      <stores_logo:hasLogoPath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logos/emotion_thumbnailxl.jpg</stores_logo:hasLogoPath>
     </owl:NamedIndividual>
 
 
