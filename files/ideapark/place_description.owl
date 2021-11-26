@@ -78,7 +78,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="place_description#region"/>
-        <rdfs:range rdf:resource="place_description#region"/>
+        <rdfs:range rdf:resource="place_description#building_element"/>
     </owl:ObjectProperty>
 
 
@@ -381,6 +381,12 @@
 
 
 
+    <!-- place_description#building_element -->
+
+    <owl:Class rdf:about="place_description#building_element"/>
+
+
+
 
     <!-- place_description#corridor -->
 
@@ -480,14 +486,16 @@
     <!-- place_description#openspace -->
 
     <owl:Class rdf:about="place_description#openspace">
-        <rdfs:subClassOf rdf:resource="place_description#path"/>
+        <rdfs:subClassOf rdf:resource="place_description#path"/>building_element
     </owl:Class>
 
 
 
     <!-- place_description#path -->
 
-    <owl:Class rdf:about="place_description#path"/>
+    <owl:Class rdf:about="place_description#path">
+        <rdfs:subClassOf rdf:resource="place_description#building_element"/>
+    </owl:Class>
 
 
 
@@ -501,7 +509,9 @@
 
     <!-- place_description#place -->
 
-    <owl:Class rdf:about="place_description#place"/>
+    <owl:Class rdf:about="place_description#place">
+        <rdfs:subClassOf rdf:resource="place_description#building_element"/>
+    </owl:Class>
 
 
 
@@ -515,7 +525,9 @@
 
     <!-- place_description#region -->
 
-    <owl:Class rdf:about="place_description#region"/>
+    <owl:Class rdf:about="place_description#region">
+        <rdfs:subClassOf rdf:resource="place_description#building_element"/>
+    </owl:Class>
 
 
 

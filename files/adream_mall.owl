@@ -419,7 +419,6 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_door_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_door_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#stair"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>

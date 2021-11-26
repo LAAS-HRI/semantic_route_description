@@ -81,7 +81,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#building_element"/>
     </owl:ObjectProperty>
 
 
@@ -345,6 +345,13 @@
 
 
 
+    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#building_element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#building_element"/>
+
+
+
+
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#corridor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#corridor">
@@ -438,7 +445,9 @@
 
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#path -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#path"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#path">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#building_element"/>
+    </owl:Class>
 
 
 
@@ -452,7 +461,9 @@
 
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#building_element"/>
+    </owl:Class>
 
 
 
@@ -466,7 +477,9 @@
 
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#building_element"/>
+    </owl:Class>
 
 
 
