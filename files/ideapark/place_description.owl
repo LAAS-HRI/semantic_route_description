@@ -28,8 +28,8 @@
     <owl:ObjectProperty rdf:about="place_description#hasAlong">
         <owl:inverseOf rdf:resource="place_description#isAlong"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#path"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Path"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -38,8 +38,8 @@
 
     <owl:ObjectProperty rdf:about="place_description#isAlong">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#path"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Path"/>
     </owl:ObjectProperty>
 
 
@@ -52,8 +52,8 @@
         <owl:inverseOf rdf:resource="place_description#isAtLeftOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -65,8 +65,8 @@
         <owl:inverseOf rdf:resource="place_description#isAtRightOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -77,8 +77,8 @@
         <owl:inverseOf rdf:resource="place_description#isIn"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#region"/>
-        <rdfs:range rdf:resource="place_description#building_element"/>
+        <rdfs:domain rdf:resource="place_description#Region"/>
+        <rdfs:range rdf:resource="place_description#BuildingElement"/>
     </owl:ObjectProperty>
 
 
@@ -88,8 +88,8 @@
     <owl:ObjectProperty rdf:about="place_description#hasInFront">
         <owl:inverseOf rdf:resource="place_description#isInFrontOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -100,8 +100,8 @@
         <rdfs:subPropertyOf rdf:resource="place_description#hasPathOnEdge"/>
         <owl:inverseOf rdf:resource="place_description#isAtBeginEdgeOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#corridor"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Corridor"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -112,8 +112,8 @@
         <rdfs:subPropertyOf rdf:resource="place_description#hasAlong"/>
         <owl:inverseOf rdf:resource="place_description#isAtEdgeOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#corridor"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Corridor"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -124,8 +124,8 @@
         <rdfs:subPropertyOf rdf:resource="place_description#hasPathOnEdge"/>
         <owl:inverseOf rdf:resource="place_description#isAtEndEdgeOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#corridor"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Corridor"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -134,8 +134,8 @@
 
     <owl:ObjectProperty rdf:about="place_description#hasPathOnSide">
         <rdfs:subPropertyOf rdf:resource="place_description#hasAlong"/>
-        <rdfs:domain rdf:resource="place_description#corridor"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Corridor"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -146,8 +146,8 @@
         <rdfs:subPropertyOf rdf:resource="place_description#hasPathOnSide"/>
         <owl:inverseOf rdf:resource="place_description#isAtLeftOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#corridor"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Corridor"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -158,8 +158,8 @@
         <rdfs:subPropertyOf rdf:resource="place_description#hasPathOnSide"/>
         <owl:inverseOf rdf:resource="place_description#isAtRightOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#corridor"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Corridor"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -169,8 +169,8 @@
     <owl:ObjectProperty rdf:about="place_description#isAtBeginEdgeOfPath">
         <rdfs:subPropertyOf rdf:resource="place_description#isAtEdgeOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#corridor"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Corridor"/>
     </owl:ObjectProperty>
 
 
@@ -180,8 +180,8 @@
     <owl:ObjectProperty rdf:about="place_description#isAtEdgeOfPath">
         <rdfs:subPropertyOf rdf:resource="place_description#isAlong"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#corridor"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Corridor"/>
     </owl:ObjectProperty>
 
 
@@ -191,8 +191,8 @@
     <owl:ObjectProperty rdf:about="place_description#isAtEndEdgeOfPath">
         <rdfs:subPropertyOf rdf:resource="place_description#isAtEdgeOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#corridor"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Corridor"/>
     </owl:ObjectProperty>
 
 
@@ -201,8 +201,8 @@
 
     <owl:ObjectProperty rdf:about="place_description#isAtSideOfPath">
         <rdfs:subPropertyOf rdf:resource="place_description#isAlong"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#corridor"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Corridor"/>
     </owl:ObjectProperty>
 
 
@@ -211,8 +211,8 @@
 
     <owl:ObjectProperty rdf:about="place_description#isBeside">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -221,8 +221,8 @@
 
     <owl:ObjectProperty rdf:about="place_description#hasBeside">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -234,8 +234,8 @@
         <owl:inverseOf rdf:resource="place_description#isAtRightOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -245,8 +245,8 @@
     <owl:ObjectProperty rdf:about="place_description#isAtLeftOfPath">
         <rdfs:subPropertyOf rdf:resource="place_description#isAtSideOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#corridor"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Corridor"/>
     </owl:ObjectProperty>
 
 
@@ -257,8 +257,8 @@
         <rdfs:subPropertyOf rdf:resource="place_description#isBeside"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -268,8 +268,8 @@
     <owl:ObjectProperty rdf:about="place_description#isAtRightOfPath">
         <rdfs:subPropertyOf rdf:resource="place_description#isAtSideOfPath"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#corridor"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Corridor"/>
     </owl:ObjectProperty>
 
 
@@ -279,10 +279,10 @@
     <owl:ObjectProperty rdf:about="place_description#isIn">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#path"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:domain rdf:resource="place_description#region"/>
-        <rdfs:range rdf:resource="place_description#region"/>
+        <rdfs:domain rdf:resource="place_description#Path"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:domain rdf:resource="place_description#Region"/>
+        <rdfs:range rdf:resource="place_description#Region"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="place_description#isAlong"/>
             <rdf:Description rdf:about="place_description#isIn"/>
@@ -295,8 +295,8 @@
 
     <owl:ObjectProperty rdf:about="place_description#isInFrontOf">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -307,8 +307,8 @@
         <owl:inverseOf rdf:resource="place_description#makeReferenceTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#place"/>
-        <rdfs:range rdf:resource="place_description#placeReference"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
+        <rdfs:range rdf:resource="place_description#PlaceReference"/>
     </owl:ObjectProperty>
 
 
@@ -318,8 +318,8 @@
     <owl:ObjectProperty rdf:about="place_description#makeReferenceTo">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="place_description#placeReference"/>
-        <rdfs:range rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#PlaceReference"/>
+        <rdfs:range rdf:resource="place_description#Place"/>
     </owl:ObjectProperty>
 
 
@@ -338,7 +338,7 @@
     <!-- place_description#hasSaliency -->
 
     <owl:DatatypeProperty rdf:about="place_description#hasSaliency">
-        <rdfs:domain rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="place_description#hasSaliency"/>
@@ -381,451 +381,179 @@
 
 
 
-    <!-- place_description#building_element -->
+    <!-- place_description#BuildingElement -->
 
-    <owl:Class rdf:about="place_description#building_element"/>
-
-
+    <owl:Class rdf:about="place_description#BuildingElement"/>
 
 
-    <!-- place_description#corridor -->
 
-    <owl:Class rdf:about="place_description#corridor">
-        <rdfs:subClassOf rdf:resource="place_description#path"/>
-        <owl:disjointWith rdf:resource="place_description#openspace"/>
+
+    <!-- place_description#Corridor -->
+
+    <owl:Class rdf:about="place_description#Corridor">
+        <rdfs:subClassOf rdf:resource="place_description#Path"/>
+        <owl:disjointWith rdf:resource="place_description#Openspace"/>
     </owl:Class>
 
 
 
-    <!-- place_description#pathMarker -->
+    <!-- place_description#PathMarker -->
 
-    <owl:Class rdf:about="place_description#pathMarker">
-        <rdfs:subClassOf rdf:resource="place_description#place"/>
+    <owl:Class rdf:about="place_description#PathMarker">
+        <rdfs:subClassOf rdf:resource="place_description#Place"/>
     </owl:Class>
 
 
 
-    <!-- place_description#walkway -->
+    <!-- place_description#Walkway -->
 
-    <owl:Class rdf:about="place_description#walkway">
-        <rdfs:subClassOf rdf:resource="place_description#corridor"/>
+    <owl:Class rdf:about="place_description#Walkway">
+        <rdfs:subClassOf rdf:resource="place_description#Corridor"/>
     </owl:Class>
 
 
 
-    <!-- place_description#amusementPark -->
+    <!-- place_description#Atm -->
 
-    <owl:Class rdf:about="place_description#amusementPark">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-        <rdfs:label xml:lang="en">amusement park</rdfs:label>
+    <owl:Class rdf:about="place_description#Atm">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
     </owl:Class>
 
 
 
-    <!-- place_description#toystore -->
+    <!-- place_description#Door -->
 
-    <owl:Class rdf:about="place_description#toystore">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-        <rdfs:label xml:lang="en">toystore</rdfs:label>
-        <rdfs:label xml:lang="fi">lelukauppa</rdfs:label>
-        <rdfs:label xml:lang="fi">toystore</rdfs:label>
-        <onto:label xml:lang="fi">toy store</onto:label>
+    <owl:Class rdf:about="place_description#Door">
+        <rdfs:subClassOf rdf:resource="place_description#Interface"/>
     </owl:Class>
 
 
 
-    <!-- place_description#atm -->
+    <!-- place_description#Elevator -->
 
-    <owl:Class rdf:about="place_description#atm">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
+    <owl:Class rdf:about="place_description#Elevator">
+        <rdfs:subClassOf rdf:resource="place_description#Interface"/>
     </owl:Class>
 
 
 
-    <!-- place_description#door -->
+    <!-- place_description#Escalator -->
 
-    <owl:Class rdf:about="place_description#door">
-        <rdfs:subClassOf rdf:resource="place_description#interface"/>
+    <owl:Class rdf:about="place_description#Escalator">
+        <rdfs:subClassOf rdf:resource="place_description#Interface"/>
     </owl:Class>
 
 
 
-    <!-- place_description#elevator -->
+    <!-- place_description#Infodesk -->
 
-    <owl:Class rdf:about="place_description#elevator">
-        <rdfs:subClassOf rdf:resource="place_description#interface"/>
+    <owl:Class rdf:about="place_description#Infodesk">
+        <rdfs:subClassOf rdf:resource="place_description#Place"/>
     </owl:Class>
 
 
 
-    <!-- place_description#escalator -->
+    <!-- place_description#Interface -->
 
-    <owl:Class rdf:about="place_description#escalator">
-        <rdfs:subClassOf rdf:resource="place_description#interface"/>
+    <owl:Class rdf:about="place_description#Interface">
+        <rdfs:subClassOf rdf:resource="place_description#Place"/>
+        <owl:disjointWith rdf:resource="place_description#Shop"/>
     </owl:Class>
 
 
 
-    <!-- place_description#infodesk -->
+    <!-- place_description#Openspace -->
 
-    <owl:Class rdf:about="place_description#infodesk">
-        <rdfs:subClassOf rdf:resource="place_description#place"/>
+    <owl:Class rdf:about="place_description#Openspace">
+        <rdfs:subClassOf rdf:resource="place_description#Path"/>
     </owl:Class>
 
 
 
-    <!-- place_description#interface -->
+    <!-- place_description#Path -->
 
-    <owl:Class rdf:about="place_description#interface">
-        <rdfs:subClassOf rdf:resource="place_description#place"/>
-        <owl:disjointWith rdf:resource="place_description#shop"/>
+    <owl:Class rdf:about="place_description#Path">
+        <rdfs:subClassOf rdf:resource="place_description#BuildingElement"/>
     </owl:Class>
 
 
 
-    <!-- place_description#openspace -->
+    <!-- place_description#PathIntersection -->
 
-    <owl:Class rdf:about="place_description#openspace">
-        <rdfs:subClassOf rdf:resource="place_description#path"/>building_element
+    <owl:Class rdf:about="place_description#PathIntersection">
+        <rdfs:subClassOf rdf:resource="place_description#PathMarker"/>
     </owl:Class>
 
 
 
-    <!-- place_description#path -->
+    <!-- place_description#Place -->
 
-    <owl:Class rdf:about="place_description#path">
-        <rdfs:subClassOf rdf:resource="place_description#building_element"/>
+    <owl:Class rdf:about="place_description#Place">
+        <rdfs:subClassOf rdf:resource="place_description#BuildingElement"/>
     </owl:Class>
 
 
 
-    <!-- place_description#pathIntersection -->
+    <!-- place_description#PlaceReference -->
 
-    <owl:Class rdf:about="place_description#pathIntersection">
-        <rdfs:subClassOf rdf:resource="place_description#pathMarker"/>
+    <owl:Class rdf:about="place_description#PlaceReference">
+        <rdfs:subClassOf rdf:resource="place_description#Place"/>
     </owl:Class>
 
 
 
-    <!-- place_description#place -->
+    <!-- place_description#Region -->
 
-    <owl:Class rdf:about="place_description#place">
-        <rdfs:subClassOf rdf:resource="place_description#building_element"/>
+    <owl:Class rdf:about="place_description#Region">
+        <rdfs:subClassOf rdf:resource="place_description#BuildingElement"/>
     </owl:Class>
 
 
 
-    <!-- place_description#placeReference -->
+    <!-- place_description#Shop -->
 
-    <owl:Class rdf:about="place_description#placeReference">
-        <rdfs:subClassOf rdf:resource="place_description#place"/>
+    <owl:Class rdf:about="place_description#Shop">
+        <rdfs:subClassOf rdf:resource="place_description#Place"/>
     </owl:Class>
 
 
 
-    <!-- place_description#region -->
+    <!-- place_description#Signpost -->
 
-    <owl:Class rdf:about="place_description#region">
-        <rdfs:subClassOf rdf:resource="place_description#building_element"/>
+    <owl:Class rdf:about="place_description#Signpost">
+        <rdfs:subClassOf rdf:resource="place_description#PlaceReference"/>
     </owl:Class>
 
 
 
-    <!-- place_description#shop -->
+    <!-- place_description#Stairs -->
 
-    <owl:Class rdf:about="place_description#shop">
-        <rdfs:subClassOf rdf:resource="place_description#place"/>
+    <owl:Class rdf:about="place_description#Stairs">
+        <rdfs:subClassOf rdf:resource="place_description#Interface"/>
     </owl:Class>
 
 
 
-    <!-- place_description#signpost -->
+    <!-- place_description#Toilets -->
 
-    <owl:Class rdf:about="place_description#signpost">
-        <rdfs:subClassOf rdf:resource="place_description#placeReference"/>
+    <owl:Class rdf:about="place_description#Toilets">
+        <rdfs:subClassOf rdf:resource="place_description#Place"/>
     </owl:Class>
 
 
 
-    <!-- place_description#stairs -->
+    <!-- place_description#Carts -->
 
-    <owl:Class rdf:about="place_description#stairs">
-        <rdfs:subClassOf rdf:resource="place_description#interface"/>
+    <owl:Class rdf:about="place_description#Carts">
+        <rdfs:subClassOf rdf:resource="place_description#Place"/>
     </owl:Class>
 
 
 
-    <!-- place_description#toilets -->
+    <!-- place_description#EmptyPlace -->
 
-    <owl:Class rdf:about="place_description#toilets">
-        <rdfs:subClassOf rdf:resource="place_description#place"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#carts -->
-
-    <owl:Class rdf:about="place_description#carts">
-        <rdfs:subClassOf rdf:resource="place_description#place"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#grocery_department_store -->
-
-    <owl:Class rdf:about="place_description#grocery_department_store">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#speciality_retailer -->
-
-    <owl:Class rdf:about="place_description#speciality_retailer">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#fashion_store -->
-
-    <owl:Class rdf:about="place_description#fashion_store">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-        <rdfs:label xml:lang="en">fashion store</rdfs:label>
-        <rdfs:label xml:lang="fi">muotikauppa</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#shoes_store -->
-
-    <owl:Class rdf:about="place_description#shoes_store">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-        <rdfs:label xml:lang="en">shoes store</rdfs:label>
-        <rdfs:label xml:lang="en">shoe store</rdfs:label>
-        <rdfs:label xml:lang="en">shoes shop</rdfs:label>
-        <rdfs:label xml:lang="en">shoe shop</rdfs:label>
-        <rdfs:label xml:lang="fi">kenkäkauppa</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#bags_store -->
-
-    <owl:Class rdf:about="place_description#bags_store">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#accessories_store -->
-
-    <owl:Class rdf:about="place_description#accessories_store">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#clothes_store -->
-
-    <owl:Class rdf:about="place_description#clothes_store">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-        <rdfs:label xml:lang="en">clothes store</rdfs:label>
-        <rdfs:label xml:lang="en">clothing store</rdfs:label>
-        <rdfs:label xml:lang="fi">vaatekauppa</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#women_clothes_store -->
-
-    <owl:Class rdf:about="place_description#women_clothes_store">
-        <rdfs:subClassOf rdf:resource="place_description#clothes_store"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#men_clothes_store -->
-
-    <owl:Class rdf:about="place_description#men_clothes_store">
-        <rdfs:subClassOf rdf:resource="place_description#clothes_store"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#child_clothes_store -->
-
-    <owl:Class rdf:about="place_description#child_clothes_store">
-        <rdfs:subClassOf rdf:resource="place_description#clothes_store"/>
-        <rdfs:label xml:lang="en">child clothes store</rdfs:label>
-        <rdfs:label xml:lang="en">children's clothing store</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#adult_clothes_store -->
-
-    <owl:Class rdf:about="place_description#adult_clothes_store">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#men_clothes_store"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#global_clothes_store -->
-
-    <owl:Class rdf:about="place_description#global_clothes_store">
-        <rdfs:subClassOf rdf:resource="place_description#child_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#adult_clothes_store"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#leisure_sport_store -->
-
-    <owl:Class rdf:about="place_description#leisure_sport_store">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-        <rdfs:label xml:lang="en">sport store</rdfs:label>
-        <rdfs:label xml:lang="en">sport shop</rdfs:label>
-        <rdfs:label xml:lang="en">sport</rdfs:label>
-        <rdfs:label xml:lang="fi">urheilukauppa</rdfs:label>
-        <rdfs:label xml:lang="fi">Urheilu</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#commercial_public_service -->
-
-    <owl:Class rdf:about="place_description#commercial_public_service">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#cafe_restaurant -->
-
-    <owl:Class rdf:about="place_description#cafe_restaurant">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#cafe -->
-
-    <owl:Class rdf:about="place_description#cafe">
-        <rdfs:subClassOf rdf:resource="place_description#cafe_restaurant"/>
-        <rdfs:label xml:lang="en">cafe</rdfs:label>
-        <rdfs:label xml:lang="en">café</rdfs:label>
-        <rdfs:label xml:lang="en">coffee shop</rdfs:label>
-        <rdfs:label xml:lang="fi">kahvi</rdfs:label>
-        <rdfs:label xml:lang="fi">kahvila</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#restaurant -->
-
-    <owl:Class rdf:about="place_description#restaurant">
-        <rdfs:subClassOf rdf:resource="place_description#cafe_restaurant"/>
-        <rdfs:label xml:lang="en">restaurant</rdfs:label>
-        <rdfs:label xml:lang="en">diner</rdfs:label>
-        <rdfs:label xml:lang="en">dinner</rdfs:label>
-        <rdfs:label xml:lang="en">dining room</rdfs:label>
-        <onto:label xml:lang="en">eatery</onto:label>
-        <rdfs:label xml:lang="fi">ravintola</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#native_restaurant -->
-
-    <owl:Class rdf:about="place_description#native_restaurant">
-        <rdfs:subClassOf rdf:resource="place_description#restaurant"/>
-        <rdfs:label xml:lang="en">native</rdfs:label>
-        <rdfs:label xml:lang="fi">kotiruokaravintolat</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#fast_food -->
-
-    <owl:Class rdf:about="place_description#fast_food">
-      <rdfs:subClassOf rdf:resource="place_description#restaurant"/>
-      <rdfs:label xml:lang="en">fast food</rdfs:label>
-      <rdfs:label xml:lang="fi">pikaruoka</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#pizzeria -->
-
-    <owl:Class rdf:about="place_description#pizzeria">
-      <rdfs:subClassOf rdf:resource="place_description#restaurant"/>
-      <rdfs:label xml:lang="en">pizzeria</rdfs:label>
-      <rdfs:label xml:lang="fi">pizzeriat</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#hamburger_restaurant -->
-
-    <owl:Class rdf:about="place_description#hamburger_restaurant">
-      <rdfs:subClassOf rdf:resource="place_description#restaurant"/>
-      <rdfs:label xml:lang="en">hamburger</rdfs:label>
-      <rdfs:label xml:lang="fi">hampurilaisravintolat</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#asian_restaurant -->
-
-    <owl:Class rdf:about="place_description#asian_restaurant">
-      <rdfs:subClassOf rdf:resource="place_description#restaurant"/>
-      <rdfs:label xml:lang="en">asian</rdfs:label>
-      <rdfs:label xml:lang="fi">aasialaiset ravintolat</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#casual_dining_restaurant -->
-
-    <owl:Class rdf:about="place_description#casual_dining_restaurant">
-      <rdfs:subClassOf rdf:resource="place_description#restaurant"/>
-      <rdfs:label xml:lang="en">casual dining</rdfs:label>
-      <rdfs:label xml:lang="fi">Muut ruokaravintolat</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- place_description#furnishing_decor_store -->
-
-    <owl:Class rdf:about="place_description#furnishing_decor_store">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#department_store -->
-
-    <owl:Class rdf:about="place_description#department_store">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-    </owl:Class>
-
-
-
-    <!-- place_description#health_beauty_store -->
-
-    <owl:Class rdf:about="place_description#health_beauty_store">
-        <rdfs:subClassOf rdf:resource="place_description#shop"/>
-    </owl:Class>
-
-
-
-
-    <!-- place_description#empty_place -->
-
-    <owl:Class rdf:about="place_description#empty_place">
-        <rdfs:subClassOf rdf:resource="place_description#place"/>
+    <owl:Class rdf:about="place_description#EmptyPlace">
+        <rdfs:subClassOf rdf:resource="place_description#Place"/>
     </owl:Class>
 
 
@@ -840,31 +568,17 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="place_description#atm"/>
-            <rdf:Description rdf:about="place_description#health_beauty_store"/>
-            <rdf:Description rdf:about="place_description#department_store"/>
-            <rdf:Description rdf:about="place_description#furnishing_decor_store"/>
-            <rdf:Description rdf:about="place_description#cafe_restaurant"/>
-            <rdf:Description rdf:about="place_description#commercial_public_service"/>
-            <rdf:Description rdf:about="place_description#leisure_sport_store"/>
-            <rdf:Description rdf:about="place_description#speciality_retailer"/>
-            <rdf:Description rdf:about="place_description#grocery_department_store"/>
+            <rdf:Description rdf:about="place_description#Door"/>
+            <rdf:Description rdf:about="place_description#Elevator"/>
+            <rdf:Description rdf:about="place_description#Stairs"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="place_description#door"/>
-            <rdf:Description rdf:about="place_description#elevator"/>
-            <rdf:Description rdf:about="place_description#stairs"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="place_description#path"/>
-            <rdf:Description rdf:about="place_description#place"/>
-            <rdf:Description rdf:about="place_description#region"/>
+            <rdf:Description rdf:about="place_description#Path"/>
+            <rdf:Description rdf:about="place_description#Place"/>
+            <rdf:Description rdf:about="place_description#Region"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

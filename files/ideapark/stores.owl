@@ -1,0 +1,1929 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="ideapark_stores#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:onto="ontologenius#"
+     xmlns:place_description="place_description#"
+     xmlns:ideapark_products="ideapark_products#">
+    <owl:Ontology rdf:about="ideapark_stores"/>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+     <!-- ideapark_stores#BagsStore -->
+
+     <owl:Class rdf:about="ideapark_stores#BagsStore">
+         <rdfs:subClassOf rdf:resource="ideapark_stores#FashionStore"/>
+         <ideapark_products:sells rdf:resource="ideapark_products#bag"/>
+     </owl:Class>
+
+
+
+    <!-- ideapark_stores#GroceryDepartmentStore -->
+
+    <owl:Class rdf:about="ideapark_stores#GroceryDepartmentStore">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#SpecialityRetailer -->
+
+    <owl:Class rdf:about="ideapark_stores#SpecialityRetailer">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#FashionStore -->
+
+    <owl:Class rdf:about="ideapark_stores#FashionStore">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+        <rdfs:label xml:lang="en">fashion store</rdfs:label>
+        <rdfs:label xml:lang="fi">muotikauppa</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ideapark_stores#ClothesStore -->
+
+    <owl:Class rdf:about="ideapark_stores#ClothesStore">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FashionStore"/>
+        <rdfs:label xml:lang="en">clothes store</rdfs:label>
+        <rdfs:label xml:lang="en">clothing store</rdfs:label>
+        <rdfs:label xml:lang="fi">vaatekauppa</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#WomenClothesStore -->
+
+    <owl:Class rdf:about="ideapark_stores#WomenClothesStore">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#ClothesStore"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#MenClothesStore -->
+
+    <owl:Class rdf:about="ideapark_stores#MenClothesStore">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#ClothesStore"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#ChildClothesStore -->
+
+    <owl:Class rdf:about="ideapark_stores#ChildClothesStore">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#ClothesStore"/>
+        <rdfs:label xml:lang="en">child clothes store</rdfs:label>
+        <rdfs:label xml:lang="en">children's clothing store</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#AdultClothesStore -->
+
+    <owl:Class rdf:about="ideapark_stores#AdultClothesStore">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#MenClothesStore"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#GlobalClothesStore -->
+
+    <owl:Class rdf:about="ideapark_stores#GlobalClothesStore">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#ChildClothesStore"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#AdultClothesStore"/>
+    </owl:Class>
+
+
+
+     <!-- ideapark_stores#ShoesStore -->
+
+     <owl:Class rdf:about="ideapark_stores#ShoesStore">
+         <rdfs:subClassOf rdf:resource="ideapark_stores#FashionStore"/>
+         <ideapark_products:sells rdf:resource="ideapark_products#shoe"/>
+         <rdfs:label xml:lang="en">shoes store</rdfs:label>
+         <rdfs:label xml:lang="en">shoe store</rdfs:label>
+         <rdfs:label xml:lang="en">shoes shop</rdfs:label>
+         <rdfs:label xml:lang="en">shoe shop</rdfs:label>
+         <rdfs:label xml:lang="fi">kenkäkauppa</rdfs:label>
+     </owl:Class>
+
+
+
+     <!-- ideapark_stores#AccessoriesStore -->
+
+     <owl:Class rdf:about="ideapark_stores#AccessoriesStore">
+         <rdfs:subClassOf rdf:resource="ideapark_stores#FashionStore"/>
+         <ideapark_products:sells rdf:resource="ideapark_products#accesory"/>
+     </owl:Class>
+
+
+
+    <!-- ideapark_stores#CommercialPublicService -->
+
+    <owl:Class rdf:about="ideapark_stores#CommercialPublicService">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#LeisureSportStore -->
+
+    <owl:Class rdf:about="ideapark_stores#LeisureSportStore">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+        <rdfs:label xml:lang="en">sport store</rdfs:label>
+        <rdfs:label xml:lang="en">sport shop</rdfs:label>
+        <rdfs:label xml:lang="en">sport</rdfs:label>
+        <rdfs:label xml:lang="fi">urheilukauppa</rdfs:label>
+        <rdfs:label xml:lang="fi">Urheilu</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#CafeRestaurant -->
+
+    <owl:Class rdf:about="ideapark_stores#CafeRestaurant">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#Cafe -->
+
+    <owl:Class rdf:about="ideapark_stores#Cafe">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#CafeRestaurant"/>
+        <rdfs:label xml:lang="en">cafe</rdfs:label>
+        <rdfs:label xml:lang="en">café</rdfs:label>
+        <rdfs:label xml:lang="en">coffee shop</rdfs:label>
+        <rdfs:label xml:lang="fi">kahvi</rdfs:label>
+        <rdfs:label xml:lang="fi">kahvila</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#Restaurant -->
+
+    <owl:Class rdf:about="ideapark_stores#Restaurant">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#CafeRestaurant"/>
+        <rdfs:label xml:lang="en">restaurant</rdfs:label>
+        <rdfs:label xml:lang="en">diner</rdfs:label>
+        <rdfs:label xml:lang="en">dinner</rdfs:label>
+        <rdfs:label xml:lang="en">dining room</rdfs:label>
+        <onto:label xml:lang="en">eatery</onto:label>
+        <rdfs:label xml:lang="fi">ravintola</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#NativeRestaurant -->
+
+    <owl:Class rdf:about="ideapark_stores#NativeRestaurant">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Restaurant"/>
+        <rdfs:label xml:lang="en">native</rdfs:label>
+        <rdfs:label xml:lang="fi">kotiruokaravintolat</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#FastFood -->
+
+    <owl:Class rdf:about="ideapark_stores#FastFood">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#Restaurant"/>
+      <rdfs:label xml:lang="en">fast food</rdfs:label>
+      <rdfs:label xml:lang="fi">pikaruoka</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#HamburgerRestaurant -->
+
+    <owl:Class rdf:about="ideapark_stores#HamburgerRestaurant">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#Restaurant"/>
+      <rdfs:label xml:lang="en">hamburger</rdfs:label>
+      <rdfs:label xml:lang="fi">hampurilaisravintolat</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#AsianRestaurant -->
+
+    <owl:Class rdf:about="ideapark_stores#AsianRestaurant">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#Restaurant"/>
+      <rdfs:label xml:lang="en">asian</rdfs:label>
+      <rdfs:label xml:lang="fi">aasialaiset ravintolat</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#Pizzeria -->
+
+    <owl:Class rdf:about="ideapark_stores#Pizzeria">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#Restaurant"/>
+      <rdfs:label xml:lang="en">pizzeria</rdfs:label>
+      <rdfs:label xml:lang="fi">pizzeriat</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#CasualDiningRestaurant -->
+
+    <owl:Class rdf:about="ideapark_stores#CasualDiningRestaurant">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#Restaurant"/>
+      <rdfs:label xml:lang="en">casual dining</rdfs:label>
+      <rdfs:label xml:lang="fi">Muut ruokaravintolat</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#FurnishingDecorStore -->
+
+    <owl:Class rdf:about="ideapark_stores#FurnishingDecorStore">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#DepartmentStore -->
+
+    <owl:Class rdf:about="ideapark_stores#DepartmentStore">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#HealthBeautyStore -->
+
+    <owl:Class rdf:about="ideapark_stores#HealthBeautyStore">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#AmusementPark -->
+
+    <owl:Class rdf:about="ideapark_stores#AmusementPark">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+        <rdfs:label xml:lang="en">amusement park</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#ToyStore -->
+
+    <owl:Class rdf:about="ideapark_stores#ToyStore">
+        <rdfs:subClassOf rdf:resource="place_description#Shop"/>
+        <rdfs:label xml:lang="en">toystore</rdfs:label>
+        <rdfs:label xml:lang="fi">lelukauppa</rdfs:label>
+        <rdfs:label xml:lang="fi">toystore</rdfs:label>
+        <onto:label xml:lang="fi">toy store</onto:label>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Hairlekiini_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Hairlekiini_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Donna_Rosa_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Donna_Rosa_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#My_Bag_ -->
+
+    <owl:Class rdf:about="ideapark_stores#My_Bag_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Swamp_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Swamp_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Only_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Only_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#tunic"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Prisma_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Prisma_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#GroceryDepartmentStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Alko_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Alko_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Name_It_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Name_It_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ChildClothesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Budget_Sport_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Budget_Sport_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Logistiikkakeskus_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Logistiikkakeskus_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Jesper_Junior_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Jesper_Junior_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#ChildClothesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Tekniskamagasinet_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Tekniskamagasinet_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Gant_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Gant_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Putiikki_WOW_ -->
+
+        <owl:Class rdf:about="ideapark_stores#Putiikki_WOW_">
+          <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+          <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+          <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+          <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+          <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+          <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+          <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+          <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+          <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+        </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Tanssiopisto_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Tanssiopisto_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Juvesport_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Juvesport_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Easy_Fit_Traingin_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Easy_Fit_Traingin_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Ideapark_Sport_Areena_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Ideapark_Sport_Areena_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Gina_Tricot_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Gina_Tricot_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Marco_Polo_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Marco_Polo_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Makelan_Kauppapuutarna_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Makelan_Kauppapuutarna_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Lumo_puoti_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Lumo_puoti_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Avain__ja_suutarityo_Helsky_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Avain__ja_suutarityo_Helsky_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#DepartmentStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#PiiPoo_ -->
+
+    <owl:Class rdf:about="ideapark_stores#PiiPoo_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Hiljainen_huone_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Hiljainen_huone_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Ballot_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Ballot_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ChildClothesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#legging"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Halonen_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Halonen_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Clas_Ohlson_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Clas_Ohlson_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#DepartmentStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Kicks_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Kicks_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Power_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Power_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Intersport_Ideapark_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Intersport_Ideapark_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Kalastus_Suomi_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Kalastus_Suomi_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Telia_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Telia_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Kukkakauppa_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Kukkakauppa_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Pukimo_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Pukimo_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Minimani_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Minimani_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#DepartmentStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Tommy_Hilfiger_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Tommy_Hilfiger_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Guess_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Guess_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Saunalahti_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Saunalahti_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Flying_Tiger_Copenhagen_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Flying_Tiger_Copenhagen_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Zizzi_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Zizzi_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#tunic"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#legging"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Pelaamo_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Pelaamo_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Superdry_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Superdry_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AdultClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Sinelli_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Sinelli_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Click_Shoe_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Click_Shoe_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+       <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Iittala_Outlet_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Iittala_Outlet_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Reima_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Reima_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ChildClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#legging"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Partioaitta_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Partioaitta_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Saaga_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Saaga_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Kultajousi_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Kultajousi_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Life_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Life_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Banking_machine_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Banking_machine_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#LahiTapiola_Service_desk_ -->
+
+    <owl:Class rdf:about="ideapark_stores#LahiTapiola_Service_desk_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Nissen_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Nissen_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Bjorn_Borg_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Bjorn_Borg_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#pant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Instrumentarium_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Instrumentarium_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Hemtex_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Hemtex_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Farkkujen_Tehtaanmyymala_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Farkkujen_Tehtaanmyymala_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Kultaporssi_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Kultaporssi_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Mummola_Lahjapuoti_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Mummola_Lahjapuoti_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Information_desk_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Information_desk_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Digiman_pop_up_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Digiman_pop_up_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Change_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Change_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_stores#lingerie"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#City_Kulta_ -->
+
+    <owl:Class rdf:about="ideapark_stores#City_Kulta_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#KappAhl_ -->
+
+    <owl:Class rdf:about="ideapark_stores#KappAhl_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#NP_ -->
+
+    <owl:Class rdf:about="ideapark_stores#NP_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#pant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Linda_Mode_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Linda_Mode_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#pant"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_stores#top"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Fonum_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Fonum_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#DNA_ -->
+
+    <owl:Class rdf:about="ideapark_stores#DNA_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Pentik_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Pentik_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Fortum_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Fortum_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Lagoon_Fish_Foot_Spa_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Lagoon_Fish_Foot_Spa_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Lindex_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Lindex_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#tunic"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#legging"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#River_and_Co_ -->
+
+    <owl:Class rdf:about="ideapark_stores#River_and_Co_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#AdultClothesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Musti_ja_Mirri_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Musti_ja_Mirri_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Suomalainen_Kirjakauppa_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Suomalainen_Kirjakauppa_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#KOO_Kenka_ -->
+
+    <owl:Class rdf:about="ideapark_stores#KOO_Kenka_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#New_Yorker_ -->
+
+    <owl:Class rdf:about="ideapark_stores#New_Yorker_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#tunic"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#pant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Din_Sko_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Din_Sko_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#CM_Hiustalo_ -->
+
+    <owl:Class rdf:about="ideapark_stores#CM_Hiustalo_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Esprit_Ideapark_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Esprit_Ideapark_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Digiman_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Digiman_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Glitter_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Glitter_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+       <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+       <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Apteekki_Ideapark_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Apteekki_Ideapark_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#HairStore_ -->
+
+    <owl:Class rdf:about="ideapark_stores#HairStore_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Finla_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Finla_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Your_Face_and_Rils_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Your_Face_and_Rils_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#pant"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Stadium_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Stadium_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Body_Shop_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Body_Shop_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Mango_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Mango_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Top_Sport_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Top_Sport_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#LeisureSportStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Vila_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Vila_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#tunic"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Carlings_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Carlings_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AdultClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Hennes_and_Mauritz_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Hennes_and_Mauritz_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Dressman_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Dressman_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Faunatar_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Faunatar_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Kauneus__ja_jalkahoitola_Manna_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Kauneus__ja_jalkahoitola_Manna_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Bik_Bok_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Bik_Bok_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+       <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+       <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+       <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+       <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+       <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+       <ideapark_products:sells rdf:resource="ideapark_products#tunic"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Vero_Moda_JandJ_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Vero_Moda_JandJ_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AdultClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#legging"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Cubus_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Cubus_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#blouse"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#legging"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#swimwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Shoe_Store_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Shoe_Store_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Brother_Clothing_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Brother_Clothing_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#MenClothesStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#underwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#pant"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Ten_Art_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Ten_Art_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Dressmann_XL_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Dressmann_XL_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#WomenClothesStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Aleksi_13_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Aleksi_13_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#GlobalClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#ShoesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#suit"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jean"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#T-shirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#short"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Unikulma_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Unikulma_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Marimekko_Outlet_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Marimekko_Outlet_">
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AdultClothesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#AccessoriesStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#BagsStore"/>
+      <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#tunic"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#dress"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#coat"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#jacket"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#skirt"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#nightwear"/>
+      <ideapark_products:sells rdf:resource="ideapark_products#pant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Easyfit_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Easyfit_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#HealthBeautyStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Ti_Ti_Nallen_Koti_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Ti_Ti_Nallen_Koti_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Netrauta_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Netrauta_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Zones_by_Sarkanniemi_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Zones_by_Sarkanniemi_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Masku_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Masku_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Finnlandia_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Finnlandia_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Eurokangas_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Eurokangas_">
+       <rdfs:subClassOf rdf:resource="ideapark_stores#FurnishingDecorStore"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Kahvila_Ilopilleri_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Kahvila_Ilopilleri_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Cafe"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Cafe_de_Lisa_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Cafe_de_Lisa_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Cafe"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#NativeRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Idea_kappeli_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Idea_kappeli_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Espresso_House_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Espresso_House_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Cafe"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Hanko_Sushi_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Hanko_Sushi_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#AsianRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Stahlberg_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Stahlberg_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Cafe"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#NativeRestaurant"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#Spice_Ice_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Spice_Ice_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Cafe"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Forex_Bank_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Forex_Bank_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#SpecialityRetailer"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Pizza_Hut_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Pizza_Hut_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Pizzeria"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Luckiefun_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Luckiefun_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#AsianRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#HoviKebab_ -->
+
+    <owl:Class rdf:about="ideapark_stores#HoviKebab_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Kotipizza_and_Rolls_Expert_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Kotipizza_and_Rolls_Expert_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Pizzeria"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#HamburgerRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Cafe_Linkosuo_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Cafe_Linkosuo_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Cafe"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#NativeRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Aitoleipa_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Aitoleipa_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#NativeRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#SubWay_ -->
+
+    <owl:Class rdf:about="ideapark_stores#SubWay_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Burger_King_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Burger_King_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#HamburgerRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Rax_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Rax_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Pizzeria"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Hesburger_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Hesburger_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#HamburgerRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Arnolds_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Arnolds_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Cafe"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Bella_Roma_and_Daddys_Diner_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Bella_Roma_and_Daddys_Diner_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#Pizzeria"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#HamburgerRestaurant"/>
+    </owl:Class>
+
+
+
+    <!-- ideapark_stores#Beefking_steakhouse_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Beefking_steakhouse_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#CasualDiningRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Oma_Saastopankki_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Oma_Saastopankki_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#CommercialPublicService"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Pancho_Villa_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Pancho_Villa_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#CasualDiningRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Coyote_Grill_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Coyote_Grill_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#CasualDiningRestaurant"/>
+        <rdfs:subClassOf rdf:resource="ideapark_stores#NativeRestaurant"/>
+    </owl:Class>
+
+
+
+
+    <!-- ideapark_stores#Sticky_Wingers_ -->
+
+    <owl:Class rdf:about="ideapark_stores#Sticky_Wingers_">
+        <rdfs:subClassOf rdf:resource="ideapark_stores#FastFood"/>
+    </owl:Class>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="place_description#Atm"/>
+            <rdf:Description rdf:about="ideapark_stores#HealthBeautyStore"/>
+            <rdf:Description rdf:about="ideapark_stores#DepartmentStore"/>
+            <rdf:Description rdf:about="ideapark_stores#FurnishingDecorStore"/>
+            <rdf:Description rdf:about="ideapark_stores#CafeRestaurant"/>
+            <rdf:Description rdf:about="ideapark_stores#CommercialPublicService"/>
+            <rdf:Description rdf:about="ideapark_stores#LeisureSportStore"/>
+            <rdf:Description rdf:about="ideapark_stores#SpecialityRetailer"/>
+            <rdf:Description rdf:about="ideapark_stores#GroceryDepartmentStore"/>
+        </owl:members>
+    </rdf:Description>
+
+
+
+
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the ideapark_stores https://sarthou.github.io/ideapark_stores/ -->

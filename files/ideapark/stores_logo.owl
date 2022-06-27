@@ -25,7 +25,7 @@
     <!-- stores_logo#hasLogoURL -->
 
     <owl:DatatypeProperty rdf:about="stores_logo#hasLogoURL">
-        <rdfs:domain rdf:resource="place_description#place"/>
+        <rdfs:domain rdf:resource="place_description#Place"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
 
@@ -35,7 +35,7 @@
    <!-- stores_logo#hasLogoPath -->
 
    <owl:DatatypeProperty rdf:about="stores_logo#hasLogoPath">
-       <rdfs:domain rdf:resource="place_description#place"/>
+       <rdfs:domain rdf:resource="place_description#Place"/>
        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
    </owl:DatatypeProperty>
 
@@ -45,7 +45,7 @@
   <!-- stores_logo#has3dMesh -->
 
   <owl:DatatypeProperty rdf:about="stores_logo#has3dMesh">
-      <rdfs:domain rdf:resource="place_description#place"/>
+      <rdfs:domain rdf:resource="place_description#Place"/>
       <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:DatatypeProperty>
 

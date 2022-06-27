@@ -8,6 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:onto="ontologenius#"
      xmlns:place_description="place_description#"
+     xmlns:ideapark_stores="ideapark_stores#"
      xmlns:route_cost="route_cost#"
      xmlns:ideapark="ideapark#">
     <owl:Ontology rdf:about="ideapark"/>
@@ -29,7 +30,7 @@
     <!-- ideapark#Vallila_Shop -->
 
     <owl:NamedIndividual rdf:about="ideapark#Vallila_Shop">
-        <rdf:type rdf:resource="place_description#speciality_retailer"/>
+        <rdf:type rdf:resource="ideapark_stores#SpecialityRetailer"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#veistoskatu"/>
         <place_description:hasAtRight rdf:resource="Minimani"/>
         <rdfs:label xml:lang="en">vallila shop</rdfs:label>
@@ -42,7 +43,7 @@
     <!-- ideapark#empty_16 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_16">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isInFrontOf rdf:resource="ideapark#gf_atm_west"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_west"/>
     </owl:NamedIndividual>
@@ -53,7 +54,7 @@
     <!-- ideapark#empty_9 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_9">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isInFrontOf rdf:resource="ideapark#elevator_west"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1west"/>
     </owl:NamedIndividual>
@@ -64,7 +65,7 @@
     <!-- ideapark#empty_empty_front_faunatar -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_empty_front_faunatar">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Faunatar"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_B"/>
     </owl:NamedIndividual>
@@ -75,7 +76,7 @@
     <!-- ideapark#empty_17 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_17">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_west"/>
     </owl:NamedIndividual>
 
@@ -85,7 +86,7 @@
     <!-- ideapark#outside -->
 
     <owl:NamedIndividual rdf:about="ideapark#outside">
-        <rdf:type rdf:resource="place_description#region"/>
+        <rdf:type rdf:resource="place_description#Region"/>
         <route_cost:hasCost rdf:resource="route_cost#unconfortable"/>
         <rdfs:label xml:lang="en">outside</rdfs:label>
     </owl:NamedIndividual>
@@ -96,7 +97,7 @@
     <!-- place_description#carts_C -->
 
     <owl:NamedIndividual rdf:about="place_description#carts_C">
-        <rdf:type rdf:resource="place_description#carts"/>
+        <rdf:type rdf:resource="place_description#Carts"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_C"/>
         <rdfs:label xml:lang="en">carts</rdfs:label>
         <rdfs:label xml:lang="fi">ostoskärryt</rdfs:label>
@@ -107,7 +108,7 @@
     <!-- ideapark#auto_arena -->
 
     <owl:NamedIndividual rdf:about="ideapark#auto_arena">
-        <rdf:type rdf:resource="place_description#speciality_retailer"/>
+        <rdf:type rdf:resource="ideapark_stores#SpecialityRetailer"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#veistoskatu"/>
         <rdfs:label xml:lang="en">auto arena</rdfs:label>
         <onto:label xml:lang="en">autoarena</onto:label>
@@ -132,7 +133,7 @@
     <!-- ideapark#door_A -->
 
     <owl:NamedIndividual rdf:about="ideapark#door_A">
-        <rdf:type rdf:resource="place_description#door"/>
+        <rdf:type rdf:resource="place_description#Door"/>
         <place_description:isIn rdf:resource="ideapark#outside"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#veistoskatu"/>
@@ -147,7 +148,7 @@
     <!-- ideapark#door_B -->
 
     <owl:NamedIndividual rdf:about="ideapark#door_B">
-        <rdf:type rdf:resource="place_description#door"/>
+        <rdf:type rdf:resource="place_description#Door"/>
         <place_description:isIn rdf:resource="ideapark#outside"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_B"/>
@@ -161,7 +162,7 @@
     <!-- ideapark#door_C -->
 
     <owl:NamedIndividual rdf:about="ideapark#door_C">
-        <rdf:type rdf:resource="place_description#door"/>
+        <rdf:type rdf:resource="place_description#Door"/>
         <place_description:isIn rdf:resource="ideapark#outside"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_C"/>
@@ -175,7 +176,7 @@
     <!-- ideapark#door_D -->
 
     <owl:NamedIndividual rdf:about="ideapark#door_D">
-        <rdf:type rdf:resource="place_description#door"/>
+        <rdf:type rdf:resource="place_description#Door"/>
         <place_description:isIn rdf:resource="ideapark#outside"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#sitruunakatu"/>
@@ -189,7 +190,7 @@
     <!-- ideapark#corridor_elevator_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_elevator_east">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor elevator east</rdfs:label>
     </owl:NamedIndividual>
@@ -200,7 +201,7 @@
     <!-- ideapark#corridor_elevator_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_elevator_west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor elevator west</rdfs:label>
     </owl:NamedIndividual>
@@ -211,7 +212,7 @@
     <!-- ideapark#ff_toilet_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#ff_toilet_east">
-        <rdf:type rdf:resource="place_description#toilets"/>
+        <rdf:type rdf:resource="place_description#Toilets"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1B"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
         <rdfs:label xml:lang="en">restroom</rdfs:label>
@@ -224,7 +225,7 @@
     <!-- ideapark#gf_atm_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#gf_atm_east">
-        <rdf:type rdf:resource="place_description#atm"/>
+        <rdf:type rdf:resource="place_description#Atm"/>
         <place_description:isInFrontOf rdf:resource="ideapark#empty_13"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_east"/>
         <rdfs:label xml:lang="en">ATM</rdfs:label>
@@ -240,7 +241,7 @@
     <!-- ideapark#stairs_pancho -->
 
     <owl:NamedIndividual rdf:about="ideapark#stairs_pancho">
-        <rdf:type rdf:resource="place_description#stairs"/>
+        <rdf:type rdf:resource="place_description#Stairs"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Arnolds"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
@@ -257,7 +258,7 @@
     <!-- ideapark#intersection_corridor1B_corridor1east -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1B_corridor1east">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_1B"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1east"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -270,7 +271,7 @@
     <!-- ideapark#intersection_corridor1C_corridor1food -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1C_corridor1food">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_1C"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1food"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -283,7 +284,7 @@
     <!-- ideapark#intersection_corridor1Dnorth_corridor1northwest -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Dnorth_corridor1northwest">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1D_north"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_1north_west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -296,7 +297,7 @@
     <!-- ideapark#intersection_corridor1centralnorth_corridor1northeast -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1centralnorth_corridor1northeast">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1central_north"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_1north_east"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -309,7 +310,7 @@
     <!-- ideapark#intersection_corridor1centralnorth_corridor1west -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1centralnorth_corridor1west">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_1central_north"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1west"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -322,7 +323,7 @@
     <!-- ideapark#intersection_corridorkeskuwest_palapelikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridorkeskuwest_palapelikatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_kesku_west"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Stahlberg"/>
@@ -336,7 +337,7 @@
     <!-- ideapark#intersection_kompassikatu_veistoskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_kompassikatu_veistoskatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#veistoskatu"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -344,17 +345,8 @@
     </owl:NamedIndividual>
 
 
-
-
-    <!-- ideapark#Hairlekiini -->
-
-    <owl:Class rdf:about="ideapark#Hairlekiini_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Hairlekiini">
-        <rdf:type rdf:resource="ideapark#Hairlekiini_"/>
+        <rdf:type rdf:resource="ideapark_stores#Hairlekiini_"/>
         <place_description:hasAtRight rdf:resource="ideapark#Marco_Polo"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#old_corridor_west"/>
         <rdfs:label xml:lang="en">Hairlekiini</rdfs:label>
@@ -367,7 +359,7 @@
     <!-- ideapark#intersection_pallokatu_veistoskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_pallokatu_veistoskatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#veistoskatu"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -380,7 +372,7 @@
     <!-- ideapark#escalator_A -->
 
     <owl:NamedIndividual rdf:about="ideapark#escalator_A">
-        <rdf:type rdf:resource="place_description#escalator"/>
+        <rdf:type rdf:resource="place_description#Escalator"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1A_north"/>
@@ -397,7 +389,7 @@
     <!-- ideapark#intersection_corridorB_kompassikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridorB_kompassikatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_B"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Bik_Bok"/>
@@ -411,7 +403,7 @@
     <!-- ideapark#intersection_corridoreast_kompassikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridoreast_kompassikatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridorB_kompassikatu"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_east"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#kompassikatu"/>
@@ -426,7 +418,7 @@
     <!-- ideapark#intersection_palapelikatu_sauruskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_palapelikatu_sauruskatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#emotion"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#sauruskatu"/>
@@ -441,7 +433,7 @@
     <!-- ideapark#escalator_D -->
 
     <owl:NamedIndividual rdf:about="ideapark#escalator_D">
-        <rdf:type rdf:resource="place_description#escalator"/>
+        <rdf:type rdf:resource="place_description#Escalator"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
@@ -461,7 +453,7 @@
     <!-- ideapark#intersection_corridorwest_palapelikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridorwest_palapelikatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Tekniskamagasinet"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_west"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
@@ -476,7 +468,7 @@
     <!-- ideapark#intersection_corridorcoffeewest_palapelikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridorcoffeewest_palapelikatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_coffee_west"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Gina_Tricot"/>
@@ -490,7 +482,7 @@
     <!-- ideapark#intersection_corridortoiletswest_palapelikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridortoiletswest_palapelikatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_toilets_west"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Alko"/>
@@ -504,7 +496,7 @@
     <!-- ideapark#pullonpalautus -->
 
     <owl:NamedIndividual rdf:about="ideapark#pullonpalautus">
-        <rdf:type rdf:resource="place_description#place"/>
+        <rdf:type rdf:resource="place_description#Place"/>
         <place_description:hasAtRight rdf:resource="ideapark#emotion"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <rdfs:label xml:lang="fi">pullonpalautus</rdfs:label>
@@ -517,7 +509,7 @@
     <!-- ideapark#emotion -->
 
     <owl:NamedIndividual rdf:about="ideapark#emotion">
-        <rdf:type rdf:resource="place_description#speciality_retailer"/>
+        <rdf:type rdf:resource="ideapark_stores#SpecialityRetailer"/>
         <place_description:hasAtRight rdf:resource="ideapark#Prisma"/>
         <place_description:hasAtRight rdf:resource="place_description#carts_D"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
@@ -532,7 +524,7 @@
     <!-- ideapark#intersection_palapelikatu_sitruunakatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_palapelikatu_sitruunakatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#sitruunakatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Banking_machine"/>
@@ -546,7 +538,7 @@
     <!-- ideapark#old_interface_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#old_interface_east">
-        <rdf:type rdf:resource="place_description#interface"/>
+        <rdf:type rdf:resource="place_description#Interface"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#old_town"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_kesku_east"/>
@@ -563,7 +555,7 @@
     <!-- ideapark#intersection_corridorkeskueast_pallokatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridorkeskueast_pallokatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Halonen"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_kesku_east"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
@@ -579,7 +571,7 @@
     <!-- ideapark#intersection_corridoreast_pallokatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridoreast_pallokatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Clas_Ohlson"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_east"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
@@ -589,17 +581,10 @@
     </owl:NamedIndividual>
 
 
-
-
     <!-- ideapark#Donna_Rosa -->
 
-    <owl:Class rdf:about="ideapark#Donna_Rosa_">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Donna_Rosa">
-        <rdf:type rdf:resource="ideapark#Donna_Rosa_"/>
+        <rdf:type rdf:resource="ideapark_stores#Donna_Rosa_"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_Elviira"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <rdfs:label xml:lang="en">Donna Rosa</rdfs:label>
@@ -607,17 +592,10 @@
     </owl:NamedIndividual>
 
 
-
-
     <!-- ideapark#empty_Elviira -->
 
-    <owl:Class rdf:about="ideapark#empty_Elviira_">
-        <rdfs:subClassOf rdf:resource="place_description#empty_place"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#empty_Elviira">
-        <rdf:type rdf:resource="ideapark#empty_Elviira_"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#My_Bag"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <rdfs:label xml:lang="en">empty_Elviira</rdfs:label>
@@ -629,13 +607,8 @@
 
     <!-- ideapark#My_Bag -->
 
-    <owl:Class rdf:about="ideapark#My_Bag_">
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#My_Bag">
-        <rdf:type rdf:resource="ideapark#My_Bag_"/>
+        <rdf:type rdf:resource="ideapark_stores#My_Bag_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Power"/>
         <place_description:hasAtRight rdf:resource="ideapark#City_Kulta"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
@@ -649,7 +622,7 @@
     <!-- place_description#carts_A -->
 
     <owl:NamedIndividual rdf:about="place_description#carts_A">
-        <rdf:type rdf:resource="place_description#carts"/>
+        <rdf:type rdf:resource="place_description#Carts"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Pukimo"/>
         <rdfs:label xml:lang="en">carts</rdfs:label>
@@ -662,7 +635,7 @@
     <!-- ideapark#intersection_corridortoiletseast_pallokatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridortoiletseast_pallokatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_toilets_east"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_Telia"/>
@@ -676,7 +649,7 @@
     <!-- ideapark#intersection_oldcorridorwest_oldopenspace -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_oldcorridorwest_oldopenspace">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_oldcorridoreast_oldopenspace"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#old_corridor_west"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
@@ -691,7 +664,7 @@
     <!-- ideapark#intersection_oldcorridorsouth_oldopenspace -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_oldcorridorsouth_oldopenspace">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Avain__ja_suutarityo_Helsky"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#old_corridor_south"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
@@ -706,7 +679,7 @@
     <!-- ideapark#intersection_oldcorridoreast_oldopenspace -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_oldcorridoreast_oldopenspace">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#old_corridor_east"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#Cafe_de_Lisa"/>
@@ -720,7 +693,7 @@
     <!-- ideapark#intersection_corridor1food_corridor1little -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1food_corridor1little">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1food"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1little"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_empty_food1"/>
@@ -734,7 +707,7 @@
     <!-- ideapark#empty_empty_food1 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_empty_food1">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1food_foodpark"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1Dsouth_corridor1food"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1food"/>
@@ -746,7 +719,7 @@
     <!-- ideapark#escalator_sauruskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#escalator_sauruskatu">
-        <rdf:type rdf:resource="place_description#escalator"/>
+        <rdf:type rdf:resource="place_description#Escalator"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1C"/>
@@ -766,7 +739,7 @@
     <!-- ideapark#intersection_corridor1food_foodpark -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1food_foodpark">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_bridge1_foodpark"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1food"/>
         <place_description:isAlong rdf:resource="ideapark#foodpark"/>
@@ -781,7 +754,7 @@
     <!-- ideapark#intersection_corridor1Dsouth_foodpark -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Dsouth_foodpark">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1D_south"/>
         <place_description:isAlong rdf:resource="ideapark#foodpark"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1C_foodpark"/>
@@ -796,7 +769,7 @@
     <!-- ideapark#intersection_corridor1C_foodpark -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1C_foodpark">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_1C"/>
         <place_description:isAlong rdf:resource="ideapark#foodpark"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_0"/>
@@ -811,7 +784,7 @@
     <!-- ideapark#empty_0 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_0">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_bridge1_foodpark"/>
         <place_description:isAlong rdf:resource="ideapark#foodpark"/>
     </owl:NamedIndividual>
@@ -822,7 +795,7 @@
     <!-- ideapark#intersection_bridge1_foodpark -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_bridge1_foodpark">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#bridge_1"/>
         <place_description:isAlong rdf:resource="ideapark#foodpark"/>
         <place_description:hasAtRight rdf:resource="ideapark#Beefking_steakhouse"/>
@@ -836,7 +809,7 @@
     <!-- place_description#carts_B -->
 
     <owl:NamedIndividual rdf:about="place_description#carts_B">
-        <rdf:type rdf:resource="place_description#carts"/>
+        <rdf:type rdf:resource="place_description#Carts"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_B"/>
         <place_description:hasAtRight rdf:resource="ideapark#Faunatar"/>
         <rdfs:label xml:lang="en">carts</rdfs:label>
@@ -849,7 +822,7 @@
     <!-- ideapark#intersection_corridorC_sauruskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridorC_sauruskatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Hemtex"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_C"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
@@ -864,7 +837,7 @@
     <!-- ideapark#Elisan -->
 
     <owl:NamedIndividual rdf:about="ideapark#Elisan">
-        <rdf:type rdf:resource="place_description#speciality_retailer"/>
+        <rdf:type rdf:resource="ideapark_stores#SpecialityRetailer"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridorwest_sauruskatu"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <rdfs:label xml:lang="en">Elisan</rdfs:label>
@@ -878,7 +851,7 @@
     <!-- ideapark#intersection_corridorwest_sauruskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridorwest_sauruskatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_west"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Farkkujen_Tehtaanmyymala"/>
@@ -891,13 +864,8 @@
 
     <!-- ideapark#swamp -->
 
-    <owl:Class rdf:about="ideapark#swamp_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#swamp">
-        <rdf:type rdf:resource="ideapark#swamp_"/>
+        <rdf:type rdf:resource="ideapark_stores#Swamp_"/>
         <place_description:hasAtRight rdf:resource="ideapark#Click_Shoe"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <rdfs:label xml:lang="en">swamp</rdfs:label>
@@ -909,15 +877,8 @@
 
     <!-- ideapark#only -->
 
-    <owl:Class rdf:about="ideapark#only_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#only">
-        <rdf:type rdf:resource="ideapark#only_"/>
+        <rdf:type rdf:resource="ideapark_stores#Only_"/>
         <place_description:hasAtRight rdf:resource="ideapark#Saaga"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridortoiletswest_palapelikatu"/>
@@ -927,11 +888,10 @@
 
 
 
-
     <!-- ideapark#only_2 -->
 
     <owl:NamedIndividual rdf:about="ideapark#only_2">
-        <rdf:type rdf:resource="ideapark#only_"/>
+        <rdf:type rdf:resource="ideapark_stores#Only_"/>
         <place_description:hasAtRight rdf:resource="ideapark#Life"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <rdfs:label xml:lang="en">only</rdfs:label>
@@ -944,7 +904,7 @@
     <!-- ideapark#old_interface_south -->
 
     <owl:NamedIndividual rdf:about="ideapark#old_interface_south">
-        <rdf:type rdf:resource="place_description#interface"/>
+        <rdf:type rdf:resource="place_description#Interface"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Vila"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#old_town"/>
@@ -961,7 +921,7 @@
     <!-- ideapark#stairs_coyote -->
 
     <owl:NamedIndividual rdf:about="ideapark#stairs_coyote">
-        <rdf:type rdf:resource="place_description#stairs"/>
+        <rdf:type rdf:resource="place_description#Stairs"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Top_Sport"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
@@ -982,7 +942,7 @@
     <!-- ideapark#elevator_coyote -->
 
     <owl:NamedIndividual rdf:about="ideapark#elevator_coyote">
-        <rdf:type rdf:resource="place_description#elevator"/>
+        <rdf:type rdf:resource="place_description#Elevator"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
@@ -1000,7 +960,7 @@
     <!-- ideapark#elevator_keskuspuisto -->
 
     <owl:NamedIndividual rdf:about="ideapark#elevator_keskuspuisto">
-        <rdf:type rdf:resource="place_description#elevator"/>
+        <rdf:type rdf:resource="place_description#Elevator"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#bridge_1"/>
@@ -1019,7 +979,7 @@
     <!-- ideapark#stairs_keskuspuisto -->
 
     <owl:NamedIndividual rdf:about="ideapark#stairs_keskuspuisto">
-        <rdf:type rdf:resource="place_description#stairs"/>
+        <rdf:type rdf:resource="place_description#Stairs"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#bridge_1"/>
@@ -1036,7 +996,7 @@
     <!-- ideapark#intersection_Keskuspuisto_corridorkeskuwest -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_Keskuspuisto_corridorkeskuwest">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Body_Shop"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_kesku_west"/>
@@ -1051,7 +1011,7 @@
     <!-- ideapark#pepper_infodesk -->
 
     <owl:NamedIndividual rdf:about="ideapark#pepper_infodesk">
-        <rdf:type rdf:resource="place_description#infodesk"/>
+        <rdf:type rdf:resource="place_description#Infodesk"/>
         <place_description:hasAtRight rdf:resource="ideapark#Espresso_House"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <rdfs:label xml:lang="en">robot info desk</rdfs:label>
@@ -1064,7 +1024,7 @@
     <!-- ideapark#intersection_Keskuspuisto_sauruskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_Keskuspuisto_sauruskatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_Keskuspuisto_kompassikatu"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#sauruskatu"/>
@@ -1079,7 +1039,7 @@
     <!-- ideapark#intersection_Keskuspuisto_kompassikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_Keskuspuisto_kompassikatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#escalator_kompassikatu"/>
@@ -1093,7 +1053,7 @@
     <!-- ideapark#escalator_kompassikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#escalator_kompassikatu">
-        <rdf:type rdf:resource="place_description#escalator"/>
+        <rdf:type rdf:resource="place_description#Escalator"/>
         <place_description:isInFrontOf rdf:resource="ideapark#escalator_sauruskatu"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1Asouth_corridor1B"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1Asouth_corridor1east"/>
@@ -1116,7 +1076,7 @@
     <!-- ideapark#intersection_Keskuspuisto_corridorkeskueast -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_Keskuspuisto_corridorkeskueast">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Hennes_and_Mauritz"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_kesku_east"/>
@@ -1131,7 +1091,7 @@
     <!-- ideapark#intersection_coyoteopenspace_bridge1 -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_coyoteopenspace_bridge1">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#elevator_coyote"/>
         <place_description:isAlong rdf:resource="ideapark#coyote_open_space"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#bridge_1"/>
@@ -1146,7 +1106,7 @@
     <!-- ideapark#empty_1 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_1">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#Coyote_Grill"/>
         <place_description:isAlong rdf:resource="ideapark#coyote_open_space"/>
     </owl:NamedIndividual>
@@ -1157,7 +1117,7 @@
     <!-- ideapark#intersection_corridor1Anorth_corridor1northeast -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Anorth_corridor1northeast">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Easyfit"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1A_north"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1north_east"/>
@@ -1173,7 +1133,7 @@
     <!-- ideapark#empty_1A_north -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_1A_north">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1Anorth_corridor1Asouth"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1A_north"/>
     </owl:NamedIndividual>
@@ -1184,7 +1144,7 @@
     <!-- ideapark#empty_2 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_2">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#Easy_Fit_Traingin"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1A_north"/>
     </owl:NamedIndividual>
@@ -1195,7 +1155,7 @@
     <!-- ideapark#empty_3 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_3">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1north_east"/>
     </owl:NamedIndividual>
 
@@ -1205,7 +1165,7 @@
     <!-- ideapark#intersection_corridor1east_corridor1northeast -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1east_corridor1northeast">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1east"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1north_east"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_3"/>
@@ -1219,7 +1179,7 @@
     <!-- ideapark#intersection_corridor1Asouth_corridor1B -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Asouth_corridor1B">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1Asouth_corridor1east"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1A_south"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1B"/>
@@ -1234,7 +1194,7 @@
     <!-- ideapark#intersection_corridor1Anorth_corridor1Asouth -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Anorth_corridor1Asouth">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#empty_2"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1A_north"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1A_south"/>
@@ -1249,7 +1209,7 @@
     <!-- ideapark#old_interface_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#old_interface_west">
-        <rdf:type rdf:resource="place_description#interface"/>
+        <rdf:type rdf:resource="place_description#Interface"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#old_town"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_kesku_west"/>
@@ -1266,7 +1226,7 @@
     <!-- ideapark#empty_4 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_4">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#gf_toilet_Telia"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_toilets_east"/>
     </owl:NamedIndividual>
@@ -1277,7 +1237,7 @@
     <!-- ideapark#empty_5 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_5">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_toilets_east"/>
     </owl:NamedIndividual>
 
@@ -1287,7 +1247,7 @@
     <!-- ideapark#gf_toilet_Telia -->
 
     <owl:NamedIndividual rdf:about="ideapark#gf_toilet_Telia">
-        <rdf:type rdf:resource="place_description#toilets"/>
+        <rdf:type rdf:resource="place_description#Toilets"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_toilets_east"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_5"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
@@ -1301,7 +1261,7 @@
     <!-- place_description#carts_D -->
 
     <owl:NamedIndividual rdf:about="place_description#carts_D">
-        <rdf:type rdf:resource="place_description#carts"/>
+        <rdf:type rdf:resource="place_description#Carts"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sitruunakatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Prisma"/>
         <rdfs:label xml:lang="en">carts</rdfs:label>
@@ -1314,7 +1274,7 @@
     <!-- ideapark#intersection_sauruskatu_sitruunakatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_sauruskatu_sitruunakatu">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#sitruunakatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#escalator_D"/>
@@ -1328,7 +1288,7 @@
     <!-- ideapark#empty_6 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_6">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#LahiTapiola_Service_desk"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1north_west"/>
     </owl:NamedIndividual>
@@ -1339,7 +1299,7 @@
     <!-- ideapark#intersection_corridor1centralnorth_corridor1east -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1centralnorth_corridor1east">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1east_corridor1northeast"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1central_north"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1east"/>
@@ -1354,7 +1314,7 @@
     <!-- ideapark#intersection_corridor1centralnorth_corridorpancho2 -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1centralnorth_corridorpancho2">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_pancho2"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1central_north"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_18"/>
@@ -1368,7 +1328,7 @@
     <!-- ideapark#intersection_corridor1Asouth_corridor1east -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Asouth_corridor1east">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1A_south"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1east"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_netrauta_2"/>
@@ -1382,7 +1342,7 @@
     <!-- ideapark#elevator_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#elevator_east">
-        <rdf:type rdf:resource="place_description#elevator"/>
+        <rdf:type rdf:resource="place_description#Elevator"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1east"/>
@@ -1400,7 +1360,7 @@
     <!-- ideapark#intersection_corridor1Dnorth_corridor1extremwest -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Dnorth_corridor1extremwest">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1D_north"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1extrem_west"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_7"/>
@@ -1414,7 +1374,7 @@
     <!-- ideapark#empty_7 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_7">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1Dnorth_corridor1northwest"/>
         <place_description:hasAtRight rdf:resource="ideapark#Oma_Saastopankki"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1D_north"/>
@@ -1426,7 +1386,7 @@
     <!-- ideapark#intersection_corridor1Dnorth_corridor1Dsouth -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Dnorth_corridor1Dsouth">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1D_north"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1D_south"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_8"/>
@@ -1440,7 +1400,7 @@
     <!-- ideapark#empty_8 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_8">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1Dnorth_corridor1northwest"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1D_north"/>
     </owl:NamedIndividual>
@@ -1451,7 +1411,7 @@
     <!-- ideapark#intersection_corridor1C_corridor1Dsouth -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1C_corridor1Dsouth">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#escalator_sauruskatu"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1Dsouth_corridor1food"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1C"/>
@@ -1466,7 +1426,7 @@
     <!-- ideapark#ff_toilet_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#ff_toilet_west">
-        <rdf:type rdf:resource="place_description#toilets"/>
+        <rdf:type rdf:resource="place_description#Toilets"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1C"/>
         <place_description:hasAtRight rdf:resource="ideapark#Zones_by_Sarkanniemi"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
@@ -1480,7 +1440,7 @@
     <!-- ideapark#intersection_corridor1Dsouth_corridor1food -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Dsouth_corridor1food">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#escalator_sauruskatu"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1D_south"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1food"/>
@@ -1495,7 +1455,7 @@
     <!-- ideapark#intersection_corridor1Dsouth_corridor1west -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1Dsouth_corridor1west">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1D_south"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1west"/>
         <place_description:hasAtRight rdf:resource="ideapark#Nordea"/>
@@ -1509,7 +1469,7 @@
     <!-- ideapark#Nordea -->
 
     <owl:NamedIndividual rdf:about="ideapark#Nordea">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1Dnorth_corridor1Dsouth"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1D_south"/>
         <rdfs:label xml:lang="en">Nordea</rdfs:label>
@@ -1522,7 +1482,7 @@
     <!-- ideapark#intersection_corridor1northwest_corridor1west -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1northwest_corridor1west">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#empty_11"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1north_west"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1west"/>
@@ -1537,7 +1497,7 @@
     <!-- ideapark#empty_10 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_10">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1little_corridor1west"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1west"/>
     </owl:NamedIndividual>
@@ -1548,7 +1508,7 @@
     <!-- ideapark#intersection_corridor1little_corridor1west -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridor1little_corridor1west">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_1little"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1west"/>
         <place_description:hasAtRight rdf:resource="ideapark#elevator_west"/>
@@ -1562,7 +1522,7 @@
     <!-- ideapark#elevator_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#elevator_west">
-        <rdf:type rdf:resource="place_description#elevator"/>
+        <rdf:type rdf:resource="place_description#Elevator"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1west"/>
@@ -1581,7 +1541,7 @@
     <!-- ideapark#empty_11 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_11">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1centralnorth_corridor1west"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1west"/>
     </owl:NamedIndividual>
@@ -1592,7 +1552,7 @@
     <!-- ideapark#empty_12 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_12">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridoreast_corridorelevatoreast"/>
         <place_description:hasAtRight rdf:resource="ideapark#gf_atm_east"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_east"/>
@@ -1604,7 +1564,7 @@
     <!-- ideapark#empty_13 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_13">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#gf_toilet_east"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_east"/>
     </owl:NamedIndividual>
@@ -1615,7 +1575,7 @@
     <!-- ideapark#gf_toilet_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#gf_toilet_east">
-        <rdf:type rdf:resource="place_description#toilets"/>
+        <rdf:type rdf:resource="place_description#Toilets"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_east"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridoreast_corridorelevatoreast"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
@@ -1629,7 +1589,7 @@
     <!-- ideapark#empty_14 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_14">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_east"/>
     </owl:NamedIndividual>
 
@@ -1639,7 +1599,7 @@
     <!-- ideapark#intersection_corridoreast_corridorelevatoreast -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridoreast_corridorelevatoreast">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_elevator_east"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_east"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_14"/>
@@ -1653,7 +1613,7 @@
     <!-- ideapark#empty_15 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_15">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridorelevatorwest_corridorwest"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_west"/>
     </owl:NamedIndividual>
@@ -1664,7 +1624,7 @@
     <!-- ideapark#intersection_corridorelevatorwest_corridorwest -->
 
     <owl:NamedIndividual rdf:about="ideapark#intersection_corridorelevatorwest_corridorwest">
-        <rdf:type rdf:resource="place_description#pathIntersection"/>
+        <rdf:type rdf:resource="place_description#PathIntersection"/>
         <place_description:isInFrontOf rdf:resource="ideapark#empty_17"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_elevator_west"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_west"/>
@@ -1679,7 +1639,7 @@
     <!-- ideapark#gf_toilet_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#gf_toilet_west">
-        <rdf:type rdf:resource="place_description#toilets"/>
+        <rdf:type rdf:resource="place_description#Toilets"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_west"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_16"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
@@ -1693,7 +1653,7 @@
     <!-- ideapark#gf_atm_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#gf_atm_west">
-        <rdf:type rdf:resource="place_description#atm"/>
+        <rdf:type rdf:resource="place_description#Atm"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_west"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_17"/>
         <rdfs:label xml:lang="en">ATM</rdfs:label>
@@ -1709,7 +1669,7 @@
     <!-- ideapark#empty_18 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_18">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1centralnorth_corridor1east"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1central_north"/>
     </owl:NamedIndividual>
@@ -1720,7 +1680,7 @@
     <!-- ideapark#veistoskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#veistoskatu">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">veistoskatu</rdfs:label>
         <rdfs:label xml:lang="fi">veistoskatu</rdfs:label>
@@ -1732,7 +1692,7 @@
     <!-- ideapark#pallokatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#pallokatu">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">pallokatu</rdfs:label>
         <rdfs:label xml:lang="fi">pallokatu</rdfs:label>
@@ -1744,7 +1704,7 @@
     <!-- ideapark#kompassikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#kompassikatu">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">kompassikatu</rdfs:label>
         <rdfs:label xml:lang="fi">kompassikatu</rdfs:label>
@@ -1756,7 +1716,7 @@
     <!-- ideapark#Keskuspuisto -->
 
     <owl:NamedIndividual rdf:about="ideapark#Keskuspuisto">
-        <rdf:type rdf:resource="place_description#openspace"/>
+        <rdf:type rdf:resource="place_description#Openspace"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">Keskuspuisto</rdfs:label>
         <rdfs:label xml:lang="en">square</rdfs:label>
@@ -1769,7 +1729,7 @@
     <!-- ideapark#sauruskatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#sauruskatu">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">sauruskatu</rdfs:label>
         <rdfs:label xml:lang="fi">sauruskatu</rdfs:label>
@@ -1781,7 +1741,7 @@
     <!-- ideapark#palapelikatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#palapelikatu">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">palapelikatu</rdfs:label>
         <rdfs:label xml:lang="fi">palapelikatu</rdfs:label>
@@ -1793,7 +1753,7 @@
     <!-- ideapark#sitruunakatu -->
 
     <owl:NamedIndividual rdf:about="ideapark#sitruunakatu">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">sitruunakatu</rdfs:label>
         <rdfs:label xml:lang="fi">sitruunakatu</rdfs:label>
@@ -1805,7 +1765,7 @@
     <!-- ideapark#old_corridor_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#old_corridor_east">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#old_town"/>
         <rdfs:label xml:lang="en">passage</rdfs:label>
     </owl:NamedIndividual>
@@ -1816,7 +1776,7 @@
     <!-- ideapark#old_corridor_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#old_corridor_west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#old_town"/>
         <rdfs:label xml:lang="en">passage</rdfs:label>
     </owl:NamedIndividual>
@@ -1827,7 +1787,7 @@
     <!-- ideapark#old_corridor_south -->
 
     <owl:NamedIndividual rdf:about="ideapark#old_corridor_south">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#old_town"/>
         <rdfs:label xml:lang="en">passage</rdfs:label>
     </owl:NamedIndividual>
@@ -1838,7 +1798,7 @@
     <!-- ideapark#old_open_space -->
 
     <owl:NamedIndividual rdf:about="ideapark#old_open_space">
-        <rdf:type rdf:resource="place_description#openspace"/>
+        <rdf:type rdf:resource="place_description#Openspace"/>
         <place_description:isIn rdf:resource="ideapark#old_town"/>
         <rdfs:label xml:lang="en">crossroads</rdfs:label>
     </owl:NamedIndividual>
@@ -1849,7 +1809,7 @@
     <!-- ideapark#corridor_C -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_C">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor C</rdfs:label>
     </owl:NamedIndividual>
@@ -1860,7 +1820,7 @@
     <!-- ideapark#corridor_B -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_B">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor B</rdfs:label>
     </owl:NamedIndividual>
@@ -1871,7 +1831,7 @@
     <!-- ideapark#corridor_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_east">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor east</rdfs:label>
     </owl:NamedIndividual>
@@ -1882,7 +1842,7 @@
     <!-- ideapark#corridor_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor west</rdfs:label>
     </owl:NamedIndividual>
@@ -1893,7 +1853,7 @@
     <!-- ideapark#corridor_toilets_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_toilets_east">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
         <rdfs:label xml:lang="en">restroom</rdfs:label>
@@ -1906,7 +1866,7 @@
     <!-- ideapark#corridor_toilets_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_toilets_west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">toilet</rdfs:label>
         <rdfs:label xml:lang="en">restroom</rdfs:label>
@@ -1919,7 +1879,7 @@
     <!-- ideapark#foodpark -->
 
     <owl:NamedIndividual rdf:about="ideapark#foodpark">
-        <rdf:type rdf:resource="place_description#openspace"/>
+        <rdf:type rdf:resource="place_description#Openspace"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">foodpark</rdfs:label>
     </owl:NamedIndividual>
@@ -1930,7 +1890,7 @@
     <!-- ideapark#corridor_kesku_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_kesku_west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor kesku west</rdfs:label>
     </owl:NamedIndividual>
@@ -1941,7 +1901,7 @@
     <!-- ideapark#corridor_kesku_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_kesku_east">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor kesku east</rdfs:label>
     </owl:NamedIndividual>
@@ -1952,7 +1912,7 @@
     <!-- ideapark#corridor_coffee_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_coffee_west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#ground_floor"/>
         <rdfs:label xml:lang="en">corridor_coffee_west</rdfs:label>
     </owl:NamedIndividual>
@@ -1963,7 +1923,7 @@
     <!-- ideapark#corridor_1B -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1B">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1B</rdfs:label>
     </owl:NamedIndividual>
@@ -1974,7 +1934,7 @@
     <!-- ideapark#corridor_1C -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1C">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1C</rdfs:label>
     </owl:NamedIndividual>
@@ -1985,7 +1945,7 @@
     <!-- ideapark#corridor_1D_south -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1D_south">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1D_south</rdfs:label>
     </owl:NamedIndividual>
@@ -1996,7 +1956,7 @@
     <!-- ideapark#corridor_1D_north -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1D_north">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1D_north</rdfs:label>
     </owl:NamedIndividual>
@@ -2007,7 +1967,7 @@
     <!-- ideapark#corridor_1A_south -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1A_south">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1A_south</rdfs:label>
     </owl:NamedIndividual>
@@ -2018,7 +1978,7 @@
     <!-- ideapark#corridor_1A_north -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1A_north">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1A_north</rdfs:label>
     </owl:NamedIndividual>
@@ -2029,7 +1989,7 @@
     <!-- ideapark#corridor_1food -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1food">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1food</rdfs:label>
     </owl:NamedIndividual>
@@ -2040,7 +2000,7 @@
     <!-- ideapark#corridor_1west -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1west</rdfs:label>
     </owl:NamedIndividual>
@@ -2051,7 +2011,7 @@
     <!-- ideapark#corridor_1east -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1east">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1east</rdfs:label>
     </owl:NamedIndividual>
@@ -2062,7 +2022,7 @@
     <!-- ideapark#corridor_1central_north -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1central_north">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1central_north</rdfs:label>
     </owl:NamedIndividual>
@@ -2073,7 +2033,7 @@
     <!-- ideapark#corridor_1north_east -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1north_east">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1north_east</rdfs:label>
     </owl:NamedIndividual>
@@ -2084,7 +2044,7 @@
     <!-- ideapark#corridor_1extrem_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1extrem_west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1extrem_west</rdfs:label>
     </owl:NamedIndividual>
@@ -2095,7 +2055,7 @@
     <!-- ideapark#corridor_1north_west -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1north_west">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1north_west</rdfs:label>
     </owl:NamedIndividual>
@@ -2106,7 +2066,7 @@
     <!-- ideapark#corridor_1little -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_1little">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor_1little</rdfs:label>
     </owl:NamedIndividual>
@@ -2117,7 +2077,7 @@
     <!-- ideapark#bridge_1 -->
 
     <owl:NamedIndividual rdf:about="ideapark#bridge_1">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">bridge_1</rdfs:label>
     </owl:NamedIndividual>
@@ -2128,7 +2088,7 @@
     <!-- ideapark#corridor_pancho -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_pancho">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor pancho</rdfs:label>
     </owl:NamedIndividual>
@@ -2139,7 +2099,7 @@
     <!-- ideapark#corridor_pancho -->
 
     <owl:NamedIndividual rdf:about="ideapark#corridor_pancho2">
-        <rdf:type rdf:resource="place_description#corridor"/>
+        <rdf:type rdf:resource="place_description#Corridor"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor pancho</rdfs:label>
     </owl:NamedIndividual>
@@ -2150,7 +2110,7 @@
     <!-- ideapark#coyote_open_space -->
 
     <owl:NamedIndividual rdf:about="ideapark#coyote_open_space">
-        <rdf:type rdf:resource="place_description#openspace"/>
+        <rdf:type rdf:resource="place_description#Openspace"/>
         <place_description:isIn rdf:resource="ideapark#first_floor"/>
         <rdfs:label xml:lang="en">corridor</rdfs:label>
     </owl:NamedIndividual>
@@ -2161,7 +2121,7 @@
     <!-- ideapark#first_floor -->
 
     <owl:NamedIndividual rdf:about="ideapark#first_floor">
-        <rdf:type rdf:resource="place_description#region"/>
+        <rdf:type rdf:resource="place_description#Region"/>
         <route_cost:hasCost rdf:resource="route_cost#unexplicable"/>
         <rdfs:label xml:lang="en">first floor</rdfs:label>
     </owl:NamedIndividual>
@@ -2172,7 +2132,7 @@
     <!-- ideapark#ground_floor -->
 
     <owl:NamedIndividual rdf:about="ideapark#ground_floor">
-        <rdf:type rdf:resource="place_description#region"/>
+        <rdf:type rdf:resource="place_description#Region"/>
         <route_cost:hasCost rdf:resource="route_cost#unexplicable"/>
         <rdfs:label xml:lang="en">ground floor</rdfs:label>
     </owl:NamedIndividual>
@@ -2183,7 +2143,7 @@
     <!-- ideapark#old_town -->
 
     <owl:NamedIndividual rdf:about="ideapark#old_town">
-        <rdf:type rdf:resource="place_description#region"/>
+        <rdf:type rdf:resource="place_description#Region"/>
         <route_cost:hasCost rdf:resource="route_cost#unexplicable"/>
         <rdfs:label xml:lang="en">old town</rdfs:label>
     </owl:NamedIndividual>
@@ -2193,13 +2153,8 @@
 
     <!-- ideapark#Prisma -->
 
-    <owl:Class rdf:about="ideapark#Prisma_">
-        <rdfs:subClassOf rdf:resource="place_description#grocery_department_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Prisma">
-        <rdf:type rdf:resource="ideapark#Prisma_"/>
+        <rdf:type rdf:resource="ideapark_stores#Prisma_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sitruunakatu"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <rdfs:label xml:lang="en">Prisma</rdfs:label>
@@ -2211,13 +2166,8 @@
 
     <!-- ideapark#Alko -->
 
-    <owl:Class rdf:about="ideapark#Alko_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Alko">
-        <rdf:type rdf:resource="ideapark#Alko_"/>
+        <rdf:type rdf:resource="ideapark_stores#Alko_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_toilets_west"/>
         <place_description:hasAtRight rdf:resource="ideapark#pullonpalautus"/>
@@ -2230,14 +2180,8 @@
 
     <!-- ideapark#Name_It -->
 
-    <owl:Class rdf:about="ideapark#Name_It_">
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#child_clothes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Name_It">
-        <rdf:type rdf:resource="ideapark#Name_It_"/>
+        <rdf:type rdf:resource="ideapark_stores#Name_It_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridortoiletswest_palapelikatu"/>
         <rdfs:label xml:lang="en">Name It</rdfs:label>
@@ -2249,13 +2193,8 @@
 
     <!-- ideapark#Budget_Sport -->
 
-    <owl:Class rdf:about="ideapark#Budget_Sport_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Budget_Sport">
-        <rdf:type rdf:resource="ideapark#Budget_Sport_"/>
+        <rdf:type rdf:resource="ideapark_stores#Budget_Sport_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Name_It"/>
         <rdfs:label xml:lang="en">Budget Sport</rdfs:label>
@@ -2270,7 +2209,7 @@
     <!-- ideapark#Kid_Zone -->
 
     <owl:NamedIndividual rdf:about="ideapark#Kid_Zone">
-        <rdf:type rdf:resource="place_description#toystore"/>
+        <rdf:type rdf:resource="ideapark_stores#ToyStore"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Budget_Sport"/>
         <rdfs:label xml:lang="en">KidZone</rdfs:label>
@@ -2283,13 +2222,8 @@
 
     <!-- ideapark#Logistiikkakeskus -->
 
-    <owl:Class rdf:about="ideapark#Logistiikkakeskus_">
-        <rdfs:subClassOf rdf:resource="place_description#commercial_public_service"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Logistiikkakeskus">
-        <rdf:type rdf:resource="ideapark#Logistiikkakeskus_"/>
+        <rdf:type rdf:resource="ideapark_stores#Logistiikkakeskus_"/>
         <rdfs:label xml:lang="en">Logistiikkakeskus</rdfs:label>
         <rdfs:label xml:lang="fi">Logistiikkakeskus</rdfs:label>
     </owl:NamedIndividual>
@@ -2299,13 +2233,8 @@
 
     <!-- ideapark#Jesper_Junior -->
 
-    <owl:Class rdf:about="ideapark#Jesper_Junior_">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Jesper_Junior">
-        <rdf:type rdf:resource="ideapark#Jesper_Junior_"/>
+        <rdf:type rdf:resource="ideapark_stores#Jesper_Junior_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Kid_Zone"/>
         <rdfs:label xml:lang="en">Jesper Junior</rdfs:label>
@@ -2319,13 +2248,8 @@
 
     <!-- ideapark#empty_Sievi_Shop -->
 
-    <owl:Class rdf:about="ideapark#empty_Sievi_Shop_">
-        <rdfs:subClassOf rdf:resource="place_description#empty_place"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#empty_Sievi_Shop">
-        <rdf:type rdf:resource="ideapark#empty_Sievi_Shop_"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Jesper_Junior"/>
     </owl:NamedIndividual>
@@ -2335,13 +2259,8 @@
 
     <!-- ideapark#Tekniskamagasinet -->
 
-    <owl:Class rdf:about="ideapark#Tekniskamagasinet_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Tekniskamagasinet">
-        <rdf:type rdf:resource="ideapark#Tekniskamagasinet_"/>
+        <rdf:type rdf:resource="ideapark_stores#Tekniskamagasinet_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_Sievi_Shop"/>
         <rdfs:label xml:lang="en">Tekniskmagasinet</rdfs:label>
@@ -2353,17 +2272,8 @@
 
     <!-- ideapark#Gant -->
 
-    <owl:Class rdf:about="ideapark#Gant_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Gant">
-        <rdf:type rdf:resource="ideapark#Gant_"/>
+        <rdf:type rdf:resource="ideapark_stores#Gant_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_kesku_west"/>
         <rdfs:label xml:lang="en">Gant</rdfs:label>
         <rdfs:label xml:lang="fi">Gant</rdfs:label>
@@ -2374,14 +2284,8 @@
 
     <!-- ideapark#Kahvila_Ilopilleri -->
 
-    <owl:Class rdf:about="ideapark#Kahvila_Ilopilleri_">
-        <rdfs:subClassOf rdf:resource="place_description#cafe"/>
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Kahvila_Ilopilleri">
-        <rdf:type rdf:resource="ideapark#Kahvila_Ilopilleri_"/>
+        <rdf:type rdf:resource="ideapark_stores#Kahvila_Ilopilleri_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_coffee_west"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_kesku_west"/>
@@ -2398,13 +2302,8 @@
 
     <!-- ideapark#Tanssiopisto -->
 
-    <owl:Class rdf:about="ideapark#Tanssiopisto_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Tanssiopisto">
-        <rdf:type rdf:resource="ideapark#Tanssiopisto_"/>
+        <rdf:type rdf:resource="ideapark_stores#Tanssiopisto_"/>
         <rdfs:label xml:lang="en">Tanssiopisto</rdfs:label>
         <rdfs:label xml:lang="fi">Tanssiopisto</rdfs:label>
     </owl:NamedIndividual>
@@ -2414,13 +2313,8 @@
 
     <!-- ideapark#Juvesport -->
 
-    <owl:Class rdf:about="ideapark#Juvesport_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Juvesport">
-        <rdf:type rdf:resource="ideapark#Juvesport_"/>
+        <rdf:type rdf:resource="ideapark_stores#Juvesport_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_coffee_west"/>
         <place_description:hasAtRight rdf:resource="ideapark#Gina_Tricot"/>
         <rdfs:label xml:lang="en">Juvesport</rdfs:label>
@@ -2432,13 +2326,8 @@
 
     <!-- ideapark#Easy_Fit_Traingin -->
 
-    <owl:Class rdf:about="ideapark#Easy_Fit_Traingin_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Easy_Fit_Traingin">
-        <rdf:type rdf:resource="ideapark#Easy_Fit_Traingin_"/>
+        <rdf:type rdf:resource="ideapark_stores#Easy_Fit_Traingin_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1A_north"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1north_east"/>
         <place_description:hasAtRight rdf:resource="ideapark#Easyfit"/>
@@ -2452,13 +2341,8 @@
 
     <!-- ideapark#Ideapark_Sport_Areena -->
 
-    <owl:Class rdf:about="ideapark#Ideapark_Sport_Areena_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Ideapark_Sport_Areena">
-        <rdf:type rdf:resource="ideapark#Ideapark_Sport_Areena_"/>
+        <rdf:type rdf:resource="ideapark_stores#Ideapark_Sport_Areena_"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_coffee_west"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_kesku_west"/>
         <rdfs:label xml:lang="en">Ideapark Sport Areena</rdfs:label>
@@ -2474,16 +2358,8 @@
 
     <!-- ideapark#Gina_Tricot -->
 
-    <owl:Class rdf:about="ideapark#Gina_Tricot_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Gina_Tricot">
-        <rdf:type rdf:resource="ideapark#Gina_Tricot_"/>
+        <rdf:type rdf:resource="ideapark_stores#Gina_Tricot_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_coffee_west"/>
         <place_description:hasAtRight rdf:resource="ideapark#Tekniskamagasinet"/>
@@ -2496,16 +2372,8 @@
 
     <!-- ideapark#Marco_Polo -->
 
-    <owl:Class rdf:about="ideapark#Marco_Polo_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Marco_Polo">
-        <rdf:type rdf:resource="ideapark#Marco_Polo_"/>
+        <rdf:type rdf:resource="ideapark_stores#Marco_Polo_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_kesku_west"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#old_corridor_west"/>
         <place_description:hasAtRight rdf:resource="ideapark#Gant"/>
@@ -2518,13 +2386,8 @@
 
     <!-- ideapark#Makelan_Kauppapuutarna -->
 
-    <owl:Class rdf:about="ideapark#Makelan_Kauppapuutarna_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Makelan_Kauppapuutarna">
-        <rdf:type rdf:resource="ideapark#Makelan_Kauppapuutarna_"/>
+        <rdf:type rdf:resource="ideapark_stores#Makelan_Kauppapuutarna_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridortoiletseast_pallokatu"/>
         <rdfs:label xml:lang="en">Makelan Kauppapuutarna</rdfs:label>
@@ -2540,13 +2403,8 @@
 
     <!-- ideapark#Lumo_puoti -->
 
-    <owl:Class rdf:about="ideapark#Lumo_puoti_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Lumo_puoti">
-        <rdf:type rdf:resource="ideapark#Lumo_puoti_"/>
+        <rdf:type rdf:resource="ideapark_stores#Lumo_puoti_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Kotipizza_and_Rolls_Expert"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_oldcorridorwest_oldopenspace"/>
@@ -2560,13 +2418,8 @@
 
     <!-- ideapark#Avain__ja_suutarityo_Helsky -->
 
-    <owl:Class rdf:about="ideapark#Avain__ja_suutarityo_Helsky_">
-        <rdfs:subClassOf rdf:resource="place_description#department_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Avain__ja_suutarityo_Helsky">
-        <rdf:type rdf:resource="ideapark#Avain__ja_suutarityo_Helsky_"/>
+        <rdf:type rdf:resource="ideapark_stores#Avain__ja_suutarityo_Helsky_"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#Lumo_puoti"/>
         <rdfs:label xml:lang="en">Avain- ja suutarityo Helsky</rdfs:label>
@@ -2582,13 +2435,8 @@
 
     <!-- ideapark#PiiPoo -->
 
-    <owl:Class rdf:about="ideapark#PiiPoo_">
-        <rdfs:subClassOf rdf:resource="place_description#commercial_public_service"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#PiiPoo">
-        <rdf:type rdf:resource="ideapark#PiiPoo_"/>
+        <rdf:type rdf:resource="ideapark_stores#PiiPoo_"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#Avain__ja_suutarityo_Helsky"/>
         <rdfs:label xml:lang="en">PiiPoo</rdfs:label>
@@ -2600,14 +2448,8 @@
 
     <!-- ideapark#Cafe_de_Lisa -->
 
-    <owl:Class rdf:about="ideapark#Cafe_de_Lisa_">
-        <rdfs:subClassOf rdf:resource="place_description#cafe"/>
-        <rdfs:subClassOf rdf:resource="place_description#native_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Cafe_de_Lisa">
-        <rdf:type rdf:resource="ideapark#Cafe_de_Lisa_"/>
+        <rdf:type rdf:resource="ideapark_stores#Cafe_de_Lisa_"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#PiiPoo"/>
         <rdfs:label xml:lang="en">Cafe Delisa</rdfs:label>
@@ -2622,13 +2464,8 @@
 
     <!-- ideapark#Idea_kappeli -->
 
-    <owl:Class rdf:about="ideapark#Idea_kappeli_">
-        <rdfs:subClassOf rdf:resource="place_description#commercial_public_service"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Idea_kappeli">
-        <rdf:type rdf:resource="ideapark#Idea_kappeli_"/>
+        <rdf:type rdf:resource="ideapark_stores#Idea_kappeli_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#old_corridor_east"/>
         <place_description:hasAtRight rdf:resource="ideapark#Ballot"/>
         <rdfs:label xml:lang="en">Idea-kappeli</rdfs:label>
@@ -2640,13 +2477,8 @@
 
     <!-- ideapark#Ballot -->
 
-    <owl:Class rdf:about="ideapark#Ballot_">
-        <rdfs:subClassOf rdf:resource="place_description#child_clothes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Ballot">
-        <rdf:type rdf:resource="ideapark#Ballot_"/>
+        <rdf:type rdf:resource="ideapark_stores#Ballot_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#old_corridor_east"/>
         <rdfs:label xml:lang="en">Ballot</rdfs:label>
         <rdfs:label xml:lang="fi">Ballot</rdfs:label>
@@ -2655,18 +2487,10 @@
 
 
 
-    <!-- ideapark#Halonen -->
-
-    <owl:Class rdf:about="ideapark#Halonen_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
+    <!-- ideapark#Halonen_ -->
 
     <owl:NamedIndividual rdf:about="ideapark#Halonen">
-        <rdf:type rdf:resource="ideapark#Halonen_"/>
+        <rdf:type rdf:resource="ideapark_stores#Halonen_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_kesku_east"/>
         <rdfs:label xml:lang="en">Halonen</rdfs:label>
@@ -2678,13 +2502,8 @@
 
     <!-- ideapark#Clas_Ohlson -->
 
-    <owl:Class rdf:about="ideapark#Clas_Ohlson_">
-        <rdfs:subClassOf rdf:resource="place_description#department_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Clas_Ohlson">
-        <rdf:type rdf:resource="ideapark#Clas_Ohlson_"/>
+        <rdf:type rdf:resource="ideapark_stores#Clas_Ohlson_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Halonen"/>
         <rdfs:label xml:lang="en">Clas Ohlson</rdfs:label>
@@ -2696,13 +2515,8 @@
 
     <!-- ideapark#Kicks -->
 
-    <owl:Class rdf:about="ideapark#Kicks_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Kicks">
-        <rdf:type rdf:resource="ideapark#Kicks_"/>
+        <rdf:type rdf:resource="ideapark_stores#Kicks_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Clas_Ohlson"/>
         <rdfs:label xml:lang="en">Kicks</rdfs:label>
@@ -2714,13 +2528,8 @@
 
     <!-- ideapark#Power -->
 
-    <owl:Class rdf:about="ideapark#Power_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Power">
-        <rdf:type rdf:resource="ideapark#Power_"/>
+        <rdf:type rdf:resource="ideapark_stores#Power_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Kicks"/>
         <rdfs:label xml:lang="en">Power</rdfs:label>
@@ -2732,13 +2541,8 @@
 
     <!-- ideapark#Intersport_Ideapark -->
 
-    <owl:Class rdf:about="ideapark#Intersport_Ideapark_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Intersport_Ideapark">
-        <rdf:type rdf:resource="ideapark#Intersport_Ideapark_"/>
+        <rdf:type rdf:resource="ideapark_stores#Intersport_Ideapark_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Power"/>
         <rdfs:label xml:lang="en">Intersport</rdfs:label>
@@ -2750,13 +2554,8 @@
 
     <!-- ideapark#Kalastus_Suomi -->
 
-    <owl:Class rdf:about="ideapark#Kalastus_Suomi_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Kalastus_Suomi">
-        <rdf:type rdf:resource="ideapark#Kalastus_Suomi_"/>
+        <rdf:type rdf:resource="ideapark_stores#Kalastus_Suomi_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_toilets_east"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_4"/>
         <rdfs:label xml:lang="en">Kalastus Suomi</rdfs:label>
@@ -2768,13 +2567,8 @@
 
     <!-- ideapark#empty_Telia -->
 
-    <owl:Class rdf:about="ideapark#empty_Telia_">
-        <rdfs:subClassOf rdf:resource="place_description#empty_place"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#empty_Telia">
-        <rdf:type rdf:resource="ideapark#empty_Telia_"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Intersport_Ideapark"/>
     </owl:NamedIndividual>
@@ -2784,13 +2578,8 @@
 
     <!-- ideapark#Pukimo -->
 
-    <owl:Class rdf:about="ideapark#Pukimo_">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Pukimo">
-        <rdf:type rdf:resource="ideapark#Pukimo_"/>
+        <rdf:type rdf:resource="ideapark_stores#Pukimo_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Makelan_Kauppapuutarna"/>
         <rdfs:label xml:lang="en">pukimo</rdfs:label>
@@ -2802,13 +2591,8 @@
 
     <!-- ideapark#Minimani -->
 
-    <owl:Class rdf:about="ideapark#Minimani_">
-        <rdfs:subClassOf rdf:resource="place_description#department_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Minimani">
-        <rdf:type rdf:resource="ideapark#Minimani_"/>
+        <rdf:type rdf:resource="ideapark_stores#Minimani_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="place_description#carts_A"/>
         <rdfs:label xml:lang="en">Minimani</rdfs:label>
@@ -2820,16 +2604,8 @@
 
     <!-- ideapark#Tommy_Hilfiger -->
 
-    <owl:Class rdf:about="ideapark#Tommy_Hilfiger_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Tommy_Hilfiger">
-        <rdf:type rdf:resource="ideapark#Tommy_Hilfiger_"/>
+        <rdf:type rdf:resource="ideapark_stores#Tommy_Hilfiger_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#veistoskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Vallila_Shop"/>
         <rdfs:label xml:lang="en">Tommy Hilfiger</rdfs:label>
@@ -2841,16 +2617,8 @@
 
     <!-- ideapark#Guess -->
 
-    <owl:Class rdf:about="ideapark#Guess_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Guess">
-        <rdf:type rdf:resource="ideapark#Guess_"/>
+        <rdf:type rdf:resource="ideapark_stores#Guess_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#veistoskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Tommy_Hilfiger"/>
         <rdfs:label xml:lang="en">Guess</rdfs:label>
@@ -2862,13 +2630,8 @@
 
     <!-- ideapark#Saunalahti -->
 
-    <owl:Class rdf:about="ideapark#Saunalahti_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Saunalahti">
-        <rdf:type rdf:resource="ideapark#Saunalahti_"/>
+        <rdf:type rdf:resource="ideapark_stores#Saunalahti_"/>
         <rdfs:label xml:lang="en">Saunalahti</rdfs:label>
         <rdfs:label xml:lang="fi">Saunalahti</rdfs:label>
     </owl:NamedIndividual>
@@ -2878,13 +2641,8 @@
 
     <!-- ideapark#Espresso_House -->
 
-    <owl:Class rdf:about="ideapark#Espresso_House_">
-        <rdfs:subClassOf rdf:resource="place_description#cafe"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Espresso_House">
-        <rdf:type rdf:resource="ideapark#Espresso_House_"/>
+        <rdf:type rdf:resource="ideapark_stores#Espresso_House_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#escalator_sauruskatu"/>
         <rdfs:label xml:lang="en">Espresso House</rdfs:label>
@@ -2898,13 +2656,8 @@
 
     <!-- ideapark#Flying_Tiger_Copenhagen -->
 
-    <owl:Class rdf:about="ideapark#Flying_Tiger_Copenhagen_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Flying_Tiger_Copenhagen">
-        <rdf:type rdf:resource="ideapark#Flying_Tiger_Copenhagen_"/>
+        <rdf:type rdf:resource="ideapark_stores#Flying_Tiger_Copenhagen_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Rax"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#pepper_infodesk"/>
@@ -2920,14 +2673,8 @@
 
     <!-- ideapark#Zizzi -->
 
-    <owl:Class rdf:about="ideapark#Zizzi_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Zizzi">
-        <rdf:type rdf:resource="ideapark#Zizzi_"/>
+        <rdf:type rdf:resource="ideapark_stores#Zizzi_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Flying_Tiger_Copenhagen"/>
         <rdfs:label xml:lang="en">Zizzi</rdfs:label>
@@ -2939,13 +2686,8 @@
 
     <!-- ideapark#Pelaamo -->
 
-    <owl:Class rdf:about="ideapark#Pelaamo_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Pelaamo">
-        <rdf:type rdf:resource="ideapark#Pelaamo_"/>
+        <rdf:type rdf:resource="ideapark_stores#Pelaamo_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_kesku_west"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Zizzi"/>
@@ -2958,13 +2700,8 @@
 
     <!-- ideapark#Hanko_Sushi -->
 
-    <owl:Class rdf:about="ideapark#Hanko_Sushi_">
-        <rdfs:subClassOf rdf:resource="place_description#asian_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Hanko_Sushi">
-        <rdf:type rdf:resource="ideapark#Hanko_Sushi_"/>
+        <rdf:type rdf:resource="ideapark_stores#Hanko_Sushi_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Gina_Tricot"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Spice_Ice"/>
@@ -2977,14 +2714,8 @@
 
     <!-- ideapark#Stahlberg -->
 
-    <owl:Class rdf:about="ideapark#Stahlberg_">
-        <rdfs:subClassOf rdf:resource="place_description#cafe"/>
-        <rdfs:subClassOf rdf:resource="place_description#native_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Stahlberg">
-        <rdf:type rdf:resource="ideapark#Stahlberg_"/>
+        <rdf:type rdf:resource="ideapark_stores#Stahlberg_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Aitoleipa"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_kesku_west"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
@@ -3002,12 +2733,8 @@
 
     <!-- ideapark#Spice_Ice -->
 
-    <owl:Class rdf:about="ideapark#Spice_Ice_">
-        <rdfs:subClassOf rdf:resource="place_description#cafe"/>
-    </owl:Class>
-
     <owl:NamedIndividual rdf:about="ideapark#Spice_Ice">
-        <rdf:type rdf:resource="ideapark#Spice_Ice_"/>
+        <rdf:type rdf:resource="ideapark_stores#Spice_Ice_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Stahlberg"/>
         <rdfs:label xml:lang="en">Spice Ice</rdfs:label>
@@ -3019,16 +2746,8 @@
 
     <!-- ideapark#Superdry -->
 
-    <owl:Class rdf:about="ideapark#Superdry_">
-        <rdfs:subClassOf rdf:resource="place_description#adult_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Superdry">
-        <rdf:type rdf:resource="ideapark#Superdry_"/>
+        <rdf:type rdf:resource="ideapark_stores#Superdry_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridorwest_palapelikatu"/>
         <rdfs:label xml:lang="en">Superdry</rdfs:label>
@@ -3040,13 +2759,8 @@
 
     <!-- ideapark#Sinelli -->
 
-    <owl:Class rdf:about="ideapark#Sinelli_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Sinelli">
-        <rdf:type rdf:resource="ideapark#Sinelli_"/>
+        <rdf:type rdf:resource="ideapark_stores#Sinelli_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Jesper_Junior"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Superdry"/>
@@ -3059,14 +2773,8 @@
 
     <!-- ideapark#Click_Shoe -->
 
-    <owl:Class rdf:about="ideapark#Click_Shoe_">
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Click_Shoe">
-        <rdf:type rdf:resource="ideapark#Click_Shoe_"/>
+        <rdf:type rdf:resource="ideapark_stores#Click_Shoe_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Sinelli"/>
@@ -3080,13 +2788,8 @@
 
     <!-- ideapark#Iittala_Outlet -->
 
-    <owl:Class rdf:about="ideapark#Iittala_Outlet_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Iittala_Outlet">
-        <rdf:type rdf:resource="ideapark#Iittala_Outlet_"/>
+        <rdf:type rdf:resource="ideapark_stores#Iittala_Outlet_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Bjorn_Borg"/>
         <rdfs:label xml:lang="en">Iittala Outlet</rdfs:label>
@@ -3098,15 +2801,8 @@
 
     <!-- ideapark#Reima -->
 
-    <owl:Class rdf:about="ideapark#Reima_">
-        <rdfs:subClassOf rdf:resource="place_description#child_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Reima">
-        <rdf:type rdf:resource="ideapark#Reima_"/>
+        <rdf:type rdf:resource="ideapark_stores#Reima_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Kid_Zone"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Click_Shoe"/>
@@ -3119,13 +2815,8 @@
 
     <!-- ideapark#Partioaitta -->
 
-    <owl:Class rdf:about="ideapark#Partioaitta_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Partioaitta">
-        <rdf:type rdf:resource="ideapark#Partioaitta_"/>
+        <rdf:type rdf:resource="ideapark_stores#Partioaitta_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Budget_Sport"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
@@ -3140,13 +2831,8 @@
 
     <!-- ideapark#Saaga -->
 
-    <owl:Class rdf:about="ideapark#Saaga_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Saaga">
-        <rdf:type rdf:resource="ideapark#Saaga_"/>
+        <rdf:type rdf:resource="ideapark_stores#Saaga_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Name_It"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Partioaitta"/>
@@ -3159,13 +2845,8 @@
 
     <!-- ideapark#Kultajousi -->
 
-    <owl:Class rdf:about="ideapark#Kultajousi_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Kultajousi">
-        <rdf:type rdf:resource="ideapark#Kultajousi_"/>
+        <rdf:type rdf:resource="ideapark_stores#Kultajousi_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Alko"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#only"/>
@@ -3178,13 +2859,8 @@
 
     <!-- ideapark#Life -->
 
-    <owl:Class rdf:about="ideapark#Life_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Life">
-        <rdf:type rdf:resource="ideapark#Life_"/>
+        <rdf:type rdf:resource="ideapark_stores#Life_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Kultajousi"/>
@@ -3198,13 +2874,8 @@
 
     <!-- ideapark#Forex_Bank -->
 
-    <owl:Class rdf:about="ideapark#Forex_Bank_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Forex_Bank">
-        <rdf:type rdf:resource="ideapark#Forex_Bank_"/>
+        <rdf:type rdf:resource="ideapark_stores#Forex_Bank_"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#palapelikatu"/>
         <rdfs:label xml:lang="en">Forex Bank</rdfs:label>
         <rdfs:label xml:lang="fi">Forex Bank</rdfs:label>
@@ -3215,13 +2886,9 @@
 
     <!-- ideapark#LahiTapiola_Service_desk -->
 
-    <owl:Class rdf:about="ideapark#LahiTapiola_Service_desk_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
 
     <owl:NamedIndividual rdf:about="ideapark#LahiTapiola_Service_desk">
-        <rdf:type rdf:resource="ideapark#LahiTapiola_Service_desk_"/>
+        <rdf:type rdf:resource="ideapark_stores#LahiTapiola_Service_desk_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1north_west"/>
         <rdfs:label xml:lang="en">LahiTapiola Service desk</rdfs:label>
         <rdfs:label xml:lang="fi">LähiTapiola Service desk</rdfs:label>
@@ -3234,13 +2901,8 @@
 
     <!-- ideapark#Nissen -->
 
-    <owl:Class rdf:about="ideapark#Nissen_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Nissen">
-        <rdf:type rdf:resource="ideapark#Nissen_"/>
+        <rdf:type rdf:resource="ideapark_stores#Nissen_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#only_2"/>
         <rdfs:label xml:lang="en">Nissen</rdfs:label>
@@ -3252,16 +2914,8 @@
 
     <!-- ideapark#Bjorn_Borg -->
 
-    <owl:Class rdf:about="ideapark#Bjorn_Borg_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Bjorn_Borg">
-        <rdf:type rdf:resource="ideapark#Bjorn_Borg_"/>
+        <rdf:type rdf:resource="ideapark_stores#Bjorn_Borg_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Partioaitta"/>
         <rdfs:label xml:lang="en">Bjorn Borg</rdfs:label>
@@ -3274,14 +2928,8 @@
 
     <!-- ideapark#Pizza_Hut -->
 
-    <owl:Class rdf:about="ideapark#Pizza_Hut_">
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-        <rdfs:subClassOf rdf:resource="place_description#pizzeria"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Pizza_Hut">
-        <rdf:type rdf:resource="ideapark#Pizza_Hut_"/>
+        <rdf:type rdf:resource="ideapark_stores#Pizza_Hut_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#HoviKebab"/>
         <rdfs:label xml:lang="en">Pizza Hut</rdfs:label>
@@ -3293,13 +2941,8 @@
 
     <!-- ideapark#Instrumentarium -->
 
-    <owl:Class rdf:about="ideapark#Instrumentarium_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Instrumentarium">
-        <rdf:type rdf:resource="ideapark#Instrumentarium_"/>
+        <rdf:type rdf:resource="ideapark_stores#Instrumentarium_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#swamp"/>
         <rdfs:label xml:lang="en">Instrumentarium</rdfs:label>
@@ -3311,13 +2954,8 @@
 
     <!-- ideapark#Hemtex -->
 
-    <owl:Class rdf:about="ideapark#Hemtex_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Hemtex">
-        <rdf:type rdf:resource="ideapark#Hemtex_"/>
+        <rdf:type rdf:resource="ideapark_stores#Hemtex_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Instrumentarium"/>
         <rdfs:label xml:lang="en">Hemtex</rdfs:label>
@@ -3329,13 +2967,8 @@
 
     <!-- ideapark#Farkkujen_Tehtaanmyymala -->
 
-    <owl:Class rdf:about="ideapark#Farkkujen_Tehtaanmyymala_">
-        <rdfs:subClassOf rdf:resource="place_description#men_clothes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Farkkujen_Tehtaanmyymala">
-        <rdf:type rdf:resource="ideapark#Farkkujen_Tehtaanmyymala_"/>
+        <rdf:type rdf:resource="ideapark_stores#Farkkujen_Tehtaanmyymala_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Hemtex"/>
         <rdfs:label xml:lang="en">Farkkujen Tehtaanmyymala</rdfs:label>
@@ -3347,13 +2980,8 @@
 
     <!-- ideapark#Luckiefun -->
 
-    <owl:Class rdf:about="ideapark#Luckiefun_">
-        <rdfs:subClassOf rdf:resource="place_description#asian_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Luckiefun">
-        <rdf:type rdf:resource="ideapark#Luckiefun_"/>
+        <rdf:type rdf:resource="ideapark_stores#Luckiefun_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#old_corridor_east"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_oldcorridoreast_oldopenspace"/>
@@ -3367,13 +2995,8 @@
 
     <!-- ideapark#Kultaporssi -->
 
-    <owl:Class rdf:about="ideapark#Kultaporssi_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Kultaporssi">
-        <rdf:type rdf:resource="ideapark#Kultaporssi_"/>
+        <rdf:type rdf:resource="ideapark_stores#Kultaporssi_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Ballot"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#old_corridor_east"/>
         <rdfs:label xml:lang="en">Kultaporssi</rdfs:label>
@@ -3385,13 +3008,8 @@
 
     <!-- ideapark#HoviKebab -->
 
-    <owl:Class rdf:about="ideapark#HoviKebab_">
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#HoviKebab">
-        <rdf:type rdf:resource="ideapark#HoviKebab_"/>
+        <rdf:type rdf:resource="ideapark_stores#HoviKebab_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Kotipizza_and_Rolls_Expert"/>
         <rdfs:label xml:lang="en">HoviKebab</rdfs:label>
@@ -3403,15 +3021,8 @@
 
     <!-- ideapark#Kotipizza_and_Rolls_Expert -->
 
-    <owl:Class rdf:about="ideapark#Kotipizza_and_Rolls_Expert_">
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-        <rdfs:subClassOf rdf:resource="place_description#pizzeria"/>
-        <rdfs:subClassOf rdf:resource="place_description#hamburger_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Kotipizza_and_Rolls_Expert">
-        <rdf:type rdf:resource="ideapark#Kotipizza_and_Rolls_Expert_"/>
+        <rdf:type rdf:resource="ideapark_stores#Kotipizza_and_Rolls_Expert_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#Luckiefun"/>
@@ -3431,14 +3042,8 @@
 
     <!-- ideapark#Cafe_Linkosuo -->
 
-    <owl:Class rdf:about="ideapark#Cafe_Linkosuo_">
-        <rdfs:subClassOf rdf:resource="place_description#cafe"/>
-        <rdfs:subClassOf rdf:resource="place_description#native_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Cafe_Linkosuo">
-        <rdf:type rdf:resource="ideapark#Cafe_Linkosuo_"/>
+        <rdf:type rdf:resource="ideapark_stores#Cafe_Linkosuo_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_kesku_west"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Aitoleipa"/>
@@ -3454,13 +3059,8 @@
 
     <!-- ideapark#Aitoleipa -->
 
-    <owl:Class rdf:about="ideapark#Aitoleipa_">
-        <rdfs:subClassOf rdf:resource="place_description#native_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Aitoleipa">
-        <rdf:type rdf:resource="ideapark#Aitoleipa_"/>
+        <rdf:type rdf:resource="ideapark_stores#Aitoleipa_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_kesku_west"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#old_corridor_west"/>
         <place_description:hasAtRight rdf:resource="ideapark#old_interface_west"/>
@@ -3475,13 +3075,8 @@
 
     <!-- ideapark#Mummola_Lahjapuoti -->
 
-    <owl:Class rdf:about="ideapark#Mummola_Lahjapuoti_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Mummola_Lahjapuoti">
-        <rdf:type rdf:resource="ideapark#Mummola_Lahjapuoti_"/>
+        <rdf:type rdf:resource="ideapark_stores#Mummola_Lahjapuoti_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Hairlekiini"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#old_corridor_west"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
@@ -3495,13 +3090,8 @@
 
     <!-- ideapark#SubWay -->
 
-    <owl:Class rdf:about="ideapark#SubWay_">
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#SubWay">
-        <rdf:type rdf:resource="ideapark#SubWay_"/>
+        <rdf:type rdf:resource="ideapark_stores#SubWay_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:isAlong rdf:resource="ideapark#old_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_oldcorridorsouth_oldopenspace"/>
@@ -3515,13 +3105,8 @@
 
     <!-- ideapark#Information_desk -->
 
-    <owl:Class rdf:about="ideapark#Information_desk_">
-        <rdfs:subClassOf rdf:resource="place_description#commercial_public_service"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Information_desk">
-        <rdf:type rdf:resource="ideapark#Information_desk_"/>
+        <rdf:type rdf:resource="ideapark_stores#Information_desk_"/>
         <rdfs:label xml:lang="en">Information desk</rdfs:label>
         <rdfs:label xml:lang="fi">Information desk</rdfs:label>
         <rdfs:label xml:lang="en">info point</rdfs:label>
@@ -3532,13 +3117,8 @@
 
     <!-- ideapark#empty_Digiman_pop_up -->
 
-    <owl:Class rdf:about="ideapark#empty_empty_Digiman_pop_up_">
-        <rdfs:subClassOf rdf:resource="place_description#empty_place"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#empty_Digiman_pop_up">
-        <rdf:type rdf:resource="ideapark#empty_empty_Digiman_pop_up_"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#kompassikatu"/>
     </owl:NamedIndividual>
 
@@ -3547,14 +3127,8 @@
 
     <!-- ideapark#Burger_King -->
 
-    <owl:Class rdf:about="ideapark#Burger_King_">
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-        <rdfs:subClassOf rdf:resource="place_description#hamburger_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Burger_King">
-        <rdf:type rdf:resource="ideapark#Burger_King_"/>
+        <rdf:type rdf:resource="ideapark_stores#Burger_King_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Espresso_House"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Rax"/>
@@ -3567,14 +3141,8 @@
 
     <!-- ideapark#Rax -->
 
-    <owl:Class rdf:about="ideapark#Rax_">
-        <rdfs:subClassOf rdf:resource="place_description#pizzeria"/>
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Rax">
-        <rdf:type rdf:resource="ideapark#Rax_"/>
+        <rdf:type rdf:resource="ideapark_stores#Rax_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Hesburger"/>
         <rdfs:label xml:lang="en">Rax buffet</rdfs:label>
@@ -3588,14 +3156,8 @@
 
     <!-- ideapark#Hesburger -->
 
-    <owl:Class rdf:about="ideapark#Hesburger_">
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-        <rdfs:subClassOf rdf:resource="place_description#hamburger_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Hesburger">
-        <rdf:type rdf:resource="ideapark#Hesburger_"/>
+        <rdf:type rdf:resource="ideapark_stores#Hesburger_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_kesku_east"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Arnolds"/>
@@ -3609,13 +3171,8 @@
 
     <!-- ideapark#Arnolds -->
 
-    <owl:Class rdf:about="ideapark#Arnolds_">
-        <rdfs:subClassOf rdf:resource="place_description#cafe"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Arnolds">
-        <rdf:type rdf:resource="ideapark#Arnolds_"/>
+        <rdf:type rdf:resource="ideapark_stores#Arnolds_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_kesku_east"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridoreast_pallokatu"/>
@@ -3628,13 +3185,8 @@
 
     <!-- ideapark#Change -->
 
-    <owl:Class rdf:about="ideapark#Change_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Change">
-        <rdf:type rdf:resource="ideapark#Change_"/>
+        <rdf:type rdf:resource="ideapark_stores#Change_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Kicks"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Donna_Rosa"/>
@@ -3647,13 +3199,8 @@
 
     <!-- ideapark#City_Kulta -->
 
-    <owl:Class rdf:about="ideapark#City_Kulta_">
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#City_Kulta">
-        <rdf:type rdf:resource="ideapark#City_Kulta_"/>
+        <rdf:type rdf:resource="ideapark_stores#City_Kulta_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Intersport_Ideapark"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#KappAhl"/>
@@ -3666,15 +3213,8 @@
 
     <!-- ideapark#KappAhl -->
 
-    <owl:Class rdf:about="ideapark#KappAhl_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#KappAhl">
-        <rdf:type rdf:resource="ideapark#KappAhl_"/>
+        <rdf:type rdf:resource="ideapark_stores#KappAhl_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Cubus"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridortoiletseast_pallokatu"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#kompassikatu"/>
@@ -3689,15 +3229,9 @@
 
 
     <!-- ideapark#NP -->
-
-    <owl:Class rdf:about="ideapark#NP_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
+    
     <owl:NamedIndividual rdf:about="ideapark#NP">
-        <rdf:type rdf:resource="ideapark#NP_"/>
+        <rdf:type rdf:resource="ideapark_stores#NP_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Linda_Mode"/>
         <rdfs:label xml:lang="en">NP</rdfs:label>
@@ -3709,14 +3243,8 @@
 
     <!-- ideapark#Linda_Mode -->
 
-    <owl:Class rdf:about="ideapark#Linda_Mode_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Linda_Mode">
-        <rdf:type rdf:resource="ideapark#Linda_Mode_"/>
+        <rdf:type rdf:resource="ideapark_stores#Linda_Mode_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Fonum"/>
         <rdfs:label xml:lang="en">Linda Mode</rdfs:label>
@@ -3728,13 +3256,8 @@
 
     <!-- ideapark#Fonum -->
 
-    <owl:Class rdf:about="ideapark#Fonum_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Fonum">
-        <rdf:type rdf:resource="ideapark#Fonum_"/>
+        <rdf:type rdf:resource="ideapark_stores#Fonum_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#DNA"/>
         <rdfs:label xml:lang="en">Fonum</rdfs:label>
@@ -3746,13 +3269,8 @@
 
     <!-- ideapark#DNA -->
 
-    <owl:Class rdf:about="ideapark#DNA_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#DNA">
-        <rdf:type rdf:resource="ideapark#DNA_"/>
+        <rdf:type rdf:resource="ideapark_stores#DNA_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#pallokatu"/>
         <rdfs:label xml:lang="en">DNA</rdfs:label>
         <rdfs:label xml:lang="fi">DNA</rdfs:label>
@@ -3763,13 +3281,8 @@
 
     <!-- ideapark#Pentik -->
 
-    <owl:Class rdf:about="ideapark#Pentik_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Pentik">
-        <rdf:type rdf:resource="ideapark#Pentik_"/>
+        <rdf:type rdf:resource="ideapark_stores#Pentik_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#KappAhl"/>
         <rdfs:label xml:lang="en">Pentik</rdfs:label>
@@ -3781,13 +3294,8 @@
 
     <!-- ideapark#empty_Fortum -->
 
-    <owl:Class rdf:about="ideapark#empty_Fortum_">
-        <rdfs:subClassOf rdf:resource="place_description#empty_place"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#empty_Fortum">
-        <rdf:type rdf:resource="ideapark#empty_Fortum_"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Lagoon_Fish_Foot_Spa"/>
     </owl:NamedIndividual>
@@ -3797,13 +3305,8 @@
 
     <!-- ideapark#Lagoon_Fish_Foot_Spa -->
 
-    <owl:Class rdf:about="ideapark#Lagoon_Fish_Foot_Spa_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Lagoon_Fish_Foot_Spa">
-        <rdf:type rdf:resource="ideapark#Lagoon_Fish_Foot_Spa_"/>
+        <rdf:type rdf:resource="ideapark_stores#Lagoon_Fish_Foot_Spa_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Lindex"/>
         <rdfs:label xml:lang="en">Lagoon Fish Foot Spa</rdfs:label>
@@ -3815,15 +3318,8 @@
 
     <!-- ideapark#Lindex -->
 
-    <owl:Class rdf:about="ideapark#Lindex_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Lindex">
-        <rdf:type rdf:resource="ideapark#Lindex_"/>
+        <rdf:type rdf:resource="ideapark_stores#Lindex_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridoreast_kompassikatu"/>
         <rdfs:label xml:lang="en">Lindex</rdfs:label>
@@ -3835,13 +3331,8 @@
 
     <!-- ideapark#River_and_Co -->
 
-    <owl:Class rdf:about="ideapark#River_and_Co_">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#River_and_Co">
-        <rdf:type rdf:resource="ideapark#River_and_Co_"/>
+        <rdf:type rdf:resource="ideapark_stores#River_and_Co_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sitruunakatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Musti_ja_Mirri"/>
         <rdfs:label xml:lang="en">River and Co</rdfs:label>
@@ -3856,13 +3347,8 @@
 
     <!-- ideapark#Musti_ja_Mirri -->
 
-    <owl:Class rdf:about="ideapark#Musti_ja_Mirri_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Musti_ja_Mirri">
-        <rdf:type rdf:resource="ideapark#Musti_ja_Mirri_"/>
+        <rdf:type rdf:resource="ideapark_stores#Musti_ja_Mirri_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Prisma"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sitruunakatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#empty_Kirjaporssi"/>
@@ -3876,7 +3362,7 @@
     <!-- ideapark#empty_Kirjaporssi -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_Kirjaporssi">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isInFrontOf rdf:resource="place_description#carts_D"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sitruunakatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Suomalainen_Kirjakauppa"/>
@@ -3887,13 +3373,8 @@
 
     <!-- ideapark#Suomalainen_Kirjakauppa -->
 
-    <owl:Class rdf:about="ideapark#Suomalainen_Kirjakauppa_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Suomalainen_Kirjakauppa">
-        <rdf:type rdf:resource="ideapark#Suomalainen_Kirjakauppa_"/>
+        <rdf:type rdf:resource="ideapark_stores#Suomalainen_Kirjakauppa_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sitruunakatu"/>
         <rdfs:label xml:lang="en">Suomalainen Kirjakauppa</rdfs:label>
         <rdfs:label xml:lang="fi">Suomalainen Kirjakauppa</rdfs:label>
@@ -3904,13 +3385,8 @@
 
     <!-- ideapark#KOO_Kenka -->
 
-    <owl:Class rdf:about="ideapark#KOO_Kenka_">
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#KOO_Kenka">
-        <rdf:type rdf:resource="ideapark#KOO_Kenka_"/>
+        <rdf:type rdf:resource="ideapark_stores#KOO_Kenka_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#New_Yorker"/>
         <rdfs:label xml:lang="en">KOO Kenka</rdfs:label>
@@ -3923,16 +3399,8 @@
 
     <!-- ideapark#New_Yorker -->
 
-    <owl:Class rdf:about="ideapark#New_Yorker_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#New_Yorker">
-        <rdf:type rdf:resource="ideapark#New_Yorker_"/>
+        <rdf:type rdf:resource="ideapark_stores#New_Yorker_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Din_Sko"/>
         <rdfs:label xml:lang="en">New Yorker</rdfs:label>
@@ -3944,13 +3412,8 @@
 
     <!-- ideapark#Din_Sko -->
 
-    <owl:Class rdf:about="ideapark#Din_Sko_">
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Din_Sko">
-        <rdf:type rdf:resource="ideapark#Din_Sko_"/>
+        <rdf:type rdf:resource="ideapark_stores#Din_Sko_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Nissen"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#CM_Hiustalo"/>
@@ -3963,13 +3426,8 @@
 
     <!-- ideapark#CM_Hiustalo -->
 
-    <owl:Class rdf:about="ideapark#CM_Hiustalo_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#CM_Hiustalo">
-        <rdf:type rdf:resource="ideapark#CM_Hiustalo_"/>
+        <rdf:type rdf:resource="ideapark_stores#CM_Hiustalo_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Bjorn_Borg"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Esprit_Ideapark"/>
@@ -3982,15 +3440,8 @@
 
     <!-- ideapark#Esprit_Ideapark -->
 
-    <owl:Class rdf:about="ideapark#Esprit_Ideapark_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Esprit_Ideapark">
-        <rdf:type rdf:resource="ideapark#Esprit_Ideapark_"/>
+        <rdf:type rdf:resource="ideapark_stores#Esprit_Ideapark_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Digiman"/>
         <rdfs:label xml:lang="en">Esprit</rdfs:label>
@@ -4002,13 +3453,8 @@
 
     <!-- ideapark#Digiman -->
 
-    <owl:Class rdf:about="ideapark#Digiman_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Digiman">
-        <rdf:type rdf:resource="ideapark#Digiman_"/>
+        <rdf:type rdf:resource="ideapark_stores#Digiman_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Glitter"/>
         <rdfs:label xml:lang="en">Digiman</rdfs:label>
@@ -4020,15 +3466,8 @@
 
     <!-- ideapark#Glitter -->
 
-    <owl:Class rdf:about="ideapark#Glitter_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Glitter">
-        <rdf:type rdf:resource="ideapark#Glitter_"/>
+        <rdf:type rdf:resource="ideapark_stores#Glitter_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Instrumentarium"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_C"/>
@@ -4043,13 +3482,8 @@
 
     <!-- ideapark#Apteekki_Ideapark -->
 
-    <owl:Class rdf:about="ideapark#Apteekki_Ideapark_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Apteekki_Ideapark">
-        <rdf:type rdf:resource="ideapark#Apteekki_Ideapark_"/>
+        <rdf:type rdf:resource="ideapark_stores#Apteekki_Ideapark_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_C"/>
         <place_description:hasAtRight rdf:resource="ideapark#HairStore"/>
         <rdfs:label xml:lang="en">Apteekki</rdfs:label>
@@ -4063,13 +3497,8 @@
 
     <!-- ideapark#HairStore -->
 
-    <owl:Class rdf:about="ideapark#HairStore_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#HairStore">
-        <rdf:type rdf:resource="ideapark#HairStore_"/>
+        <rdf:type rdf:resource="ideapark_stores#HairStore_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_C"/>
         <place_description:hasAtRight rdf:resource="place_description#carts_C"/>
         <rdfs:label xml:lang="en">HairStore</rdfs:label>
@@ -4082,13 +3511,8 @@
 
     <!-- ideapark#Finla -->
 
-    <!--owl:Class rdf:about="ideapark#Finla_">
-        <rdfs:subClassOf rdf:resource="place_description#commercial_public_service"/>
-    </owl:Class>
-
-
-    <owl:NamedIndividual rdf:about="ideapark#Finla">
-        <rdf:type rdf:resource="ideapark#Finla_"/>
+    <!--owl:NamedIndividual rdf:about="ideapark#Finla">
+        <rdf:type rdf:resource="ideapark_stores#Finla_"/>
         <rdfs:label xml:lang="en">Finla</rdfs:label>
         <rdfs:label xml:lang="fi">Finla</rdfs:label>
     </owl:NamedIndividual-->
@@ -4098,16 +3522,8 @@
 
     <!-- ideapark#Your_Face_and_Rils -->
 
-    <owl:Class rdf:about="ideapark#Your_Face_and_Rils_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Your_Face_and_Rils">
-        <rdf:type rdf:resource="ideapark#Your_Face_and_Rils_"/>
+        <rdf:type rdf:resource="ideapark_stores#Your_Face_and_Rils_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridorwest_sauruskatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Stadium"/>
@@ -4122,13 +3538,8 @@
 
     <!-- ideapark#Stadium -->
 
-    <owl:Class rdf:about="ideapark#Stadium_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Stadium">
-        <rdf:type rdf:resource="ideapark#Stadium_"/>
+        <rdf:type rdf:resource="ideapark_stores#Stadium_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#sauruskatu"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Body_Shop"/>
@@ -4141,13 +3552,8 @@
 
     <!-- ideapark#Body_Shop -->
 
-    <owl:Class rdf:about="ideapark#Body_Shop_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Body_Shop">
-        <rdf:type rdf:resource="ideapark#Body_Shop_"/>
+        <rdf:type rdf:resource="ideapark_stores#Body_Shop_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Mango"/>
         <rdfs:label xml:lang="en">Body Shop</rdfs:label>
@@ -4159,16 +3565,8 @@
 
     <!-- ideapark#Mango -->
 
-    <owl:Class rdf:about="ideapark#Mango_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Mango">
-        <rdf:type rdf:resource="ideapark#Mango_"/>
+        <rdf:type rdf:resource="ideapark_stores#Mango_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Top_Sport"/>
         <rdfs:label xml:lang="en">Mango</rdfs:label>
@@ -4180,13 +3578,8 @@
 
     <!-- ideapark#Top_Sport -->
 
-    <owl:Class rdf:about="ideapark#Top_Sport_">
-        <rdfs:subClassOf rdf:resource="place_description#leisure_sport_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Top_Sport">
-        <rdf:type rdf:resource="ideapark#Top_Sport_"/>
+        <rdf:type rdf:resource="ideapark_stores#Top_Sport_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Vila"/>
         <rdfs:label xml:lang="en">Top-Sport</rdfs:label>
@@ -4198,15 +3591,8 @@
 
     <!-- ideapark#Vila -->
 
-    <owl:Class rdf:about="ideapark#Vila_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Vila">
-        <rdf:type rdf:resource="ideapark#Vila_"/>
+        <rdf:type rdf:resource="ideapark_stores#Vila_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Carlings"/>
         <rdfs:label xml:lang="en">Vila</rdfs:label>
@@ -4218,15 +3604,8 @@
 
     <!-- ideapark#Carlings -->
 
-    <owl:Class rdf:about="ideapark#Carlings_">
-        <rdfs:subClassOf rdf:resource="place_description#adult_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Carlings">
-        <rdf:type rdf:resource="ideapark#Carlings_"/>
+        <rdf:type rdf:resource="ideapark_stores#Carlings_"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
         <place_description:hasAtRight rdf:resource="ideapark#Hennes_and_Mauritz"/>
         <rdfs:label xml:lang="en">Carlings</rdfs:label>
@@ -4239,16 +3618,8 @@
 
     <!-- ideapark#Hennes_and_Mauritz -->
 
-    <owl:Class rdf:about="ideapark#Hennes_and_Mauritz_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Hennes_and_Mauritz">
-        <rdf:type rdf:resource="ideapark#Hennes_and_Mauritz_"/>
+        <rdf:type rdf:resource="ideapark_stores#Hennes_and_Mauritz_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_B"/>
         <place_description:isAlong rdf:resource="ideapark#Keskuspuisto"/>
@@ -4267,14 +3638,8 @@
 
     <!-- ideapark#Dressman -->
 
-    <owl:Class rdf:about="ideapark#Dressman_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Dressman">
-        <rdf:type rdf:resource="ideapark#Dressman_"/>
+        <rdf:type rdf:resource="ideapark_stores#Dressman_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Hennes_and_Mauritz"/>
         <rdfs:label xml:lang="en">Dressman</rdfs:label>
@@ -4286,13 +3651,8 @@
 
     <!-- ideapark#Faunatar -->
 
-    <owl:Class rdf:about="ideapark#Faunatar_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Faunatar">
-        <rdf:type rdf:resource="ideapark#Faunatar_"/>
+        <rdf:type rdf:resource="ideapark_stores#Faunatar_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_B"/>
         <place_description:hasAtRight rdf:resource="ideapark#Kauneus__ja_jalkahoitola_Manna"/>
         <rdfs:label xml:lang="en">Faunatar</rdfs:label>
@@ -4304,13 +3664,8 @@
 
     <!-- ideapark#Kauneus__ja_jalkahoitola_Manna -->
 
-    <owl:Class rdf:about="ideapark#Kauneus__ja_jalkahoitola_Manna_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Kauneus__ja_jalkahoitola_Manna">
-        <rdf:type rdf:resource="ideapark#Kauneus__ja_jalkahoitola_Manna_"/>
+        <rdf:type rdf:resource="ideapark_stores#Kauneus__ja_jalkahoitola_Manna_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_B"/>
         <place_description:hasAtRight rdf:resource="ideapark#Bik_Bok"/>
         <rdfs:label xml:lang="en">Kauneus- ja jalkahoitola Manna</rdfs:label>
@@ -4325,13 +3680,8 @@
 
     <!-- ideapark#Bik_Bok -->
 
-    <owl:Class rdf:about="ideapark#Bik_Bok_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Bik_Bok">
-        <rdf:type rdf:resource="ideapark#Bik_Bok_"/>
+        <rdf:type rdf:resource="ideapark_stores#Bik_Bok_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Lindex"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_B"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
@@ -4345,16 +3695,8 @@
 
     <!-- ideapark#Vero_Moda_JandJ -->
 
-    <owl:Class rdf:about="ideapark#Vero_Moda_JandJ_">
-        <rdfs:subClassOf rdf:resource="place_description#adult_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Vero_Moda_JandJ">
-        <rdf:type rdf:resource="ideapark#Vero_Moda_JandJ_"/>
+        <rdf:type rdf:resource="ideapark_stores#Vero_Moda_JandJ_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Lagoon_Fish_Foot_Spa"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Putiikki_WOW"/>
@@ -4371,14 +3713,8 @@
 
     <!-- ideapark#Putiikki_WOW -->
 
-    <owl:Class rdf:about="ideapark#Putiikki_WOW_">
-        <rdfs:subClassOf rdf:resource="place_description#women_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Putiikki_WOW">
-        <rdf:type rdf:resource="ideapark#Putiikki_WOW_"/>
+        <rdf:type rdf:resource="ideapark_stores#Putiikki_WOW_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#empty_Fortum"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Cubus"/>
@@ -4391,14 +3727,8 @@
 
     <!-- ideapark#Cubus -->
 
-    <owl:Class rdf:about="ideapark#Cubus_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Cubus">
-        <rdf:type rdf:resource="ideapark#Cubus_"/>
+        <rdf:type rdf:resource="ideapark_stores#Cubus_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Shoe_Store"/>
         <rdfs:label xml:lang="en">Cubus</rdfs:label>
@@ -4410,13 +3740,8 @@
 
     <!-- ideapark#Shoe_Store -->
 
-    <owl:Class rdf:about="ideapark#Shoe_Store_">
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Shoe_Store">
-        <rdf:type rdf:resource="ideapark#Shoe_Store_"/>
+        <rdf:type rdf:resource="ideapark_stores#Shoe_Store_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Brother_Clothing"/>
         <rdfs:label xml:lang="en">Shoe Store</rdfs:label>
@@ -4428,13 +3753,8 @@
 
     <!-- ideapark#Brother_Clothing -->
 
-    <owl:Class rdf:about="ideapark#Brother_Clothing_">
-        <rdfs:subClassOf rdf:resource="place_description#men_clothes_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Brother_Clothing">
-        <rdf:type rdf:resource="ideapark#Brother_Clothing_"/>
+        <rdf:type rdf:resource="ideapark_stores#Brother_Clothing_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Ten_Art"/>
         <rdfs:label xml:lang="en">Brother Clothing</rdfs:label>
@@ -4447,13 +3767,8 @@
 
     <!-- ideapark#Ten_Art -->
 
-    <owl:Class rdf:about="ideapark#Ten_Art_">
-        <rdfs:subClassOf rdf:resource="place_description#speciality_retailer"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Ten_Art">
-        <rdf:type rdf:resource="ideapark#Ten_Art_"/>
+        <rdf:type rdf:resource="ideapark_stores#Ten_Art_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Pentik"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Dressmann_XL"/>
@@ -4466,13 +3781,8 @@
 
     <!-- ideapark#Dressmann_XL -->
 
-    <owl:Class rdf:about="ideapark#Dressmann_XL_">
-        <rdfs:subClassOf rdf:resource="place_description#fashion_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Dressmann_XL">
-        <rdf:type rdf:resource="ideapark#Dressmann_XL_"/>
+        <rdf:type rdf:resource="ideapark_stores#Dressmann_XL_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Aleksi_13"/>
         <rdfs:label xml:lang="en">Dressmann XL</rdfs:label>
@@ -4484,17 +3794,8 @@
 
     <!-- ideapark#Aleksi_13 -->
 
-    <owl:Class rdf:about="ideapark#Aleksi_13_">
-        <rdfs:subClassOf rdf:resource="place_description#global_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#shoes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Aleksi_13">
-        <rdf:type rdf:resource="ideapark#Aleksi_13_"/>
+        <rdf:type rdf:resource="ideapark_stores#Aleksi_13_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Vallila_Shop"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#veistoskatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#kompassikatu"/>
@@ -4511,13 +3812,8 @@
 
     <!-- ideapark#Unikulma -->
 
-    <owl:Class rdf:about="ideapark#Unikulma_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Unikulma">
-        <rdf:type rdf:resource="ideapark#Unikulma_"/>
+        <rdf:type rdf:resource="ideapark_stores#Unikulma_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Tommy_Hilfiger"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#veistoskatu"/>
         <place_description:hasAtRight rdf:resource="ideapark#Marimekko_Outlet"/>
@@ -4530,16 +3826,8 @@
 
     <!-- ideapark#Marimekko_Outlet -->
 
-    <owl:Class rdf:about="ideapark#Marimekko_Outlet_">
-        <rdfs:subClassOf rdf:resource="place_description#adult_clothes_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#accessories_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#bags_store"/>
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Marimekko_Outlet">
-        <rdf:type rdf:resource="ideapark#Marimekko_Outlet_"/>
+        <rdf:type rdf:resource="ideapark_stores#Marimekko_Outlet_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Guess"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#veistoskatu"/>
         <rdfs:label xml:lang="en">Marimekko Outlet</rdfs:label>
@@ -4552,13 +3840,8 @@
 
     <!-- ideapark#Easyfit -->
 
-    <owl:Class rdf:about="ideapark#Easyfit_">
-        <rdfs:subClassOf rdf:resource="place_description#health_beauty_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Easyfit">
-        <rdf:type rdf:resource="ideapark#Easyfit_"/>
+        <rdf:type rdf:resource="ideapark_stores#Easyfit_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1A_north"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="ideapark#corridor_1north_east"/>
         <rdfs:label xml:lang="en">Easyfit</rdfs:label>
@@ -4570,14 +3853,8 @@
 
     <!-- ideapark#Bella_Roma_and_Daddys_Diner -->
 
-    <owl:Class rdf:about="ideapark#Bella_Roma_and_Daddys_Diner_">
-        <rdfs:subClassOf rdf:resource="place_description#pizzeria"/>
-        <rdfs:subClassOf rdf:resource="place_description#hamburger_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Bella_Roma_and_Daddys_Diner">
-        <rdf:type rdf:resource="ideapark#Bella_Roma_and_Daddys_Diner_"/>
+        <rdf:type rdf:resource="ideapark_stores#Bella_Roma_and_Daddys_Diner_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#empty_0"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1food_foodpark"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1food"/>
@@ -4596,13 +3873,8 @@
 
     <!-- ideapark#Beefking_steakhouse -->
 
-    <owl:Class rdf:about="ideapark#Beefking_steakhouse_">
-        <rdfs:subClassOf rdf:resource="place_description#casual_dining_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Beefking_steakhouse">
-        <rdf:type rdf:resource="ideapark#Beefking_steakhouse_"/>
+        <rdf:type rdf:resource="ideapark_stores#Beefking_steakhouse_"/>
         <place_description:hasAtRight rdf:resource="ideapark#Bella_Roma_and_Daddys_Diner"/>
         <place_description:isAlong rdf:resource="ideapark#foodpark"/>
         <rdfs:label xml:lang="en">Beefking steakhouse</rdfs:label>
@@ -4616,13 +3888,8 @@
 
     <!-- ideapark#Oma_Saastopankki -->
 
-    <owl:Class rdf:about="ideapark#Oma_Saastopankki_">
-        <rdfs:subClassOf rdf:resource="place_description#commercial_public_service"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Oma_Saastopankki">
-        <rdf:type rdf:resource="ideapark#Oma_Saastopankki_"/>
+        <rdf:type rdf:resource="ideapark_stores#Oma_Saastopankki_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1Dnorth_corridor1Dsouth"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#palapelikatu"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1D_north"/>
@@ -4636,13 +3903,8 @@
 
     <!-- ideapark#Pancho_Villa -->
 
-    <owl:Class rdf:about="ideapark#Pancho_Villa_">
-        <rdfs:subClassOf rdf:resource="place_description#casual_dining_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Pancho_Villa">
-        <rdf:type rdf:resource="ideapark#Pancho_Villa_"/>
+        <rdf:type rdf:resource="ideapark_stores#Pancho_Villa_"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#corridor_pancho"/>
         <rdfs:label xml:lang="en">Pancho Villa</rdfs:label>
         <rdfs:label xml:lang="fi">Pantso Villa</rdfs:label>
@@ -4653,14 +3915,8 @@
 
     <!-- ideapark#Coyote_Grill -->
 
-    <owl:Class rdf:about="ideapark#Coyote_Grill_">
-        <rdfs:subClassOf rdf:resource="place_description#casual_dining_restaurant"/>
-        <rdfs:subClassOf rdf:resource="place_description#native_restaurant"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Coyote_Grill">
-        <rdf:type rdf:resource="ideapark#Coyote_Grill_"/>
+        <rdf:type rdf:resource="ideapark_stores#Coyote_Grill_"/>
         <place_description:isAlong rdf:resource="ideapark#coyote_open_space"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_coyoteopenspace_bridge1"/>
         <rdfs:label xml:lang="en">Coyote Grill</rdfs:label>
@@ -4672,12 +3928,8 @@
 
     <!-- ideapark#Sticky_Wingers -->
 
-    <owl:Class rdf:about="ideapark#Sticky_Wingers_">
-        <rdfs:subClassOf rdf:resource="place_description#fast_food"/>
-    </owl:Class>
-
     <owl:NamedIndividual rdf:about="ideapark#Sticky_Wingers">
-        <rdf:type rdf:resource="ideapark#Sticky_Wingers_"/>
+        <rdf:type rdf:resource="ideapark_stores#Sticky_Wingers_"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="ideapark#bridge_1"/>
         <rdfs:label xml:lang="en">Sticky Wingers</rdfs:label>
         <rdfs:label xml:lang="fi">stikki vingers</rdfs:label>
@@ -4688,13 +3940,8 @@
 
     <!-- ideapark#Ti_Ti_Nallen_Koti -->
 
-    <owl:Class rdf:about="ideapark#Ti_Ti_Nallen_Koti_">
-        <rdfs:subClassOf rdf:resource="place_description#commercial_public_service"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Ti_Ti_Nallen_Koti">
-        <rdf:type rdf:resource="ideapark#Ti_Ti_Nallen_Koti_"/>
+        <rdf:type rdf:resource="ideapark_stores#Ti_Ti_Nallen_Koti_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1east"/>
         <place_description:hasAtRight rdf:resource="ideapark#escalator_kompassikatu"/>
         <rdfs:label xml:lang="en">Ti-Ti Nallen Koti</rdfs:label>
@@ -4710,13 +3957,8 @@
 
     <!-- ideapark#Netrauta -->
 
-    <owl:Class rdf:about="ideapark#Netrauta_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Netrauta">
-        <rdf:type rdf:resource="ideapark#Netrauta_"/>
+        <rdf:type rdf:resource="ideapark_stores#Netrauta_"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1A_south"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1Asouth_corridor1east"/>
         <rdfs:label xml:lang="en">Netrauta</rdfs:label>
@@ -4729,7 +3971,7 @@
     <!-- ideapark#empty_netrauta_1 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_netrauta_1">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1east"/>
         <place_description:hasAtRight rdf:resource="ideapark#intersection_corridor1east_corridor1northeast"/>
     </owl:NamedIndividual>
@@ -4740,7 +3982,7 @@
     <!-- ideapark#empty_netrauta_2 -->
 
     <owl:NamedIndividual rdf:about="ideapark#empty_netrauta_2">
-        <rdf:type rdf:resource="place_description#empty_place"/>
+        <rdf:type rdf:resource="place_description#EmptyPlace"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1east"/>
         <place_description:hasAtRight rdf:resource="ideapark#elevator_east"/>
     </owl:NamedIndividual>
@@ -4750,13 +3992,8 @@
 
     <!-- ideapark#Zones_by_Sarkanniemi -->
 
-    <owl:Class rdf:about="ideapark#Zones_by_Sarkanniemi_">
-        <rdfs:subClassOf rdf:resource="place_description#commercial_public_service"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Zones_by_Sarkanniemi">
-        <rdf:type rdf:resource="ideapark#Zones_by_Sarkanniemi_"/>
+        <rdf:type rdf:resource="ideapark_stores#Zones_by_Sarkanniemi_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Nordea"/>
         <place_description:isAtRightOfPath rdf:resource="ideapark#corridor_1C"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1D_south"/>
@@ -4774,13 +4011,8 @@
 
     <!-- ideapark#Masku -->
 
-    <owl:Class rdf:about="ideapark#Masku_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Masku">
-        <rdf:type rdf:resource="ideapark#Masku_"/>
+        <rdf:type rdf:resource="ideapark_stores#Masku_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#Netrauta"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1A_south"/>
         <place_description:hasAtRight rdf:resource="ideapark#Finnlandia"/>
@@ -4793,13 +4025,8 @@
 
     <!-- ideapark#Finnlandia -->
 
-    <owl:Class rdf:about="ideapark#Finnlandia_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Finnlandia">
-        <rdf:type rdf:resource="ideapark#Finnlandia_"/>
+        <rdf:type rdf:resource="ideapark_stores#Finnlandia_"/>
         <place_description:isInFrontOf rdf:resource="ideapark#intersection_corridor1Anorth_corridor1Asouth"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1A_south"/>
         <place_description:hasAtRight rdf:resource="ideapark#Eurokangas"/>
@@ -4814,13 +4041,8 @@
 
     <!-- ideapark#Eurokangas -->
 
-    <owl:Class rdf:about="ideapark#Eurokangas_">
-        <rdfs:subClassOf rdf:resource="place_description#furnishing_decor_store"/>
-    </owl:Class>
-
-
     <owl:NamedIndividual rdf:about="ideapark#Eurokangas">
-        <rdf:type rdf:resource="ideapark#Eurokangas_"/>
+        <rdf:type rdf:resource="ideapark_stores#Eurokangas_"/>
         <place_description:isAtLeftOfPath rdf:resource="ideapark#corridor_1A_south"/>
         <rdfs:label xml:lang="en">Eurokangas</rdfs:label>
         <rdfs:label xml:lang="fi">Eurokangas</rdfs:label>
