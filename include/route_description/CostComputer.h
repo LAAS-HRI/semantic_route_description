@@ -34,14 +34,14 @@ class CostComputer
   static const struct Personna old_persona;
 
 public:
-  CostComputer(OntologyManipulator* onto, ros::NodeHandle* n);
+  CostComputer(onto::OntologyManipulator* onto, ros::NodeHandle* n);
   ~CostComputer(){}
 
   std::vector<float> compute(routes_t& routes, std::vector<std::string>& gloals, std::string& goal, std::string personas = "");
   std::vector<float> compute(routes_t& routes, std::vector<std::string>& gloals, std::string& goal, std::string& personas, std::vector<float>& pre_costs);
 
 private:
-  OntologyManipulator* onto_;
+  onto::OntologyManipulator* onto_;
   ros::NodeHandle* n_;
 
   struct Costs costs_;

@@ -9,13 +9,13 @@
 class PlaceToRegion
 {
 public:
-  PlaceToRegion(OntologyManipulator* onto) {onto_ = onto; }
+  PlaceToRegion(onto::OntologyManipulator* onto) {onto_ = onto; }
   ~PlaceToRegion(){}
 
   std::vector<std::string> place2region(std::string place);
 
 private:
-  OntologyManipulator* onto_;
+  onto::OntologyManipulator* onto_;
 
 };
 

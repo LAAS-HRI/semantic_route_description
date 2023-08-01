@@ -10,7 +10,7 @@
 class RegionPathfinder
 {
 public:
-  RegionPathfinder(OntologyManipulator* onto) {onto_ = onto; }
+  RegionPathfinder(onto::OntologyManipulator* onto) {onto_ = onto; }
   ~RegionPathfinder(){}
 
   routes_t find(std::string my_region, std::string goal_region);
@@ -19,7 +19,7 @@ public:
   void displayRoute(route_t route);
 
 private:
-  OntologyManipulator* onto_;
+  onto::OntologyManipulator* onto_;
 };
 
 #endif

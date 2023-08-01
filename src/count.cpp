@@ -67,7 +67,7 @@ int main(int argc, char** argv)
   ros::init(argc, argv, "count");
 
   ros::NodeHandle n;
-  OntologyManipulator onto(&n);
+  onto::OntologyManipulator onto(&n);
   onto.close();
 
   std::cout << "pathIntersection => " << onto.individuals.getType("pathIntersection").size() << std::endl;

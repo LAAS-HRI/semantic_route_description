@@ -10,13 +10,13 @@
 class PlacePathfinder
 {
 public:
-  PlacePathfinder(OntologyManipulator* onto) {onto_ = onto; }
+  PlacePathfinder(onto::OntologyManipulator* onto) {onto_ = onto; }
   ~PlacePathfinder(){}
 
   routes_t find(std::string& my_place, std::string& goal_place, std::string& region);
 
 private:
-  OntologyManipulator* onto_;
+  onto::OntologyManipulator* onto_;
 
   void removeNotInRegion(std::vector<std::string>& corridors, std::string& region);
 };

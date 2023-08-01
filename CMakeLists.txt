@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   ontologenius
 )
-find_package(ontologenius 0.2.4 REQUIRED)
+find_package(ontologenius 0.3.0 REQUIRED)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)

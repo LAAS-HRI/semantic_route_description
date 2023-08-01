@@ -10,7 +10,7 @@
 class CorridorPathfinder
 {
 public:
-  CorridorPathfinder(OntologyManipulator* onto) {onto_ = onto; }
+  CorridorPathfinder(onto::OntologyManipulator* onto) {onto_ = onto; }
   ~CorridorPathfinder(){}
 
   routes_t find(std::string& my_corridor, std::string& goal_corridor, size_t& max_step);
@@ -19,7 +19,7 @@ public:
   void displayRoute(route_t& route);
 
 private:
-  OntologyManipulator* onto_;
+  onto::OntologyManipulator* onto_;
 };
 
 #endif

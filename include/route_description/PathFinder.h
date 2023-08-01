@@ -28,7 +28,7 @@ public:
 
 private:
   ros::NodeHandle* n_;
-  OntologyManipulator onto_;
+  onto::OntologyManipulator onto_;
 
   std::vector<std::string> from_region_;
   std::vector<std::string> to_region_;
