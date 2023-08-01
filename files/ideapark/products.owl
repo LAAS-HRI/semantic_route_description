@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="ideapark_products#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:place_description="place_description#"
+     xmlns:ideapark_products="ideapark_products#">
+    <owl:Ontology rdf:about="ideapark_products"/>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+     <!-- ideapark_products#sells -->
+
+     <owl:ObjectProperty rdf:about="ideapark_products#sells">
+         <rdfs:domain rdf:resource="place_description#Shop"/>
+         <rdfs:range rdf:resource="ideapark_products#product"/>
+     </owl:ObjectProperty>
+
+
+
+     <!--
+     ///////////////////////////////////////////////////////////////////////////////////////
+     //
+     // Data properties
+     //
+     ///////////////////////////////////////////////////////////////////////////////////////
+      -->
+
+
+
+
+     <!-- ideapark_products#hasLogo -->
+
+     <owl:DatatypeProperty rdf:about="ideapark_products#hasLogo">
+         <rdfs:domain rdf:resource="place_description#Shop"/>
+         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+     </owl:DatatypeProperty>
+
+
+
+     <!--
+     ///////////////////////////////////////////////////////////////////////////////////////
+     //
+     // Classes
+     //
+     ///////////////////////////////////////////////////////////////////////////////////////
+      -->
+
+
+
+      <!-- ideapark_products#product -->
+
+      <owl:Class rdf:about="ideapark_products#product"/>
+
+
+      <!-- ideapark_products#fashion_product -->
+
+      <owl:Class rdf:about="ideapark_products#fashion_product">
+          <rdfs:subClassOf rdf:resource="ideapark_products#product"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#bag -->
+
+      <owl:Class rdf:about="ideapark_products#bag">
+          <rdfs:subClassOf rdf:resource="ideapark_products#fashion_product"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#shoe -->
+
+      <owl:Class rdf:about="ideapark_products#shoe">
+          <rdfs:subClassOf rdf:resource="ideapark_products#fashion_product"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#accessory -->
+
+      <owl:Class rdf:about="ideapark_products#accessory">
+          <rdfs:subClassOf rdf:resource="ideapark_products#fashion_product"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#clothe -->
+
+      <owl:Class rdf:about="ideapark_products#clothe">
+          <rdfs:subClassOf rdf:resource="ideapark_products#fashion_product"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#top -->
+
+      <owl:Class rdf:about="ideapark_products#top">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#blouse -->
+
+      <owl:Class rdf:about="ideapark_products#blouse">
+          <rdfs:subClassOf rdf:resource="ideapark_products#top"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#jacket -->
+
+      <owl:Class rdf:about="ideapark_products#jacket">
+          <rdfs:subClassOf rdf:resource="ideapark_products#top"/>
+          <rdfs:label xml:lang="en">jacket</rdfs:label>
+          <rdfs:label xml:lang="en">blazer</rdfs:label>
+      </owl:Class>
+
+
+      <!-- ideapark_products#shirt -->
+
+      <owl:Class rdf:about="ideapark_products#shirt">
+          <rdfs:subClassOf rdf:resource="ideapark_products#top"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#T-shirt -->
+
+      <owl:Class rdf:about="ideapark_products#T-shirt">
+          <rdfs:subClassOf rdf:resource="ideapark_products#top"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#tunic -->
+
+      <owl:Class rdf:about="ideapark_products#tunic">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+          <rdfs:label xml:lang="en">tunic</rdfs:label>
+          <rdfs:label xml:lang="en">jumpsuit</rdfs:label>
+      </owl:Class>
+
+
+      <!-- ideapark_products#coat -->
+
+      <owl:Class rdf:about="ideapark_products#coat">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#short -->
+
+      <owl:Class rdf:about="ideapark_products#short">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#pant -->
+
+      <owl:Class rdf:about="ideapark_products#pant">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+          <rdfs:label xml:lang="en">pant</rdfs:label>
+          <rdfs:label xml:lang="en">trouser</rdfs:label>
+      </owl:Class>
+
+
+      <!-- ideapark_products#jean -->
+
+      <owl:Class rdf:about="ideapark_products#jean">
+          <rdfs:subClassOf rdf:resource="ideapark_products#pant"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#legging -->
+
+      <owl:Class rdf:about="ideapark_products#legging">
+          <rdfs:subClassOf rdf:resource="ideapark_products#pant"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#dress -->
+
+      <owl:Class rdf:about="ideapark_products#dress">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#skirt -->
+
+      <owl:Class rdf:about="ideapark_products#skirt">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#suit -->
+
+      <owl:Class rdf:about="ideapark_products#suit">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#nightwear -->
+
+      <owl:Class rdf:about="ideapark_products#nightwear">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#swimwear -->
+
+      <owl:Class rdf:about="ideapark_products#swimwear">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#underwear -->
+
+      <owl:Class rdf:about="ideapark_products#underwear">
+          <rdfs:subClassOf rdf:resource="ideapark_products#clothe"/>
+      </owl:Class>
+
+
+      <!-- ideapark_products#underwear -->
+
+      <owl:Class rdf:about="ideapark_products#lingerie">
+          <rdfs:subClassOf rdf:resource="ideapark_products#underwear"/>
+      </owl:Class>
+
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the ideapark_products https://sarthou.github.io/ideapark_products/ -->

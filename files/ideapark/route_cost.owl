@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/gsarthou/ontologies/route_cost#"
-     xml:base="http://www.semanticweb.org/gsarthou/ontologies/route_cost"
+<rdf:RDF xmlns="route_cost#"
+     xml:base="route_cost"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/gsarthou/ontologies/route_cost"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:route_cost="route_cost#">
+    <owl:Ontology rdf:about="route_cost"/>
 
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -16,98 +17,98 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#accessible -->
+    <!-- route_cost#accessible -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#accessible">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#accessible">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable -->
+    <!-- route_cost#confortable -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#confortable">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#confortable">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#explicable -->
+    <!-- route_cost#explicable -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#explicable">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#explicable">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#inaccessible -->
+    <!-- route_cost#inaccessible -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#inaccessible">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#inaccessible">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#insignifiant -->
+    <!-- route_cost#insignifiant -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#insignifiant">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#insignifiant">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#salient -->
+    <!-- route_cost#salient -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#salient">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#salient">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#secured -->
+    <!-- route_cost#secured -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#secured">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#secured">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unconfortable -->
+    <!-- route_cost#unconfortable -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unconfortable">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#unconfortable">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unexplicable -->
+    <!-- route_cost#unexplicable -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unexplicable">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#unexplicable">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unsecured -->
+    <!-- route_cost#unsecured -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unsecured">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#unsecured">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unexplicable -->
+    <!-- route_cost#unexplicable -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#fast">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#fast">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unsecured -->
+    <!-- route_cost#unsecured -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#slow">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:NamedIndividual rdf:about="route_cost#slow">
+        <rdf:type rdf:resource="route_cost#cost"/>
     </owl:NamedIndividual>
 
 
@@ -122,10 +123,10 @@
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/route_cost#hasCost -->
+    <!-- route_cost#hasCost -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gsarthou/ontologies/route_cost#hasCost">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:ObjectProperty rdf:about="route_cost#hasCost">
+        <rdfs:range rdf:resource="route_cost#cost"/>
     </owl:ObjectProperty>
 
 
@@ -141,9 +142,9 @@
 
 
 
-    <!-- http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost -->
+    <!-- route_cost#cost -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gsarthou/ontologies/route_cost#cost"/>
+    <owl:Class rdf:about="route_cost#cost"/>
 </rdf:RDF>
 
 

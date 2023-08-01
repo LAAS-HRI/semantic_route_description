@@ -2,12 +2,13 @@
   <node name="route" pkg="semantic_route_description" type="description" output="screen"> </node>
   <include file="$(find ontologenius)/launch/ontologenius.launch">
     <arg name="intern_file" default="none"/>
+    <arg name="display" default="false"/>
     <arg name="files" default="
      $(find semantic_route_description)/files/ideapark/ideapark.owl
      $(find semantic_route_description)/files/ideapark/place_description.owl
      $(find semantic_route_description)/files/ideapark/route_cost.owl
-     $(find semantic_route_description)/files/ideapark/stores/products.owl
-     $(find semantic_route_description)/files/ideapark/stores/stores.owl
+     $(find semantic_route_description)/files/ideapark/products.owl
+     $(find semantic_route_description)/files/ideapark/stores.owl
      "/>
   </include>
   <node name="gui" pkg="ontologenius" type="ontoloGUI" output="screen"> </node>

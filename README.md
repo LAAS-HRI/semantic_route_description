@@ -4,7 +4,7 @@
 
 ### Launch the semantic route description
 
-Fisrt, launch the ontologenius with the semantic_route_description's files:
+Fisrt, launch Ontologenius with the semantic_route_description's files:
 ```
 $ roslaunch semantic_route_description route_ontology.launch
 ```
@@ -52,13 +52,13 @@ For the persona parameter, you have six types of persona that you can combine wi
 
 ---
 A route region can start from a place, a path or a region and **must** end at a place.
-Usually, we start from robot_infodesk (or robot_infodesk_2, ...).
+Usually, we start from pepper_infodesk (or pepper_infodesk_2, ...).
 
 ---
 
-To get the route from **robot_infodesk** to **burger_king**, for an average person, only with regions and interfaces, call the getRouteRegion service as follows:
+To get the route from **pepper_infodesk** to **burger_king**, for an average person, only with regions and interfaces, call the getRouteRegion service as follows:
 ```
-$ rosservice call /semantic_route_description/get_route_region "{from_: 'robot_infodesk', to: 'burger_king', persona: 'lambda'}"
+$ rosservice call /semantic_route_description/get_route_region "{from_: 'pepper_infodesk', to: 'burger_king', persona: 'lambda'}"
 ```
 
 When you make this request, you should have the following result:
@@ -88,7 +88,7 @@ The signpost parameter can be set to true to allow the route description to find
 If you use this option, you can use the `goals` result which indicates the final destination of each route.
 
 ```
-$ rosservice call /semantic_route_description/get_route_region "{from_: 'robot_infodesk', to: 'burger_king', persona: 'lambda', signpost: true}"
+$ rosservice call /semantic_route_description/get_route_region "{from_: 'pepper_infodesk', to: 'burger_king', persona: 'lambda', signpost: true}"
 ```
 
 When you make this request, you should have the following result:
@@ -118,13 +118,13 @@ Here you can notice that a burger king signpost is present in the adream experim
 
 ---
 A route place **must** start from a place and **must** end at a place.
-Usually, we start from robot_infodesk (or robot_infodesk_2, ...).
+Usually, we start from pepper_infodesk (or pepper_infodesk_2, ...).
 
 ---
 
-To get the route from **robot_infodesk** to **burger_king**, call the getRoute service as follows:
+To get the route from **pepper_infodesk** to **burger_king**, call the getRoute service as follows:
 ```
-$ rosservice call /semantic_route_description/get_route "{from_: 'robot_infodesk', to: 'burger_king', persona: 'lambda'}"
+$ rosservice call /semantic_route_description/get_route "{from_: 'pepper_infodesk', to: 'burger_king', persona: 'lambda'}"
 ```
 
 When you make this request, you should have the following result:
@@ -155,7 +155,7 @@ Here you have a more precise route that will give you the path where you have to
 
 As for the route region, you can ask to take signpost in account like it:
 ```
-$ rosservice call /semantic_route_description/get_route "{from_: 'robot_infodesk', to: 'burger_king', persona: 'lambda', signpost: true}"
+$ rosservice call /semantic_route_description/get_route "{from_: 'pepper_infodesk', to: 'burger_king', persona: 'lambda', signpost: true}"
 ```
 
 [License-Url]: https://opensource.org/licenses/Apache-2.0

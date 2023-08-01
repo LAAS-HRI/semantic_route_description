@@ -53,7 +53,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_apartment -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_apartment">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Region"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room"/>
         <rdfs:label xml:lang="en">apartment</rdfs:label>
     </owl:NamedIndividual>
@@ -63,7 +63,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Region"/>
         <rdfs:label xml:lang="en">experience room</rdfs:label>
     </owl:NamedIndividual>
 
@@ -72,7 +72,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_hall -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_hall">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Region"/>
         <rdfs:label xml:lang="en">hall</rdfs:label>
     </owl:NamedIndividual>
 
@@ -81,7 +81,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#atm_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#atm_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#atm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Atm"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_E"/>
@@ -93,7 +93,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#atm_2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#atm_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#atm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Atm"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets_signpost_1"/>
         <rdfs:label xml:lang="en">atm</rdfs:label>
@@ -104,7 +104,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#apartment -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#apartment">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#place"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Place"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww2_os1_intersection"/>
         <adream_mall:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww2_os2_intersection"/>
@@ -117,7 +117,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Restaurant"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4"/>
         <place_description:hasSaliency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</place_description:hasSaliency>
         <rdfs:label xml:lang="en">burger king</rdfs:label>
@@ -128,7 +128,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king_signpost_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king_signpost_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#signpost"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Signpost"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:makeReferenceTo rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king"/>
         <!--adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#zizzi"/-->
@@ -140,7 +140,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#daddys_diner -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#daddys_diner">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Restaurant"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h21_1"/>
@@ -152,7 +152,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_A -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_A">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#outside"/>
@@ -164,7 +164,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_B -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_B">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#outside"/>
@@ -177,7 +177,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_C">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <place_description:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#reima"/>
         <place_description:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room"/>
@@ -191,7 +191,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_D -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_D">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pancho_villa"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
@@ -205,7 +205,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_E -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_E">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room"/>
@@ -221,7 +221,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h20 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h20">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#marco_polo"/>
@@ -238,7 +238,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h21_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h21_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww1_os2_intersection"/>
@@ -250,7 +250,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h22_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h22_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pepper_infodesk"/>
         <rdfs:label xml:lang="en">door</rdfs:label>
@@ -261,7 +261,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h23_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h23_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#marimekko_outlet"/>
@@ -273,7 +273,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#elevator_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#elevator_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#elevator"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Elevator"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_hall"/>
@@ -290,7 +290,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#footbridge_door -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#footbridge_door">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Door"/>
         <adream_mall:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4"/>
         <adream_mall:isInFrontOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c34_intersection"/>
         <adream_mall:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#burger_king"/>
@@ -303,7 +303,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c12_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c12_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <adream_mall:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_2"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -314,7 +314,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c13_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c13_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <adream_mall:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
         <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#stairs_1"/>
@@ -326,7 +326,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c23_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c23_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <adream_mall:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_2"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
         <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#elevator_1"/>
@@ -338,7 +338,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c34_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c34_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <adream_mall:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -349,7 +349,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c35_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c35_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <adream_mall:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_5"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -360,7 +360,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c45_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_c45_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <adream_mall:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4"/>
         <adream_mall:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_5"/>
         <rdfs:label xml:lang="en">intersection</rdfs:label>
@@ -371,7 +371,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#corridor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#Corridor"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
     </owl:NamedIndividual>
 
@@ -380,7 +380,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#corridor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#Corridor"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
         <rdfs:label xml:lang="en">corridor</rdfs:label>
     </owl:NamedIndividual>
@@ -390,7 +390,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#corridor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#Corridor"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
         <rdfs:label xml:lang="en">corridor</rdfs:label>
     </owl:NamedIndividual>
@@ -400,7 +400,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#corridor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#Corridor"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
     </owl:NamedIndividual>
 
@@ -409,7 +409,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_5 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#corridor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#Corridor"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
         <rdfs:label xml:lang="en">corridor</rdfs:label>
     </owl:NamedIndividual>
@@ -419,7 +419,6 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_door_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_door_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#door"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#stair"/>
         <adream_mall:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor"/>
@@ -434,7 +433,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#first_floor">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Region"/>
         <rdfs:label xml:lang="en">first floor</rdfs:label>
     </owl:NamedIndividual>
 
@@ -443,7 +442,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#funpark -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#funpark">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#amusementPark"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#AmusementPark"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_1"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_2"/>
         <place_description:hasSaliency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</place_description:hasSaliency>
@@ -454,7 +453,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#funpark_signpost_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#funpark_signpost_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#signpost"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Signpost"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <place_description:makeReferenceTo rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#funpark"/>
         <rdfs:label xml:lang="en">funpark sign</rdfs:label>
@@ -465,7 +464,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_corridor_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_corridor_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#corridor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#Corridor"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_apartment"/>
         <rdfs:label xml:lang="en">corridor</rdfs:label>
     </owl:NamedIndividual>
@@ -475,7 +474,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_interface_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_interface_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#interface"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Interface"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_corridor_1"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_apartment"/>
@@ -488,7 +487,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#toilets"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Toilets"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_A"/>
         <place_description:isInFrontOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h20"/>
@@ -500,7 +499,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets_signpost_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets_signpost_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#signpost"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Signpost"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall"/>
         <place_description:makeReferenceTo rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#stairs_1"/>
@@ -512,7 +511,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets_signpost_2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets_signpost_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#signpost"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Signpost"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:makeReferenceTo rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_toilets"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww1_os1_intersection"/>
@@ -524,7 +523,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#walkway"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#Walkway"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room"/>
     </owl:NamedIndividual>
 
@@ -533,7 +532,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#walkway"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#Walkway"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room"/>
     </owl:NamedIndividual>
 
@@ -542,7 +541,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww1_os1_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww1_os1_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#linkosuo"/>
@@ -555,7 +554,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww1_os2_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww1_os2_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gina"/>
@@ -569,7 +568,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww2_os1_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww2_os1_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <place_description:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_interface_1"/>
@@ -581,7 +580,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww2_os2_intersection -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww2_os2_intersection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#pathIntersection"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#PathIntersection"/>
         <place_description:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pancho_villa"/>
@@ -593,7 +592,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gina -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gina">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#FashionStore"/>
         <place_description:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#linkosuo"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <rdfs:label xml:lang="en">gina</rdfs:label>
@@ -604,7 +603,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#h_m -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#h_m">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#FashionStore"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <place_description:hasSaliency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</place_description:hasSaliency>
@@ -617,7 +616,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#hairstore -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#hairstore">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#health_beauty_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#HealthBeautyStore"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4"/>
     </owl:NamedIndividual>
 
@@ -626,7 +625,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#hiustalo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#hiustalo">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#health_beauty_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#HealthBeautyStore"/>
         <place_description:isAtBeginEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ff_corridor_4"/>
         <rdfs:label xml:lang="en">CM Hiustalo</rdfs:label>
     </owl:NamedIndividual>
@@ -636,7 +635,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ilopilleri -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ilopilleri">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Restaurant"/>
         <place_description:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#zizzi"/>
         <adream_mall:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
         <rdfs:label xml:lang="en">kahvila ilopilleri</rdfs:label>
@@ -647,7 +646,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#intersport -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#intersport">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#leisure_sport_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#LeisureSportStore"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#atm_1"/>
     </owl:NamedIndividual>
@@ -657,7 +656,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#linkosuo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#linkosuo">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#cafe"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Cafe"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <rdfs:label xml:lang="en">cafe linkusuo</rdfs:label>
     </owl:NamedIndividual>
@@ -667,7 +666,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#marco_polo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#marco_polo">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#FashionStore"/>
         <place_description:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_C"/>
         <place_description:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <place_description:isInFrontOf rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#linkosuo"/>
@@ -679,7 +678,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#marimekko_outlet -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#marimekko_outlet">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#FashionStore"/>
         <place_description:isAtEndEdgeOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <place_description:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#door_h22_1"/>
@@ -691,7 +690,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#openspace"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Openspace"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room"/>
     </owl:NamedIndividual>
 
@@ -700,7 +699,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#openspace"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Openspace"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_experiment_room"/>
     </owl:NamedIndividual>
 
@@ -709,7 +708,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_hall">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#openspace"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Openspace"/>
         <place_description:isIn rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#adream_hall"/>
         <rdfs:label xml:lang="en">hall</rdfs:label>
     </owl:NamedIndividual>
@@ -719,7 +718,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#outside -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#outside">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#region"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Region"/>
         <route_cost:hasCost rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/route_cost#unconfortable"/>
         <rdfs:label xml:lang="en">outside</rdfs:label>
     </owl:NamedIndividual>
@@ -729,7 +728,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pancho_villa -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pancho_villa">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Restaurant"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:hasAtRight rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#ilopilleri"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
@@ -742,7 +741,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#reima -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#reima">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#FashionStore"/>
         <place_description:isAtLeftOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_1"/>
         <rdfs:label xml:lang="en">reima</rdfs:label>
     </owl:NamedIndividual>
@@ -752,7 +751,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pepper_infodesk -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pepper_infodesk">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#infodesk"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Infodesk"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <adream_mall:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#intersport"/>
         <rdfs:label xml:lang="en">robot info desk</rdfs:label>
@@ -763,7 +762,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pepper_infodesk_2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pepper_infodesk_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#infodesk"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Infodesk"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#thai_papaya"/>
         <rdfs:label xml:lang="en">robot info desk</rdfs:label>
@@ -790,7 +789,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#starbucks -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#starbucks">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#cafe"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Cafe"/>
         <place_description:hasSaliency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.95</place_description:hasSaliency>
         <place_description:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#pepper_infodesk_2"/>
@@ -802,7 +801,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#thai_papaya -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#thai_papaya">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#restaurant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#Restaurant"/>
         <place_description:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_2"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww2_os2_intersection"/>
         <rdfs:label xml:lang="en">thai papaya</rdfs:label>
@@ -813,7 +812,7 @@
     <!-- http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#zizzi -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#zizzi">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#fashion_store"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/place_description#FashionStore"/>
         <place_description:hasAtLeft rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_ww2_os1_intersection"/>
         <adream_mall:isAlong rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#os_exp_1"/>
         <place_description:isAtRightOfPath rdf:resource="http://www.semanticweb.org/gsarthou/ontologies/2018/adream_mall#gf_walkway_2"/>
