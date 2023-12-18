@@ -13,7 +13,7 @@
 class PathFinder
 {
 public:
-  PathFinder(ros::NodeHandle* n);
+  PathFinder();
   ~PathFinder() {}
 
   void find(std::string from_place, std::string to_place, std::string personas, bool signpost, route_t region_route);
@@ -27,7 +27,6 @@ public:
   std::vector<std::string> getGoals() {return goals_; }
 
 private:
-  ros::NodeHandle* n_;
   onto::OntologyManipulator onto_;
 
   std::vector<std::string> from_region_;

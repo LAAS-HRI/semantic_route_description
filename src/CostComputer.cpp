@@ -11,10 +11,9 @@ const struct Personna CostComputer::not_knowing_persona = {"notKnowing", {0.9,0.
 const struct Personna CostComputer::young_persona = {"young", {0.3,0.5,0.2,0.9,0.6,0.9}};
 const struct Personna CostComputer::old_persona = {"old", {0.3,0.8,0.9,0.9,0.6,0.1}};
 
-CostComputer::CostComputer(onto::OntologyManipulator* onto, ros::NodeHandle* n)
+CostComputer::CostComputer(onto::OntologyManipulator* onto)
 {
   onto_ = onto;
-  n_ = n;
 
   costs_.salient = 0;
   costs_.accessible = 0;

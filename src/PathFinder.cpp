@@ -10,9 +10,8 @@
 #include "route_description/PlacePathfinder.h"
 #include "route_description/CostComputer.h"
 
-PathFinder::PathFinder(ros::NodeHandle* n) : onto_(n)
+PathFinder::PathFinder()
 {
-  n_ = n;
   onto_.close();
 }
 
@@ -265,7 +264,7 @@ void PathFinder::printFinalRoutes()
 
 void PathFinder::computeCost(std::string goal)
 {
-  CostComputer cost(&onto_, n_);
+  CostComputer cost(&onto_);
   costs_ = cost.compute(completed_routes_, goals_, goal, personas_, regions_costs_);
 
   for(size_t route_i = 0; route_i < costs_.size(); route_i++)

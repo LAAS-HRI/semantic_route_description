@@ -8,12 +8,10 @@
 #include "semantic_route_description/SemanticRoute.h"
 #include "semantic_route_description/Route.h"
 
-ros::NodeHandle* n_;
-
 bool route_handle(semantic_route_description::SemanticRoute::Request  &req,
                   semantic_route_description::SemanticRoute::Response &res)
 {
-  PathFinder finder(n_);
+  PathFinder finder;
 
   finder.find(req.from, req.to, req.persona, req.signpost, req.route.route);
 
@@ -33,7 +31,7 @@ bool route_handle(semantic_route_description::SemanticRoute::Request  &req,
 bool routeRegion_handle(semantic_route_description::SemanticRoute::Request  &req,
                         semantic_route_description::SemanticRoute::Response &res)
 {
-  PathFinder finder(n_);
+  PathFinder finder;
   finder.findRegions(req.from, req.to, req.persona, req.signpost);
 
   routes_t tmp = finder.getRoutes();
@@ -54,7 +52,6 @@ int main(int argc, char** argv)
   ros::init(argc, argv, "semantic_route_description");
 
   ros::NodeHandle n;
-  n_ = &n;
 
   ros::service::waitForService("/ontologenius/reasoner", -1);
   ros::ServiceServer route_service = n.advertiseService("semantic_route_description/get_route", route_handle);
